@@ -22,7 +22,22 @@ object Util {
   .build
 
   def simpleStatusListener = new StatusListener() {
-    def onStatus(status: Status) { println(status.getText) }
+    def onStatus(status: Status) { 
+      
+      
+      val location  = status.getGeoLocation()
+
+      if(location != null){
+        val lat = location.getLatitude()
+        val long = location.getLongitude()
+
+        println(lat)
+        println(long)
+        println(status.getText)
+      }
+        
+    }
+
     def onDeletionNotice(statusDeletionNotice: StatusDeletionNotice) {}
     def onTrackLimitationNotice(numberOfLimitedStatuses: Int) {}
     def onException(ex: Exception) { ex.printStackTrace }
@@ -35,8 +50,13 @@ class TwitterStreamer {
   def fetch() {
     val twitterStream = new TwitterStreamFactory(Util.config).getInstance
     twitterStream.addListener(Util.simpleStatusListener)
-    twitterStream.sample
-    Thread.sleep(2000)
+
+    val nycBox = Array(Array(-74.1687,40.5722),Array(-73.8062,40.9467))
+
+    twitterStream.filter(new FilterQuery().locations(nycBox))
+
+    // twitterStream.sample
+    Thread.sleep(100000)
     twitterStream.cleanUp
     twitterStream.shutdown
   }
