@@ -15,6 +15,12 @@ object App {
   
   def main(args : Array[String]) {
 
+    val twitter = new TwitterStreamer()
+
+    twitter.fetch()
+
+    return
+
     val uri = new URIBuilder()
         .setScheme("https")
         .setHost("api.themoviedb.org")
