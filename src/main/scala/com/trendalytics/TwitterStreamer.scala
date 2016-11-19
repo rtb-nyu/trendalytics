@@ -15,25 +15,39 @@ import twitter4j._
  */
 object Util {
   val config = new twitter4j.conf.ConfigurationBuilder()
-  .setOAuthConsumerKey("vW4u1UHOr7T9LloRXbGI9A")
-  .setOAuthConsumerSecret("Wt1E87vMHENhe54EejfhYNKZwbnscz1iMMVQUdRQ")
-  .setOAuthAccessToken("1017369080-iAuxzsupRXi7SSbJqKqbT4LewpaKixxPgwt5j8o")
-  .setOAuthAccessTokenSecret("CpU6Vmazvz9lDmAr8cLobTr3zzU0c1upNmAhDBWXDSt9B")
+  .setOAuthConsumerKey("OycBERb5BcBhDj9b0HkUrkCM2")
+  .setOAuthConsumerSecret("Cg7tyvJF90zLq9MmOk2gvzLF0SSbIA8yF26ITNF9cgulSejBFy")
+  .setOAuthAccessToken("278043834-NTTee6inRqUg2cBvEl1NpazpsskDHQZ8N8cUww8j")
+  .setOAuthAccessTokenSecret("z4LpUMLYvuEKDe5H23LBlPQbdF7aaz3H6kerl56CjR8UP")
   .build
 
   def simpleStatusListener = new StatusListener() {
     def onStatus(status: Status) { 
       
       
+      val id = status.getId
+      val userName = status.getUser.getName
+      val numFriends = status.getUser.getFriendsCount.toString()
+      val datetime = status.getCreatedAt.toString()
       val location  = status.getGeoLocation()
+      val tweets = status.getText
+      val numReTweet = status.getRetweetCount.toString()
+
 
       if(location != null){
-        val lat = location.getLatitude()
-        val long = location.getLongitude()
 
-        println(lat)
-        println(long)
-        println(status.getText)
+        val lat = location.getLatitude().toString
+        val long = location.getLongitude().toString
+
+        val pw = new FileWriter("nyTweets.txt", true)
+        val delimiter = "\t"
+        val toPrint = id + delimiter + userName + delimiter + numFriends + delimiter + datetime + delimiter + lat + 
+                      delimiter + long + delimiter + tweets + delimiter + numReTweet
+        // println(toPrint)
+        pw.write(toPrint + "\n")
+
+        pw.close
+
       }
         
     }
