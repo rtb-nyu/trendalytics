@@ -23,7 +23,43 @@
     <skipTests>true</skipTests>
   </properties>
 
+  <!-- <repositories>
+    <repository>
+      <id>scala-tools.org</id>
+      <name>Scala-tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases</url>
+    </repository>
+    <repository>
+      <id>maven-hadoop</id>
+      <name>Hadoop Releases</name>
+      <url>https://repository.cloudera.com/content/repositories/releases/</url>
+    </repository>
+    <repository>
+      <id>cloudera-repos</id>
+      <name>Cloudera Repos</name>
+      <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>scala-tools.org</id>
+      <name>Scala-tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases</url>
+    </pluginRepository>
+  </pluginRepositories> -->
+
   <dependencies>
+
+    <!-- https://github.com/apache/spark/blob/master/examples/pom.xml -->
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-core_${scala.compat.version}</artifactId>
+      <version>1.2.1</version>
+      <scope>provided</scope>
+    </dependency>
+
+
     <!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-stream -->
     <dependency>
      <groupId>org.twitter4j</groupId>
