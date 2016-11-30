@@ -1,3 +1,4 @@
+rating	name	latitude	longitude	city
 4.5	Sid Gold's Request Room	40.74586	-73.99366	New York
 4.5	Gersi	40.68344	-73.99571	Brooklyn
 4.0	Holy Guacamole	40.7567674800253	-73.9294484278188	Queens

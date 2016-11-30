@@ -47,22 +47,12 @@ object FilterUtil {
 
     val it = statuses.iterator()
 
-<<<<<<< HEAD
     val dNow = new Date()
     // val ft = new SimpleDateFormat ("yyyy.MM.dd_hh:mm:ss")
     val ft = new SimpleDateFormat ("MMddyyyy_hh")
 
     // val currentTime = ft.format(dNow).toString().replaceAll("[-+.^:,]","");
     val currentTime = ft.format(dNow).toString();
-=======
-    // val currentTime = LocalDateTime.now().toString().replaceAll("[-+.^:,]","")
-    val dNow = new Date()
-    val ft = new SimpleDateFormat ("yyyy.MM.dd_hh:mm:ss")
-
-    val currentTime = ft.format(dNow).toString().replaceAll("[-+.^:,]","");
-
-    // System.out.println("Current DateTime: " + currentTime);
->>>>>>> c5756c6... fixed local time issue
 
     while (it.hasNext()) {
       val status = it.next()

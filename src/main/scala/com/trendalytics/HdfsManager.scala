@@ -52,6 +52,7 @@ class HDFSManager {
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   def deleteFolder(folderPath: String): Unit = {
     val path = new Path(folderPath)
@@ -65,4 +66,10 @@ class HDFSManager {
   }
 =======
 >>>>>>> e72e46a... added hdfs commands
+=======
+
+  def isFilePresent(filename: String): Boolean = {
+    fileSystem.exists(path)
+  }
+>>>>>>> c82d2ed... adding out.csv file
 }
