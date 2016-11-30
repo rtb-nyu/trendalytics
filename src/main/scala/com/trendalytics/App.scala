@@ -75,6 +75,11 @@ object App {
     hdfsObj.createFolder("trendalytics_data/tweets")
     hdfsObj.createFolder("trendalytics_data/tweets_processed")
 
+    val stopWordsFile = "trendalytics_data/stop_words.txt"
+    
+    if(!hdfsObj.isFilePresent(stopWordsFile))
+        hdfsObj.saveFile(stopWordsFile)
+
     val yelpOutputFile = "trendalytics_data/output.csv"
 
     if(!hdfsObj.isFilePresent(yelpOutputFile))
@@ -86,7 +91,7 @@ object App {
         hdfsObj.saveFile(tweetFile)
 
     val text = sc.textFile(tweetFile)
-    val stopWords = sc.textFile("trendalytics_data/stop_words.txt")
+    val stopWords = sc.textFile(stopWordsFile)
     val words = text.flatMap(line => line.split("\\W"))
     val clean = words.subtract(stopWords)
 
