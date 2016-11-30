@@ -76,7 +76,7 @@ object App {
     hdfsObj.createFolder("trendalytics_data/tweets_processed")
 
     val stopWordsFile = "trendalytics_data/stop_words.txt"
-    
+
     if(!hdfsObj.isFilePresent(stopWordsFile))
         hdfsObj.saveFile(stopWordsFile)
 
@@ -95,10 +95,9 @@ object App {
     val words = text.flatMap(line => line.split("\\W"))
     val clean = words.subtract(stopWords)
 
-    val cleanTweetPath = "trendalytics_data/tweets_processed/20161130_060833.txt"
-
-    if(!hdfsObj.isFilePresent(cleanTweetPath))
-        clean.saveAsTextFile(cleanTweetPath)
+    val cleanTweetPath = "trendalytics_data/tweets_processed"
+    
+    clean.saveAsTextFile(cleanTweetPath)
 
     return
 
