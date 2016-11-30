@@ -19,11 +19,7 @@ class HDFSManager {
 
   def saveFile(filepath: String): Unit = {
     val file = new File(filepath)
-<<<<<<< HEAD
     val out = fileSystem.create(new Path(filepath))
-=======
-    val out = fileSystem.create(new Path(file.getName))
->>>>>>> e72e46a... added hdfs commands
     val in = new BufferedInputStream(new FileInputStream(file))
     var b = new Array[Byte](1024)
     var numBytes = in.read(b)
@@ -51,8 +47,6 @@ class HDFSManager {
       fileSystem.mkdirs(path)
     }
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
   def deleteFolder(folderPath: String): Unit = {
     val path = new Path(folderPath)
@@ -64,19 +58,4 @@ class HDFSManager {
   def isFilePresent(filename: String): Boolean = {
     fileSystem.exists(new Path(filename))
   }
-=======
->>>>>>> e72e46a... added hdfs commands
-=======
-
-  def deleteFolder(folderPath: String): Unit = {
-    val path = new Path(folderPath)
-    if (!fileSystem.exists(path)) {
-      fileSystem.delete(path, true)
-    }
-  }
-
-  def isFilePresent(filename: String): Boolean = {
-    fileSystem.exists(new Path(filename))
-  }
->>>>>>> c82d2ed... adding out.csv file
 }
