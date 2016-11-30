@@ -24,14 +24,14 @@ object App {
     // val twitter = new TwitterStreamer()
     // twitter.fetch()
 
-    // val facebook = new FacebookStreamer()
-    // facebook.fetch()
+    val facebook = new FacebookStreamer()
+    facebook.fetch()
 
     // val tmdb = new TMDBStreamer()
     // tmdb.fetch()
 
-    // val yelp = new YelpStreamer()
-    // yelp.fetch()
+    //val yelp = new YelpStreamer()
+    //yelp.fetch()
 
     return
 
