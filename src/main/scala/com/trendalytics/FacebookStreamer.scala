@@ -49,13 +49,13 @@ class FacebookStreamer {
 
                 val sresponseJSON = parse(sresponseString)
 
-                val sresults = sresponseJSON \ "data" \ "id"
+                val sresults = sresponseJSON \ "data" 
                  val sls = for {
                      JObject(child) <- sresults
-                     JField("message", JString(message)) <- child
+                     //JField("message", JString(message)) <- child
                      JField("id", JString(id)) <- child
-                     JField("created_time", JString(created_time)) <- child
-                } yield (message, id, created_time)
+                     //JField("created_time", JString(created_time)) <- child
+                } yield (id)
          
 
                
