@@ -67,7 +67,9 @@ object App {
     val clean = words.subtract(stopWords)
 
     val cleanTweetPath = "trendalytics_data/tweets_processed"
-    
+
+    hdfsObj.deleteFolder(cleanTweetPath)
+
     clean.saveAsTextFile(cleanTweetPath)
 
     return
