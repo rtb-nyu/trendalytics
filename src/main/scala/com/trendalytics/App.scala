@@ -59,7 +59,7 @@ object App {
     val text = sc.textFile(tweetFile)
     val stopWords = sc.textFile("trendalytics_data/stop_words.txt")
     val words = text.flatMap(line => line.split("\\W"))
-    val clean = words.subtract(stopwords)
+    val clean = words.subtract(stopWords)
 
     val cleanTweetPath = "trendalytics_data/tweets_processed/20161130_060833.txt"
 
