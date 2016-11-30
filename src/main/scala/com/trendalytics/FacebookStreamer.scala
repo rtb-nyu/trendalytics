@@ -18,131 +18,180 @@ class FacebookStreamer {
   def fetch() {
     println("hello fb")
 
-    val pageId = "15925638948"
-    val pageUrl  = "/v2.8/" + pageId + "/feed"
+    val searchq = "kfc"
 
-    val uri = new URIBuilder()
+    val searchUrl = "/v2.8/search"
+    val suri = new URIBuilder()
     .setScheme("https")
     .setHost("graph.facebook.com")
-    .setPath(pageUrl)
+    .setPath(searchUrl)
     .setParameter("format", "json")
     .setParameter("access_token", "EAASmxuzxRbwBAPl4DbZAp1eeZBzjvrWv0B42IZA6RzAjxbmLk7mZAsjcB26hhGXC6ytFhwfJTVgbilp4PF7hdV7bOuLKV2RTsb2W8ZCZCl5rZBZBZAu1kgWqtW8I0K1E2taN6tMGle9oMnZByLfr8habVZBgf8uyhy7bMkZD")
-    //.setParameter("limit", "25")
+    .setParameter("q",searchq)
+    .setParameter("type","page")//.setParameter("limit", "25")
     .build();
 
     val httpclient = HttpClients.createDefault();
 
-    val httpget = new HttpGet(uri);
+    val shttpget = new HttpGet(suri);
 
-    val response = httpclient.execute(httpget);
+    val sresponse = httpclient.execute(shttpget);
 
-    try {
+   
+      try {
 
-        val entity = response.getEntity()
-        
-        if (entity != null) {
+            val sentity = sresponse.getEntity()
+            
+            if (sentity != null) {
 
-            val responseString = EntityUtils.toString(entity);
-            println(responseString)
+                val sresponseString = EntityUtils.toString(sentity);
+                //println(responseString)
 
-            val responseJSON = parse(responseString)
+                val sresponseJSON = parse(sresponseString)
 
-            val results = responseJSON \ "data"
+                val sresults = sresponseJSON \ "data" \ "id"
+                 val sls = for {
+                     JObject(child) <- sresults
+                     JField("message", JString(message)) <- child
+                     JField("id", JString(id)) <- child
+                     JField("created_time", JString(created_time)) <- child
+                } yield (message, id, created_time)
+         
 
-            val ls = for {
-                 JObject(child) <- results
-                 JField("message", JString(message)) <- child
-                 JField("id", JString(id)) <- child
-                 JField("created_time", JString(created_time)) <- child
-            } yield (message, id, created_time)
+               
 
-            val delimiter = "\t"
+                val pageId =  sls(0);
+                val pageUrl  = "/v2.8/" + pageId + "/feed"
+                   
 
-
-
-            val pw = new PrintWriter(new File("facebook_posts/facebook.txt" ))
-
-            ls.foreach{ e => val (a, b, c) = e
-                
-                println("writing fb post data\n");
-
-                pw.write(a 
-                    + delimiter + b 
-                    + delimiter + c
-                    + '\n')
-                
-                val cobjectId = b
-                val cpageUrl  = "/v2.8/" + cobjectId + "/comments"
-
-                val curi = new URIBuilder()
+                val uri = new URIBuilder()
                 .setScheme("https")
                 .setHost("graph.facebook.com")
-                .setPath(cpageUrl)
+                .setPath(pageUrl)
                 .setParameter("format", "json")
                 .setParameter("access_token", "EAASmxuzxRbwBAPl4DbZAp1eeZBzjvrWv0B42IZA6RzAjxbmLk7mZAsjcB26hhGXC6ytFhwfJTVgbilp4PF7hdV7bOuLKV2RTsb2W8ZCZCl5rZBZBZAu1kgWqtW8I0K1E2taN6tMGle9oMnZByLfr8habVZBgf8uyhy7bMkZD")
-                .setParameter("limit", "10")
+                //.setParameter("limit", "25")
                 .build();
 
-                // val httpclient = HttpClients.createDefault();
+                //val httpclient = HttpClients.createDefault();
 
-                val chttpget = new HttpGet(curi);
+                val httpget = new HttpGet(uri);
 
-                val cresponse = httpclient.execute(chttpget);
-                
+                val response = httpclient.execute(httpget);
+
                 try {
 
-                    val centity = cresponse.getEntity()
+                    val entity = response.getEntity()
                     
-                    if (centity != null) {
+                    if (entity != null) {
 
-                        val cresponseString = EntityUtils.toString(centity);
+                        val responseString = EntityUtils.toString(entity);
+                        println(responseString)
 
-                        val cresponseJSON = parse(cresponseString)
+                        val responseJSON = parse(responseString)
 
-                        val cresults = cresponseJSON \ "data"
+                        val results = responseJSON \ "data"
 
-                        val cls = for {
-                             JObject(child) <- cresults
+                        val ls = for {
+                             JObject(child) <- results
                              JField("message", JString(message)) <- child
                              JField("id", JString(id)) <- child
                              JField("created_time", JString(created_time)) <- child
-                           } yield (message, id, created_time)
+                        } yield (message, id, created_time)
 
                         val delimiter = "\t"
 
-                        // val cfname = "facebook_posts/" + b + ".txt"
 
-                        // val cfw = new PrintWriter(new File(cfname))
 
-                        cls.foreach{ e => val (a, b, c) = e
+                        val pw = new PrintWriter(new File("facebook_posts/facebook.txt" ))
+
+                        ls.foreach{ e => val (a, b, c) = e
+                            
+                            println("writing fb post data\n");
+
                             pw.write(a 
                                 + delimiter + b 
                                 + delimiter + c
                                 + '\n')
+                            
+                            val cobjectId = b
+                            val cpageUrl  = "/v2.8/" + cobjectId + "/comments"
+
+                            val curi = new URIBuilder()
+                            .setScheme("https")
+                            .setHost("graph.facebook.com")
+                            .setPath(cpageUrl)
+                            .setParameter("format", "json")
+                            .setParameter("access_token", "EAASmxuzxRbwBAPl4DbZAp1eeZBzjvrWv0B42IZA6RzAjxbmLk7mZAsjcB26hhGXC6ytFhwfJTVgbilp4PF7hdV7bOuLKV2RTsb2W8ZCZCl5rZBZBZAu1kgWqtW8I0K1E2taN6tMGle9oMnZByLfr8habVZBgf8uyhy7bMkZD")
+                            .setParameter("limit", "10")
+                            .build();
+
+                            // val httpclient = HttpClients.createDefault();
+
+                            val chttpget = new HttpGet(curi);
+
+                            val cresponse = httpclient.execute(chttpget);
+                            
+                            try {
+
+                                val centity = cresponse.getEntity()
+                                
+                                if (centity != null) {
+
+                                    val cresponseString = EntityUtils.toString(centity);
+
+                                    val cresponseJSON = parse(cresponseString)
+
+                                    val cresults = cresponseJSON \ "data"
+
+                                    val cls = for {
+                                         JObject(child) <- cresults
+                                         JField("message", JString(message)) <- child
+                                         JField("id", JString(id)) <- child
+                                         JField("created_time", JString(created_time)) <- child
+                                       } yield (message, id, created_time)
+
+                                    val delimiter = "\t"
+
+                                    // val cfname = "facebook_posts/" + b + ".txt"
+
+                                    // val cfw = new PrintWriter(new File(cfname))
+
+                                    cls.foreach{ e => val (a, b, c) = e
+                                        pw.write(a 
+                                            + delimiter + b 
+                                            + delimiter + c
+                                            + '\n')
+                                    }
+
+                                    // cfw.close
+
+                                    println("Finishd writing to comment");
+                                }
+                            } catch {
+                                case e: Exception => println("exception caught: " + e);
+                            } finally {
+                                cresponse.close()
+                            }
                         }
 
-                        // cfw.close
+                        pw.close
 
-                        println("Finishd writing to comment");
+                        println("Finished Writing FB Data to file");
+
                     }
+
                 } catch {
                     case e: Exception => println("exception caught: " + e);
                 } finally {
-                    cresponse.close()
+                    response.close()
                 }
+
             }
-
-            pw.close
-
-            println("Finished Writing FB Data to file");
-
+        } catch {
+            case e: Exception => println("exception caught: " + e);
+        } finally {
+            sresponse.close()
         }
-    } catch {
-        case e: Exception => println("exception caught: " + e);
-    } finally {
-        response.close()
     }
-
-
-  }
 }
