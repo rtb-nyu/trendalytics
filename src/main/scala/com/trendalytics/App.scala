@@ -47,7 +47,7 @@ object App {
 
   def main(args : Array[String]) {
 
-    // val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
+    val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
     // val twitter = new TwitterFilter()
     // twitter.fetch()
@@ -122,11 +122,6 @@ object App {
     val selectedData = df.select("key", "text")
 
     df.select(df("key"), df("text")).show()
-
-    val yelpOutputFile = "trendalytics_data/output.csv"
-
-    if(!hdfsObj.isFilePresent(yelpOutputFile))
-        hdfsObj.saveFile(yelpOutputFile)
 
     return
 
