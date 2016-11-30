@@ -30,8 +30,8 @@ object App {
     // val tmdb = new TMDBStreamer()
     // tmdb.fetch()
 
-    //val yelp = new YelpStreamer()
-    //yelp.fetch()
+    val yelp = new YelpStreamer()
+    yelp.fetch()
 
     return
 
