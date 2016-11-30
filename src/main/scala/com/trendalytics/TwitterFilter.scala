@@ -9,6 +9,7 @@ import org.apache.http.util.EntityUtils
 import org.json4s._
 import org.json4s.native.JsonMethods._
 import twitter4j._
+import java.time.LocalDateTime
 
 /**
  * @author ${user.name}
@@ -21,44 +22,6 @@ object FilterUtil {
   .setOAuthAccessTokenSecret("z4LpUMLYvuEKDe5H23LBlPQbdF7aaz3H6kerl56CjR8UP")
   .setUseSSL(true)
   .build
-
-  def simpleStatusListener = new StatusListener() {
-    def onStatus(status: Status) { 
-      
-      
-      val id = status.getId
-      val userName = status.getUser.getName
-      val numFriends = status.getUser.getFriendsCount.toString()
-      val datetime = status.getCreatedAt.toString()
-      val location  = status.getGeoLocation()
-      val tweets = status.getText
-      val numReTweet = status.getRetweetCount.toString()
-
-
-      if(location != null){
-
-        val lat = location.getLatitude().toString
-        val long = location.getLongitude().toString
-
-        val pw = new FileWriter("nyTweets.txt", true)
-        val delimiter = "\t"
-        val toPrint = id + delimiter + userName + delimiter + numFriends + delimiter + datetime + delimiter + lat + 
-                      delimiter + long + delimiter + tweets + delimiter + numReTweet
-        // println(toPrint)
-        pw.write(toPrint + "\n")
-
-        pw.close
-
-      }
-        
-    }
-
-    def onDeletionNotice(statusDeletionNotice: StatusDeletionNotice) {}
-    def onTrackLimitationNotice(numberOfLimitedStatuses: Int) {}
-    def onException(ex: Exception) { ex.printStackTrace }
-    def onScrubGeo(arg0: Long, arg1: Long) {}
-    def onStallWarning(warning: StallWarning) {}
-  }
 }
 
 class TwitterFilter {
@@ -66,7 +29,7 @@ class TwitterFilter {
 
     val twitter = new TwitterFactory(FilterUtil.config).getInstance
     
-    val lon = -74.1687;
+    val long = -74.1687;
     val lat = 40.5722;
     val res = 50;
     val resUnit = "mi";
@@ -82,10 +45,27 @@ class TwitterFilter {
 
     val it = statuses.iterator()
 
+    val currentTime = LocalDateTime.now().toString().replaceAll("[-+.^:,]","")
+    // System.out.println("Current DateTime: " + currentTime);
+
     while (it.hasNext()) {
       val status = it.next()
-      println(status.getUser().getName() + ":" +
-              status.getText());
+
+      val id = status.getId
+      val userName = status.getUser.getName
+      val numFriends = status.getUser.getFriendsCount.toString()
+      val datetime = status.getCreatedAt.toString()
+      val location  = status.getGeoLocation()
+      val tweets = status.getText
+      val numReTweet = status.getRetweetCount.toString()
+
+      val pw = new FileWriter("tweets/" + currentTime + ".txt", true)
+      val delimiter = "\t"
+      val toPrint = id + delimiter + userName + delimiter + numFriends + delimiter + datetime + delimiter + tweets + delimiter + numReTweet
+      // println(toPrint)
+      pw.write(toPrint + "\n")
+
+      pw.close
     }
 
   }
