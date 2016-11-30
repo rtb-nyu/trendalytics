@@ -13,12 +13,13 @@ import twitter4j._
 /**
  * @author ${user.name}
  */
-object Util {
+object FilterUtil {
   val config = new twitter4j.conf.ConfigurationBuilder()
   .setOAuthConsumerKey("OycBERb5BcBhDj9b0HkUrkCM2")
   .setOAuthConsumerSecret("Cg7tyvJF90zLq9MmOk2gvzLF0SSbIA8yF26ITNF9cgulSejBFy")
   .setOAuthAccessToken("278043834-NTTee6inRqUg2cBvEl1NpazpsskDHQZ8N8cUww8j")
   .setOAuthAccessTokenSecret("z4LpUMLYvuEKDe5H23LBlPQbdF7aaz3H6kerl56CjR8UP")
+  .setUseSSL(true)
   .build
 
   def simpleStatusListener = new StatusListener() {
@@ -60,22 +61,32 @@ object Util {
   }
 }
 
-class TwitterStreamer {
+class TwitterFilter {
   def fetch() {
-    val query = new Query("Doctor Strange" OR "Arrival" OR "Fantastic Beasts");
-    val result = twitter.search(query)
-    println(result.getTweets.size)
+
+    val twitter = new TwitterFactory(FilterUtil.config).getInstance
     
-    val twitterStream = new TwitterStreamFactory(Util.config).getInstance
-    twitterStream.addListener(Util.simpleStatusListener)
+    val lon = -74.1687;
+    val lat = 40.5722;
+    val res = 50;
+    val resUnit = "mi";
 
-    val nycBox = Array(Array(-74.1687,40.5722),Array(-73.8062,40.9467))
+    val query = new Query("apple")
 
-    twitterStream.filter(new FilterQuery().locations(nycBox))
+    // query.setGeoCode(new GeoLocation(lat, lon), res, resUnit);
+    val result = twitter.search(query)
 
-    // twitterStream.sample
-    Thread.sleep(100000)
-    twitterStream.cleanUp
-    twitterStream.shutdown
+    println("Tweetes Found :" + result.getTweets.size)
+
+    val statuses = result.getTweets()
+
+    val it = statuses.iterator()
+
+    while (it.hasNext()) {
+      val status = it.next()
+      println(status.getUser().getName() + ":" +
+              status.getText());
+    }
+
   }
 }
