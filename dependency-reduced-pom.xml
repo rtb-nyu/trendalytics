@@ -92,10 +92,6 @@
           <groupId>org.apache.spark</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>jets3t</artifactId>
-          <groupId>net.java.dev.jets3t</groupId>
-        </exclusion>
-        <exclusion>
           <artifactId>curator-recipes</artifactId>
           <groupId>org.apache.curator</groupId>
         </exclusion>
@@ -162,10 +158,6 @@
         <exclusion>
           <artifactId>RoaringBitmap</artifactId>
           <groupId>org.roaringbitmap</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>commons-net</artifactId>
-          <groupId>commons-net</groupId>
         </exclusion>
         <exclusion>
           <artifactId>akka-remote_2.11</artifactId>

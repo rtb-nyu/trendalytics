@@ -12,6 +12,12 @@ import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 
+import org.apache.hadoop.conf.Configuration
+import org.apache.hadoop.fs.FileSystem
+import org.apache.hadoop.fs.Path
+import java.net.URI
+import org.apache.hadoop.util.Progressable
+
 /**
  * @author ${user.name}
  */
@@ -33,6 +39,10 @@ object App {
 
     // val yelp = new YelpStreamer()
     // yelp.fetch()
+
+    val hdfsObj = new HDFSManager()
+
+    hdfsObj.createFolder("trendalytics_data")
 
     return
 

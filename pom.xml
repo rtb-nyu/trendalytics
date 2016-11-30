@@ -51,6 +51,13 @@
 
   <dependencies>
 
+    <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-core -->
+    <dependency>
+       <groupId>org.apache.hadoop</groupId>
+       <artifactId>hadoop-core</artifactId>
+       <version>0.20.2</version>
+    </dependency>
+
     <!-- https://github.com/apache/spark/blob/master/examples/pom.xml -->
     <dependency>
       <groupId>org.apache.spark</groupId>
