@@ -28,7 +28,6 @@ class FacebookStreamer {
     .setParameter("format", "json")
     .setParameter("access_token", "EAASmxuzxRbwBAPl4DbZAp1eeZBzjvrWv0B42IZA6RzAjxbmLk7mZAsjcB26hhGXC6ytFhwfJTVgbilp4PF7hdV7bOuLKV2RTsb2W8ZCZCl5rZBZBZAu1kgWqtW8I0K1E2taN6tMGle9oMnZByLfr8habVZBgf8uyhy7bMkZD")
     //.setParameter("limit", "25")
-    //.setParameter("until", "1479183350")
     .build();
 
     val httpclient = HttpClients.createDefault();
@@ -55,20 +54,18 @@ class FacebookStreamer {
                  JField("message", JString(message)) <- child
                  JField("id", JString(id)) <- child
                  JField("created_time", JString(created_time)) <- child
-        //          JField("popularity", JDouble(popularity)) <- child
-        //          JField("vote_count", JInt(vote_count)) <- child
-        //          JField("vote_average", JDouble(vote_average)) <- child
-        //          JField("original_language", JString(original_language)) <- child
-        //          JField("adult", JBool(adult)) <- child
             } yield (message, id, created_time)
 
             val delimiter = "\t"
 
 
 
-            val pw = new PrintWriter(new File("facebook.txt" ))
+            val pw = new PrintWriter(new File("facebook_posts/facebook.txt" ))
 
             ls.foreach{ e => val (a, b, c) = e
+                
+                println("writing fb post data\n");
+
                 pw.write(a 
                     + delimiter + b 
                     + delimiter + c
@@ -80,18 +77,18 @@ class FacebookStreamer {
                 val curi = new URIBuilder()
                 .setScheme("https")
                 .setHost("graph.facebook.com")
-                .setPath(pageUrl)
+                .setPath(cpageUrl)
                 .setParameter("format", "json")
                 .setParameter("access_token", "EAASmxuzxRbwBAPl4DbZAp1eeZBzjvrWv0B42IZA6RzAjxbmLk7mZAsjcB26hhGXC6ytFhwfJTVgbilp4PF7hdV7bOuLKV2RTsb2W8ZCZCl5rZBZBZAu1kgWqtW8I0K1E2taN6tMGle9oMnZByLfr8habVZBgf8uyhy7bMkZD")
-                .setParameter("limit", "100")
-                //.setParameter("until", "1479183350")
+                .setParameter("limit", "10")
                 .build();
 
-                val chttpclient = HttpClients.createDefault();
+                // val httpclient = HttpClients.createDefault();
 
                 val chttpget = new HttpGet(curi);
 
-                val cresponse = chttpclient.execute(chttpget);
+                val cresponse = httpclient.execute(chttpget);
+                
                 try {
 
                     val centity = cresponse.getEntity()
@@ -99,7 +96,6 @@ class FacebookStreamer {
                     if (centity != null) {
 
                         val cresponseString = EntityUtils.toString(centity);
-                        //println(responseString)
 
                         val cresponseJSON = parse(cresponseString)
 
@@ -110,28 +106,22 @@ class FacebookStreamer {
                              JField("message", JString(message)) <- child
                              JField("id", JString(id)) <- child
                              JField("created_time", JString(created_time)) <- child
-                    //          JField("popularity", JDouble(popularity)) <- child
-                    //          JField("vote_count", JInt(vote_count)) <- child
-                    //          JField("vote_average", JDouble(vote_average)) <- child
-                    //          JField("original_language", JString(original_language)) <- child
-                    //          JField("adult", JBool(adult)) <- child
                            } yield (message, id, created_time)
 
                         val delimiter = "\t"
 
-                        val cfname = b + ".txt"
+                        // val cfname = "facebook_posts/" + b + ".txt"
 
-                        val cfw = new PrintWriter(new File(cfname))
+                        // val cfw = new PrintWriter(new File(cfname))
 
-                        
                         cls.foreach{ e => val (a, b, c) = e
-                            cfw.write(a 
+                            pw.write(a 
                                 + delimiter + b 
                                 + delimiter + c
                                 + '\n')
                         }
 
-                        cfw.close
+                        // cfw.close
 
                         println("Finishd writing to comment");
                     }
@@ -141,6 +131,7 @@ class FacebookStreamer {
                     cresponse.close()
                 }
             }
+
             pw.close
 
             println("Finished Writing FB Data to file");
