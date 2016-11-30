@@ -47,6 +47,10 @@ object App {
 
   def main(args : Array[String]) {
 
+    println("hello world")
+
+    return 
+
     val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
     // val twitter = new TwitterFilter()
