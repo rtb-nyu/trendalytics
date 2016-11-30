@@ -123,6 +123,11 @@ object App {
 
     df.select(df("key"), df("text")).show()
 
+    val yelpOutputFile = "trendalytics_data/output.csv"
+
+    if(!hdfsObj.isFilePresent(yelpOutputFile))
+        hdfsObj.saveFile(yelpOutputFile)
+
     return
 
   }
