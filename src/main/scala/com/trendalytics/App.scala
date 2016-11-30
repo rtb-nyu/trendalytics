@@ -25,7 +25,7 @@ object App {
   
   def main(args : Array[String]) {
 
-    val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
+    // val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
     //val twitter = new TwitterFilter()
     //twitter.fetch()
