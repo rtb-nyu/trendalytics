@@ -19,7 +19,7 @@ class HDFSManager {
 
   def saveFile(filepath: String): Unit = {
     val file = new File(filepath)
-    val out = fileSystem.create(new Path(file.getName))
+    val out = fileSystem.create(new Path(filepath))
     val in = new BufferedInputStream(new FileInputStream(file))
     var b = new Array[Byte](1024)
     var numBytes = in.read(b)
