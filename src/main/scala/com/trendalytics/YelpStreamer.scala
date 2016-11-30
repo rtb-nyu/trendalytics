@@ -18,6 +18,16 @@ import org.scribe.model.Token;
 import org.scribe.model.Verb;
 import org.scribe.oauth.OAuthService;
 
+import org.apache.commons.io.FileUtils;
+import org.json.CDL;
+import org.json.JSONException;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
 /**
  * @author Wenhao Lu
  */
@@ -41,7 +51,7 @@ class YelpStreamer{
         override def getRequestTokenEndpoint() : String = null
     }
 
-    def search(category : String, location : String, offset : int) : String = {
+    def search(category : String, location : String, offset : Int) : String = {
         val request = new OAuthRequest(Verb.GET, "http://api.yelp.com/v2/search");
         request.addQuerystringParameter("term", category);
         request.addQuerystringParameter("location", location);
@@ -52,11 +62,11 @@ class YelpStreamer{
     }
 
     def search(category : String, location : String) : String = {
-        val numResult = 0;
-        val offset = 0;
-        val result = search(category, location, 0);
+        var numResult = 0;
+        var offset = 0;
+        var result = search(category, location, 0);
         val obj = new JsonParser().parse(result).getAsJsonObject();
-        val mergedResult = obj.get("businesses").getAsJsonArray().toString;
+        var mergedResult = obj.get("businesses").getAsJsonArray().toString;
         val parser = new JSONParser();
         try {
           val response = parser.parse(result).asInstanceOf[org.json.simple.JSONObject];
@@ -70,15 +80,15 @@ class YelpStreamer{
         while (numResult > 0) {
           result = search(category, location, offset);
           mergedResult = mergeJSONString(mergedResult, result);
-          offset += 20;
-          numResult -=20;
+          offset = offset + 20;
+          numResult = numResult - 20;
           //debug
           println(numResult);
         }
         mergedResult;
     }
 
-    def mergeJSONString(json1 : String, json2 : String) : String {
+    def mergeJSONString(json1 : String, json2 : String) : String = {
         val gparser = new JsonParser();
         val bus1 = gparser.parse(json1).getAsJsonArray();
         val o2 = gparser.parse(json2).getAsJsonObject();
@@ -89,6 +99,7 @@ class YelpStreamer{
         val replaced = merged.replace("location\":{\"", "").replace("}},{\"is_claimed", "},{\"is_claimed")
                 .replace("\"coordinate\":{", "").replace("},\"state_code", ",\"state_code");
         val result = replaced.substring(0, replaced.length() - 2) + "]";
+        result;
     }
 
     def JSONToCSV(jsonString : String) {
