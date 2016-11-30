@@ -69,6 +69,9 @@ object App {
     // hdfsObj.deleteFolder(cleanTweetPath)
 
     // clean.saveAsTextFile(cleanTweetPath)
+    val hdfsObj = new HDFSManager()
+
+    hdfsObj.createFolder("trendalytics_data")
 
     return
 
