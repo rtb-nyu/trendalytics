@@ -9,7 +9,9 @@ import org.apache.http.util.EntityUtils
 import org.json4s._
 import org.json4s.native.JsonMethods._
 import twitter4j._
-import java.time.LocalDateTime
+// import java.time.LocalDateTime
+import java.util._
+import java.text._
 
 /**
  * @author ${user.name}
@@ -45,7 +47,12 @@ class TwitterFilter {
 
     val it = statuses.iterator()
 
-    val currentTime = LocalDateTime.now().toString().replaceAll("[-+.^:,]","")
+    // val currentTime = LocalDateTime.now().toString().replaceAll("[-+.^:,]","")
+    val dNow = new Date()
+    val ft = new SimpleDateFormat ("yyyy.MM.dd_hh:mm:ss")
+
+    val currentTime = ft.format(dNow).toString().replaceAll("[-+.^:,]","");
+
     // System.out.println("Current DateTime: " + currentTime);
 
     while (it.hasNext()) {
@@ -59,7 +66,7 @@ class TwitterFilter {
       val tweets = status.getText
       val numReTweet = status.getRetweetCount.toString()
 
-      val pw = new FileWriter("tweets/" + currentTime + ".txt", true)
+      val pw = new FileWriter("data/tweets/" + currentTime + ".txt", true)
       val delimiter = "\t"
       val toPrint = id + delimiter + userName + delimiter + numFriends + delimiter + datetime + delimiter + tweets + delimiter + numReTweet
       // println(toPrint)
