@@ -50,7 +50,7 @@ class HDFSManager {
 
   def deleteFolder(folderPath: String): Unit = {
     val path = new Path(folderPath)
-    if (!fileSystem.exists(path)) {
+    if (fileSystem.exists(path)) {
       fileSystem.delete(path, true)
     }
   }

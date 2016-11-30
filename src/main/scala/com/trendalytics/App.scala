@@ -44,7 +44,7 @@ object App {
 
     hdfsObj.createFolder("trendalytics_data")
     hdfsObj.createFolder("trendalytics_data/tweets")
-    hdfsObj.createFolder("trendalytics_data/tweets_processed")
+    // hdfsObj.createFolder("trendalytics_data/tweets_processed")
 
     val stopWordsFile = "trendalytics_data/stop_words.txt"
 
