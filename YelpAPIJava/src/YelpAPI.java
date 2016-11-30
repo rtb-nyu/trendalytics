@@ -1,3 +1,4 @@
+package com.trendalytics.data;
 import org.scribe.model.Token;
 import org.scribe.builder.api.DefaultApi10a;
 
