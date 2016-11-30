@@ -32,6 +32,12 @@ import com.google.gson.JsonParser;
  * @author Wenhao Lu
  */
 
+class YelpAPI extends DefaultApi10a {
+    override def getAccessTokenEndpoint() : String = null
+    override def getAuthorizationUrl(arg0 : Token) : String = null
+    override def getRequestTokenEndpoint() : String = null
+}
+
 class YelpStreamer{  
 
     val consumerKey = "NucDGu-AyqiKD-J-G5hGWg";
@@ -39,17 +45,12 @@ class YelpStreamer{
     val token = "deKNsTgsherYjI7Ze1zC5XT5UxzfmOhG";
     val tokenSecret = "xJCWmNwLQRbkuTsjvKWMHgZHTp4";  
     val service = new ServiceBuilder()
-                                                .provider(classOf[YelpAPI])
-                                                .apiKey(consumerKey)
-                                                .apiSecret(consumerSecret)
-                                                .build();
-    val accessToken = new Token(token, tokenSecret);
+                        .provider(classOf[YelpAPI])
+                        .apiKey(consumerKey)
+                        .apiSecret(consumerSecret)
+                        .build();
 
-    class YelpAPI extends DefaultApi10a {
-        override def getAccessTokenEndpoint() : String = null
-        override def getAuthorizationUrl(arg0 : Token) : String = null
-        override def getRequestTokenEndpoint() : String = null
-    }
+    val accessToken = new Token(token, tokenSecret);
 
     def search(category : String, location : String, offset : Int) : String = {
         val request = new OAuthRequest(Verb.GET, "http://api.yelp.com/v2/search");
