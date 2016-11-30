@@ -44,6 +44,11 @@ object App {
 
     hdfsObj.createFolder("trendalytics_data")
 
+    val yelpOutputFile = "trendalytics_data/output.csv"
+
+    if(!hdfsObj.isFilePresent(yelpOutputFile))
+        hdfsObj.saveFile(yelpOutputFile)
+
     return
 
   }

@@ -47,4 +47,8 @@ class HDFSManager {
       fileSystem.mkdirs(path)
     }
   }
+
+  def isFilePresent(filename: String): Boolean = {
+    fileSystem.exists(path)
+  }
 }
