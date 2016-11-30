@@ -69,7 +69,7 @@ class HDFSManager {
 =======
 
   def isFilePresent(filename: String): Boolean = {
-    fileSystem.exists(path)
+    fileSystem.exists(filename)
   }
 >>>>>>> c82d2ed... adding out.csv file
 }
