@@ -19,7 +19,7 @@ object App {
   
   def main(args : Array[String]) {
 
-    // val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
+    val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
     //val twitter = new TwitterFilter()
    // twitter.fetch()
@@ -31,8 +31,8 @@ object App {
     // val tmdb = new TMDBStreamer()
     // tmdb.fetch()
 
-   // val yelp = new YelpStreamer()
-   // yelp.fetch()
+    // val yelp = new YelpStreamer()
+    // yelp.fetch()
 
     return
 
