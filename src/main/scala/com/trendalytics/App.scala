@@ -15,8 +15,9 @@ object App {
   
   def main(args : Array[String]) {
 
-    // val twitter = new TwitterStreamer()
+    val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
+    // val twitter = new TwitterStreamer()
     // twitter.fetch()
 
     // val facebook = new FacebookStreamer()
@@ -25,8 +26,8 @@ object App {
     // val tmdb = new TMDBStreamer()
     // tmdb.fetch()
 
-    val yelp = new YelpStreamer()
-    yelp.fetch()
+    // val yelp = new YelpStreamer()
+    // yelp.fetch()
 
     return
 
