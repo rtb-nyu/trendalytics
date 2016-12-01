@@ -98,7 +98,7 @@ class TwitterFilter {
     println("------- Begin to search for RESTAURANTS -------");
     println("Number of Tweets found for:");
     FilterUtil.filterKeyTweets("trendalytics_data/yelp20LinesClean.txt", 1);
-    println("Finished searching for restaurants.\n");
+    println("Finished searching for restaurants.");
 
   }
 }
