@@ -47,13 +47,10 @@ class TwitterFilter {
 
     val it = statuses.iterator()
 
-    // val currentTime = LocalDateTime.now().toString().replaceAll("[-+.^:,]","")
     val dNow = new Date()
     val ft = new SimpleDateFormat ("yyyy.MM.dd_hh:mm:ss")
 
     val currentTime = ft.format(dNow).toString().replaceAll("[-+.^:,]","");
-
-    // System.out.println("Current DateTime: " + currentTime);
 
     while (it.hasNext()) {
       val status = it.next()
@@ -66,10 +63,10 @@ class TwitterFilter {
       val tweets = status.getText
       val numReTweet = status.getRetweetCount.toString()
 
-      val pw = new FileWriter("data/tweets/" + currentTime + ".txt", true)
+      val pw = new FileWriter("trendalytics_data/tweets/" + currentTime + ".txt", true)
       val delimiter = "\t"
       val toPrint = id + delimiter + userName + delimiter + numFriends + delimiter + datetime + delimiter + tweets + delimiter + numReTweet
-      // println(toPrint)
+
       pw.write(toPrint + "\n")
 
       pw.close

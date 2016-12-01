@@ -103,7 +103,7 @@ class FacebookStreamer {
 
 
 
-                        val pw = new PrintWriter(new File("facebook_posts/facebook.txt" ))
+                        val pw = new PrintWriter(new File("trendalytics_data/facebook_posts/facebook.txt" ))
 
                         ls.foreach{ e => val (a, b, c) = e
                             
