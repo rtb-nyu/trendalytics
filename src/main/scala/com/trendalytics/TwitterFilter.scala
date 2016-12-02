@@ -36,6 +36,8 @@ object FilterUtil {
     val res = 50;
     val resUnit = "mi";
     // query.setGeoCode(new GeoLocation(lat, lon), res, resUnit);
+    query.setCount(100);	// can fetch more tweets each time
+    						// maximum to 100
     query.setLang("en");    // restrict to English tweets
     val result = twitter.search(query)
 
@@ -60,7 +62,7 @@ object FilterUtil {
       val numFriends = status.getUser.getFriendsCount.toString()
       val datetime = status.getCreatedAt.toString()
       val location  = status.getGeoLocation()
-      val tweets = status.getText.replaceAll("[\n\t]",". ");
+      val tweets = status.getText.replaceAll("[\n\t]",". ").replaceAll("http[s]*://[a-zA-Z0-9.?/&=:]*", "")
       val numReTweet = status.getRetweetCount.toString()
 
       val pw = new FileWriter("trendalytics_data/tweets/" + currentTime + ".txt", true)
@@ -95,10 +97,10 @@ class TwitterFilter {
     FilterUtil.filterKeyTweets("trendalytics_data/movies.txt", 0);
     println("Finished searching for movies.\n");
 
-    println("------- Begin to search for RESTAURANTS -------");
-    println("Number of Tweets found for:");
-    FilterUtil.filterKeyTweets("trendalytics_data/yelp20LinesClean.txt", 1);
-    println("Finished searching for restaurants.");
+    // println("------- Begin to search for RESTAURANTS -------");
+    // println("Number of Tweets found for:");
+    // FilterUtil.filterKeyTweets("trendalytics_data/yelp20LinesClean.txt", 1);
+    // println("Finished searching for restaurants.");
 
   }
 }
