@@ -8,17 +8,23 @@ import org.apache.http.impl.client.HttpClients
 import org.apache.http.util.EntityUtils
 import org.json4s._
 import org.json4s.native.JsonMethods._
+import scala.io.Source
+import java.util._
+import java.text._
 
 /**
  * @author ${user.name}
  */
 
+
+
 class FacebookStreamer {
+  
 
-  def fetch() {
-    println("hello fb")
+  def postSearch( searchq: String ) {
+    println(searchq)
 
-    val searchq = "kfc"
+    //val searchq = "kfc"
 
     val searchUrl = "/v2.8/search"
     val suri = new URIBuilder()
@@ -86,7 +92,7 @@ class FacebookStreamer {
                     if (entity != null) {
 
                         val responseString = EntityUtils.toString(entity);
-                        println(responseString)
+                        //println(responseString)
 
                         val responseJSON = parse(responseString)
 
@@ -103,13 +109,22 @@ class FacebookStreamer {
 
 
 
-                        val pw = new PrintWriter(new File("trendalytics_data/facebook_posts/facebook.txt" ))
+                        
+                        val dNow = new Date()
+                        // val ft = new SimpleDateFormat ("yyyy.MM.dd_hh:mm:ss")
+                        val ft = new SimpleDateFormat ("MMddyyyy_hh")
+
+                        // val currentTime = ft.format(dNow).toString().replaceAll("[-+.^:,]","");
+                        val currentTime = ft.format(dNow).toString();
+                        
+                        val file = "trendalytics_data/facebook_posts/" + currentTime + ".txt"
+                        val bw = new BufferedWriter(new FileWriter(new File(file), true))
 
                         ls.foreach{ e => val (a, b, c) = e
                             
                             println("writing fb post data\n");
 
-                            pw.write(a 
+                            bw.write(searchq + delimiter + a 
                                 + delimiter + b 
                                 + delimiter + c
                                 + '\n')
@@ -158,7 +173,7 @@ class FacebookStreamer {
                                     // val cfw = new PrintWriter(new File(cfname))
 
                                     cls.foreach{ e => val (a, b, c) = e
-                                        pw.write(a 
+                                        bw.write(searchq + delimiter + a 
                                             + delimiter + b 
                                             + delimiter + c
                                             + '\n')
@@ -175,7 +190,7 @@ class FacebookStreamer {
                             }
                         }
 
-                        pw.close
+                        bw.close
 
                         println("Finished Writing FB Data to file");
 
@@ -193,5 +208,32 @@ class FacebookStreamer {
         } finally {
             sresponse.close()
         }
+    }
+
+     def filterKeyPages (filename: String, idx: Int) = {
+    try {
+        val bufferedSource = Source.fromFile(filename)
+        for (line <- bufferedSource.getLines) {
+            val lines = line.toLowerCase.split('\t')
+            postSearch(lines(idx));
+        }
+        bufferedSource.close
+    } catch {
+        case e: FileNotFoundException => println("Can't read from file " + filename)
+    }
+  }
+
+    def fetch() {    
+
+    println("------- Begin to search for MOVIES -------");
+    
+    filterKeyPages("trendalytics_data/movies.txt", 0);
+    println("Finished searching for movies.\n");
+
+    // println("------- Begin to search for RESTAURANTS -------");
+    
+    // FilterUtil.filterKeyPages("trendalytics_data/yelp20LinesClean.txt", 1);
+    // println("Finished searching for restaurants.");
+
     }
 }
