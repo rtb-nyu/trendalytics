@@ -85,7 +85,7 @@ object App {
         if(!hdfsObj.isFilePresent(tweet_file.toString()))
             hdfsObj.saveFile(tweet_file.toString())
     }
-    val tweetFile = "trendalytics_data/tweets/12012016_01.txt"
+    val tweetFile = "trendalytics_data/tweets/test.txt"
     val tweets = sc.textFile(tweetFile)
 
     // val tweets = sc.textFile(tweet_files(0).toString())
@@ -128,7 +128,7 @@ object App {
     peopleDataFrame.printSchema()
 
     // SQL statements can be run by using the sql methods provided by sqlContext.
-    sqlContext.sql("SELECT key_name FROM tweets").collect().foreach(println)
+    sqlContext.sql("SELECT key_name, text, id FROM tweets").collect().foreach(println)
 
     // The results of SQL queries are DataFrames and support all the normal RDD operations.
     // The columns of a row in the result can be accessed by field index or by field name.
