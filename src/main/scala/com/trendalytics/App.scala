@@ -18,7 +18,7 @@ import org.apache.hadoop.fs.Path
 import java.net.URI
 // import org.apache.hadoop.util.Progressable
 import org.apache.spark.sql.SQLContext
-// import org.apache.spark.mllib.clustering.KMeans
+
 
 /**
  * @author ${user.name}
@@ -66,26 +66,8 @@ object App {
     if(!hdfsObj.isFilePresent(yelpOutputFile))
         hdfsObj.saveFile(yelpOutputFile)
 
-
-    println("####### Writing Tweet files to HDFS ########")
-    val tweet_files = getListOfFiles("trendalytics_data/tweets")
-
-    for (tweet_file <- tweet_files) {
-        if(!hdfsObj.isFilePresent(tweet_file.toString()))
-            hdfsObj.saveFile(tweet_file.toString())
-    }
-    // val tweetFile = "trendalytics_data/tweets/20161130_060833.txt"
-
-    val tweets = sc.textFile(tweet_files(0).toString())
-
-    // val tweets = sc.textFile(tweetInput)
-    
-    for (tweet <- tweets.take(5)) {
-      println(tweet)
-    }
-
-    val sqlContext = new SQLContext(sc)
-    return
+    val swfilter = new StopWordFilter()
+    swfilter.remove(sc)
 
   }
 }
