@@ -212,10 +212,12 @@ class FacebookStreamer {
 
      def filterKeyPages (filename: String, idx: Int) = {
     try {
+
         val bufferedSource = Source.fromFile(filename)
         for (line <- bufferedSource.getLines) {
             val lines = line.toLowerCase.split('\t')
             postSearch(lines(idx));
+            Thread.sleep(1000);
         }
         bufferedSource.close
     } catch {
@@ -225,15 +227,15 @@ class FacebookStreamer {
 
     def fetch() {    
 
-    println("------- Begin to search for MOVIES -------");
+    /*println("------- Begin to search for MOVIES -------");
     
     filterKeyPages("trendalytics_data/movies.txt", 0);
     println("Finished searching for movies.\n");
-
-    // println("------- Begin to search for RESTAURANTS -------");
+*/
+    println("------- Begin to search for RESTAURANTS -------");
     
-    // FilterUtil.filterKeyPages("trendalytics_data/yelp20LinesClean.txt", 1);
-    // println("Finished searching for restaurants.");
+    filterKeyPages("trendalytics_data/yelp20LinesClean.txt", 1);
+    println("Finished searching for restaurants.");
 
     }
 }
