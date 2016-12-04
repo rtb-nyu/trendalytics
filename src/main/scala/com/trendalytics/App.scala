@@ -23,19 +23,24 @@ import org.apache.hadoop.util.Progressable
  */
 object App {
   
+  def getListOfFiles(dir: String):List[File] = {
+      val d = new File(dir)
+      if (d.exists && d.isDirectory) {
+        d.listFiles.filter(_.isFile).toList
+      } else {
+        List[File]()
+      }
+  }
+
   def main(args : Array[String]) {
-
-    println("hello world")
-
-    return 
 
     val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
-    //val twitter = new TwitterFilter()
-    //twitter.fetch()
+    // val twitter = new TwitterFilter()
+    // twitter.fetch()
 
-     val facebook = new FacebookStreamer()
-     facebook.fetch()
+    // val facebook = new FacebookStreamer()
+    // facebook.fetch()
 
     // val tmdb = new TMDBStreamer()
     // tmdb.fetch()
@@ -43,7 +48,6 @@ object App {
     // val yelp = new YelpStreamer()
     // yelp.fetch()
 
-    // clean.saveAsTextFile(cleanTweetPath)
     val hdfsObj = new HDFSManager()
 
     hdfsObj.createFolder("trendalytics_data")
@@ -60,21 +64,23 @@ object App {
     if(!hdfsObj.isFilePresent(yelpOutputFile))
         hdfsObj.saveFile(yelpOutputFile)
 
-    val tweetFile = "trendalytics_data/tweets/20161130_060833.txt"
 
-    if(!hdfsObj.isFilePresent(tweetFile))
-        hdfsObj.saveFile(tweetFile)
+    println("####### Writing Tweet files to HDFS ########")
+    val tweet_files = getListOfFiles("trendalytics_data/tweets")
 
-    val text = sc.textFile(tweetFile)
-    val stopWords = sc.textFile(stopWordsFile)
-    val words = text.flatMap(line => line.split("\\W"))
-    val clean = words.subtract(stopWords)
+    for (tweet_file <- tweet_files) {
+        if(!hdfsObj.isFilePresent(tweet_file.toString()))
+            hdfsObj.saveFile(tweet_file.toString())
+    }
+    // val tweetFile = "trendalytics_data/tweets/20161130_060833.txt"
 
-    val cleanTweetPath = "trendalytics_data/tweets_processed"
+    val tweets = sc.textFile(tweet_files(0).toString())
 
-    hdfsObj.deleteFolder(cleanTweetPath)
-
-    clean.saveAsTextFile(cleanTweetPath)
+    // val tweets = sc.textFile(tweetInput)
+    
+    for (tweet <- tweets.take(5)) {
+      println(tweet)
+    }
 
     return
 
