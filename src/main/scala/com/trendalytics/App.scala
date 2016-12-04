@@ -16,7 +16,9 @@ import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.FileSystem
 import org.apache.hadoop.fs.Path
 import java.net.URI
-import org.apache.hadoop.util.Progressable
+// import org.apache.hadoop.util.Progressable
+import org.apache.spark.sql.SQLContext
+// import org.apache.spark.mllib.clustering.KMeans
 
 /**
  * @author ${user.name}
@@ -82,6 +84,7 @@ object App {
       println(tweet)
     }
 
+    val sqlContext = new SQLContext(sc)
     return
 
   }
