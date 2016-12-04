@@ -34,8 +34,11 @@ import org.apache.spark.sql.types.{StructType,StructField,StringType};
  */
 object App {
   
+<<<<<<< e308769cb5b265fe3e85297991593b4f8b6c3858
   case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
 
+=======
+>>>>>>> fixed dumbo issues
   def getListOfFiles(dir: String):List[File] = {
       val d = new File(dir)
       if (d.exists && d.isDirectory) {
@@ -44,20 +47,32 @@ object App {
         List[File]()
       }
   }
+<<<<<<< e308769cb5b265fe3e85297991593b4f8b6c3858
 
   def main(args : Array[String]) {
 
     println("hello world")
+=======
+>>>>>>> fixed dumbo issues
 
-    return 
+  def main(args : Array[String]) {
 
     val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
+
+<<<<<<< e308769cb5b265fe3e85297991593b4f8b6c3858
+    // val twitter = new TwitterFilter()
+    // twitter.fetch()
+
+=======
+>>>>>>> fixed dumbo issues
+     // val facebook = new FacebookStreamer()
+     // facebook.fetch()
 
     // val twitter = new TwitterFilter()
     // twitter.fetch()
 
-     // val facebook = new FacebookStreamer()
-     // facebook.fetch()
+    // val facebook = new FacebookStreamer()
+    // facebook.fetch()
 
     // val tmdb = new TMDBStreamer()
     // tmdb.fetch()
@@ -81,6 +96,7 @@ object App {
     if(!hdfsObj.isFilePresent(yelpOutputFile))
         hdfsObj.saveFile(yelpOutputFile)
 
+<<<<<<< e308769cb5b265fe3e85297991593b4f8b6c3858
 
     println("####### Writing Tweet files to HDFS ########")
     val tweet_files = getListOfFiles("trendalytics_data/tweets")
@@ -126,6 +142,25 @@ object App {
     val selectedData = df.select("key", "text")
 
     df.select(df("key"), df("text")).show()
+=======
+
+    println("####### Writing Tweet files to HDFS ########")
+    val tweet_files = getListOfFiles("trendalytics_data/tweets")
+
+    for (tweet_file <- tweet_files) {
+        if(!hdfsObj.isFilePresent(tweet_file.toString()))
+            hdfsObj.saveFile(tweet_file.toString())
+    }
+    // val tweetFile = "trendalytics_data/tweets/20161130_060833.txt"
+
+    val tweets = sc.textFile(tweet_files(0).toString())
+
+    // val tweets = sc.textFile(tweetInput)
+    
+    for (tweet <- tweets.take(5)) {
+      println(tweet)
+    }
+>>>>>>> fixed dumbo issues
 
     return
 
