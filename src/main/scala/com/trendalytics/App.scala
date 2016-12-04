@@ -18,6 +18,8 @@ import org.apache.hadoop.fs.Path
 import java.net.URI
 // import org.apache.hadoop.util.Progressable
 import org.apache.spark.sql.SQLContext
+// import org.apache.spark.sql.SQLContext.implicits._
+
 // import org.apache.spark.mllib.clustering.KMeans
 
 /**
@@ -25,6 +27,8 @@ import org.apache.spark.sql.SQLContext
  */
 object App {
   
+  case class Tweet(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
+
   def getListOfFiles(dir: String):List[File] = {
       val d = new File(dir)
       if (d.exists && d.isDirectory) {
@@ -85,6 +89,17 @@ object App {
     }
 
     val sqlContext = new SQLContext(sc)
+
+    import sqlContext.implicits._
+
+    val tweetInfo = tweets.map(_.split("\t")).map(p => Tweet(p(0), p(1), p(2), p(3), p(4).trim.toInt, p(5).trim.toInt, p(6))).toDF()
+
+    tweetInfo.registerTempTable("tweets")
+
+    val movie = sqlContext.sql("SELECT key_name, text FROM tweets WHERE key_name = 'doctor strange' ")
+
+    movie.map(t => "Movie Name: " + t.getAs[String]("key_name")).collect().foreach(println)
+
     return
 
   }
