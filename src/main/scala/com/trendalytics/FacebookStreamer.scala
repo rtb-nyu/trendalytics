@@ -122,7 +122,7 @@ class FacebookStreamer {
 
                         ls.foreach{ e => val (a, b, c) = e
                             
-                            println("writing fb post data\n");
+                            // println("writing fb post data\n");
 
                             bw.write(searchq + delimiter + a 
                                 + delimiter + b 
@@ -181,7 +181,7 @@ class FacebookStreamer {
 
                                     // cfw.close
 
-                                    println("Finishd writing to comment");
+                                    // println("Finishd writing to comment");
                                 }
                             } catch {
                                 case e: Exception => println("exception caught: " + e);

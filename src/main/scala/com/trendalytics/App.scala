@@ -27,11 +27,11 @@ object App {
 
     // val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
-    //val twitter = new TwitterFilter()
-    //twitter.fetch()
+    val twitter = new TwitterFilter()
+    twitter.fetch()
 
-     val facebook = new FacebookStreamer()
-     facebook.fetch()
+     // val facebook = new FacebookStreamer()
+     // facebook.fetch()
 
     // val tmdb = new TMDBStreamer()
     // tmdb.fetch()
