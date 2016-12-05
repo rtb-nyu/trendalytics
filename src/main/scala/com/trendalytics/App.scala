@@ -18,9 +18,7 @@ import org.apache.hadoop.fs.Path
 import java.net.URI
 // import org.apache.hadoop.util.Progressable
 import org.apache.spark.sql.SQLContext
-<<<<<<< f74d4c000028634c904bd2361fa315fa93d80ea7
 import org.apache.spark.sql.SQLContext._
-// import org.apache.spark.sql.SQLContext.implicits._
 
 import org.apache.spark.mllib.clustering.KMeans
 
@@ -29,9 +27,6 @@ import org.apache.spark.sql.Row;
 
 // Import Spark SQL data types
 import org.apache.spark.sql.types.{StructType,StructField,StringType};
-=======
-
->>>>>>> add StopWordFilter.scala. Class for reading json to spark dataframe and filter stop words in text
 
 /**
  * @author ${user.name}
