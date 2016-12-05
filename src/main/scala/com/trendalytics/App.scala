@@ -133,6 +133,11 @@ object App {
     // The results of SQL queries are DataFrames and support all the normal RDD operations.
     // The columns of a row in the result can be accessed by field index or by field name.
     // results.map(t => "Movie Name: " + t(0)).collect().foreach(println)
+
+
+    //Stop Word Filter
+    val swFilter = new StopWordFilter()
+    swFilter.remove(sc)
     return
 
   }
