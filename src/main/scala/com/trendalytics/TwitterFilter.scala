@@ -73,7 +73,11 @@ object FilterUtil {
       val tweets = status.getText.replaceAll("[\n\t]",". ").replaceAll("http[s]*://[a-zA-Z0-9.?/&=:]*", "")
       val numReTweet = status.getRetweetCount.toString()
 
+<<<<<<< HEAD
 
+=======
+      // write to txt file
+>>>>>>> ebcd405de48e692e21650f1af605e9fe7e1bc48d
       val pw = new FileWriter("trendalytics_data/tweets/" + currentTime + ".txt", true)
       val delimiter = "\t"
       val toPrint = key_name + delimiter + tweets + delimiter + id + delimiter + userName + delimiter + numReTweet + delimiter + numFriends + delimiter + datetime
