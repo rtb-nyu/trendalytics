@@ -20,6 +20,8 @@ import java.net.URI
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.SQLContext._
 
+import org.apache.spark.mllib.feature.HashingTF
+import org.apache.spark.mllib.linalg.Vector
 import org.apache.spark.mllib.clustering.KMeans
 
 // Import Row.
@@ -33,7 +35,9 @@ import org.apache.spark.sql.types.{StructType,StructField,StringType};
  */
 object App {
   
-  case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
+  // case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
+  val numFeatures = 1000
+  val tf = new HashingTF(numFeatures)
 
   def getListOfFiles(dir: String):List[File] = {
       val d = new File(dir)
@@ -42,6 +46,10 @@ object App {
       } else {
         List[File]()
       }
+  }
+
+  def featurize(s: String): Vector = {
+    tf.transform(s.sliding(2).toSeq)
   }
 
   def main(args : Array[String]) {
@@ -89,12 +97,6 @@ object App {
     val tweetFile = "trendalytics_data/tweets/test.txt"
     val tweets = sc.textFile(tweetFile)
 
-    // val tweets = sc.textFile(tweet_files(0).toString())
-
-    for (tweet <- tweets.take(5)) {
-      println(tweet.split("\t").foreach(println))
-    }
-
     val sqlContext = new SQLContext(sc)
 
     import sqlContext.implicits._
@@ -123,6 +125,31 @@ object App {
     val selectedData = df.select("key", "text")
 
     df.select(df("key"), df("text")).show()
+
+    val texts = sqlContext.sql("SELECT text from tweets").map(_.head.toString)
+    // Caches the vectors since it will be used many times by KMeans.
+    val vectors = texts.map(featurize).cache()
+    vectors.count()  // Calls an action to create the cache.
+
+    val numIterations = 10
+    val numClusters = 5
+
+    val model = KMeans.train(vectors, numClusters, numIterations)
+
+    hdfsObj.deleteFolder("trendalytics_data/tweets_processed")
+    
+    sc.makeRDD(model.clusterCenters, numClusters).saveAsObjectFile("trendalytics_data/tweets_processed")
+
+    val some_tweets = texts.take(10)
+    println("----Example tweets from the clusters")
+    for (i <- 0 until numClusters) {
+      println(s"\nCLUSTER $i:")
+      some_tweets.foreach { t =>
+        if (model.predict(featurize(t)) == i) {
+          println(t)
+        }
+      }
+    }
 
     return
 
