@@ -17,6 +17,8 @@ import org.apache.hadoop.fs.FileSystem
 import org.apache.hadoop.fs.Path
 import java.net.URI
 // import org.apache.hadoop.util.Progressable
+
+import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.SQLContext._
 // import org.apache.spark.sql.SQLContext.implicits._
@@ -43,6 +45,11 @@ object App {
       } else {
         List[File]()
       }
+  }
+
+  def removeStopwords(sc : SparkContext, sqlContext : SQLContext, selectedData : DataFrame) : DataFrame = {
+    val sw = new StopWordFilter()
+    sw.remove(sc, sqlContext, selectedData)
   }
 
   def main(args : Array[String]) {
@@ -123,6 +130,9 @@ object App {
 
     df.select(df("key"), df("text")).show()
 
+    val filteredData = removeStopwords(sc, sqlContext, selectedData)
+    println("------The filteredData with stop words removed in tweets-----")
+    filteredData.show()
     return
 
   }
