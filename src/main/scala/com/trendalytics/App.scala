@@ -34,7 +34,7 @@ import org.apache.spark.sql.types.{StructType,StructField,StringType};
  */
 object App {
   
-  // case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
+  case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
 
   def getListOfFiles(dir: String):List[File] = {
       val d = new File(dir)
@@ -91,53 +91,38 @@ object App {
     // val tweets = sc.textFile(tweet_files(0).toString())
 
     for (tweet <- tweets.take(5)) {
-      println(tweet)
+      println(tweet.split("\t").foreach(println))
     }
 
     val sqlContext = new SQLContext(sc)
 
     import sqlContext.implicits._
 
-    // val tweetInfo = tweets.map(_.split("\t")).map(p => TweetRecord(p(0), p(1), p(2), p(3), p(4).trim.toInt, p(5).trim.toInt, p(6))).toDF()
+    val customSchema = StructType(Array(
+        StructField("key", StringType, true),
+        StructField("text", StringType, true),
+        StructField("id", StringType, true),
+        StructField("username", StringType, true),
+        StructField("retweets", StringType, true),
+        StructField("num_friends", StringType, true),
+        StructField("datetime", StringType, true)))
 
-    // tweetInfo.registerTempTable("tweets")
+    val df = sqlContext.read
+        .format("com.databricks.spark.csv")
+        .option("header", "false") // Use first line of all files as header
+        .option("delimiter", "\t")
+        .schema(customSchema)
+        .load(tweetFile)
 
-    // val movie = sqlContext.sql("SELECT key_name, text FROM tweets")
+    println("Starting CSV processing...")
+    df.printSchema()
 
-    // movie.map(t => "Movie Name: " + t.getAs[String]("key_name")).collect().foreach(println)
+    df.registerTempTable("tweets")
 
-    // The schema is encoded in a string
-    // key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String
+    val selectedData = df.select("key", "text")
 
-    val schemaString = "key_name\ttext\tid\tusername\tretweets\tnum_friends\tdatetime"
+    df.select(df("key"), df("text")).show()
 
-    // Generate the schema based on the string of schema
-    val schema =
-      StructType(
-        schemaString.split("\t").map(fieldName => StructField(fieldName, StringType, true)))
-
-    // Convert records of the RDD (tweets) to Rows.
-    val rowRDD = tweets.map(_.split("\t")).map(p => Row(p(0), p(1), p(2), p(3), p(4).trim, p(5).trim, p(6)))
-
-    // Apply the schema to the RDD.
-    val peopleDataFrame = sqlContext.createDataFrame(rowRDD, schema)
-
-    // Register the DataFrames as a table.
-    peopleDataFrame.registerTempTable("tweets")
-
-    peopleDataFrame.printSchema()
-
-    // SQL statements can be run by using the sql methods provided by sqlContext.
-    sqlContext.sql("SELECT key_name, text, id FROM tweets").collect().foreach(println)
-
-    // The results of SQL queries are DataFrames and support all the normal RDD operations.
-    // The columns of a row in the result can be accessed by field index or by field name.
-    // results.map(t => "Movie Name: " + t(0)).collect().foreach(println)
-
-
-    //Stop Word Filter
-    val swFilter = new StopWordFilter()
-    swFilter.remove(sc)
     return
 
   }
