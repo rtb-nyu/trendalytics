@@ -94,7 +94,7 @@ object App {
         if(!hdfsObj.isFilePresent(tweet_file.toString()))
             hdfsObj.saveFile(tweet_file.toString())
     }
-    val tweetFile = "trendalytics_data/tweets/test.txt"
+    val tweetFile = "trendalytics_data/tweets/"
     val tweets = sc.textFile(tweetFile)
 
     val sqlContext = new SQLContext(sc)
@@ -140,7 +140,7 @@ object App {
     
     sc.makeRDD(model.clusterCenters, numClusters).saveAsObjectFile("trendalytics_data/tweets_processed")
 
-    val some_tweets = texts.take(10)
+    val some_tweets = texts.take(100)
     println("----Example tweets from the clusters")
     for (i <- 0 until numClusters) {
       println(s"\nCLUSTER $i:")
