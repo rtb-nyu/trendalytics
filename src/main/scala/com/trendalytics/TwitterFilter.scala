@@ -19,7 +19,7 @@ import net.liftweb.json._
  * @author ${user.name}
  */
 
-case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
+// case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
 
 object FilterUtil {
   val config = new twitter4j.conf.ConfigurationBuilder()
@@ -84,14 +84,17 @@ object FilterUtil {
 
 
       // write to json filename
-      val jsonString = """{"key_name": " + key_name + ", "text": " + tweets + ", "id": " + id
-                        + ", "username": " + userName + ", "retweets": " + numReTweet + ", "num_friends": " + numFriends
-                        + ", "datetime": " + datetime + "}"""
+      // val json = 
+      //   (("key_name" -> key_name) ~ ("text" -> tweets)
+      //    ~ ("id" -> id) ~ ("username" -> userName) ~ ("retweets" -> numReTweet) 
+      //    ~ ("num_friends" -> numFriends) ~ ("datetime" -> datetime)
+      //   )
 
-      val jValue = parse(jsonString)
-      implicit val formats = net.liftweb.json.DefaultFormats
-      val TweetsJson = jValue.extract[TweetRecord]
-      println(TweetsJson.text)
+      // // val jValue = parse(jsonString)
+      // implicit val formats = net.liftweb.json.DefaultFormats
+      // // val TweetsJson = jValue.extract[TweetRecord]
+      // // println(TweetsJson.text)
+      // println(pretty(render(json)))
 
     }
   }
@@ -118,10 +121,10 @@ class TwitterFilter {
     FilterUtil.filterKeyTweets("trendalytics_data/movies.txt", 0);
     println("Finished searching for movies.\n");
 
-    // println("------- Begin to search for RESTAURANTS -------");
-    // println("Number of Tweets found for:");
-    // FilterUtil.filterKeyTweets("trendalytics_data/yelp20LinesClean.txt", 1);
-    // println("Finished searching for restaurants.");
+    println("------- Begin to search for RESTAURANTS -------");
+    println("Number of Tweets found for:");
+    FilterUtil.filterKeyTweets("trendalytics_data/yelp20LinesClean.txt", 1);
+    println("Finished searching for restaurants.");
 
   }
 }
