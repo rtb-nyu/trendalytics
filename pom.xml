@@ -130,6 +130,14 @@
         <artifactId>json4s-native_2.11</artifactId>
         <version>3.2.9</version>
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/net.liftweb/lift-json_2.11 -->
+    <dependency>
+        <groupId>net.liftweb</groupId>
+        <artifactId>lift-json_2.11</artifactId>
+        <version>3.0</version>
+    </dependency>
+
 
 
     <!-- HTTP Client Library  -->

@@ -21,8 +21,9 @@ import java.net.URI
 import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.SQLContext._
-// import org.apache.spark.sql.SQLContext.implicits._
 
+import org.apache.spark.mllib.feature.HashingTF
+import org.apache.spark.mllib.linalg.Vector
 import org.apache.spark.mllib.clustering.KMeans
 
 // Import Row.
@@ -36,7 +37,9 @@ import org.apache.spark.sql.types.{StructType,StructField,StringType};
  */
 object App {
   
-  case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
+  // case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
+  val numFeatures = 1000
+  val tf = new HashingTF(numFeatures)
 
   def getListOfFiles(dir: String):List[File] = {
       val d = new File(dir)
@@ -52,15 +55,19 @@ object App {
     sw.remove(sc, sqlContext, selectedData)
   }
 
+  def featurize(s: String): Vector = {
+    tf.transform(s.sliding(2).toSeq)
+  }
+
   def main(args : Array[String]) {
 
     val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
-    // val twitter = new TwitterFilter()
-    // twitter.fetch()
+    val twitter = new TwitterFilter()
+    twitter.fetch()
 
-    // val facebook = new FacebookStreamer()
-    // facebook.fetch()
+     // val facebook = new FacebookStreamer()
+     // facebook.fetch()
 
     // val tmdb = new TMDBStreamer()
     // tmdb.fetch()
@@ -84,7 +91,6 @@ object App {
     if(!hdfsObj.isFilePresent(yelpOutputFile))
         hdfsObj.saveFile(yelpOutputFile)
 
-
     println("####### Writing Tweet files to HDFS ########")
     val tweet_files = getListOfFiles("trendalytics_data/tweets")
 
@@ -92,14 +98,8 @@ object App {
         if(!hdfsObj.isFilePresent(tweet_file.toString()))
             hdfsObj.saveFile(tweet_file.toString())
     }
-    val tweetFile = "trendalytics_data/tweets/test.txt"
+    val tweetFile = "trendalytics_data/tweets/"
     val tweets = sc.textFile(tweetFile)
-
-    // val tweets = sc.textFile(tweet_files(0).toString())
-
-    for (tweet <- tweets.take(5)) {
-      println(tweet.split("\t").foreach(println))
-    }
 
     val sqlContext = new SQLContext(sc)
 
@@ -131,8 +131,36 @@ object App {
     df.select(df("key"), df("text")).show()
 
     val filteredData = removeStopwords(sc, sqlContext, selectedData)
-    println("------The filteredData with stop words removed in tweets-----")
-    filteredData.show()
+    // println("------The filteredData with stop words removed in tweets-----")
+    // filteredData.show()
+
+    filteredData.registerTempTable("tweets_filtered")
+
+    val texts = sqlContext.sql("SELECT filtered_text from tweets_filtered").map(t => t(0).toString)
+    // Caches the vectors since it will be used many times by KMeans.
+    val vectors = texts.map(featurize).cache()
+    vectors.count()  // Calls an action to create the cache.
+
+    val numIterations = 10
+    val numClusters = 5
+
+    val model = KMeans.train(vectors, numClusters, numIterations)
+
+    hdfsObj.deleteFolder("trendalytics_data/tweets_processed")
+    
+    sc.makeRDD(model.clusterCenters, numClusters).saveAsObjectFile("trendalytics_data/tweets_processed")
+
+    val some_tweets = texts.take(100)
+    println("----Example tweets from the clusters")
+    for (i <- 0 until numClusters) {
+      println(s"\nCLUSTER $i:")
+      some_tweets.foreach { t =>
+        if (model.predict(featurize(t)) == i) {
+          println(t)
+        }
+      }
+    }
+filteredData.show()
     return
 
   }
