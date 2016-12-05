@@ -29,6 +29,8 @@ import org.apache.spark.sql.Row;
 // Import Spark SQL data types
 import org.apache.spark.sql.types.{StructType,StructField,StringType};
 
+
+
 /**
  * @author ${user.name}
  */
@@ -65,6 +67,7 @@ object App {
 
     hdfsObj.createFolder("trendalytics_data")
     hdfsObj.createFolder("trendalytics_data/tweets")
+    hdfsObj.createFolder("trendalytics_data/facebook_posts")
     // hdfsObj.createFolder("trendalytics_data/tweets_processed")
 
     val stopWordsFile = "trendalytics_data/stop_words.txt"
@@ -85,7 +88,18 @@ object App {
         if(!hdfsObj.isFilePresent(tweet_file.toString()))
             hdfsObj.saveFile(tweet_file.toString())
     }
-    val tweetFile = "trendalytics_data/tweets/test.txt"
+
+     println("####### Writing FB files to HDFS ########")
+    
+    val fb_files = getListOfFiles("trendalytics_data/facebook_posts")
+
+    for (fb_file <- fb_files) {
+        if(!hdfsObj.isFilePresent(fb_file.toString()))
+            hdfsObj.saveFile(fb_file.toString())
+    }
+
+
+    /*val tweetFile = "trendalytics_data/tweets/test.txt"
     val tweets = sc.textFile(tweetFile)
 
     // val tweets = sc.textFile(tweet_files(0).toString())
@@ -98,7 +112,7 @@ object App {
 
     import sqlContext.implicits._
 
-    val customSchema = StructType(Array(
+    val customSchemaTweet = StructType(Array(
         StructField("key", StringType, true),
         StructField("text", StringType, true),
         StructField("id", StringType, true),
@@ -111,7 +125,7 @@ object App {
         .format("com.databricks.spark.csv")
         .option("header", "false") // Use first line of all files as header
         .option("delimiter", "\t")
-        .schema(customSchema)
+        .schema(customSchemaTweet)
         .load(tweetFile)
 
     println("Starting CSV processing...")
@@ -122,7 +136,48 @@ object App {
     val selectedData = df.select("key", "text")
 
     df.select(df("key"), df("text")).show()
+*/
+   val sqlContext = new SQLContext(sc)
 
+    import sqlContext.implicits._
+
+
+    for (fb_file <- fb_files) {
+
+    //val fbFile = "trendalytics_data/facebook_posts/12042016_01.txt"
+    //val post_file = sc.textFile(fb_File)
+
+    // val tweets = sc.textFile(tweet_files(0).toString())
+
+   
+
+   
+
+
+    val customSchemafb = StructType(Array(
+        StructField("key", StringType, true),
+        StructField("text", StringType, true),
+        StructField("id", StringType, true),
+        StructField("time", StringType, true)))
+
+        val dfb = sqlContext.read
+        .format("com.databricks.spark.csv")
+        .option("header", "false") // Use first line of all files as header
+        .option("delimiter", "\t")
+        .schema(customSchemafb)
+        .load(fb_file.toString())
+
+
+    println("Starting CSV processing...")
+    dfb.printSchema()
+
+    dfb.registerTempTable("posts")
+
+    val selectedData = dfb.select("key", "text")
+
+    dfb.select(dfb("key"), dfb("text")).show()
+
+  }
     return
 
   }
