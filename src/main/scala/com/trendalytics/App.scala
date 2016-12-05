@@ -126,7 +126,7 @@ object App {
 
     df.select(df("key"), df("text")).show()
 
-    val texts = sqlContext.sql("SELECT text from tweets").map(_.head.toString)
+    val texts = sqlContext.sql("SELECT text from tweets").map(t => t(0).toString)
     // Caches the vectors since it will be used many times by KMeans.
     val vectors = texts.map(featurize).cache()
     vectors.count()  // Calls an action to create the cache.
