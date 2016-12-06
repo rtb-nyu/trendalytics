@@ -9,23 +9,28 @@ The project is written in Scala on [Spark](http://spark.apache.org), with big da
 
 ## Running the Program
 
-use the run.sh script to execute the program.
+On dumbo: use the `run_dumbo.sh` script to execute the program.
+
+On local machine: use the `run.sh` script to execute the program.
 
 ## Data Processing Scripts 
 
-run individual pig scripts within the folder ('/data-processing')for processing each datasource:
+run individual pig scripts within the folder (`/data-processing`)for processing each datasource:
 
-example : pig /data-processing/yelp-process.pig
+example : `pig /data-processing/yelp-process.pig`
 
 ## Dependencies
 
 Apache Spark
+
 Apache Maven
+
 Scala
 
 ## Acknowledgement
 
 We would like to thank Facebook, Twitter, Yelp and TMDb for allowing access to their APIs.
+
 We would like to thank Professor Suzanne McIntosh for providing us constant support and guidance.
 
 ## References
