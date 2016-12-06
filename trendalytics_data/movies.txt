@@ -1,0 +1,20 @@
+Doctor Strange	2016-10-25	284052	46.696892	912	6.8	en	false
+Arrival	2016-11-10	329865	31.712698	200	6.76	en	false
+Suicide Squad	2016-08-02	297761	27.196492	2548	5.97	en	false
+Mad Max: Fury Road	2015-05-13	76341	24.516025	5720	7.18	en	false
+The Secret Life of Pets	2016-06-18	328111	21.831289	1049	5.98	en	false
+Fantastic Beasts and Where to Find Them	2016-11-16	259316	20.935941	184	7.43	en	false
+Captain America: Civil War	2016-04-27	271110	18.926118	3507	6.78	en	false
+Jurassic World	2015-06-09	135397	18.35625	5249	6.57	en	false
+Jack Reacher: Never Go Back	2016-10-19	343611	17.773254	534	4.39	en	false
+Finding Dory	2016-06-16	127380	16.524495	1361	6.65	en	false
+Big Hero 6	2014-10-24	177572	15.995721	3960	7.81	en	false
+Jason Bourne	2016-07-27	324668	15.91596	1040	5.54	en	false
+Star Trek Beyond	2016-07-07	188927	15.76888	1129	6.29	en	false
+Interstellar	2014-11-05	157336	15.209973	6039	8.06	en	false
+The Last Starship	2016-07-11	406285	14.134903	19	3.32	en	false
+Mechanic: Resurrection	2016-08-25	278924	13.998084	527	4.69	en	false
+Terminator Genisys	2015-06-23	87101	13.825049	2449	5.88	en	false
+Minions	2015-06-17	211672	13.439006	2772	6.5	en	false
+The Revenant	2015-12-25	281957	13.195858	3600	7.17	en	false
+Don't Breathe	2016-08-25	300669	13.038924	447	6.29	en	false

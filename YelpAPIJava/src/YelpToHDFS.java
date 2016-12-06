@@ -1,14 +1,10 @@
+package com.trendalytics.data;
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.json.CDL;
 import org.json.JSONException;
-import org.json.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.scribe.builder.ServiceBuilder;
@@ -18,9 +14,9 @@ import org.scribe.model.Token;
 import org.scribe.model.Verb;
 import org.scribe.oauth.OAuthService;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.JsonElement;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 public class YelpToHDFS {
 
@@ -46,8 +42,8 @@ public class YelpToHDFS {
     int numResult = 0;
     int offset = 0;
     String result = search(category, location, 0);
-    
-    String mergedResult = result;
+    JsonObject obj = new JsonParser().parse(result).getAsJsonObject();
+    String mergedResult = obj.get("businesses").getAsJsonArray().toString();
     JSONParser parser = new JSONParser();
     try {
       org.json.simple.JSONObject response = (org.json.simple.JSONObject) parser.parse(result);
@@ -57,39 +53,36 @@ public class YelpToHDFS {
       e.printStackTrace();
     }
     //test
-    //numResult = 200;
+    numResult = 20;
     while (numResult > 0) {
       result = search(category, location, offset);
       mergedResult = mergeJSONString(mergedResult, result);
       offset += 20;
       numResult -=20;
-      //System.out.println(numResult);
+      System.out.println(numResult);
     }
     return mergedResult;
   }
   
   private String mergeJSONString(String json1, String json2) {
-    ObjectMapper mapper = new ObjectMapper();
-    try {
-    Map<String, Object> map1 = mapper.readValue(json1, Map.class);
-    Map<String, Object> map2 = mapper.readValue(json2, Map.class);
-    Map<String, Object> merged = new HashMap<String, Object>(map2);
-    merged.putAll(map1);
-    return mapper.writeValueAsString(merged);
-    } catch (Exception e) {
-      //ignored
-    }
-    return null;
+    JsonParser gparser = new JsonParser();
+    JsonArray bus1 = gparser.parse(json1).getAsJsonArray();
+    JsonObject o2 = gparser.parse(json2).getAsJsonObject();
+    JsonArray bus2 = o2.get("businesses").getAsJsonArray();
+    String s1 = bus1.toString();
+    String s2 = bus2.toString();
+    String merged = s1.substring(0, s1.length()-1) + "," + s2.substring(1);
+    String replaced = merged.replace("location\":{\"", "").replace("}},{\"is_claimed", "},{\"is_claimed")
+            .replace("\"coordinate\":{", "").replace("},\"state_code", ",\"state_code");
+    return replaced.substring(0, replaced.length() - 2) + "]";
   }
   
   private static void JSONToCSV(String jsonString) {
-    JSONObject output;
     try {
-        output = new JSONObject(jsonString);
-        org.json.JSONArray docs = output.getJSONArray("businesses");
-        File file=new File("output.csv");
-        String csv = CDL.toString(docs);
-        FileUtils.writeStringToFile(file, csv);
+      org.json.JSONArray docs = new org.json.JSONArray(jsonString);
+      File file=new File("output.csv");
+      String csv = CDL.toString(docs);
+      FileUtils.writeStringToFile(file, csv);
     } catch (JSONException e) {
         e.printStackTrace();
     } catch (IOException e) {
@@ -104,15 +97,8 @@ public class YelpToHDFS {
     String tokenSecret = "xJCWmNwLQRbkuTsjvKWMHgZHTp4";
 
     YelpToHDFS yelp = new YelpToHDFS(consumerKey, consumerSecret, token, tokenSecret);
-    String response = yelp.search("restaurant", "New York");
+    String response = yelp.search("restaurant", "New York City");
     JSONToCSV(response);
-    JSONObject result = new JSONObject(response);
-//    try (Writer writer = new FileWriter("Output.json")) {
-//      Gson gson = new GsonBuilder().create();
-//      gson.toJson(result, writer);
-//    } catch (IOException e) {
-//      e.printStackTrace();
-//    }
     
   }
 }

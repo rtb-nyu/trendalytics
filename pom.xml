@@ -23,7 +23,100 @@
     <skipTests>true</skipTests>
   </properties>
 
+  <!-- <repositories>
+    <repository>
+      <id>scala-tools.org</id>
+      <name>Scala-tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases</url>
+    </repository>
+    <repository>
+      <id>maven-hadoop</id>
+      <name>Hadoop Releases</name>
+      <url>https://repository.cloudera.com/content/repositories/releases/</url>
+    </repository>
+    <repository>
+      <id>cloudera-repos</id>
+      <name>Cloudera Repos</name>
+      <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>scala-tools.org</id>
+      <name>Scala-tools Maven2 Repository</name>
+      <url>http://scala-tools.org/repo-releases</url>
+    </pluginRepository>
+  </pluginRepositories> -->
+
   <dependencies>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-core -->
+    <dependency>
+       <groupId>org.apache.hadoop</groupId>
+       <artifactId>hadoop-core</artifactId>
+       <version>0.20.2</version>
+    </dependency>
+
+    <!-- https://github.com/apache/spark/blob/master/examples/pom.xml -->
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-core_${scala.compat.version}</artifactId>
+      <version>1.6.3</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-mllib_${scala.compat.version}</artifactId>
+      <version>1.6.3</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql_2.10 -->
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-sql_${scala.compat.version}</artifactId>
+      <version>1.6.3</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>1.3.1</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.scribe</groupId>
+      <artifactId>scribe</artifactId>
+      <version>1.3.7</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.0</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.5.4</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>com.googlecode.json-simple</groupId>
+        <artifactId>json-simple</artifactId>
+        <version>1.1.1</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+      <version>20160810</version>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-stream -->
     <dependency>
      <groupId>org.twitter4j</groupId>
@@ -37,6 +130,14 @@
         <artifactId>json4s-native_2.11</artifactId>
         <version>3.2.9</version>
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/net.liftweb/lift-json_2.11 -->
+    <dependency>
+        <groupId>net.liftweb</groupId>
+        <artifactId>lift-json_2.11</artifactId>
+        <version>3.0</version>
+    </dependency>
+
 
 
     <!-- HTTP Client Library  -->
