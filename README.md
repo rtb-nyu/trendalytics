@@ -29,10 +29,15 @@ We would like to thank Facebook, Twitter, Yelp and TMDb for allowing access to t
 We would like to thank Professor Suzanne McIntosh for providing us constant support and guidance.
 
 ## References
-http://docs.scala-lang.org/tutorials/scala-with-maven.html
 
-https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+[Databricks Spark Reference Applications](https://www.gitbook.com/book/databricks/databricks-spark-reference-applications/details)
 
-http://spark.apache.org/mllib/
+[Scala with Maven](http://docs.scala-lang.org/tutorials/scala-with-maven.html), [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
-http://json4s.org/
+[MLlib](http://spark.apache.org/mllib/)
+
+[Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#spark-sql-dataframes-and-datasets-guide)
+
+[Json4s](http://json4s.org/)
+
+[Communicating with Twitter via Twitter4J using Scala](https://blog.knoldus.com/2012/12/10/communicating-with-twitter-via-twitter4j-using-scala/), [The Facebook Graph API](https://developers.facebook.com/docs/graph-api)
