@@ -67,7 +67,7 @@
   <dependencies>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-core_2.11</artifactId>
+      <artifactId>spark-core_2.10</artifactId>
       <version>1.6.3</version>
       <scope>provided</scope>
       <exclusions>
@@ -76,7 +76,7 @@
           <groupId>org.apache.avro</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>chill_2.11</artifactId>
+          <artifactId>chill_2.10</artifactId>
           <groupId>com.twitter</groupId>
         </exclusion>
         <exclusion>
@@ -92,19 +92,19 @@
           <groupId>org.apache.hadoop</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>spark-launcher_2.11</artifactId>
+          <artifactId>spark-launcher_2.10</artifactId>
           <groupId>org.apache.spark</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>spark-network-common_2.11</artifactId>
+          <artifactId>spark-network-common_2.10</artifactId>
           <groupId>org.apache.spark</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>spark-network-shuffle_2.11</artifactId>
+          <artifactId>spark-network-shuffle_2.10</artifactId>
           <groupId>org.apache.spark</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>spark-unsafe_2.11</artifactId>
+          <artifactId>spark-unsafe_2.10</artifactId>
           <groupId>org.apache.spark</groupId>
         </exclusion>
         <exclusion>
@@ -164,15 +164,15 @@
           <groupId>org.roaringbitmap</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>akka-remote_2.11</artifactId>
+          <artifactId>akka-remote_2.10</artifactId>
           <groupId>com.typesafe.akka</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>akka-slf4j_2.11</artifactId>
+          <artifactId>akka-slf4j_2.10</artifactId>
           <groupId>com.typesafe.akka</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>json4s-jackson_2.11</artifactId>
+          <artifactId>json4s-jackson_2.10</artifactId>
           <groupId>org.json4s</groupId>
         </exclusion>
         <exclusion>
@@ -212,7 +212,7 @@
           <groupId>io.dropwizard.metrics</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>jackson-module-scala_2.11</artifactId>
+          <artifactId>jackson-module-scala_2.10</artifactId>
           <groupId>com.fasterxml.jackson.module</groupId>
         </exclusion>
         <exclusion>
@@ -239,20 +239,20 @@
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-mllib_2.11</artifactId>
+      <artifactId>spark-mllib_2.10</artifactId>
       <version>1.6.3</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
-          <artifactId>spark-streaming_2.11</artifactId>
+          <artifactId>spark-streaming_2.10</artifactId>
           <groupId>org.apache.spark</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>spark-graphx_2.11</artifactId>
+          <artifactId>spark-graphx_2.10</artifactId>
           <groupId>org.apache.spark</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>breeze_2.11</artifactId>
+          <artifactId>breeze_2.10</artifactId>
           <groupId>org.scalanlp</groupId>
         </exclusion>
         <exclusion>
@@ -271,12 +271,12 @@
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-sql_2.11</artifactId>
+      <artifactId>spark-sql_2.10</artifactId>
       <version>1.6.3</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
-          <artifactId>spark-catalyst_2.11</artifactId>
+          <artifactId>spark-catalyst_2.10</artifactId>
           <groupId>org.apache.spark</groupId>
         </exclusion>
         <exclusion>
@@ -295,7 +295,7 @@
     </dependency>
     <dependency>
       <groupId>org.specs2</groupId>
-      <artifactId>specs2-junit_2.11</artifactId>
+      <artifactId>specs2-junit_2.10</artifactId>
       <version>2.4.16</version>
       <scope>test</scope>
     </dependency>
@@ -313,27 +313,27 @@
     </dependency>
     <dependency>
       <groupId>org.specs2</groupId>
-      <artifactId>specs2-core_2.11</artifactId>
+      <artifactId>specs2-core_2.10</artifactId>
       <version>2.4.16</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
-          <artifactId>specs2-matcher_2.11</artifactId>
+          <artifactId>specs2-matcher_2.10</artifactId>
           <groupId>org.specs2</groupId>
         </exclusion>
       </exclusions>
     </dependency>
     <dependency>
       <groupId>org.scalatest</groupId>
-      <artifactId>scalatest_2.11</artifactId>
+      <artifactId>scalatest_2.10</artifactId>
       <version>2.2.4</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
   <properties>
     <skipTests>true</skipTests>
-    <scala.compat.version>2.11</scala.compat.version>
-    <scala.version>2.11.5</scala.version>
+    <scala.compat.version>2.10</scala.compat.version>
+    <scala.version>2.10.4</scala.version>
     <encoding>UTF-8</encoding>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
