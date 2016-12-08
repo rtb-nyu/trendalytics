@@ -89,46 +89,46 @@ object StreamerUtil {
     }
   }
 
-  def simpleStatusListener = new StatusListener() {
-    def onStatus(status: Status) { 
+  // def simpleStatusListener = new StatusListener() {
+  //   def onStatus(status: Status) { 
       
       
-      // val id = status.getId
-      // val userName = status.getUser.getName
-      // val numFriends = status.getUser.getFriendsCount.toString()
-      // val datetime = status.getCreatedAt.toString()
-      // val location  = status.getGeoLocation()
-      val tweets = status.getText
-      // val numReTweet = status.getRetweetCount.toString()
+  //     // val id = status.getId
+  //     // val userName = status.getUser.getName
+  //     // val numFriends = status.getUser.getFriendsCount.toString()
+  //     // val datetime = status.getCreatedAt.toString()
+  //     // val location  = status.getGeoLocation()
+  //     val tweets = status.getText
+  //     // val numReTweet = status.getRetweetCount.toString()
 
-      // println("Tweets is in cluster number: " + model.predict(featurize(tweets)).toString)
-      // println(tweets)
-      // println("Sentiment is :", SentimentAnalysis.findSentiment(tweets))
+  //     // println("Tweets is in cluster number: " + model.predict(featurize(tweets)).toString)
+  //     // println(tweets)
+  //     // println("Sentiment is :", SentimentAnalysis.findSentiment(tweets))
 
-      // if(location != null){
+  //     // if(location != null){
 
-      //   val lat = location.getLatitude().toString
-      //   val long = location.getLongitude().toString
+  //     //   val lat = location.getLatitude().toString
+  //     //   val long = location.getLongitude().toString
 
-      //   val pw = new FileWriter("nyTweets.txt", true)
-      //   val delimiter = "\t"
-      //   val toPrint = id + delimiter + userName + delimiter + numFriends + delimiter + datetime + delimiter + lat + 
-      //                 delimiter + long + delimiter + tweets + delimiter + numReTweet
-      //   // println(toPrint)
-      //   pw.write(toPrint + "\n")
+  //     //   val pw = new FileWriter("nyTweets.txt", true)
+  //     //   val delimiter = "\t"
+  //     //   val toPrint = id + delimiter + userName + delimiter + numFriends + delimiter + datetime + delimiter + lat + 
+  //     //                 delimiter + long + delimiter + tweets + delimiter + numReTweet
+  //     //   // println(toPrint)
+  //     //   pw.write(toPrint + "\n")
 
-      //   pw.close
+  //     //   pw.close
 
-      // }
+  //     // }
         
-    }
+  //   }
 
-    def onDeletionNotice(statusDeletionNotice: StatusDeletionNotice) {}
-    def onTrackLimitationNotice(numberOfLimitedStatuses: Int) {}
-    def onException(ex: Exception) { ex.printStackTrace }
-    def onScrubGeo(arg0: Long, arg1: Long) {}
-    def onStallWarning(warning: StallWarning) {}
-  }
+  //   def onDeletionNotice(statusDeletionNotice: StatusDeletionNotice) {}
+  //   def onTrackLimitationNotice(numberOfLimitedStatuses: Int) {}
+  //   def onException(ex: Exception) { ex.printStackTrace }
+  //   def onScrubGeo(arg0: Long, arg1: Long) {}
+  //   def onStallWarning(warning: StallWarning) {}
+  // }
 }
 
 class TwitterStreamer {
