@@ -63,8 +63,8 @@ object App {
 
     val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
-    // val twitter = new TwitterFilter()
-    // twitter.fetch()
+    val twitter = new TwitterFilter()
+    twitter.fetch()
 
      // val facebook = new FacebookStreamer()
      // facebook.fetch()
@@ -139,19 +139,22 @@ object App {
     val texts = sqlContext.sql("SELECT filtered_text from tweets_filtered").map(t => t(0).toString)
     // Caches the vectors since it will be used many times by KMeans.
     val vectors = texts.map(featurize).cache()
+    // println("#######################Vectors")
+    // vectors.collect().foreach(println)
+    // vectors.coalesce(1).saveAsTextFile("/user/wl1485/project/features.txt")
+
     vectors.count()  // Calls an action to create the cache.
 
-    val numIterations = 10
-    val numClusters = 5
+    val numIterations = 100
+    val numClusters = 2
 
     val model = KMeans.train(vectors, numClusters, numIterations)
 
     hdfsObj.deleteFolder("trendalytics_data/tweets_processed")
     
-    // sc.makeRDD(model.clusterCenters, numClusters).saveAsObjectFile("trendalytics_data/tweets_processed/KMeansModel")
-    model.save(sc, "trendalytics_data/tweets_processed/KMeansModel")
+    sc.makeRDD(model.clusterCenters, numClusters).saveAsObjectFile("trendalytics_data/tweets_processed")
 
-    val some_tweets = texts.take(100)
+    val some_tweets = texts.sample(true, 0.1).take(100)
     println("----Example tweets from the clusters")
     for (i <- 0 until numClusters) {
       println(s"\nCLUSTER $i:")
@@ -161,7 +164,7 @@ object App {
         }
       }
     }
-filteredData.show()
+    filteredData.show()
     return
 
   }
