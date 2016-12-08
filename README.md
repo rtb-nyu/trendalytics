@@ -1,25 +1,52 @@
-# Categorical Sentiment Analysis & Recommendation System for Social Networks
+Categorical Sentiment Analysis & Recommendation System for Social Networks
+==========================================================================
 
+Introduction
+------------
 
-## Introduction
+The project implements a model to cluster Tweets/Facebook posts into various
+categories such as Movies, Restaurants etc. Then a real time analysis of what
+the most talked about items in each category by location is performed, for
+example: top trending movies in the Greenwich Village area, etc. We will
+understand the semantic/sentiment behind the post to give a score weighting to
+each item in the category possibly by using some kind of sentiment analysis,
+number of likes, retweets etc. This will also be a word cloud associated for the
+items in the list to give the user more granular information.
 
-The project implements a model to cluster Tweets/Facebook posts into various categories such as Movies, Restaurants etc. Then a real time analysis of what the most talked about items in each category by location is performed, for example: top trending movies in the Greenwich Village area, etc. We will understand the semantic/sentiment behind the post to give a score weighting to each item in the category possibly by using some kind of sentiment analysis, number of likes, retweets etc. This will also be a word cloud associated for the items in the list to give the user more granular information.
+We stored queried categorized tweets as the training data, with labels of
+keywords on the first column, texts and other metadata. With this training set,
+we can cluster these tweets into categories using Spark with N-gram and K-Means
+algorithms by MLlib. After training, we uploaded the model to HDFS, so that it
+can be loaded to cluster further tweets in real time. Sentiment analysis will
+also be adopted meanwhile to clustering new tweets. We used the methods, e.g.
+Recurrent Neural Networks (RNN), provided by the Stanford CoreNLP to understand
+whether a user/tweet expresses positive or negative attitude. Indices from 0 to
+4 indicate as “very negative”, “negative”, “neutral”, “positive”, and “very
+positive” respectively.
 
-The project is written in Scala on [Spark](http://spark.apache.org), with big data techniques such as [Spark SQL](http://spark.apache.org/sql/), [Apache Pig](https://pig.apache.org), and the [MLlib](http://spark.apache.org/mllib/) distributed machine learning library.
+The project is written in Scala on [Spark](http://spark.apache.org), with big
+data techniques such as [Spark SQL](http://spark.apache.org/sql/), [Apache
+Pig](https://pig.apache.org), the [MLlib](http://spark.apache.org/mllib/)
+distributed machine learning library, and [Stanford
+CoreNLP](http://stanfordnlp.github.io/CoreNLP/).
 
-## Running the Program
+Running the Program
+-------------------
 
 On dumbo: use the `run_dumbo.sh` script to execute the program.
 
 On local machine: use the `run.sh` script to execute the program.
 
-## Data Processing Scripts 
+Data Processing Scripts
+-----------------------
 
-run individual pig scripts within the folder (`/data-processing`)for processing each datasource:
+run individual pig scripts within the folder (`/data-processing`)for processing
+each datasource:
 
 example : `pig /data-processing/yelp-process.pig`
 
-## Dependencies
+Dependencies
+------------
 
 Apache Spark
 
@@ -27,22 +54,33 @@ Apache Maven
 
 Scala
 
-## Acknowledgement
+Acknowledgement
+---------------
 
-We would like to thank Facebook, Twitter, Yelp and TMDb for allowing access to their APIs.
+We would like to thank Facebook, Twitter, Yelp and TMDb for allowing access to
+their APIs.
 
-We would like to thank Professor Suzanne McIntosh for providing us constant support and guidance.
+We would like to thank Professor Suzanne McIntosh for providing us constant
+support and guidance.
 
-## References
+References
+----------
 
-[Databricks Spark Reference Applications](https://www.gitbook.com/book/databricks/databricks-spark-reference-applications/details)
+[Databricks Spark Reference
+Applications](https://www.gitbook.com/book/databricks/databricks-spark-reference-applications/details)
 
-[Scala with Maven](http://docs.scala-lang.org/tutorials/scala-with-maven.html), [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+[Scala with Maven](http://docs.scala-lang.org/tutorials/scala-with-maven.html),
+[Maven in 5
+Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
-[MLlib](http://spark.apache.org/mllib/)
+[MLlib](http://spark.apache.org/mllib/), [Stanford
+CoreNLP](http://stanfordnlp.github.io/CoreNLP/)
 
-[Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#spark-sql-dataframes-and-datasets-guide)
+[Spark SQL, DataFrames and Datasets
+Guide](https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#spark-sql-dataframes-and-datasets-guide)
 
 [Json4s](http://json4s.org/)
 
-[Communicating with Twitter via Twitter4J using Scala](https://blog.knoldus.com/2012/12/10/communicating-with-twitter-via-twitter4j-using-scala/), [The Facebook Graph API](https://developers.facebook.com/docs/graph-api)
+[Communicating with Twitter via Twitter4J using
+Scala](https://blog.knoldus.com/2012/12/10/communicating-with-twitter-via-twitter4j-using-scala/),
+[The Facebook Graph API](https://developers.facebook.com/docs/graph-api)
