@@ -8,10 +8,15 @@ import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.types._
+import org.apache.spark.sql.functions._
 import org.apache.spark.mllib.clustering.KMeans
 import com.google.gson.{GsonBuilder, JsonParser}
 
+import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.feature.Tokenizer
+import org.apache.spark.ml.feature.CountVectorizer
+import org.apache.spark.ml.feature.CountVectorizerModel
+import org.apache.spark.ml.classification.LogisticRegression
 import org.apache.spark.ml.feature.StopWordsRemover
 import org.apache.spark.mllib.feature.HashingTF;
 import org.apache.spark.mllib.linalg.Vector;
@@ -43,7 +48,33 @@ class StopWordFilter {
 
     val tokenized = tokenizer.transform(itemTable)
     val filtered = remover.transform(tokenized)
+
+    //######### Linear Regression ############
+    // val countVectorizer = new CountVectorizer()
+    //   .setInputCol("filtered_text")
+    //   .setOutputCol("features")
+
+    // val countVectorizer: CountVectorizerModel = new CountVectorizer()
+    //   .setInputCol("filtered_text")
+    //   .setOutputCol("features")
+    //   .setVocabSize(3)
+    //   .setMinDF(2)
+    //   .fit(filtered)
     
+    // val lr = new LogisticRegression()
+    //   .setMaxIter(10)
+    //   .setRegParam(0.2)
+    //   .setElasticNetParam(0.0)
+
+    // val featurized = countVectorizer.transform(filtered)
+    // println("######################### After CountVectorizer")
+    // featurized.show()
+
+    // val pipeline = new Pipeline().setStages(Array(tokenizer, filterer, countVectorizer, lr))
+    // val lrModel = pipeline.fit(trainingData)
+
+    // println("######################### After LogisticRegression")
+    // classified.show()
     // println("----list of words in the text----")
     // tokenized.select("text_tokenized").show()
     // println("----list of filtered words in the text----")
