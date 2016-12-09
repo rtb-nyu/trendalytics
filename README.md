@@ -64,6 +64,10 @@ Apache Maven
 
 Scala
 
+MLlib
+
+Stanford CoreNLP
+
 Depositories
 ------------
 
