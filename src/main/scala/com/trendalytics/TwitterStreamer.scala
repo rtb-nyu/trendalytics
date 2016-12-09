@@ -44,7 +44,7 @@ object StreamerUtil {
     tf.transform(s.sliding(2).toSeq)
   }
 
-  def storeTweets (key_name: String) = {
+  def storeTweets (key_name: String, rate: String) = {
     val twitter = new TwitterFactory(FilterUtil.config).getInstance
 
     val query = new Query(key_name)
@@ -74,21 +74,21 @@ object StreamerUtil {
         if (tweets.length() < 100) break
         val datetime = status.getCreatedAt.toString()
 
-        println(key_name.toUpperCase())
+        println(key_name.toUpperCase() + " rated as: " + rate)
         println(tweets + "\n" + datetime)
-        println("Sentiment is: ", SentimentAnalysis.findSentiment(tweets))
+        println("### Sentiment is: " SentimentAnalysis.findSentiment(tweets))
         println("It's in cluster: " + model.predict(featurize(tweets)).toString + "\n")
 
       }
     }
   }
 
-  def filterKeyTweets (filename: String, idx: Int) = {
+  def filterKeyTweets (filename: String, idx: Int, rate: Int) = {
     try {
         val bufferedSource = Source.fromFile(filename)
         for (line <- bufferedSource.getLines) {
             val lines = line.toLowerCase.split('\t')
-            storeTweets(lines(idx));
+            storeTweets(lines(idx), lines(rate));
         }
         bufferedSource.close
     } catch {
@@ -152,12 +152,12 @@ class TwitterStreamer {
 
     println("------- Begin to search for MOVIES -------");
     // println("Number of Tweets found for:");
-    StreamerUtil.filterKeyTweets("trendalytics_data/movies.txt", 0);
+    StreamerUtil.filterKeyTweets("trendalytics_data/movies.txt", 0, 5);
     println("Finished searching for movies.\n");
 
     println("------- Begin to search for RESTAURANTS -------");
     // println("Number of Tweets found for:");
-    StreamerUtil.filterKeyTweets("trendalytics_data/yelp20LinesClean.txt", 1);
+    StreamerUtil.filterKeyTweets("trendalytics_data/yelp20LinesClean.txt", 1 ,0);
     println("Finished searching for restaurants.");    
 
     // println("################### INSIDE TWITTER STREAMING ###################")

@@ -56,15 +56,15 @@ object App {
   }
 
   def featurize(s: String): Vector = {
-    tf.transform(s.sliding(2).toSeq)
+    tf.transform(s.sliding(4).toSeq)
   }
 
   def main(args : Array[String]) {
 
     val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
-    val twitter = new TwitterFilter()
-    twitter.fetch()
+    // val twitter = new TwitterFilter()
+    // twitter.fetch()
 
      // val facebook = new FacebookStreamer()
      // facebook.fetch()
@@ -152,7 +152,7 @@ object App {
 
     hdfsObj.deleteFolder("trendalytics_data/tweets_processed")
     
-    sc.makeRDD(model.clusterCenters, numClusters).saveAsObjectFile("trendalytics_data/tweets_processed")
+    model.save(sc, "trendalytics_data/tweets_processed/KMeansModel")
 
     val some_tweets = texts.sample(true, 0.1).take(100)
     println("----Example tweets from the clusters")
