@@ -66,21 +66,14 @@ support and guidance.
 References
 ----------
 
-[Databricks Spark Reference
-Applications](https://www.gitbook.com/book/databricks/databricks-spark-reference-applications/details)
+* [Databricks Spark Reference Applications](https://www.gitbook.com/book/databricks/databricks-spark-reference-applications/details)
 
-[Scala with Maven](http://docs.scala-lang.org/tutorials/scala-with-maven.html),
-[Maven in 5
-Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+* [Scala with Maven](http://docs.scala-lang.org/tutorials/scala-with-maven.html), [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
-[MLlib](http://spark.apache.org/mllib/), [Stanford
-CoreNLP](http://stanfordnlp.github.io/CoreNLP/)
+* [MLlib](http://spark.apache.org/mllib/), [Stanford CoreNLP](http://stanfordnlp.github.io/CoreNLP/)
 
-[Spark SQL, DataFrames and Datasets
-Guide](https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#spark-sql-dataframes-and-datasets-guide)
+* [Spark SQL, DataFrames and Datasets Guide](https://spark.apache.org/docs/1.6.0/sql-programming-guide.html#spark-sql-dataframes-and-datasets-guide)
 
-[Json4s](http://json4s.org/)
+* [Json4s](http://json4s.org/)
 
-[Communicating with Twitter via Twitter4J using
-Scala](https://blog.knoldus.com/2012/12/10/communicating-with-twitter-via-twitter4j-using-scala/),
-[The Facebook Graph API](https://developers.facebook.com/docs/graph-api)
+* [Communicating with Twitter via Twitter4J using Scala](https://blog.knoldus.com/2012/12/10/communicating-with-twitter-via-twitter4j-using-scala/), [The Facebook Graph API](https://developers.facebook.com/docs/graph-api)
