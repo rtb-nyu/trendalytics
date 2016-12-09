@@ -144,12 +144,12 @@ class TwitterStreamer {
     // twitterStream.filter(new FilterQuery().locations(nycBox))
 
     println("------- Begin to search for MOVIES -------");
-    println("Number of Tweets found for:");
+    // println("Number of Tweets found for:");
     StreamerUtil.filterKeyTweets("trendalytics_data/movies.txt", 0);
     println("Finished searching for movies.\n");
 
     println("------- Begin to search for RESTAURANTS -------");
-    println("Number of Tweets found for:");
+    // println("Number of Tweets found for:");
     StreamerUtil.filterKeyTweets("trendalytics_data/yelp20LinesClean.txt", 1);
     println("Finished searching for restaurants.");    
 
