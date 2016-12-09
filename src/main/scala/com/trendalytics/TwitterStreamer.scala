@@ -2,6 +2,7 @@ package com.trendalytics
 
 import java.io._
 import scala.io.Source
+import util.control.Breaks._
 import org.apache.http.client._
 import org.apache.http.client.methods.HttpGet
 import org.apache.http.client.utils.URIBuilder
@@ -48,7 +49,7 @@ object StreamerUtil {
 
     val query = new Query(key_name)
 
-    query.setCount(10);  // can fetch more tweets each time
+    query.setCount(20);  // can fetch more tweets each time
                 // maximum to 100
     query.setLang("en");    // restrict to English tweets
     val result = twitter.search(query)
@@ -65,15 +66,20 @@ object StreamerUtil {
     // val currentTime = ft.format(dNow).toString();
 
     while (it.hasNext()) {
-      val status = it.next()
+      breakable {
+        val status = it.next()
 
-      val tweets = status.getText.replaceAll("[\n\t]",". ").replaceAll("http[s]*://[a-zA-Z0-9.?/&=:]*", "")
-      val datetime = status.getCreatedAt.toString()
+        val tweets = status.getText.replaceAll("[\n\t]",". ").replaceAll("http[s]*://[a-zA-Z0-9.?/&=:]*", "").replaceAll("#", "").replaceAll("@", "")
+        if (tweets matches "^RT .*") break
+        if (tweets.length() < 100) break
+        val datetime = status.getCreatedAt.toString()
 
-      println(tweets + "\n" + datetime)
-      println("Sentiment is: ", SentimentAnalysis.findSentiment(tweets))
-      println("It's in cluster: " + model.predict(featurize(tweets)).toString + "\n")
+        println(key_name.toUpperCase())
+        println(tweets + "\n" + datetime)
+        println("Sentiment is: ", SentimentAnalysis.findSentiment(tweets))
+        println("It's in cluster: " + model.predict(featurize(tweets)).toString + "\n")
 
+      }
     }
   }
 
