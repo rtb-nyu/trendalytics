@@ -1,0 +1,1887 @@
+------- Begin to search for MOVIES -------
+16/12/09 17:00:58 INFO spark.SparkContext: Running Spark version 1.6.0
+16/12/09 17:00:58 INFO spark.SecurityManager: Changing view acls to: gz612
+16/12/09 17:00:58 INFO spark.SecurityManager: Changing modify acls to: gz612
+16/12/09 17:00:58 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(gz612); users with modify permissions: Set(gz612)
+16/12/09 17:00:58 INFO util.Utils: Successfully started service 'sparkDriver' on port 53602.
+16/12/09 17:00:59 INFO slf4j.Slf4jLogger: Slf4jLogger started
+16/12/09 17:00:59 INFO Remoting: Starting remoting
+16/12/09 17:00:59 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@10.0.255.253:54020]
+16/12/09 17:00:59 INFO Remoting: Remoting now listens on addresses: [akka.tcp://sparkDriverActorSystem@10.0.255.253:54020]
+16/12/09 17:00:59 INFO util.Utils: Successfully started service 'sparkDriverActorSystem' on port 54020.
+16/12/09 17:00:59 INFO spark.SparkEnv: Registering MapOutputTracker
+16/12/09 17:00:59 INFO spark.SparkEnv: Registering BlockManagerMaster
+16/12/09 17:00:59 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-28c14bbe-30f8-4ff5-8245-c25827d83570
+16/12/09 17:00:59 INFO storage.MemoryStore: MemoryStore started with capacity 530.3 MB
+16/12/09 17:00:59 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+16/12/09 17:00:59 WARN util.Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+16/12/09 17:00:59 WARN util.Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+16/12/09 17:00:59 INFO util.Utils: Successfully started service 'SparkUI' on port 4042.
+16/12/09 17:00:59 INFO ui.SparkUI: Started SparkUI at http://10.0.255.253:4042
+16/12/09 17:00:59 INFO spark.SparkContext: Added JAR file:/home/gz612/big_data/project/trendalytics/target/trendalytics-0.0.1.jar at spark://10.0.255.253:53602/jars/trendalytics-0.0.1.jar with timestamp 1481320859791
+16/12/09 17:00:59 INFO client.RMProxy: Connecting to ResourceManager at babar.es.its.nyu.edu/128.122.215.50:8032
+16/12/09 17:01:00 INFO yarn.Client: Requesting a new application from cluster with 44 NodeManagers
+16/12/09 17:01:00 INFO yarn.Client: Verifying our application has not requested more than the maximum memory capability of the cluster (65536 MB per container)
+16/12/09 17:01:00 INFO yarn.Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+16/12/09 17:01:00 INFO yarn.Client: Setting up container launch context for our AM
+16/12/09 17:01:00 INFO yarn.Client: Setting up the launch environment for our AM container
+16/12/09 17:01:00 INFO yarn.Client: Preparing resources for our AM container
+16/12/09 17:01:00 INFO yarn.Client: Uploading resource file:/tmp/spark-ce90b6e1-5ce6-4e06-80d9-022f192c0da9/__spark_conf__1152934868725540070.zip -> hdfs://babar.es.its.nyu.edu:8020/user/gz612/.sparkStaging/application_1480358343656_8969/__spark_conf__1152934868725540070.zip
+16/12/09 17:01:00 INFO spark.SecurityManager: Changing view acls to: gz612
+16/12/09 17:01:00 INFO spark.SecurityManager: Changing modify acls to: gz612
+16/12/09 17:01:00 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(gz612); users with modify permissions: Set(gz612)
+16/12/09 17:01:00 INFO yarn.Client: Submitting application 8969 to ResourceManager
+16/12/09 17:01:00 INFO impl.YarnClientImpl: Submitted application application_1480358343656_8969
+16/12/09 17:01:01 INFO yarn.Client: Application report for application_1480358343656_8969 (state: ACCEPTED)
+16/12/09 17:01:01 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: root.gz612
+	 start time: 1481320860942
+	 final status: UNDEFINED
+	 tracking URL: http://babar.es.its.nyu.edu:8088/proxy/application_1480358343656_8969/
+	 user: gz612
+16/12/09 17:01:02 INFO cluster.YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(null)
+16/12/09 17:01:02 INFO cluster.YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> babar.es.its.nyu.edu, PROXY_URI_BASES -> http://babar.es.its.nyu.edu:8088/proxy/application_1480358343656_8969), /proxy/application_1480358343656_8969
+16/12/09 17:01:02 INFO ui.JettyUtils: Adding filter: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+16/12/09 17:01:02 INFO yarn.Client: Application report for application_1480358343656_8969 (state: ACCEPTED)
+16/12/09 17:01:03 INFO yarn.Client: Application report for application_1480358343656_8969 (state: RUNNING)
+16/12/09 17:01:03 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 10.0.255.230
+	 ApplicationMaster RPC port: 0
+	 queue: root.gz612
+	 start time: 1481320860942
+	 final status: UNDEFINED
+	 tracking URL: http://babar.es.its.nyu.edu:8088/proxy/application_1480358343656_8969/
+	 user: gz612
+16/12/09 17:01:03 INFO cluster.YarnClientSchedulerBackend: Application application_1480358343656_8969 has started running.
+16/12/09 17:01:03 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 32879.
+16/12/09 17:01:03 INFO netty.NettyBlockTransferService: Server created on 32879
+16/12/09 17:01:03 INFO storage.BlockManager: external shuffle service port = 7337
+16/12/09 17:01:03 INFO storage.BlockManagerMaster: Trying to register BlockManager
+16/12/09 17:01:03 INFO storage.BlockManagerMasterEndpoint: Registering block manager 10.0.255.253:32879 with 530.3 MB RAM, BlockManagerId(driver, 10.0.255.253, 32879)
+16/12/09 17:01:03 INFO storage.BlockManagerMaster: Registered BlockManager
+16/12/09 17:01:04 INFO scheduler.EventLoggingListener: Logging events to hdfs://babar.es.its.nyu.edu:8020/user/spark/applicationHistory/application_1480358343656_8969
+16/12/09 17:01:04 INFO cluster.YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+16/12/09 17:01:04 INFO storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 198.3 KB, free 198.3 KB)
+16/12/09 17:01:04 INFO storage.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 23.3 KB, free 221.5 KB)
+16/12/09 17:01:04 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.0.255.253:32879 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:04 INFO spark.SparkContext: Created broadcast 0 from textFile at modelSaveLoad.scala:129
+16/12/09 17:01:04 INFO mapred.FileInputFormat: Total input paths to process : 1
+16/12/09 17:01:05 INFO spark.SparkContext: Starting job: first at modelSaveLoad.scala:129
+16/12/09 17:01:05 INFO scheduler.DAGScheduler: Got job 0 (first at modelSaveLoad.scala:129) with 1 output partitions
+16/12/09 17:01:05 INFO scheduler.DAGScheduler: Final stage: ResultStage 0 (first at modelSaveLoad.scala:129)
+16/12/09 17:01:05 INFO scheduler.DAGScheduler: Parents of final stage: List()
+16/12/09 17:01:05 INFO scheduler.DAGScheduler: Missing parents: List()
+16/12/09 17:01:05 INFO scheduler.DAGScheduler: Submitting ResultStage 0 (trendalytics_data/tweets_processed/KMeansModel/metadata MapPartitionsRDD[1] at textFile at modelSaveLoad.scala:129), which has no missing parents
+16/12/09 17:01:05 INFO storage.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 3.1 KB, free 224.7 KB)
+16/12/09 17:01:05 INFO storage.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 1852.0 B, free 226.5 KB)
+16/12/09 17:01:05 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.0.255.253:32879 (size: 1852.0 B, free: 530.3 MB)
+16/12/09 17:01:05 INFO spark.SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1006
+16/12/09 17:01:05 INFO scheduler.DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (trendalytics_data/tweets_processed/KMeansModel/metadata MapPartitionsRDD[1] at textFile at modelSaveLoad.scala:129)
+16/12/09 17:01:05 INFO cluster.YarnScheduler: Adding task set 0.0 with 1 tasks
+16/12/09 17:01:06 INFO spark.ExecutorAllocationManager: Requesting 1 new executor because tasks are backlogged (new desired total will be 1)
+16/12/09 17:01:08 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-5.local:55855) with ID 1
+16/12/09 17:01:08 INFO spark.ExecutorAllocationManager: New executor 1 has registered (new total is 1)
+16/12/09 17:01:08 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, compute-2-5.local, partition 0,NODE_LOCAL, 2276 bytes)
+16/12/09 17:01:08 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-5.local:51063 with 530.3 MB RAM, BlockManagerId(1, compute-2-5.local, 51063)
+16/12/09 17:01:09 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on compute-2-5.local:51063 (size: 1852.0 B, free: 530.3 MB)
+16/12/09 17:01:10 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on compute-2-5.local:51063 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:10 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 2203 ms on compute-2-5.local (1/1)
+16/12/09 17:01:10 INFO cluster.YarnScheduler: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+16/12/09 17:01:10 INFO scheduler.DAGScheduler: ResultStage 0 (first at modelSaveLoad.scala:129) finished in 5.647 s
+16/12/09 17:01:10 INFO scheduler.DAGScheduler: Job 0 finished: first at modelSaveLoad.scala:129, took 5.798437 s
+16/12/09 17:01:10 INFO parquet.ParquetRelation: Listing hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data on driver
+16/12/09 17:01:10 INFO spark.SparkContext: Starting job: parquet at KMeansModel.scala:145
+16/12/09 17:01:10 INFO scheduler.DAGScheduler: Got job 1 (parquet at KMeansModel.scala:145) with 2 output partitions
+16/12/09 17:01:10 INFO scheduler.DAGScheduler: Final stage: ResultStage 1 (parquet at KMeansModel.scala:145)
+16/12/09 17:01:10 INFO scheduler.DAGScheduler: Parents of final stage: List()
+16/12/09 17:01:10 INFO scheduler.DAGScheduler: Missing parents: List()
+16/12/09 17:01:10 INFO scheduler.DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[3] at parquet at KMeansModel.scala:145), which has no missing parents
+16/12/09 17:01:11 INFO storage.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 70.3 KB, free 296.8 KB)
+16/12/09 17:01:11 INFO storage.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 24.8 KB, free 321.5 KB)
+16/12/09 17:01:11 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.0.255.253:32879 (size: 24.8 KB, free: 530.2 MB)
+16/12/09 17:01:11 INFO spark.SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1006
+16/12/09 17:01:11 INFO scheduler.DAGScheduler: Submitting 2 missing tasks from ResultStage 1 (MapPartitionsRDD[3] at parquet at KMeansModel.scala:145)
+16/12/09 17:01:11 INFO cluster.YarnScheduler: Adding task set 1.0 with 2 tasks
+16/12/09 17:01:11 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1, compute-2-5.local, partition 0,PROCESS_LOCAL, 2039 bytes)
+16/12/09 17:01:11 INFO storage.BlockManagerInfo: Added broadcast_2_piece0 in memory on compute-2-5.local:51063 (size: 24.8 KB, free: 530.2 MB)
+16/12/09 17:01:11 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 1.0 (TID 2, compute-2-5.local, partition 1,PROCESS_LOCAL, 2160 bytes)
+16/12/09 17:01:11 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 110 ms on compute-2-5.local (1/2)
+16/12/09 17:01:12 INFO storage.BlockManagerInfo: Removed broadcast_1_piece0 on 10.0.255.253:32879 in memory (size: 1852.0 B, free: 530.2 MB)
+16/12/09 17:01:12 INFO storage.BlockManagerInfo: Removed broadcast_1_piece0 on compute-2-5.local:51063 in memory (size: 1852.0 B, free: 530.2 MB)
+16/12/09 17:01:12 INFO spark.ContextCleaner: Cleaned accumulator 1
+16/12/09 17:01:12 INFO storage.BlockManagerInfo: Removed broadcast_0_piece0 on 10.0.255.253:32879 in memory (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:12 INFO storage.BlockManagerInfo: Removed broadcast_0_piece0 on compute-2-5.local:51063 in memory (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:12 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 1.0 (TID 2) in 1133 ms on compute-2-5.local (2/2)
+16/12/09 17:01:12 INFO scheduler.DAGScheduler: ResultStage 1 (parquet at KMeansModel.scala:145) finished in 1.233 s
+16/12/09 17:01:12 INFO cluster.YarnScheduler: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+16/12/09 17:01:12 INFO scheduler.DAGScheduler: Job 1 finished: parquet at KMeansModel.scala:145, took 1.282792 s
+16/12/09 17:01:12 INFO storage.MemoryStore: Block broadcast_3 stored as values in memory (estimated size 99.2 KB, free 194.3 KB)
+16/12/09 17:01:12 INFO storage.MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 23.3 KB, free 217.6 KB)
+16/12/09 17:01:12 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.0.255.253:32879 (size: 23.3 KB, free: 530.2 MB)
+16/12/09 17:01:12 INFO spark.SparkContext: Created broadcast 3 from map at KMeansModel.scala:147
+16/12/09 17:01:12 INFO Configuration.deprecation: mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+16/12/09 17:01:12 INFO parquet.ParquetRelation: Reading Parquet file(s) from hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00000-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00001-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00002-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00003-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00004-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00005-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00006-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00007-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00008-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00009-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00010-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00011-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00012-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00013-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00014-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00015-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00016-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00017-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00018-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00019-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00020-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00021-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00022-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00023-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00024-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00025-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00026-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00027-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00028-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00029-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00030-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00031-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00032-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00033-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00034-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet, hdfs://babar.es.its.nyu.edu:8020/user/gz612/trendalytics_data/tweets_processed/KMeansModel/data/part-r-00035-b1ccb3d7-ac3f-4e7c-9359-888733ecfe38.gz.parquet
+16/12/09 17:01:12 INFO spark.SparkContext: Starting job: collect at KMeansModel.scala:147
+16/12/09 17:01:12 INFO scheduler.DAGScheduler: Got job 2 (collect at KMeansModel.scala:147) with 36 output partitions
+16/12/09 17:01:12 INFO scheduler.DAGScheduler: Final stage: ResultStage 2 (collect at KMeansModel.scala:147)
+16/12/09 17:01:12 INFO scheduler.DAGScheduler: Parents of final stage: List()
+16/12/09 17:01:12 INFO scheduler.DAGScheduler: Missing parents: List()
+16/12/09 17:01:12 INFO scheduler.DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[6] at map at KMeansModel.scala:147), which has no missing parents
+16/12/09 17:01:12 INFO storage.MemoryStore: Block broadcast_4 stored as values in memory (estimated size 4.8 KB, free 222.3 KB)
+16/12/09 17:01:12 INFO storage.MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 2.7 KB, free 225.0 KB)
+16/12/09 17:01:13 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.0.255.253:32879 (size: 2.7 KB, free: 530.2 MB)
+16/12/09 17:01:13 INFO spark.SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1006
+16/12/09 17:01:13 INFO scheduler.DAGScheduler: Submitting 36 missing tasks from ResultStage 2 (MapPartitionsRDD[6] at map at KMeansModel.scala:147)
+16/12/09 17:01:13 INFO cluster.YarnScheduler: Adding task set 2.0 with 36 tasks
+16/12/09 17:01:13 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 2.0 (TID 3, compute-2-5.local, partition 0,NODE_LOCAL, 2320 bytes)
+16/12/09 17:01:13 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-5.local:51063 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:13 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-5.local:51063 (size: 23.3 KB, free: 530.2 MB)
+16/12/09 17:01:14 INFO spark.ExecutorAllocationManager: Requesting 2 new executors because tasks are backlogged (new desired total will be 2)
+16/12/09 17:01:14 INFO scheduler.TaskSetManager: Starting task 12.0 in stage 2.0 (TID 4, compute-2-5.local, partition 12,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:14 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 2.0 (TID 3) in 357 ms on compute-2-5.local (1/36)
+16/12/09 17:01:14 INFO scheduler.TaskSetManager: Finished task 12.0 in stage 2.0 (TID 4) in 50 ms on compute-2-5.local (2/36)
+16/12/09 17:01:15 INFO spark.ExecutorAllocationManager: Requesting 1 new executor because tasks are backlogged (new desired total will be 3)
+16/12/09 17:01:16 INFO spark.ExecutorAllocationManager: Requesting 2 new executors because tasks are backlogged (new desired total will be 5)
+16/12/09 17:01:17 INFO spark.ExecutorAllocationManager: Requesting 4 new executors because tasks are backlogged (new desired total will be 9)
+16/12/09 17:01:17 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-1-10.local:42547) with ID 2
+16/12/09 17:01:17 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 2.0 (TID 5, compute-1-10.local, partition 3,NODE_LOCAL, 2320 bytes)
+16/12/09 17:01:17 INFO spark.ExecutorAllocationManager: New executor 2 has registered (new total is 2)
+16/12/09 17:01:17 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-1-10.local:41398 with 530.3 MB RAM, BlockManagerId(2, compute-1-10.local, 41398)
+16/12/09 17:01:17 INFO storage.BlockManagerInfo: Removed broadcast_2_piece0 on 10.0.255.253:32879 in memory (size: 24.8 KB, free: 530.3 MB)
+16/12/09 17:01:17 INFO storage.BlockManagerInfo: Removed broadcast_2_piece0 on compute-2-5.local:51063 in memory (size: 24.8 KB, free: 530.3 MB)
+16/12/09 17:01:17 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-3-9.local:47250) with ID 3
+16/12/09 17:01:17 INFO scheduler.TaskSetManager: Starting task 20.0 in stage 2.0 (TID 6, compute-3-9.local, partition 20,NODE_LOCAL, 2322 bytes)
+16/12/09 17:01:17 INFO spark.ExecutorAllocationManager: New executor 3 has registered (new total is 3)
+16/12/09 17:01:17 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-3-9.local:57025 with 530.3 MB RAM, BlockManagerId(3, compute-3-9.local, 57025)
+16/12/09 17:01:18 INFO spark.ExecutorAllocationManager: Requesting 8 new executors because tasks are backlogged (new desired total will be 17)
+16/12/09 17:01:18 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-1-10.local:41398 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:18 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-3-9.local:57025 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:18 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-14.local:52726) with ID 5
+16/12/09 17:01:18 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 2.0 (TID 7, compute-2-14.local, partition 2,NODE_LOCAL, 2320 bytes)
+16/12/09 17:01:18 INFO spark.ExecutorAllocationManager: New executor 5 has registered (new total is 4)
+16/12/09 17:01:18 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-8.local:37994) with ID 4
+16/12/09 17:01:18 INFO spark.ExecutorAllocationManager: New executor 4 has registered (new total is 5)
+16/12/09 17:01:18 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 2.0 (TID 8, compute-2-8.local, partition 1,NODE_LOCAL, 2320 bytes)
+16/12/09 17:01:18 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-14.local:38044 with 530.3 MB RAM, BlockManagerId(5, compute-2-14.local, 38044)
+16/12/09 17:01:18 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-8.local:42967 with 530.3 MB RAM, BlockManagerId(4, compute-2-8.local, 42967)
+16/12/09 17:01:18 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-3-9.local:57025 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:18 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-1-10.local:41398 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:19 INFO spark.ExecutorAllocationManager: Requesting 16 new executors because tasks are backlogged (new desired total will be 33)
+16/12/09 17:01:19 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-1.local:46070) with ID 6
+16/12/09 17:01:19 INFO scheduler.TaskSetManager: Starting task 28.0 in stage 2.0 (TID 9, compute-2-1.local, partition 28,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:19 INFO spark.ExecutorAllocationManager: New executor 6 has registered (new total is 6)
+16/12/09 17:01:19 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-1.local:38070 with 530.3 MB RAM, BlockManagerId(6, compute-2-1.local, 38070)
+16/12/09 17:01:19 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-1-10.local:42555) with ID 7
+16/12/09 17:01:19 INFO scheduler.TaskSetManager: Starting task 7.0 in stage 2.0 (TID 10, compute-1-10.local, partition 7,NODE_LOCAL, 2320 bytes)
+16/12/09 17:01:19 INFO spark.ExecutorAllocationManager: New executor 7 has registered (new total is 7)
+16/12/09 17:01:19 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-14.local:52732) with ID 9
+16/12/09 17:01:19 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-1-10.local:36890 with 530.3 MB RAM, BlockManagerId(7, compute-1-10.local, 36890)
+16/12/09 17:01:19 INFO scheduler.TaskSetManager: Starting task 8.0 in stage 2.0 (TID 11, compute-2-14.local, partition 8,NODE_LOCAL, 2320 bytes)
+16/12/09 17:01:19 INFO spark.ExecutorAllocationManager: New executor 9 has registered (new total is 8)
+16/12/09 17:01:19 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-14.local:57666 with 530.3 MB RAM, BlockManagerId(9, compute-2-14.local, 57666)
+16/12/09 17:01:19 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-8.local:38007) with ID 8
+16/12/09 17:01:19 INFO scheduler.TaskSetManager: Starting task 6.0 in stage 2.0 (TID 12, compute-2-8.local, partition 6,NODE_LOCAL, 2320 bytes)
+16/12/09 17:01:19 INFO spark.ExecutorAllocationManager: New executor 8 has registered (new total is 9)
+16/12/09 17:01:19 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-8.local:60086 with 530.3 MB RAM, BlockManagerId(8, compute-2-8.local, 60086)
+16/12/09 17:01:19 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-14.local:38044 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:19 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-8.local:42967 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:19 INFO scheduler.TaskSetManager: Starting task 26.0 in stage 2.0 (TID 13, compute-3-9.local, partition 26,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:19 INFO scheduler.TaskSetManager: Finished task 20.0 in stage 2.0 (TID 6) in 2634 ms on compute-3-9.local (3/36)
+16/12/09 17:01:19 INFO scheduler.TaskSetManager: Finished task 26.0 in stage 2.0 (TID 13) in 48 ms on compute-3-9.local (4/36)
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Starting task 21.0 in stage 2.0 (TID 14, compute-1-10.local, partition 21,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 2.0 (TID 5) in 3002 ms on compute-1-10.local (5/36)
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Starting task 24.0 in stage 2.0 (TID 15, compute-1-10.local, partition 24,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Finished task 21.0 in stage 2.0 (TID 14) in 55 ms on compute-1-10.local (6/36)
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Finished task 24.0 in stage 2.0 (TID 15) in 47 ms on compute-1-10.local (7/36)
+16/12/09 17:01:20 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-6.local:41708) with ID 17
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Starting task 27.0 in stage 2.0 (TID 16, compute-2-6.local, partition 27,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:20 INFO spark.ExecutorAllocationManager: New executor 17 has registered (new total is 10)
+16/12/09 17:01:20 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-10.local:37841) with ID 16
+16/12/09 17:01:20 INFO spark.ExecutorAllocationManager: New executor 16 has registered (new total is 11)
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Starting task 10.0 in stage 2.0 (TID 17, compute-2-10.local, partition 10,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:20 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-14.local:38044 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:20 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-1-13.local:43594) with ID 14
+16/12/09 17:01:20 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-6.local:45670 with 530.3 MB RAM, BlockManagerId(17, compute-2-6.local, 45670)
+16/12/09 17:01:20 INFO spark.ExecutorAllocationManager: New executor 14 has registered (new total is 12)
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Starting task 16.0 in stage 2.0 (TID 18, compute-1-13.local, partition 16,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:20 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-16.local:47353) with ID 15
+16/12/09 17:01:20 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-10.local:50890 with 530.3 MB RAM, BlockManagerId(16, compute-2-10.local, 50890)
+16/12/09 17:01:20 INFO spark.ExecutorAllocationManager: New executor 15 has registered (new total is 13)
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Starting task 5.0 in stage 2.0 (TID 19, compute-2-16.local, partition 5,NODE_LOCAL, 2320 bytes)
+16/12/09 17:01:20 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-3-1.local:41315) with ID 10
+16/12/09 17:01:20 INFO spark.ExecutorAllocationManager: New executor 10 has registered (new total is 14)
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Starting task 23.0 in stage 2.0 (TID 20, compute-3-1.local, partition 23,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:20 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-16.local:38075 with 530.3 MB RAM, BlockManagerId(15, compute-2-16.local, 38075)
+16/12/09 17:01:20 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-3-3.local:56744) with ID 12
+16/12/09 17:01:20 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-1-13.local:48936 with 530.3 MB RAM, BlockManagerId(14, compute-1-13.local, 48936)
+16/12/09 17:01:20 INFO spark.ExecutorAllocationManager: New executor 12 has registered (new total is 15)
+16/12/09 17:01:20 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-3-1.local:47737 with 530.3 MB RAM, BlockManagerId(10, compute-3-1.local, 47737)
+16/12/09 17:01:20 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-3-12.local:47280) with ID 13
+16/12/09 17:01:20 INFO scheduler.TaskSetManager: Starting task 19.0 in stage 2.0 (TID 21, compute-3-12.local, partition 19,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:20 INFO spark.ExecutorAllocationManager: New executor 13 has registered (new total is 16)
+16/12/09 17:01:20 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-3-3.local:49364 with 530.3 MB RAM, BlockManagerId(12, compute-3-3.local, 49364)
+16/12/09 17:01:20 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-3-12.local:36177 with 530.3 MB RAM, BlockManagerId(13, compute-3-12.local, 36177)
+16/12/09 17:01:20 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-8.local:42967 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:20 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-8.local:60086 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:20 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-14.local:57666 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:20 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-1-10.local:36890 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:20 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-1.local:38070 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:21 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-8.local:60086 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:21 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-1-10.local:36890 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:21 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-14.local:57666 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:21 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-1.local:38070 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-3-11.local:37700) with ID 18
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 18 has registered (new total is 17)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 22.0 in stage 2.0 (TID 22, compute-3-11.local, partition 22,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-7.local:35158) with ID 20
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 20 has registered (new total is 18)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 11.0 in stage 2.0 (TID 23, compute-2-7.local, partition 11,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-1-7.local:59312) with ID 19
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 19 has registered (new total is 19)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 14.0 in stage 2.0 (TID 24, compute-1-7.local, partition 14,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-3-11.local:59060 with 530.3 MB RAM, BlockManagerId(18, compute-3-11.local, 59060)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-1-1.local:49271) with ID 24
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 24 has registered (new total is 20)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 18.0 in stage 2.0 (TID 25, compute-1-1.local, partition 18,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-7.local:54243 with 530.3 MB RAM, BlockManagerId(20, compute-2-7.local, 54243)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-1-12.local:54593) with ID 33
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-1-7.local:58723 with 530.3 MB RAM, BlockManagerId(19, compute-1-7.local, 58723)
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 33 has registered (new total is 21)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 9.0 in stage 2.0 (TID 26, compute-1-12.local, partition 9,NODE_LOCAL, 2320 bytes)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-1-2.local:49553) with ID 21
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 21 has registered (new total is 22)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-1-1.local:60722 with 530.3 MB RAM, BlockManagerId(24, compute-1-1.local, 60722)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 4.0 in stage 2.0 (TID 27, compute-1-2.local, partition 4,NODE_LOCAL, 2320 bytes)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-3.local:47081) with ID 25
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 25 has registered (new total is 23)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 33.0 in stage 2.0 (TID 28, compute-2-3.local, partition 33,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-12.local:41679) with ID 30
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 30 has registered (new total is 24)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 29.0 in stage 2.0 (TID 29, compute-2-12.local, partition 29,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-1-12.local:58013 with 530.3 MB RAM, BlockManagerId(33, compute-1-12.local, 58013)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-1-10.local:42565) with ID 27
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 27 has registered (new total is 25)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-1-2.local:51059 with 530.3 MB RAM, BlockManagerId(21, compute-1-2.local, 51059)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-3-4.local:55245) with ID 23
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 23 has registered (new total is 26)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-3.local:40331 with 530.3 MB RAM, BlockManagerId(25, compute-2-3.local, 40331)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 15.0 in stage 2.0 (TID 30, compute-3-4.local, partition 15,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-3-2.local:59748) with ID 22
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 22 has registered (new total is 27)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-12.local:54010 with 530.3 MB RAM, BlockManagerId(30, compute-2-12.local, 54010)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 35.0 in stage 2.0 (TID 31, compute-3-2.local, partition 35,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-1-10.local:42711 with 530.3 MB RAM, BlockManagerId(27, compute-1-10.local, 42711)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-3-4.local:46005 with 530.3 MB RAM, BlockManagerId(23, compute-3-4.local, 46005)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-3-2.local:36676 with 530.3 MB RAM, BlockManagerId(22, compute-3-2.local, 36676)
+16/12/09 17:01:21 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-16.local:38075 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-1.local:46078) with ID 26
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 26 has registered (new total is 28)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 31.0 in stage 2.0 (TID 32, compute-2-1.local, partition 31,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:21 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-3-1.local:47737 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-1.local:50965 with 530.3 MB RAM, BlockManagerId(26, compute-2-1.local, 50965)
+16/12/09 17:01:21 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-10.local:50890 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Starting task 34.0 in stage 2.0 (TID 33, compute-2-14.local, partition 34,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 2.0 (TID 7) in 3218 ms on compute-2-14.local (8/36)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-8.local:38035) with ID 28
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 28 has registered (new total is 29)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-1-13.local:43600) with ID 32
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 32 has registered (new total is 30)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-8.local:36248 with 530.3 MB RAM, BlockManagerId(28, compute-2-8.local, 36248)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-1-13.local:35233 with 530.3 MB RAM, BlockManagerId(32, compute-1-13.local, 35233)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Finished task 34.0 in stage 2.0 (TID 33) in 50 ms on compute-2-14.local (9/36)
+16/12/09 17:01:21 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-1-13.local:48936 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-3-1.local:41320) with ID 31
+16/12/09 17:01:21 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-6.local:45670 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 31 has registered (new total is 31)
+16/12/09 17:01:21 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-2-14.local:52747) with ID 29
+16/12/09 17:01:21 INFO spark.ExecutorAllocationManager: New executor 29 has registered (new total is 32)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-3-1.local:34697 with 530.3 MB RAM, BlockManagerId(31, compute-3-1.local, 34697)
+16/12/09 17:01:21 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 2.0 (TID 8) in 3284 ms on compute-2-8.local (10/36)
+16/12/09 17:01:21 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-2-14.local:40155 with 530.3 MB RAM, BlockManagerId(29, compute-2-14.local, 40155)
+16/12/09 17:01:21 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-3-12.local:36177 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-16.local:38075 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-3-1.local:47737 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-10.local:50890 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-1-13.local:48936 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-6.local:45670 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO scheduler.TaskSetManager: Finished task 6.0 in stage 2.0 (TID 12) in 2736 ms on compute-2-8.local (11/36)
+16/12/09 17:01:22 INFO scheduler.TaskSetManager: Finished task 7.0 in stage 2.0 (TID 10) in 2893 ms on compute-1-10.local (12/36)
+16/12/09 17:01:22 INFO scheduler.TaskSetManager: Finished task 8.0 in stage 2.0 (TID 11) in 2898 ms on compute-2-14.local (13/36)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-3-12.local:36177 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO scheduler.TaskSetManager: Starting task 32.0 in stage 2.0 (TID 34, compute-2-1.local, partition 32,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:22 INFO scheduler.TaskSetManager: Finished task 28.0 in stage 2.0 (TID 9) in 3004 ms on compute-2-1.local (14/36)
+16/12/09 17:01:22 INFO scheduler.TaskSetManager: Finished task 32.0 in stage 2.0 (TID 34) in 50 ms on compute-2-1.local (15/36)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-1-7.local:58723 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-1-12.local:58013 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-3.local:40331 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-3-4.local:46005 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-12.local:54010 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-1.local:50965 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-2-7.local:54243 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:22 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-3-2.local:36676 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-1-1.local:60722 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-3-11.local:59060 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-1-2.local:51059 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO cluster.YarnClientSchedulerBackend: Registered executor NettyRpcEndpointRef(null) (compute-1-8.local:41238) with ID 11
+16/12/09 17:01:23 INFO spark.ExecutorAllocationManager: New executor 11 has registered (new total is 33)
+16/12/09 17:01:23 INFO scheduler.TaskSetManager: Starting task 25.0 in stage 2.0 (TID 35, compute-1-8.local, partition 25,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-1-7.local:58723 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO scheduler.TaskSetManager: Finished task 23.0 in stage 2.0 (TID 20) in 2833 ms on compute-3-1.local (16/36)
+16/12/09 17:01:23 INFO storage.BlockManagerMasterEndpoint: Registering block manager compute-1-8.local:49957 with 530.3 MB RAM, BlockManagerId(11, compute-1-8.local, 49957)
+16/12/09 17:01:23 INFO scheduler.TaskSetManager: Finished task 10.0 in stage 2.0 (TID 17) in 2871 ms on compute-2-10.local (17/36)
+16/12/09 17:01:23 INFO scheduler.TaskSetManager: Finished task 5.0 in stage 2.0 (TID 19) in 2866 ms on compute-2-16.local (18/36)
+16/12/09 17:01:23 INFO scheduler.TaskSetManager: Finished task 27.0 in stage 2.0 (TID 16) in 2912 ms on compute-2-6.local (19/36)
+16/12/09 17:01:23 INFO scheduler.TaskSetManager: Finished task 16.0 in stage 2.0 (TID 18) in 2928 ms on compute-1-13.local (20/36)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-1-12.local:58013 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-3.local:40331 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-3-4.local:46005 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO scheduler.TaskSetManager: Finished task 19.0 in stage 2.0 (TID 21) in 2975 ms on compute-3-12.local (21/36)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-12.local:54010 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-7.local:54243 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-2-1.local:50965 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-3-2.local:36676 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-1-1.local:60722 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-1-2.local:51059 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:23 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-3-11.local:59060 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 14.0 in stage 2.0 (TID 24) in 2890 ms on compute-1-7.local (22/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 9.0 in stage 2.0 (TID 26) in 2942 ms on compute-1-12.local (23/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 33.0 in stage 2.0 (TID 28) in 2975 ms on compute-2-3.local (24/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 15.0 in stage 2.0 (TID 30) in 2978 ms on compute-3-4.local (25/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 29.0 in stage 2.0 (TID 29) in 3115 ms on compute-2-12.local (26/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 31.0 in stage 2.0 (TID 32) in 3155 ms on compute-2-1.local (27/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 11.0 in stage 2.0 (TID 23) in 3300 ms on compute-2-7.local (28/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Starting task 30.0 in stage 2.0 (TID 36, compute-1-1.local, partition 30,NODE_LOCAL, 2321 bytes)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 18.0 in stage 2.0 (TID 25) in 3378 ms on compute-1-1.local (29/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 30.0 in stage 2.0 (TID 36) in 44 ms on compute-1-1.local (30/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 4.0 in stage 2.0 (TID 27) in 3396 ms on compute-1-2.local (31/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 35.0 in stage 2.0 (TID 31) in 3397 ms on compute-3-2.local (32/36)
+16/12/09 17:01:24 INFO scheduler.TaskSetManager: Finished task 22.0 in stage 2.0 (TID 22) in 3517 ms on compute-3-11.local (33/36)
+16/12/09 17:01:24 INFO storage.BlockManagerInfo: Added broadcast_4_piece0 in memory on compute-1-8.local:49957 (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:26 INFO storage.BlockManagerInfo: Added broadcast_3_piece0 in memory on compute-1-8.local:49957 (size: 23.3 KB, free: 530.3 MB)
+16/12/09 17:01:27 INFO scheduler.TaskSetManager: Starting task 17.0 in stage 2.0 (TID 37, compute-2-1.local, partition 17,RACK_LOCAL, 2323 bytes)
+16/12/09 17:01:27 INFO scheduler.TaskSetManager: Starting task 13.0 in stage 2.0 (TID 38, compute-1-13.local, partition 13,RACK_LOCAL, 2321 bytes)
+16/12/09 17:01:28 INFO scheduler.TaskSetManager: Finished task 13.0 in stage 2.0 (TID 38) in 49 ms on compute-1-13.local (34/36)
+16/12/09 17:01:28 INFO scheduler.TaskSetManager: Finished task 17.0 in stage 2.0 (TID 37) in 143 ms on compute-2-1.local (35/36)
+16/12/09 17:01:28 INFO scheduler.TaskSetManager: Finished task 25.0 in stage 2.0 (TID 35) in 5834 ms on compute-1-8.local (36/36)
+16/12/09 17:01:28 INFO scheduler.DAGScheduler: ResultStage 2 (collect at KMeansModel.scala:147) finished in 15.153 s
+16/12/09 17:01:28 INFO cluster.YarnScheduler: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+16/12/09 17:01:28 INFO scheduler.DAGScheduler: Job 2 finished: collect at KMeansModel.scala:147, took 15.967678 s
+DOCTOR STRANGE rated as: 6.8
+John looked down at the figures in the courtyard, watching one, singling him out from the rest. Strange. Strange... 
+Fri Dec 09 16:59:05 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.ser.gz ...16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-5.local:51063 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on 10.0.255.253:32879 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-1-10.local:41398 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-1.local:38070 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-1-12.local:58013 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-1.local:50965 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-7.local:54243 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-3-1.local:47737 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-16.local:38075 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-6.local:45670 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-14.local:38044 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-10.local:50890 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-3-2.local:36676 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-12.local:54010 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-1-1.local:60722 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-8.local:42967 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-1-10.local:36890 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-1-2.local:51059 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-3-12.local:36177 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-3.local:40331 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-3-9.local:57025 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-3-4.local:46005 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-1-13.local:48936 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-3-11.local:59060 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-1-7.local:58723 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-8.local:60086 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:29 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-2-14.local:57666 in memory (size: 2.7 KB, free: 530.3 MB)
+16/12/09 17:01:30 INFO storage.BlockManagerInfo: Removed broadcast_4_piece0 on compute-1-8.local:49957 in memory (size: 2.7 KB, free: 530.3 MB)
+done [0.4 sec].
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+DOCTOR STRANGE rated as: 6.8
+Finally ( Regal Cinemas New River Valley 14 - regalmovies for Doctor Strange in Christiansburg, VA) 
+Fri Dec 09 16:56:37 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+DOCTOR STRANGE rated as: 6.8
+Just returned from watching Doctor Strange! It was aaaweeesooome! Glad I could watch it peacefully in a room with no people XD
+Fri Dec 09 16:54:06 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+DOCTOR STRANGE rated as: 6.8
+Episode 25: My thoughts on Doctor Strange, speaking at ATD ICE 2017, and singing the Natl Anthem at Iowa Energy? 
+Fri Dec 09 16:50:44 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+ARRIVAL rated as: 6.76
+fmanjoo Edge of 17 is pretty smart & funny, B+ coming of age movie. Arrival is unique & smart, but far more serious
+Fri Dec 09 17:00:11 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+ARRIVAL rated as: 6.76
+Film scores range from experimental sounds ('Arrival') to simple, hushed restraint ('A Monster Calls') 
+Fri Dec 09 16:59:32 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+SUICIDE SQUAD rated as: 5.97
+Me gust? un video de YouTube  twenty one pilots: Heathens (from Suicide Squad: The Album) [OFFICIAL VIDEO]
+Fri Dec 09 16:57:10 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+MAD MAX: FURY ROAD rated as: 7.18
+Just announced! George Miller's MAD MAX FURY ROAD: BLACK & CHROME will make December 19... A lovely day.? 
+Fri Dec 09 16:51:38 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+MAD MAX: FURY ROAD rated as: 7.18
+I liked a YouTube video  Mad Max: Fury Road | Music / Theme / Soundtrack / Junkie XL - Brothers in Arms | HD
+Fri Dec 09 16:38:39 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+MAD MAX: FURY ROAD rated as: 7.18
+I remember last year when Mad Max: Fury Road made it into GG BP & BD. I knew it was safe at the Oscars, where a few years prior...(1/2)
+Fri Dec 09 16:29:27 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+MAD MAX: FURY ROAD rated as: 7.18
+I remember last year when Mad Max: Fury Road made it into GG BP & BD. I knew it was safe at the Oscars, where a few years prior...(1/2)
+Fri Dec 09 16:29:26 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE SECRET LIFE OF PETS rated as: 5.98
+Want to win Win 1 of 3 'The Secret Life of Pets' Blu-rays (RRP $45)? I just entered to win and you can too. 
+Fri Dec 09 16:59:25 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+THE SECRET LIFE OF PETS rated as: 5.98
+I entered to WIN The Secret Life Of Pets Blu-Ray Combo Pack! TheSecretLifeOfPets Giveaway PetsMovie 
+Fri Dec 09 16:57:19 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+THE SECRET LIFE OF PETS rated as: 5.98
+The DVD Wrapup: Secret Life of Pets, JT Leroy, Just Eat It, Howard?s End, Quiet Earth, Henry, Phantasm and more 
+Fri Dec 09 16:49:15 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+FANTASTIC BEASTS AND WHERE TO FIND THEM rated as: 7.43
+Fantastic Beasts and Where to Find Them.Simply divine film Thank you jk_rowling for a magical world of Harry.? 
+Fri Dec 09 17:00:54 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+FANTASTIC BEASTS AND WHERE TO FIND THEM rated as: 7.43
+>>> Subtitles <<<. . Omniplex Cinemas. Strand Road. L'Derry. . Films: Fantastic Beasts and Where to Find Them... 
+Fri Dec 09 17:00:09 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+FANTASTIC BEASTS AND WHERE TO FIND THEM rated as: 7.43
+chiropractor chronicles pt 3: discussed, analysed and reviewed popular blockbuster Fantastic Beasts and Where to Find Them // concl. = 6/10
+Fri Dec 09 17:00:09 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+FANTASTIC BEASTS AND WHERE TO FIND THEM rated as: 7.43
+Holiday Ball trivia winner tonight gets an OUT OF PRINT copy of Fantastic Beasts and Where to Find Them! You coming? 
+Fri Dec 09 17:00:02 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+FANTASTIC BEASTS AND WHERE TO FIND THEM rated as: 7.43
+>>> Subtitles <<<. . Omniplex Cinemas. Strand Road. L'Derry. . Films: Fantastic Beasts and Where to Find Them... 
+Fri Dec 09 16:51:10 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+FANTASTIC BEASTS AND WHERE TO FIND THEM rated as: 7.43
+I'm at CineworldBirmin for Fantastic Beasts and Where to Find Them in 3D in Birmingham, West Midlands 
+Fri Dec 09 16:49:55 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+CAPTAIN AMERICA: CIVIL WAR rated as: 6.78
+I just voted for Captain America: Civil War  to win Favorite Movie at People's Choice Awards 2017!  PCAs
+Fri Dec 09 16:48:49 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+JURASSIC WORLD rated as: 6.57
+I liked a YouTube video  Indominus Pays A Visit To The Centre! || Jurassic World - The Game - Ep 93 HD
+Fri Dec 09 16:59:01 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+JURASSIC WORLD rated as: 6.57
+Level 20!!! JUGGERNAUT 32 vs INDOMINUS REX WORLD BOSS EVENT Hybrid BATTLE - Jurassic World the Game:  via
+Fri Dec 09 16:54:02 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+JURASSIC WORLD rated as: 6.57
+'Jurassic World 2' Update: Justice Smith Joins Cast, Filming Begins In Spring of 2017; Focused on?  ChrisPratt
+Fri Dec 09 16:46:22 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+JURASSIC WORLD rated as: 6.57
+I liked a YouTube video  Indominus Rex Takes On Juggernaut 32! || Jurassic World - The Game - Ep237 HD
+Fri Dec 09 16:44:26 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+JURASSIC WORLD rated as: 6.57
+JURASSIC WORLD THE GAME jurassicworldthegame Generator gamers Gamer giveaway games indiegame Hacked 
+Fri Dec 09 16:36:08 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+JACK REACHER: NEVER GO BACK rated as: 4.39
+I liked a YouTube video  ZAYDE WOLF - NEW BLOOD (Official Lyric Video) - Jack Reacher 2 Never Go Back - UFC
+Fri Dec 09 15:41:44 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+JACK REACHER: NEVER GO BACK rated as: 4.39
+We Review: Jack Reacher: Never Go  Back ?4 stars No Surprises, but still entertaining? ? MR  MovieReview RT
+Fri Dec 09 15:14:02 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+FINDING DORY rated as: 6.65
+at the end of finding dory, he must have given me 30 hugs every 2 minutes. absolutely elated by the happy ending.
+Fri Dec 09 16:41:53 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+FINDING DORY rated as: 6.65
+My top films of 2016:. 5. The Light Between Oceans. 4. Zootopia. 3. La La Land. 2. Finding Dory. 1. Lion
+Fri Dec 09 16:41:27 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+FINDING DORY rated as: 6.65
+Idris Elba's voice in FINDING DORY, ZOOTOPIA, THE JUNGLE BOOK. If your character calls for a stern, even scary, British voice, he's ur man.
+Fri Dec 09 16:37:03 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+BIG HERO 6 rated as: 7.81
+WindWarrior75 1. I didn't think I would like her much, but by the end of Big Hero 6, she ended up being my favorit? 
+Fri Dec 09 16:21:22 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+BIG HERO 6 rated as: 7.81
+Peppa Pig Play Doh Videos Halloween Costume Big Hero 6 DisneyCarToys Disney Rapunzel Playdough:  ?? YouTube
+Fri Dec 09 16:00:10 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+BIG HERO 6 rated as: 7.81
+billy_boggerboy what is your favourite scene and character from Big hero 6 and why? (If you have watched it ) . What is your favourite game?
+Fri Dec 09 15:39:20 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+BIG HERO 6 rated as: 7.81
+europieceoshit mix of disney and pixar but Toy Story, Tangled , Big Hero 6 And Rise Of The Guardians
+Fri Dec 09 15:28:54 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+JASON BOURNE rated as: 5.54
+Well true to form and real life, I see that Jason Bourne is quite handy in a tight spot but basically saved by a woman. Always the same.
+Fri Dec 09 16:59:53 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+JASON BOURNE rated as: 5.54
+I am watching Jason Bourne. It's very considerate of the Greek rioters to stay on the pavements during this car chase.
+Fri Dec 09 16:58:35 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+JASON BOURNE rated as: 5.54
+Album TopMusicGermany Jason Bourne (Original Motion Picture Soundtrack) -?  TopSoundtracks iTunes Deutschland
+Fri Dec 09 16:56:24 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+JASON BOURNE rated as: 5.54
+'DON'T YOU KNOW WHO I AM' Muslim preacher who calls himself the ?black Jason Bourne? in rant at police officers. 
+Fri Dec 09 16:53:52 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+JASON BOURNE rated as: 5.54
+I'm home alone watching Jason Bourne. Missus is at her work Christmas party, I imagine this is her right about now 
+Fri Dec 09 16:44:31 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+STAR TREK BEYOND rated as: 6.29
+Dont know whats going on with boxoffice lately,cant buy movies?,DStv do something guys,i must watch star trek beyond.??
+Fri Dec 09 16:57:39 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:40 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+STAR TREK BEYOND rated as: 6.29
+Star Trek Beyond wasn't to bad. Bit to much of an action movie and a bit to stupid over the top...but not bad for what it is.
+Fri Dec 09 16:44:37 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,0)
+It's in cluster: 0
+
+STAR TREK BEYOND rated as: 6.29
+I'm officially on a comic book pull/subscription list for the first time ever!!! For the Star Trek Beyond comics!!! YAY
+Fri Dec 09 16:35:37 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+STAR TREK BEYOND rated as: 6.29
+outside of a script that coulda used a 2nd pass so it didn't totally waste Elba, STAR TREK BEYOND is a p good rebuilding year for the series
+Fri Dec 09 16:19:14 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+STAR TREK BEYOND rated as: 6.29
+SpeedinUptoStop One of the many things that makes Beyond work is its embrace of camp! Star Trek is not as Serious? as some nerds claim.
+Fri Dec 09 15:55:50 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+STAR TREK BEYOND rated as: 6.29
+wish I saw STAR TREK BEYOND most in theaters because of the gorgeous vistas, shout out to the CGI artists for going buckwild on this movie
+Fri Dec 09 15:37:34 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+INTERSTELLAR rated as: 8.06
+i could've worked on one of the three papers i have due next week, but instead i watched interstellar:)
+Fri Dec 09 16:55:39 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+INTERSTELLAR rated as: 8.06
+Top 10 Movies:. I Am Legend. The Last Samurai. Troy. John Q. Shawshank Redemption. Creed. Warrior. Pearl Harbor. Book of Eli. Interstellar. Gone Girl
+Fri Dec 09 16:50:42 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+INTERSTELLAR rated as: 8.06
+In interstellar space, the mathematician Onaft must discover why Vyrtot Bonurn betrayed the crew of the Athletic Radiance.
+Fri Dec 09 16:39:07 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE LAST STARSHIP rated as: 3.32
+the best thing about the SW Holiday Special is that, until last year, it was canon. Jefferson Starship on the tele in the death star. Canon.
+Thu Dec 08 18:24:15 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+THE LAST STARSHIP rated as: 3.32
+Starship Build: Preparation - ?The Starship Build continues... In the last update, I briefly wrote...   diystarship
+Thu Dec 08 12:51:53 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE LAST STARSHIP rated as: 3.32
+Bernadett and lembit Opik presenting the starship robot for last mile delivery purposes in Greenwich CitiesSharing? 
+Thu Dec 08 09:58:03 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE LAST STARSHIP rated as: 3.32
+the last time starship did something smart was to upload the practice vid of the dance they did for weekly idol
+Thu Dec 08 09:03:48 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+THE LAST STARSHIP rated as: 3.32
+Did Spotify break the Discover Weekly algo? Something seems off. Is it because I had Starship on repeat last night?
+Wed Dec 07 22:42:57 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+THE LAST STARSHIP rated as: 3.32
+Feelings Are Probably The Last Thing Anybody Needs To Worry About In Terms Of Catching Things From You  ? 
+Wed Dec 07 16:00:53 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:42 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE LAST STARSHIP rated as: 3.32
+Starship Build: Preparation - ?The Starship Build continues... In the last update, I briefly wrote...   diystarship
+Tue Dec 06 12:51:37 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE LAST STARSHIP rated as: 3.32
+joohunni big mood, the second they stop being supportive of mx is the last time u will ever hear of/from starship
+Tue Dec 06 11:37:37 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+MECHANIC: RESURRECTION rated as: 4.69
+Watching Mechanic: Resurrection and seeing the Beautiful Thai beach I visited last christmas GoodTimes KohYaoYai Travel
+Fri Dec 09 13:40:14 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+TERMINATOR GENISYS rated as: 5.88
+Just watch Terminator Genisys, what a great movie to be fair!! Hopefully they will make a Terminator 6:) 
+Fri Dec 09 16:38:43 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+MINIONS rated as: 6.5
+RT xtrabiggg: Mika Brzezinski claims Hillary Minions pressured msnbc to take her off the air. The Left is eating itself.?
+Fri Dec 09 16:56:49 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+MINIONS rated as: 6.5
+It's a beautiful afternoon. At the park with the minions...and finally catching up on openrun while they play.??
+Fri Dec 09 16:56:02 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:43 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+MINIONS rated as: 6.5
+Giuliani pulls name from contention for secretary of state.  Bravo. Rest of you Trump Truck minions follow up.
+Fri Dec 09 16:55:46 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+MINIONS rated as: 6.5
+There's Bee movie without bees. Shrek movie without Shrek . . Now can we have the Minion movie without minions?
+Fri Dec 09 16:55:08 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+MINIONS rated as: 6.5
+when was the last time the mitt romney ironing a suit he is wearing kissed the minions? has it ever happened before?
+Fri Dec 09 16:52:12 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+MINIONS rated as: 6.5
+realDonaldTrump ObsoleteDogma You're a lying SOB!None of your minions or yourself will EVER give up a ?nickel, di? 
+Fri Dec 09 16:52:11 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:43 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+MINIONS rated as: 6.5
+YOUR FREEDOM IS IN PERIL .... STOP THE SOCIALIST LEFT FROM TAKING ALL OUR FREEDOMS AWAY obama and his minions want EVERYONE POOR PJNET
+Fri Dec 09 16:51:35 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+MINIONS rated as: 6.5
+Mika Brzezinski claims Hillary Minions pressured msnbc to take her off the air. The Left is eating itself.
+Fri Dec 09 16:50:20 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE REVENANT rated as: 7.17
+The Revenant was a beautifully put together film with some of the most amazing cinematography I have witnessed. TheRevenant
+Fri Dec 09 16:54:14 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 1
+
+DON'T BREATHE rated as: 6.29
+OHAOregon if people deserve to breathe the smoke-free air, why don't they deserve to breathe toxic-free air?
+Fri Dec 09 17:00:44 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+DON'T BREATHE rated as: 6.29
+Your drink will be ready momentarily. You don't need to hover over the bar. Give the barista space to breathe. They can't move
+Fri Dec 09 17:00:02 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+Finished searching for movies.
+
+------- Begin to search for RESTAURANTS -------
+NAME rated as: rating
+Giuliani removes himself from Cabinet consideration: The secretary of State short list just lost a name.??????? 
+Fri Dec 09 17:01:21 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+NAME rated as: rating
+Straight No Chaser is such a clever name for an a capella group and I'm so mad it took me so long to notice
+Fri Dec 09 17:01:20 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+NAME rated as: rating
+Deec0d3 CaucasianAllure by golly! ...and I was going to give you an endearing name..."HeyFranco," you've lost your positioning in that ?
+Fri Dec 09 17:01:19 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:45 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+NAME rated as: rating
+My name is Brooke Barker? And I?m a freaking disaster. Being Brook by EmmaHartAuthor Releasing 12/13 hotmess? 
+Fri Dec 09 17:01:19 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+NAME rated as: rating
+metrohealthCLE I have been waiting in the waiting room over an hour.  Name called, taken to exam room where I am still waiting ?
+Fri Dec 09 17:01:19 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:46 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+SID GOLD'S REQUEST ROOM rated as: 4.5
+Tonight (12/9) at Sid Gold's Request Room. Private party until 9 PM, then Live Piano Karaoke with joemcginty7 from 9 PM until late!
+Fri Dec 09 13:30:00 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+SID GOLD'S REQUEST ROOM rated as: 4.5
+I spent the Blizzard of 96 on this block. There were no hipster bars back then. ( Sid Gold's Request Room) 
+Thu Dec 08 17:45:24 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+SID GOLD'S REQUEST ROOM rated as: 4.5
+Tonight! Sid Gold's Request Room is closed for a private party until 9 PM. Piano Karaoke with Julian Velard starts at 10:15!
+Wed Dec 07 13:30:00 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+SID GOLD'S REQUEST ROOM rated as: 4.5
+Tonight! Sid Gold's Request Room is closed for a private party until 7 PM. Piano karaoke with joemcginty7 starts at 9:15. pianokaraoke
+Tue Dec 06 13:30:00 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+SID GOLD'S REQUEST ROOM rated as: 4.5
+Tonight Sid Gold's Request room is closed for a private party until 9 PM. The piano bar will be open at 10 with Joe McGinty at the piano.
+Sat Dec 03 14:43:06 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+HOLY GUACAMOLE rated as: 4.0
+A little boy seeing the water slides and shouting "HOLY GUACAMOLE" infront of his family has made my week ?
+Fri Dec 09 16:42:01 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:47 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+HOLY GUACAMOLE rated as: 4.0
+Holy guacamole! Organic avocados 4/$5 now-Sat. It's Owner Appreciation Days but we think everyone should be able to? 
+Fri Dec 09 14:50:18 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+HOLY GUACAMOLE rated as: 4.0
+kiaspeaks  just read these missed tweets. Holy guacamole. Glad you had it removed even tho the process sucked.
+Fri Dec 09 14:11:15 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+GRISTMILL rated as: 4.5
+tduggerdick We bet! Good luck on your search, though. Did one of your leads bring you to Gristmill, or were you just taking a break?
+Fri Dec 09 00:48:11 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+GRISTMILL rated as: 4.5
+Lotsa beyonce today. Now researching cornmeal. One gristmill's motto is "Continuously grinding for over 360 years." interruptingmygrinding
+Thu Dec 08 22:45:19 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+GRISTMILL rated as: 4.5
+It's almost Friday! Celebrate with a pepperoni pizza from gristmill_bk featuring mozzarella & burnt honey.? 
+Thu Dec 08 18:45:36 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+GRISTMILL rated as: 4.5
+The original and utterly gorgeous littlelunch opening title artworks for sale: all proceeds to the? 
+Thu Dec 08 18:03:53 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+GRISTMILL rated as: 4.5
+I was interesting in farming innovations, lands in the West, and creating inventions like the gristmill
+Thu Dec 08 17:40:01 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+GRISTMILL rated as: 4.5
+We?re selling off Kayne?s original canvases from uppermiddlebogan with all proceeds going to SmithFamily_org? 
+Thu Dec 08 01:24:25 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+GRISTMILL rated as: 4.5
+Dad's last day visiting so we had to drive to gruene & eat at Gristmill & walk by the famous GrueneHallTX. Food d? 
+Wed Dec 07 15:18:19 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+GRISTMILL rated as: 4.5
+brookscitybase Staff Holiday Party at Gristmill River Restaurant & Bar! ??TeamBrooks HappyHolidays 
+Wed Dec 07 13:27:23 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:48 WARN process.PTBLexer: Untokenizable: ? (U+D83C, decimal: 55356)
+(### Sentiment is: ,1)
+It's in cluster: 1
+
+GRISTMILL rated as: 4.5
+What gristmill, such ably ben millipede.. Four santir, twelve chiefly through cirripede.. iambicpent ? 
+Wed Dec 07 13:13:26 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+GRISTMILL rated as: 4.5
+OTD in 1826 James B. Bickell was born. He operated a grist mill on Lynde Creek in Brooklin. gristmill lyndecreek? 
+Wed Dec 07 11:15:29 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+GRISTMILL rated as: 4.5
+Honestly I usually make no money at the Gristmill this time of year - BUT I get to see people get engaged ALL THE TIME so it's so worth it!
+Tue Dec 06 21:04:36 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+TIPSY SHANGHAI rated as: 4.0
+Tipsy Shanghai on Yelp: Nothing bad to say.  Great food.  Great service.  Good prices.  Great value.  Location is ? 
+Mon Dec 05 15:35:59 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+BROOKLYN BAZAAR rated as: 3.5
+BrooklynVegan: pics: Cindy Wilson (B-52s), Kristin Kontrol, & Jennifer Vanilla  Brooklyn Bazaar  music nyc
+Fri Dec 09 12:44:18 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+BROOKLYN BAZAAR rated as: 3.5
+Can't wait to see TinyMovingParts play songs from one of my very favorite albums of 2016 BKBazaar tonight.? 
+Fri Dec 09 12:25:01 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+BROOKLYN BAZAAR rated as: 3.5
+SUNDAY: We will see you in brooklyn at the Stuyvesant Independant Art's Bazaar (12-7p) xmas shopping + great... 
+Fri Dec 09 09:47:55 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+HUNGRY? rated as: 5.0
+How can eliminating waste feed the hungry? Check out this article to find out! foodfriday endhunger 
+Fri Dec 09 17:00:41 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+HUNGRY? rated as: 5.0
+Sports_NDTVndtv  Let's get a reality check here ! Y r  these power hungry BCCI lot defying the lands highest court proposals? Ridiculous.
+Fri Dec 09 16:59:27 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+Join us for The Get Down Friday Nights at The Alcove Cantina 8pm to 12am. tgif roundrocktx thealcovecantina 
+Fri Dec 09 15:04:23 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+J_SilverRP  *Motioning to the small alcove room off our larger room*  They are in there, asleep.....I should wake them, prepare them to ~
+Fri Dec 09 15:01:50 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+NY Biz Journal and Yelp came together to determine the best eateries in NYC? like The Alcove in sunnyside ? 
+Fri Dec 09 13:53:22 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:50 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+NY Biz Journal and Yelp came together to determine the best eateries in NYC? like The Alcove in sunnyside ? 
+Fri Dec 09 13:52:38 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:50 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+Double Arch Alcove on the Taylor Creek Trail Kolob Canyon Utah: This is what you get to see if you ... 
+Fri Dec 09 12:37:02 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+Lunch today: mussels, shrimp, and scallop bowls. Smoked salmon stir fry in the alcove. Happy Friday! 
+Fri Dec 09 10:41:58 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+Play with friends in the Outaouais. Throw down par 4 tunnels . Launch discs off the Canadian Shield. . All  Alcove DGC? 
+Fri Dec 09 09:28:22 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+The spiders and I are painting the alcove.. Seriously, how many *massively legged* spiders can live in one corner...? shuddering
+Fri Dec 09 09:04:01 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+Get hold of shirleyayres wonderfully curated dementia resource (also kindly features Alcove!) 'The Click Guide to? 
+Fri Dec 09 09:03:00 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+would be a shame if someone were to bring a medium mango kale from smoothie king to the alcove by ms j's room hmm what a tragedy
+Fri Dec 09 08:42:36 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+THE ALCOVE rated as: 5.0
+NYCunity MTAPD  OurTownNYC Such has also been found in an alcove opening south on the dt platform,by many passers-by,by scent,then eye.
+Fri Dec 09 08:40:11 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+UPSTATE rated as: 4.5
+Want to work at Liberty Mutual Insurance? We're hiring in Syracuse, NY! Click for details:  Job Sales Jobs
+Fri Dec 09 17:01:12 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+UPSTATE rated as: 4.5
+Want to work at Liberty Mutual Insurance? We're hiring in NY! Click for details:  Job Jobs CareerArc
+Fri Dec 09 17:00:48 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+UPSTATE rated as: 4.5
+Here's the CherylDinolfo letter to local state legislators asking them to reintroduce bills allowing Upstate rides? 
+Fri Dec 09 17:00:15 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+UPSTATE rated as: 4.5
+Former executives for DennysDiner plan to open the first of 6 locations for their TSmoothieCafe franchise 
+Fri Dec 09 17:00:00 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+UPSTATE rated as: 4.5
+TreeHouseBrewCo  making the trip as quick as possible from upstate ny will I be good for double at 6:30??
+Fri Dec 09 16:59:45 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+UPSTATE rated as: 4.5
+We're hiring! Read about our latest job opening here: Sales Representative - Entry Level - Upstate New York - 
+Fri Dec 09 16:59:22 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+UPSTATE rated as: 4.5
+In a press release, CherylDinolfo just stated her support for Upstate ridesharing (you know, Uber and stuff).
+Fri Dec 09 16:57:26 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+UPSTATE rated as: 4.5
+metheridge happiness walking into rite aid in upstate NY & hearing the queen of rock blasting thru the store ?????? 
+Fri Dec 09 16:56:14 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:52 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+BOCADILLO rated as: 4.5
+Our gourmet bocadillos ready when you are! sandwiches bocadillo gourmetsandwiches lunch IbericaLaBodega 
+Fri Dec 09 07:33:10 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+THURSDAY KITCHEN rated as: 4.5
+Last day of kitchen training today. Feeling more confident. But I have either 12 or 7 hour shifts every day now until Thursday. Bye sleep.
+Fri Dec 09 15:19:59 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THURSDAY KITCHEN rated as: 4.5
+YAHOO the Thursday Special at Cathy's Kitchen is ALL WEEKEND LONG!!!! ????The Chicken & Shrimp? 
+Fri Dec 09 12:24:09 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:53 WARN process.PTBLexer: Untokenizable: ? (U+D83C, decimal: 55356)
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THURSDAY KITCHEN rated as: 4.5
+For the month of December, we will be closing our kitchen at 9pm Monday-Thursday. The bar will remain open until... 
+Fri Dec 09 11:13:49 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THURSDAY KITCHEN rated as: 4.5
+Excited to welcome Guest Chef Karim Bibi to the Tawlet Kitchen! . Thursday, Dec 15th Reserve on 01.448.129 . Menu:? 
+Fri Dec 09 09:40:34 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+THURSDAY KITCHEN rated as: 4.5
+Hell's Kitchen, L'Ami Serge, Le Prezien, Politologue & Top Notch among the 11 entries for a 2m1f graduation chase ExeterRaces next Thursday
+Fri Dec 09 09:19:58 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THURSDAY KITCHEN rated as: 4.5
+Thursday morning kitchen inspo! It's no secret I love a great feature tiled splash back and open she 
+Fri Dec 09 05:31:57 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+THURSDAY KITCHEN rated as: 4.5
+Kitchen & Bedroom Fitters Required . ?8.50??11ph. Rushden, Northants. ** 40 Hour Week - Monday to Thursday **. Call? 
+Fri Dec 09 03:30:32 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THURSDAY KITCHEN rated as: 4.5
+Casually sitting on my kitchen floor at 11 pm drowning my sorrows in a bowl of frozen yogurt. How's your Thursday night going?
+Fri Dec 09 02:06:14 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THURSDAY KITCHEN rated as: 4.5
+Omg I just realized I didn't get Chinese on China Kitchen Thursday ????my days are so blended together
+Fri Dec 09 01:57:29 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+16/12/09 17:01:54 WARN process.PTBLexer: Untokenizable: ? (U+D83D, decimal: 55357)
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THURSDAY KITCHEN rated as: 4.5
+someone is in my kitchen banging on the counter like they're tendorizing meat or something as if it's not 12:30am on a Thursday
+Fri Dec 09 00:21:31 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+TAKUMEN rated as: 4.0
+Takumen on Yelp: perfect lunch everything fresh and tasty. I could not finish the bowl, so it us going to be my di? 
+Wed Dec 07 14:09:53 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+RABBIT HOUSE rated as: 4.5
+Marianne, at nought; and thoughtful, and the mere temper than when he could really is, and this house," said he, with a pointer
+Fri Dec 09 16:09:51 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+RABBIT HOUSE rated as: 4.5
+What to stream: 'White Rabbit,' 'Medici,' 'Captive,' and more 'Fuller House' on netflix -  via Shareaholic
+Fri Dec 09 15:29:44 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+RABBIT HOUSE rated as: 4.5
+TiVo How long does it usually take for Netflix shows to appear in guide? Please add Fuller House S2, White Rabbit Project and 3%  Thanks!
+Fri Dec 09 15:28:17 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+WIN SON rated as: 4.5
+anthonyfjoshua looooove it son! Easy win this. Klitsco another easy win. Deontay is the real challenge....
+Fri Dec 09 17:00:00 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,2)
+It's in cluster: 0
+
+WIN SON rated as: 4.5
+PreciousDesired Marcel has been trying to win New Orleans against Klaus for a long time now. Even though Marcel is like a son to Klaus he+
+Fri Dec 09 16:46:28 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+WIN SON rated as: 4.5
+KingdomeTurf was there with my wife and dad and it was so effin' special to win that particular game the way they did. man. Shawn O'Rally.
+Fri Dec 09 16:37:12 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,3)
+It's in cluster: 0
+
+WIN SON rated as: 4.5
+PetplanUK PanasonicUK I would love to win for my rescue 2yr Bengal. She's amazing with my 3 kids especially my s? 
+Fri Dec 09 16:30:27 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE BROOKLYN TREE rated as: 4.5
+Dollar Tree is Putting Down Roots All Over New York City, Report Says: The discount store has opened 63 new stores? 
+Fri Dec 09 14:40:12 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE BROOKLYN TREE rated as: 4.5
+Dollar Tree is Putting Down Roots All Over New York City, Report Says: The discount store has opened 63 new stores? 
+Fri Dec 09 14:32:07 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE BROOKLYN TREE rated as: 4.5
+Popular Christmastime production The Singing Christmas Tree returns to the Shandon Baptist Church tonight? 
+Fri Dec 09 13:09:00 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE BROOKLYN TREE rated as: 4.5
+Bring your ugly sweater to the Windsor Terrace tree lighting tonight + 16 other things to do this weekend in BK: 
+Fri Dec 09 10:16:21 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE BROOKLYN TREE rated as: 4.5
+If I was a tree and someone replanted me into the sidewalk of grand st in brooklyn I would most certainly pray for? 
+Fri Dec 09 09:17:59 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE BROOKLYN TREE rated as: 4.5
+So the McKinley park tree lighting 75 street and 7th avenue in Brooklyn (dyker heights) went off without a hitch .? 
+Thu Dec 08 22:05:18 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+THE BROOKLYN TREE rated as: 4.5
+HarperCollins Just downloaded the Kindle ed of A Tree Grows in Brooklyn, and found that the all-important epigraph is missing. Fix it, HC!
+Thu Dec 08 18:09:28 EST 2016
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Adding annotator sentiment
+(### Sentiment is: ,1)
+It's in cluster: 0
+
+Finished searching for restaurants.
+16/12/09 17:01:57 INFO spark.SparkContext: Invoking stop() from shutdown hook
+16/12/09 17:01:57 INFO ui.SparkUI: Stopped Spark web UI at http://10.0.255.253:4042
+16/12/09 17:01:57 INFO cluster.YarnClientSchedulerBackend: Shutting down all executors
+16/12/09 17:01:57 INFO cluster.YarnClientSchedulerBackend: Interrupting monitor thread
+16/12/09 17:01:57 INFO cluster.YarnClientSchedulerBackend: Asking each executor to shut down
+16/12/09 17:01:57 INFO cluster.YarnClientSchedulerBackend: Stopped
+16/12/09 17:01:57 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+16/12/09 17:01:57 INFO storage.MemoryStore: MemoryStore cleared
+16/12/09 17:01:57 INFO storage.BlockManager: BlockManager stopped
+16/12/09 17:01:57 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+16/12/09 17:01:57 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+16/12/09 17:01:57 WARN netty.Dispatcher: Message RemoteProcessDisconnected(compute-1-8.local:41241) dropped. RpcEnv already stopped.
+16/12/09 17:01:57 WARN netty.Dispatcher: Message RemoteProcessDisconnected(compute-1-8.local:41241) dropped. RpcEnv already stopped.
+16/12/09 17:01:57 INFO spark.SparkContext: Successfully stopped SparkContext
+16/12/09 17:01:57 INFO util.ShutdownHookManager: Shutdown hook called
+16/12/09 17:01:57 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-ce90b6e1-5ce6-4e06-80d9-022f192c0da9
