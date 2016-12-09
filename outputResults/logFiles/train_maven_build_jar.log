@@ -1,0 +1,214 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.trendalytics:trendalytics:jar:0.0.1
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: edu.stanford.nlp:stanford-corenlp:jar -> version 3.3.1 vs 3.4 @ line 96, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building trendalytics 0.0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ trendalytics ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/gz612/big_data/project/trendalytics/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ trendalytics ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:compile (default) @ trendalytics ---
+[WARNING]  Expected all dependencies to require Scala version: 2.10.-1
+[WARNING]  com.twitter:chill_2.10:0.5.0 requires scala version: 2.10.4
+[WARNING]  com.typesafe.akka:akka-remote_2.10:2.3.11 requires scala version: 2.10.4
+[WARNING]  com.typesafe.akka:akka-actor_2.10:2.3.11 requires scala version: 2.10.4
+[WARNING]  com.typesafe.akka:akka-slf4j_2.10:2.3.11 requires scala version: 2.10.4
+[WARNING]  org.apache.spark:spark-core_2.10:1.6.3 requires scala version: 2.10.5
+[WARNING]  org.json4s:json4s-jackson_2.10:3.2.10 requires scala version: 2.10.0
+[WARNING]  org.json4s:json4s-core_2.10:3.2.10 requires scala version: 2.10.0
+[WARNING]  org.json4s:json4s-ast_2.10:3.2.10 requires scala version: 2.10.0
+[WARNING]  org.json4s:json4s-core_2.10:3.2.10 requires scala version: 2.10.0
+[WARNING]  com.fasterxml.jackson.module:jackson-module-scala_2.10:2.4.4 requires scala version: 2.10.4
+[WARNING]  org.apache.spark:spark-streaming_2.10:1.6.3 requires scala version: 2.10.5
+[WARNING]  org.scalanlp:breeze_2.10:0.11.2 requires scala version: 2.10.4
+[WARNING]  org.scalanlp:breeze-macros_2.10:0.11.2 requires scala version: 2.10.4
+[WARNING]  org.scalamacros:quasiquotes_2.10:2.0.0-M8 requires scala version: 2.10.3
+[WARNING]  org.spire-math:spire_2.10:0.7.4 requires scala version: 2.10.2
+[WARNING]  org.spire-math:spire-macros_2.10:0.7.4 requires scala version: 2.10.2
+[WARNING]  org.json4s:json4s-native_2.11:3.2.9 requires scala version: 2.10.5
+[WARNING]  org.json4s:json4s-core_2.11:3.2.9 requires scala version: 2.11.0
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ trendalytics ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/gz612/big_data/project/trendalytics/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ trendalytics ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.2.0:testCompile (default) @ trendalytics ---
+[WARNING]  Expected all dependencies to require Scala version: 2.10.-1
+[WARNING]  com.twitter:chill_2.10:0.5.0 requires scala version: 2.10.4
+[WARNING]  com.typesafe.akka:akka-remote_2.10:2.3.11 requires scala version: 2.10.4
+[WARNING]  com.typesafe.akka:akka-actor_2.10:2.3.11 requires scala version: 2.10.4
+[WARNING]  com.typesafe.akka:akka-slf4j_2.10:2.3.11 requires scala version: 2.10.4
+[WARNING]  org.apache.spark:spark-core_2.10:1.6.3 requires scala version: 2.10.5
+[WARNING]  org.json4s:json4s-jackson_2.10:3.2.10 requires scala version: 2.10.0
+[WARNING]  org.json4s:json4s-core_2.10:3.2.10 requires scala version: 2.10.0
+[WARNING]  org.json4s:json4s-ast_2.10:3.2.10 requires scala version: 2.10.0
+[WARNING]  org.json4s:json4s-core_2.10:3.2.10 requires scala version: 2.10.0
+[WARNING]  com.fasterxml.jackson.module:jackson-module-scala_2.10:2.4.4 requires scala version: 2.10.4
+[WARNING]  org.apache.spark:spark-streaming_2.10:1.6.3 requires scala version: 2.10.5
+[WARNING]  org.scalanlp:breeze_2.10:0.11.2 requires scala version: 2.10.4
+[WARNING]  org.scalanlp:breeze-macros_2.10:0.11.2 requires scala version: 2.10.4
+[WARNING]  org.scalamacros:quasiquotes_2.10:2.0.0-M8 requires scala version: 2.10.3
+[WARNING]  org.spire-math:spire_2.10:0.7.4 requires scala version: 2.10.2
+[WARNING]  org.spire-math:spire-macros_2.10:0.7.4 requires scala version: 2.10.2
+[WARNING]  org.json4s:json4s-native_2.11:3.2.9 requires scala version: 2.10.5
+[WARNING]  org.json4s:json4s-core_2.11:3.2.9 requires scala version: 2.11.0
+[WARNING] Multiple versions of scala libraries detected!
+[INFO] /home/gz612/big_data/project/trendalytics/src/test/scala:-1: info: compiling
+[INFO] Compiling 3 source files to /home/gz612/big_data/project/trendalytics/target/test-classes at 1481321619676
+[WARNING] warning: there were 1 deprecation warning(s); re-run with -deprecation for details
+[WARNING] one warning found
+[INFO] prepare-compile in 0 s
+[INFO] compile in 4 s
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ trendalytics ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ trendalytics ---
+[INFO] Building jar: /home/gz612/big_data/project/trendalytics/target/trendalytics-0.0.1.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ trendalytics ---
+[INFO] Including edu.stanford.nlp:stanford-corenlp:jar:3.4 in the shaded jar.
+[INFO] Including com.io7m.xom:xom:jar:1.2.10 in the shaded jar.
+[INFO] Including xml-apis:xml-apis:jar:1.3.03 in the shaded jar.
+[INFO] Including xerces:xercesImpl:jar:2.8.0 in the shaded jar.
+[INFO] Including xalan:xalan:jar:2.7.0 in the shaded jar.
+[INFO] Including joda-time:joda-time:jar:2.1 in the shaded jar.
+[INFO] Including de.jollyday:jollyday:jar:0.4.7 in the shaded jar.
+[INFO] Including javax.xml.bind:jaxb-api:jar:2.2.7 in the shaded jar.
+[INFO] Including com.googlecode.efficient-java-matrix-library:ejml:jar:0.23 in the shaded jar.
+[INFO] Including javax.json:javax.json-api:jar:1.0 in the shaded jar.
+[INFO] Including edu.stanford.nlp:stanford-corenlp:jar:models:3.3.1 in the shaded jar.
+[INFO] Including org.apache.hadoop:hadoop-core:jar:0.20.2 in the shaded jar.
+[INFO] Including commons-cli:commons-cli:jar:1.2 in the shaded jar.
+[INFO] Including xmlenc:xmlenc:jar:0.52 in the shaded jar.
+[INFO] Including commons-httpclient:commons-httpclient:jar:3.0.1 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.3 in the shaded jar.
+[INFO] Including commons-net:commons-net:jar:1.4.1 in the shaded jar.
+[INFO] Including org.mortbay.jetty:jetty:jar:6.1.14 in the shaded jar.
+[INFO] Including org.mortbay.jetty:jetty-util:jar:6.1.14 in the shaded jar.
+[INFO] Including tomcat:jasper-runtime:jar:5.5.12 in the shaded jar.
+[INFO] Including tomcat:jasper-compiler:jar:5.5.12 in the shaded jar.
+[INFO] Including org.mortbay.jetty:jsp-api-2.1:jar:6.1.14 in the shaded jar.
+[INFO] Including org.mortbay.jetty:jsp-2.1:jar:6.1.14 in the shaded jar.
+[INFO] Including ant:ant:jar:1.6.5 in the shaded jar.
+[INFO] Including commons-el:commons-el:jar:1.0 in the shaded jar.
+[INFO] Including net.java.dev.jets3t:jets3t:jar:0.7.1 in the shaded jar.
+[INFO] Including org.mortbay.jetty:servlet-api-2.5:jar:6.1.14 in the shaded jar.
+[INFO] Including net.sf.kosmosfs:kfs:jar:0.3 in the shaded jar.
+[INFO] Including hsqldb:hsqldb:jar:1.8.0.10 in the shaded jar.
+[INFO] Including oro:oro:jar:2.0.8 in the shaded jar.
+[INFO] Including org.eclipse.jdt:core:jar:3.1.1 in the shaded jar.
+[INFO] Including commons-io:commons-io:jar:1.3.1 in the shaded jar.
+[INFO] Including org.scribe:scribe:jar:1.3.7 in the shaded jar.
+[INFO] Including com.google.code.gson:gson:jar:2.8.0 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.5.4 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.5.4 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1.1 in the shaded jar.
+[INFO] Including org.json:json:jar:20160810 in the shaded jar.
+[INFO] Including org.twitter4j:twitter4j-stream:jar:3.0.3 in the shaded jar.
+[INFO] Including org.twitter4j:twitter4j-core:jar:3.0.3 in the shaded jar.
+[INFO] Including org.json4s:json4s-native_2.11:jar:3.2.9 in the shaded jar.
+[INFO] Including org.json4s:json4s-core_2.11:jar:3.2.9 in the shaded jar.
+[INFO] Including org.json4s:json4s-ast_2.11:jar:3.2.9 in the shaded jar.
+[INFO] Including net.liftweb:lift-json_2.11:jar:3.0 in the shaded jar.
+[INFO] Including org.scala-lang:scalap:jar:2.11.7 in the shaded jar.
+[INFO] Including org.scala-lang:scala-compiler:jar:2.11.7 in the shaded jar.
+[INFO] Including org.scala-lang.modules:scala-xml_2.11:jar:1.0.4 in the shaded jar.
+[INFO] Including org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4 in the shaded jar.
+[INFO] Including com.thoughtworks.paranamer:paranamer:jar:2.8 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.4 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.2 in the shaded jar.
+[INFO] Including org.scala-lang:scala-library:jar:2.10.5 in the shaded jar.
+[INFO] Including org.scala-lang:scala-reflect:jar:2.10.4 in the shaded jar.
+[WARNING] scala-library-2.10.5.jar, scala-xml_2.11-1.0.4.jar define 329 overlappping classes: 
+[WARNING]   - scala.xml.pull.package
+[WARNING]   - scala.xml.dtd.EMPTY
+[WARNING]   - scala.xml.NodeSeq$$anonfun$$bslash$bslash$2
+[WARNING]   - scala.xml.parsing.TokenTests
+[WARNING]   - scala.xml.dtd.DocType
+[WARNING]   - scala.xml.Utility
+[WARNING]   - scala.xml.dtd.PEReference$
+[WARNING]   - scala.xml.XML$$anon$1
+[WARNING]   - scala.xml.dtd.DefaultDecl
+[WARNING]   - scala.xml.dtd.ElementValidator
+[WARNING]   - 319 more...
+[WARNING] jasper-compiler-5.5.12.jar, jsp-2.1-6.1.14.jar, jasper-runtime-5.5.12.jar define 1 overlappping classes: 
+[WARNING]   - org.apache.jasper.compiler.Localizer
+[WARNING] jsp-2.1-6.1.14.jar, jasper-runtime-5.5.12.jar define 43 overlappping classes: 
+[WARNING]   - org.apache.jasper.runtime.ProtectedFunctionMapper$2
+[WARNING]   - org.apache.jasper.runtime.PageContextImpl$3
+[WARNING]   - org.apache.jasper.runtime.JspFactoryImpl$PrivilegedGetPageContext
+[WARNING]   - org.apache.jasper.runtime.PageContextImpl$4
+[WARNING]   - org.apache.jasper.runtime.JspFactoryImpl
+[WARNING]   - org.apache.jasper.runtime.ProtectedFunctionMapper$1
+[WARNING]   - org.apache.jasper.JasperException
+[WARNING]   - org.apache.jasper.runtime.PerThreadTagHandlerPool$PerThreadData
+[WARNING]   - org.apache.jasper.util.FastDateFormat
+[WARNING]   - org.apache.jasper.runtime.PageContextImpl$8
+[WARNING]   - 33 more...
+[WARNING] scala-parser-combinators_2.11-1.0.4.jar, scala-library-2.10.5.jar define 341 overlappping classes: 
+[WARNING]   - scala.util.parsing.combinator.Parsers$$anonfun$failure$1
+[WARNING]   - scala.util.parsing.combinator.syntactical.StdTokenParsers$$anonfun$keyword$1
+[WARNING]   - scala.util.parsing.combinator.Parsers$Parser$$anonfun$withErrorMessage$1
+[WARNING]   - scala.util.parsing.json.Lexer$$anonfun$token$7$$anonfun$apply$11
+[WARNING]   - scala.util.parsing.json.Lexer$$anonfun$token$2$$anonfun$apply$5
+[WARNING]   - scala.util.parsing.json.Lexer$$anonfun$fracPart$1
+[WARNING]   - scala.util.parsing.json.JSON$
+[WARNING]   - scala.util.parsing.combinator.Parsers$$anonfun$elem$1
+[WARNING]   - scala.util.parsing.combinator.Parsers$Parser$$anon$5
+[WARNING]   - scala.util.parsing.json.Lexer$$anonfun$string$1$$anonfun$apply$14$$anonfun$apply$15
+[WARNING]   - 331 more...
+[WARNING] jasper-compiler-5.5.12.jar, jsp-2.1-6.1.14.jar define 143 overlappping classes: 
+[WARNING]   - org.apache.jasper.compiler.TagLibraryInfoImpl
+[WARNING]   - org.apache.jasper.xmlparser.SymbolTable
+[WARNING]   - org.apache.jasper.compiler.Generator$FragmentHelperClass$Fragment
+[WARNING]   - org.apache.jasper.compiler.Generator$1TagHandlerPoolVisitor
+[WARNING]   - org.apache.jasper.compiler.ScriptingVariabler
+[WARNING]   - org.apache.jasper.compiler.SmapStratum$LineInfo
+[WARNING]   - org.apache.jasper.compiler.Node$AttributeGenerator
+[WARNING]   - org.apache.jasper.compiler.Node
+[WARNING]   - org.apache.jasper.compiler.Node$JspAttribute
+[WARNING]   - org.apache.jasper.compiler.tagplugin.TagPlugin
+[WARNING]   - 133 more...
+[WARNING] maven-shade-plugin has detected that some .class files
+[WARNING] are present in two or more JARs. When this happens, only
+[WARNING] one single version of the class is copied in the uberjar.
+[WARNING] Usually this is not harmful and you can skeep these
+[WARNING] warnings, otherwise try to manually exclude artifacts
+[WARNING] based on mvn dependency:tree -Ddetail=true and the above
+[WARNING] output
+[WARNING] See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/gz612/big_data/project/trendalytics/target/trendalytics-0.0.1.jar with /home/gz612/big_data/project/trendalytics/target/trendalytics-0.0.1-shaded.jar
+[INFO] Dependency-reduced POM written at: /home/gz612/big_data/project/trendalytics/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /home/gz612/big_data/project/trendalytics/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /home/gz612/big_data/project/trendalytics/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /home/gz612/big_data/project/trendalytics/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 27.087 s
+[INFO] Finished at: 2016-12-09T17:14:02-05:00
+[INFO] Final Memory: 28M/1933M
+[INFO] ------------------------------------------------------------------------

@@ -18,8 +18,8 @@
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
     <encoding>UTF-8</encoding>
-    <scala.version>2.11.5</scala.version>
-    <scala.compat.version>2.11</scala.compat.version>
+    <scala.version>2.10.5</scala.version>
+    <scala.compat.version>2.10</scala.compat.version>
     <skipTests>true</skipTests>
   </properties>
 
@@ -51,6 +51,18 @@
 
   <dependencies>
 
+    <dependency>
+     <groupId>edu.stanford.nlp</groupId>
+     <artifactId>stanford-corenlp</artifactId>
+     <version>3.3.1</version>
+    </dependency>
+    <dependency>
+     <groupId>edu.stanford.nlp</groupId>
+     <artifactId>stanford-corenlp</artifactId>
+     <version>3.3.1</version>
+     <classifier>models</classifier>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-core -->
     <dependency>
        <groupId>org.apache.hadoop</groupId>
@@ -79,6 +91,12 @@
       <artifactId>spark-sql_${scala.compat.version}</artifactId>
       <version>1.6.3</version>
       <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>edu.stanford.nlp</groupId>
+        <artifactId>stanford-corenlp</artifactId>
+        <version>3.4</version>
     </dependency>
 
     <dependency>
@@ -130,6 +148,14 @@
         <artifactId>json4s-native_2.11</artifactId>
         <version>3.2.9</version>
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/net.liftweb/lift-json_2.11 -->
+    <dependency>
+        <groupId>net.liftweb</groupId>
+        <artifactId>lift-json_2.11</artifactId>
+        <version>3.0</version>
+    </dependency>
+
 
 
     <!-- HTTP Client Library  -->
