@@ -41,7 +41,7 @@ object StreamerUtil {
   val tf = new HashingTF(numFeatures)
 
   def featurize(s: String): Vector = {
-    tf.transform(s.sliding(2).toSeq)
+    tf.transform(s.sliding(4).toSeq)
   }
 
   def storeTweets (key_name: String, rate: String) = {
@@ -76,7 +76,7 @@ object StreamerUtil {
 
         println(key_name.toUpperCase() + " rated as: " + rate)
         println(tweets + "\n" + datetime)
-        println("### Sentiment is: " SentimentAnalysis.findSentiment(tweets))
+        println("### Sentiment is: ", SentimentAnalysis.findSentiment(tweets))
         println("It's in cluster: " + model.predict(featurize(tweets)).toString + "\n")
 
       }
