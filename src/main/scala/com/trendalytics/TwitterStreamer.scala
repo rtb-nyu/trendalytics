@@ -68,10 +68,11 @@ object StreamerUtil {
       val status = it.next()
 
       val tweets = status.getText.replaceAll("[\n\t]",". ").replaceAll("http[s]*://[a-zA-Z0-9.?/&=:]*", "")
-      
-      println(tweets)
+      val datetime = status.getCreatedAt.toString()
+
+      println(tweets + "\n" + datetime)
       println("Sentiment is: ", SentimentAnalysis.findSentiment(tweets))
-      println("It's in cluster: " + model.predict(featurize(tweets)).toString)
+      println("It's in cluster: " + model.predict(featurize(tweets)).toString + "\n")
 
     }
   }
