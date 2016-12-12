@@ -37,7 +37,7 @@ import org.apache.spark.sql.types.{StructType,StructField,StringType};
  */
 object App {
   
-  val numFeatures = 1000
+  val numFeatures = 2000
   val tf = new HashingTF(numFeatures)
 
   def getListOfFiles(dir: String):List[File] = {
@@ -55,7 +55,7 @@ object App {
   }
 
   def featurize(s: String): Vector = {
-    tf.transform(s.sliding(2).toSeq)
+    tf.transform(s.sliding(4).toSeq)
   }
 
   def main(args : Array[String]) {
@@ -167,8 +167,8 @@ object App {
     vectors.count()  // Calls an action to create the cache.
     println("vectorized texts")
 
-    val numIterations = 100
-    val numClusters = 2
+    val numIterations = 50
+    val numClusters = 3
 
     val model = KMeans.train(vectors, numClusters, numIterations)
 

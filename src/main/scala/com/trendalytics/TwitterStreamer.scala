@@ -37,11 +37,11 @@ object StreamerUtil {
   val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
   val model = KMeansModel.load(sc, modelFile)
 
-  val numFeatures = 1000
+  val numFeatures = 2000
   val tf = new HashingTF(numFeatures)
 
   def featurize(s: String): Vector = {
-    tf.transform(s.sliding(2).toSeq)
+    tf.transform(s.sliding(4).toSeq)
   }
 
   def storeTweets (key_name: String, rate: String) = {

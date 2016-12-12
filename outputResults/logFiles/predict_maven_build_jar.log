@@ -43,9 +43,9 @@
 [WARNING]  org.json4s:json4s-core_2.11:3.2.9 requires scala version: 2.11.0
 [WARNING] Multiple versions of scala libraries detected!
 [INFO] /home/gz612/big_data/project/trendalytics/src/main/scala:-1: info: compiling
-[INFO] Compiling 12 source files to /home/gz612/big_data/project/trendalytics/target/classes at 1481578825811
+[INFO] Compiling 12 source files to /home/gz612/big_data/project/trendalytics/target/classes at 1481580179665
 [INFO] prepare-compile in 0 s
-[INFO] compile in 11 s
+[INFO] compile in 8 s
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ trendalytics ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -76,11 +76,11 @@
 [WARNING]  org.json4s:json4s-core_2.11:3.2.9 requires scala version: 2.11.0
 [WARNING] Multiple versions of scala libraries detected!
 [INFO] /home/gz612/big_data/project/trendalytics/src/test/scala:-1: info: compiling
-[INFO] Compiling 3 source files to /home/gz612/big_data/project/trendalytics/target/test-classes at 1481578837074
+[INFO] Compiling 3 source files to /home/gz612/big_data/project/trendalytics/target/test-classes at 1481580188060
 [WARNING] warning: there were 1 deprecation warning(s); re-run with -deprecation for details
 [WARNING] one warning found
 [INFO] prepare-compile in 0 s
-[INFO] compile in 7 s
+[INFO] compile in 4 s
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ trendalytics ---
 [INFO] Tests are skipped.
@@ -211,7 +211,7 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 47.603 s
-[INFO] Finished at: 2016-12-12T16:41:07-05:00
-[INFO] Final Memory: 28M/1933M
+[INFO] Total time: 35.634 s
+[INFO] Finished at: 2016-12-12T17:03:30-05:00
+[INFO] Final Memory: 27M/1933M
 [INFO] ------------------------------------------------------------------------
