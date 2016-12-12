@@ -7,10 +7,7 @@ import org.apache.http.client.methods.HttpGet
 import org.apache.http.client.utils.URIBuilder
 import org.apache.http.impl.client.HttpClients
 import org.apache.http.util.EntityUtils
-//import org.json4s._
-//import org.json4s.native.JsonMethods._
 import twitter4j._
-// import java.time.LocalDateTime
 import java.util._
 import java.text._
 
@@ -19,7 +16,6 @@ import net.liftweb.json._
  * @author ${user.name}
  */
 
-// case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
 
 object FilterUtil {
   val config = new twitter4j.conf.ConfigurationBuilder()
@@ -30,10 +26,6 @@ object FilterUtil {
   .setUseSSL(true)
   .build
 
-  // case class sameKeyTweets(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String){
-  //   val allTweets = List[TweetRecord]()
-  // }
-
   def storeTweets (key_name: String) = {
     val twitter = new TwitterFactory(FilterUtil.config).getInstance
 
@@ -43,7 +35,6 @@ object FilterUtil {
     val lat = 40.5722;
     val res = 50;
     val resUnit = "mi";
-    // query.setGeoCode(new GeoLocation(lat, lon), res, resUnit);
     query.setCount(100);  // can fetch more tweets each time
                 // maximum to 100
     query.setLang("en");    // restrict to English tweets
@@ -56,10 +47,8 @@ object FilterUtil {
     val it = statuses.iterator()
 
     val dNow = new Date()
-    // val ft = new SimpleDateFormat ("yyyy.MM.dd_hh:mm:ss")
     val ft = new SimpleDateFormat ("MMddyyyy_hh")
 
-    // val currentTime = ft.format(dNow).toString().replaceAll("[-+.^:,]","");
     val currentTime = ft.format(dNow).toString();
 
     while (it.hasNext()) {
@@ -81,20 +70,6 @@ object FilterUtil {
       pw.write(toPrint + "\n")
 
       pw.close
-
-
-      // write to json filename
-      // val json = 
-      //   (("key_name" -> key_name) ~ ("text" -> tweets)
-      //    ~ ("id" -> id) ~ ("username" -> userName) ~ ("retweets" -> numReTweet) 
-      //    ~ ("num_friends" -> numFriends) ~ ("datetime" -> datetime)
-      //   )
-
-      // // val jValue = parse(jsonString)
-      // implicit val formats = net.liftweb.json.DefaultFormats
-      // // val TweetsJson = jValue.extract[TweetRecord]
-      // // println(TweetsJson.text)
-      // println(pretty(render(json)))
 
     }
   }

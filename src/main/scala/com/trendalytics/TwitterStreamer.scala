@@ -94,13 +94,24 @@ class TwitterStreamer {
   def fetch() {
 
     println("------- Begin to search for MOVIES -------");
-    
     StreamerUtil.filterKeyTweets("trendalytics_data/movies.txt", 0, 5);
     println("Finished searching for movies.\n");
 
     println("------- Begin to search for RESTAURANTS -------");
-    StreamerUtil.filterKeyTweets("trendalytics_data/yelp20LinesClean.txt", 1 ,0);
-    println("Finished searching for restaurants.");    
+    StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/100restaurant.txt", 1 ,0);
+    println("Finished searching for restaurants.");
+
+    println("------- Begin to search for BARS -------");
+    StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/20bar.txt", 1 ,0);
+    println("Finished searching for bars.");
+
+    println("------- Begin to search for SHOPPING -------");
+    StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/20shopping.txt", 1 ,0);
+    println("Finished searching for shopping.");
+
+    println("------- Begin to search for MUSEUMS -------");
+    StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/20museum.txt", 1 ,0);
+    println("Finished searching for museums.");
 
   }
 }
