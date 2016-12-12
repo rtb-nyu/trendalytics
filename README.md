@@ -73,15 +73,15 @@ Repository
 
 Being consistent with the [GitHub rtb-nyu/trendalytics](https://github.com/rtb-nyu/trendalytics) repository, the codes inside the following directories are:
 
--   `src` Main Scala source codes. Please refer to
-    `src/main/scala/com/trendalytics/README.md` for more details.
+-  `src` Main Scala source codes. Please refer to
+   `src/main/scala/com/trendalytics/README.md` for more details.
 
--   `outputResults` Output log files illustrating the successfulness of
+-  `outputResults` Output log files illustrating the successfulness of
     analytics.
 
--   `trendalytics_data` Four data sources.
+-  `trendalytics_data` Four data sources.
 
--   `data-processing` PigLatin or Python scripts for processing Yelp and
+-  `data-processing` PigLatin or Python scripts for processing Yelp and
     Facebook data.
 
 Acknowledgement
