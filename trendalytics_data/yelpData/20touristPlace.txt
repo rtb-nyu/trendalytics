@@ -1,0 +1,21 @@
+rating	name	latitude	longitude	city
+4.5	Top of the Rock	40.7593342608422	-73.9794015884399	New York
+4.5	The High Line	40.7479831752801	-74.0048906107511	New York
+4.5	Love Sculpture	40.763158183256	-73.9782295443495	New York
+4.5	Brooklyn Bridge	40.7059677364821	-73.9966657489186	Brooklyn
+5.0	Brooklyn Heights Promenade	40.6979309758759	-73.9971359844473	Brooklyn
+4.5	Washington Square Park	40.7307873410831	-73.997597694397	New York
+4.5	Flatiron Building	40.7412290453689	-73.9895794188884	New York
+4.5	Grand Central Terminal	40.752793	-73.977165	New York
+4.0	Lower East Side Tenement Museum	40.7188299	-73.98998	New York
+4.5	Brooklyn Bridge Park	40.7016262778116	-73.9972114562988	Brooklyn
+4.5	Rockefeller Center	40.7590151633732	-73.979138565745	New York
+4.5	Battery Park	40.70235	-74.0138	New York
+4.5	Bryant Park	40.7538842911333	-73.9836510457098	New York
+5.0	Central Park	40.7644	-73.97166	New York
+4.5	9/11 Memorial & Museum	40.7114821574672	-74.0126906189541	New York
+4.5	New York Transit Museum	40.6886	-73.9850699	Brooklyn
+4.5	Strawberry Fields	40.7756479598567	-73.9747209091037	New York
+5.0	The Metropolitan Museum of Art	40.779254271604	-73.9628841731528	New York
+4.5	9/11 Tribute Center	40.709765	-74.012452	New York
+4.5	Roosevelt Island Tramway	40.761198	-73.96421	New York

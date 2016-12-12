@@ -1,0 +1,101 @@
+rating	name	latitude	longitude	city
+4.5	Sid Gold's Request Room	40.74586	-73.99366	New York
+4.5	Gersi	40.68344	-73.99571	Brooklyn
+4.0	Holy Guacamole	40.7567674800253	-73.9294484278188	Queens
+4.5	Gristmill	40.6736889031443	-73.9824806441803	Brooklyn
+3.5	O'Donoghues Pub	40.75689	-73.98521	New York
+4.0	Tipsy Shanghai	40.7084192512151	-74.0141288603204	New York
+3.5	Brooklyn Bazaar	40.7301329064897	-73.9547889981813	Brooklyn
+5.0	Hungry?	40.7253533	-73.952406	Brooklyn
+5.0	The Alcove	40.745889	-73.9151262	Sunnyside
+4.5	Onderdonk & Sons	40.7053299	-73.9100418	Ridgewood
+4.0	Mom's Kitchen & Bar	40.7636753	-73.9215822	Astoria
+4.5	Bocadillo	40.70873	-74.00574	New York
+4.0	Donna	40.71093	-73.96772	Brooklyn
+4.5	Dutch Freds	40.76072	-73.98793	New York
+4.5	The Brooklyn Tree	40.70724	-73.94184	Brooklyn
+4.5	Chikarashi	40.71787	-73.99948	New York
+4.0	Olmsted	40.67713	-73.96869	Brooklyn
+4.5	Thursday Kitchen	40.7275	-73.9838	New York
+4.5	Win Son	40.70747	-73.9433899	Brooklyn
+4.0	Takumen	40.74259	-73.9546699	Long Island City
+4.5	Sid Gold's Request Room	40.74586	-73.99366	New York
+4.5	Gersi	40.68344	-73.99571	Brooklyn
+4.0	Holy Guacamole	40.7567674800253	-73.9294484278188	Queens
+4.5	Gristmill	40.6736889031443	-73.9824806441803	Brooklyn
+3.5	O'Donoghues Pub	40.75689	-73.98521	New York
+4.0	Tipsy Shanghai	40.7084192512151	-74.0141288603204	New York
+3.5	Brooklyn Bazaar	40.7301329064897	-73.9547889981813	Brooklyn
+5.0	Hungry?	40.7253533	-73.952406	Brooklyn
+5.0	The Alcove	40.745889	-73.9151262	Sunnyside
+4.5	Onderdonk & Sons	40.7053299	-73.9100418	Ridgewood
+4.0	Mom's Kitchen & Bar	40.7636753	-73.9215822	Astoria
+4.5	Bocadillo	40.70873	-74.00574	New York
+4.0	Donna	40.71093	-73.96772	Brooklyn
+4.5	Dutch Freds	40.76072	-73.98793	New York
+4.5	The Brooklyn Tree	40.70724	-73.94184	Brooklyn
+4.5	Chikarashi	40.71787	-73.99948	New York
+4.0	Olmsted	40.67713	-73.96869	Brooklyn
+4.5	Thursday Kitchen	40.7275	-73.9838	New York
+4.5	Win Son	40.70747	-73.9433899	Brooklyn
+4.0	Takumen	40.74259	-73.9546699	Long Island City
+4.0	Mad Donkey Beer Bar & Grill	40.75627	-73.92849	Astoria
+4.5	Simple	40.71821	-73.99223	New York
+4.5	Midwinter Kitchen	40.73542	-73.98293	New York
+4.5	Rabbit House	40.7172	-73.99314	New York
+4.5	Father Knows Best	40.6901735	-73.9069755	Brooklyn
+4.5	Am¨¦lie	40.7327	-73.99766	New York
+4.0	Amami Bar and Restaurant	40.72355	-73.95219	Brooklyn
+4.5	Naive	40.70944	-73.95566	Brooklyn
+4.5	Luke's Lobster	40.7046213003984	-74.0107793876969	New York
+4.5	Mighty Bowl	40.72979	-74.00035	New York
+4.5	Fishmarket Restaurant	40.70717	-74.00192	New York
+4.5	Kichin	40.70869	-73.95795	Brooklyn
+4.5	Barn Joo 35	40.74972	-73.98578	New York
+4.5	Traif	40.710658	-73.958872	Brooklyn
+4.5	Olio e Pi¨²	40.7338460034723	-73.9998156397812	New York
+4.5	Upstate	40.7263139141197	-73.9864901976935	New York
+4.5	Trademark Taste & Grind	40.75033	-73.98531	New York
+5.0	Bentou Cafe	40.714735	-73.9441264	Brooklyn
+4.5	The Whales	40.71927	-73.98509	New York
+4.5	Chirping Chicken	40.7588161	-73.9926049	New York
+4.5	The Wild Son	40.74073	-74.00836	New York
+4.0	Brasserie S¨¦oul	40.68742	-73.98258	Brooklyn
+4.5	Hudson Eats At Brookfield Place	40.7128852965794	-74.0157020331352	New York
+4.5	El Mate	40.6749782203506	-73.9995224876405	Brooklyn
+4.5	Burger & Lobster	40.74016	-73.993372	New York
+4.0	The Dead Rabbit	40.70329	-74.01102	New York
+4.0	Two Hands Restaurant & Bar	40.71782	-74.00547	New York
+4.5	Bar Pleiades	40.774462614628	-73.9639148558197	New York
+4.5	Dim Sum Palace	40.76015	-73.9893699	New York
+4.5	Breakroom	40.7166907225542	-73.9999440120647	New York
+4.0	The Warren	40.7331	-74.0067	New York
+5.0	Suspenders Restaurant & Bar	40.7086033564233	-74.0135990828276	New York
+4.5	The Greek	40.7237145	-74.0096166	New York
+4.0	The Burgary	40.7193370804105	-73.9850228946549	New York
+4.0	The Good Fork	40.67599	-74.01432	Brooklyn
+4.5	Le Pif	40.7476868	-74.0037054	New York
+4.5	Excuse My French	40.71844	-73.98981	New York
+5.0	Cherry Point	40.7244954175426	-73.9511575076571	Brooklyn
+4.5	L.E.S kitchen	40.715178	-73.9900949	New York
+4.5	Il Bambino	40.73313	-73.99867	New York
+4.0	Joe's Shanghai	40.7146691442891	-73.9977602206654	New York
+4.5	Rider	40.71887	-73.96136	Brooklyn
+4.0	Hometown Bar-B-Que	40.674905	-74.016127	Brooklyn
+4.0	Fresh Salt	40.70707	-74.00244	New York
+5.0	Chang Noi Thai	40.6437040412059	-74.0776029179201	Staten Island
+4.5	Los Tacos No.1	40.742455	-74.005956	New York
+4.0	Jane	40.72732	-74.00026	New York
+4.5	Dinnertable	40.72945	-73.9807	New York
+4.0	Atrium Dumbo	40.7033899	-73.9904923	Brooklyn
+4.0	Aunt Jake's	40.719107292949	-73.9975398002347	New York
+4.5	Tygershark	40.68035	-73.9676999	Brooklyn
+4.5	Cafe Mogador	40.719747	-73.959993	Brooklyn
+4.5	Mama Bella's	40.70179	-73.93671	Brooklyn
+4.5	Tanner Smiths	40.76443	-73.9817	New York
+5.0	Miscelanea NY	40.72696	-73.99067	New York
+4.5	Wah Fung No 1 Fast Food	40.71735	-73.99457	New York
+4.5	G¨¹nter Seeger NY	40.73903	-74.00581	New York
+4.5	Gramercy Tavern	40.738527	-73.988417	New York
+4.5	2nd City	40.73405	-74.00642	New York
+4.0	Bing Kitchen	40.7174696	-73.9907401	New York

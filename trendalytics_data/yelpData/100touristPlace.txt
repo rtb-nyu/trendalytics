@@ -1,0 +1,101 @@
+rating	name	latitude	longitude	city
+4.5	Top of the Rock	40.7593342608422	-73.9794015884399	New York
+4.5	The High Line	40.7479831752801	-74.0048906107511	New York
+4.5	Love Sculpture	40.763158183256	-73.9782295443495	New York
+4.5	Brooklyn Bridge	40.7059677364821	-73.9966657489186	Brooklyn
+5.0	Brooklyn Heights Promenade	40.6979309758759	-73.9971359844473	Brooklyn
+4.5	Washington Square Park	40.7307873410831	-73.997597694397	New York
+4.5	Flatiron Building	40.7412290453689	-73.9895794188884	New York
+4.5	Grand Central Terminal	40.752793	-73.977165	New York
+4.0	Lower East Side Tenement Museum	40.7188299	-73.98998	New York
+4.5	Brooklyn Bridge Park	40.7016262778116	-73.9972114562988	Brooklyn
+4.5	Rockefeller Center	40.7590151633732	-73.979138565745	New York
+4.5	Battery Park	40.70235	-74.0138	New York
+4.5	Bryant Park	40.7538842911333	-73.9836510457098	New York
+5.0	Central Park	40.7644	-73.97166	New York
+4.5	9/11 Memorial & Museum	40.7114821574672	-74.0126906189541	New York
+4.5	New York Transit Museum	40.6886	-73.9850699	Brooklyn
+4.5	Strawberry Fields	40.7756479598567	-73.9747209091037	New York
+5.0	The Metropolitan Museum of Art	40.779254271604	-73.9628841731528	New York
+4.5	9/11 Tribute Center	40.709765	-74.012452	New York
+4.5	Roosevelt Island Tramway	40.761198	-73.96421	New York
+4.5	Top of the Rock	40.7593342608422	-73.9794015884399	New York
+4.5	The High Line	40.7479831752801	-74.0048906107511	New York
+4.5	Love Sculpture	40.763158183256	-73.9782295443495	New York
+4.5	Brooklyn Bridge	40.7059677364821	-73.9966657489186	Brooklyn
+5.0	Brooklyn Heights Promenade	40.6979309758759	-73.9971359844473	Brooklyn
+4.5	Washington Square Park	40.7307873410831	-73.997597694397	New York
+4.5	Flatiron Building	40.7412290453689	-73.9895794188884	New York
+4.5	Grand Central Terminal	40.752793	-73.977165	New York
+4.0	Lower East Side Tenement Museum	40.7188299	-73.98998	New York
+4.5	Brooklyn Bridge Park	40.7016262778116	-73.9972114562988	Brooklyn
+4.5	Rockefeller Center	40.7590151633732	-73.979138565745	New York
+4.5	Battery Park	40.70235	-74.0138	New York
+4.5	Bryant Park	40.7538842911333	-73.9836510457098	New York
+5.0	Central Park	40.7644	-73.97166	New York
+4.5	9/11 Memorial & Museum	40.7114821574672	-74.0126906189541	New York
+4.5	New York Transit Museum	40.6886	-73.9850699	Brooklyn
+4.5	Strawberry Fields	40.7756479598567	-73.9747209091037	New York
+5.0	The Metropolitan Museum of Art	40.779254271604	-73.9628841731528	New York
+4.5	9/11 Tribute Center	40.709765	-74.012452	New York
+4.5	Roosevelt Island Tramway	40.761198	-73.96421	New York
+4.0	Empire State Building	40.748442285082	-73.9856674785042	New York
+4.5	Statue of Liberty	40.689772	-74.045309	New York
+4.5	Governors Island National Monument	40.6913770268785	-74.0164375305176	New York
+5.0	Citifari	40.7529716	-73.9963226	New York
+4.5	Wall Street Walks	40.70612	-74.00921	New York
+4.0	One World Observatory	40.692022	-73.9884418	New York
+5.0	Real New York Tours	40.71567	-73.98998	New York
+4.5	Belvedere Castle	40.7794284268306	-73.9690482616425	New York
+4.0	Bowling Green	40.7051324981768	-74.0135908771509	New York
+4.5	New York Public Library	40.75161	-73.98226	New York
+4.5	Madison Square Park	40.7422133587202	-73.9879736510651	New York
+4.5	Radio City Music Hall	40.7599766	-73.9799747	New York
+4.5	The Museum of Modern Art	40.7614124038247	-73.9775069992493	New York
+4.0	Union Square	40.7352587669863	-73.990752696991	New York
+4.5	The Staten Island Ferry	40.644066694356	-74.0724992534156	Staten Island
+4.5	Cathedral Church of St John the Divine	40.8037049	-73.9631203	New York
+3.5	The Ride	40.7549769	-73.9911009	New York
+3.5	Times Square	40.7586519740346	-73.9850566812844	New York
+4.0	American Museum of Natural History	40.7809777375863	-73.9731667865401	New York
+4.0	Comedy Cellar	40.73021	-74.00058	New York
+4.5	Riverside Park	40.8111312	-73.9638738	New York
+4.5	TKTS South Street Seaport	40.7069203	-74.0045058	New York
+4.5	Brooklyn Botanic Garden	40.6668904	-73.9618318	Brooklyn
+4.5	Hudson River Park	40.7535722166564	-74.0076291561127	New York
+4.0	Intrepid Sea Air & Space Museum	40.764525	-73.999613	New York
+4.5	Brooklyn Museum	40.6714058033045	-73.9636778798943	Brooklyn
+4.0	Columbus Circle	40.7680517014971	-73.9819249126892	New York
+4.5	Adirondack Sailing	40.7499464	-74.0086279	New York
+5.0	The Conservatory Garden	40.77278	-73.96681	New York
+3.5	Charging Bull	40.7055723319288	-74.0134434850554	New York
+4.0	Ellis Island Immigration Museum	40.6987072970291	-74.0395416540388	New York
+4.5	Williamsburg Bridge	40.7136404101923	-73.9724688795898	Brooklyn
+5.0	Free Tours by Foot	40.718772	-73.98591	New York
+4.0	Bateaux New York	40.7474032689075	-74.009646177292	New York
+4.0	Columbus Park	40.7158037	-73.9995434	New York
+3.5	Wall Street	40.7047806	-74.0065231	New York
+4.0	Madame Tussauds New York	40.7565705020068	-73.9886474944427	New York
+4.5	The Cube @ Astor Place	40.729909	-73.991378	New York
+5.0	Gantry Plaza State Park	40.7448950110868	-73.9583035553701	Long Island City
+3.5	Circle Line Sightseeing Cruises	40.763003	-74.00203	New York
+5.0	Urban Oyster Tours	40.7180036	-73.9653715	New York
+5.0	Scott's Pizza Tours	40.744621	-73.987662	New York
+4.5	Whispering Gallery	40.7525246144223	-73.9777266640202	New York
+4.0	Oculus	40.7115051	-74.011386	New York
+4.0	Federal Hall National Memorial	40.7071839860285	-74.0104323387947	New York
+4.0	Blue Man Group	40.7293	-73.99217	New York
+4.5	Jacqueline Kennedy Onassis Reservoir	40.7862605212217	-73.9620208740234	New York
+4.5	Lincoln Center	40.7725956296678	-73.9832156896592	New York
+4.0	New York Water Taxi	40.7046758930775	-74.0032442645264	New York
+4.5	Dyker Heights Christmas Lights	40.6165499	-74.0149	Brooklyn
+4.5	Classic Harbor Line	40.7499464	-74.0086279	New York
+4.5	Alice In Wonderland Sculpture	40.7750294404491	-73.9666751634164	New York
+3.0	Ripley's Believe It or Not! Time Square	40.7567195290979	-73.988980435962	New York
+4.0	Chinatown	40.7162464	-73.9961421	New York
+4.5	The Unisphere	40.7463903688115	-73.8450483183901	Flushing
+4.0	Village Vanguard	40.7360954	-74.001564	New York
+4.0	Bryant Park Hotel	40.75286	-73.98365	New York
+4.0	Russian Vodka Room	40.76349	-73.9848	New York
+4.5	Carl Schurz Park	40.7744442236	-73.9441989189	New York
+4.0	Marie's Crisis	40.73323	-74.00339	New York

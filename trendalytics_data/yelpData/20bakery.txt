@@ -1,0 +1,21 @@
+rating	name	latitude	longitude	city
+4.5	Levain Bakery	40.7799404643263	-73.980282552649	New York
+4.0	Bakeri	40.72004	-73.96013	Brooklyn
+4.0	Dominique Ansel Bakery	40.7252	-74.002971	New York
+5.0	Aux Merveilleux De Fred	40.738362	-74.004134	New York
+4.5	Arcade Bakery	40.7168697865532	-74.0066022711227	New York
+4.0	Takahachi Bakery	40.71374	-74.0084399	New York
+4.5	Sweethaus	40.7163045	-73.9621824	Brooklyn
+4.5	Two Little Red Hens	40.77749	-73.9516699	New York
+4.0	Sugar Sweet Sunshine Bakery	40.719851	-73.987011	New York
+4.5	Breads Bakery	40.7366	-73.991814	New York
+4.5	Mia's Bakery	40.68697	-73.98999	Brooklyn
+4.5	Blue Sky Bakery	40.68116	-73.9770999	Brooklyn
+4.0	Veniero's Pastry Shop	40.72941	-73.98454	New York
+4.5	Dough	40.73941	-73.9923699	New York
+4.5	Buttermilk Bakeshop	40.666573	-73.9818436	Brooklyn
+4.0	Almondine Bakery	40.7033174	-73.9912506	Brooklyn
+4.5	Kam Hing Coffee Shop	40.7182480993847	-73.9990044118685	New York
+4.5	Cannelle Patisserie	40.76017183023	-73.8920721786869	East Elmhurst
+4.5	Cafe Patoro	40.7072720974983	-74.0023160353303	New York
+4.5	City Cakes	40.7420424869865	-73.999898435907	New York

@@ -1,0 +1,101 @@
+rating	name	latitude	longitude	city
+5.0	The Metropolitan Museum of Art	40.779254271604	-73.9628841731528	New York
+4.5	The Museum of Modern Art	40.7614124038247	-73.9775069992493	New York
+4.0	American Museum of Natural History	40.7809777375863	-73.9731667865401	New York
+4.5	Brooklyn Museum	40.6714058033045	-73.9636778798943	Brooklyn
+4.0	Whitney Museum of American Art	40.7394629444886	-74.0084221876268	New York
+4.5	Museum of the Moving Image	40.7563782	-73.923851	Astoria
+4.5	9/11 Memorial & Museum	40.7114821574672	-74.0126906189541	New York
+4.0	Lower East Side Tenement Museum	40.7188299	-73.98998	New York
+4.5	New York Transit Museum	40.6886	-73.9850699	Brooklyn
+4.5	Rubin Museum of Art	40.74013	-73.99772	New York
+4.5	Frick Collection	40.77094	-73.96717	New York
+4.5	Museum at Eldridge Street	40.7147239	-73.993444	New York
+4.0	Museum of the American Gangster	40.72765	-73.98573	New York
+3.5	Guggenheim Museum	40.78301	-73.95912	New York
+4.5	The Morgan Library & Museum	40.74909	-73.98181	New York
+4.0	National Museum of the American Indian	40.7046204	-74.0141373	New York
+4.5	Merchant's House Museum	40.727500905169	-73.9925233282418	New York
+4.0	The Noguchi Museum	40.7668297	-73.9386347	Long Island City
+4.5	The City Reliquary	40.713764	-73.955715	Brooklyn
+5.0	Mmuseumm	40.7173438156757	-74.0027689933777	New York
+5.0	The Metropolitan Museum of Art	40.779254271604	-73.9628841731528	New York
+4.5	The Museum of Modern Art	40.7614124038247	-73.9775069992493	New York
+4.0	American Museum of Natural History	40.7809777375863	-73.9731667865401	New York
+4.5	Brooklyn Museum	40.6714058033045	-73.9636778798943	Brooklyn
+4.0	Whitney Museum of American Art	40.7394629444886	-74.0084221876268	New York
+4.5	Museum of the Moving Image	40.7563782	-73.923851	Astoria
+4.5	9/11 Memorial & Museum	40.7114821574672	-74.0126906189541	New York
+4.0	Lower East Side Tenement Museum	40.7188299	-73.98998	New York
+4.5	New York Transit Museum	40.6886	-73.9850699	Brooklyn
+4.5	Rubin Museum of Art	40.74013	-73.99772	New York
+4.5	Frick Collection	40.77094	-73.96717	New York
+4.5	Museum at Eldridge Street	40.7147239	-73.993444	New York
+4.0	Museum of the American Gangster	40.72765	-73.98573	New York
+3.5	Guggenheim Museum	40.78301	-73.95912	New York
+4.5	The Morgan Library & Museum	40.74909	-73.98181	New York
+4.0	National Museum of the American Indian	40.7046204	-74.0141373	New York
+4.5	Merchant's House Museum	40.727500905169	-73.9925233282418	New York
+4.0	The Noguchi Museum	40.7668297	-73.9386347	Long Island City
+4.5	The City Reliquary	40.713764	-73.955715	Brooklyn
+5.0	Mmuseumm	40.7173438156757	-74.0027689933777	New York
+3.5	MoMA PS1	40.7455329023591	-73.9474408581139	Long Island City
+4.0	The New York Earth Room	40.7259699	-73.99973	New York
+3.0	Museum of Sex	40.7440368	-73.9873546	New York
+4.5	The Museum at Fit	40.76309	-73.86926	New York
+4.0	New York Hall Of Science	40.7478357755914	-73.8521849227539	Corona
+4.0	Cooper Hewitt, Smithsonian Design Museum	40.78443	-73.95778	New York
+5.0	Waterfront Museum	40.6752815	-74.0177526	Brooklyn
+4.5	BLDG 92	40.6981239	-73.9751053	Brooklyn
+3.5	Museum of Food and Drink	40.7189183	-73.9495367	Brooklyn
+3.0	New Museum of Contemporary Art	40.7224	-73.993	New York
+5.0	Tibet House US	40.7371399	-73.99455	New York
+4.0	Museum of Arts and Design	40.767452	-73.981988	New York
+4.0	Intrepid Sea Air & Space Museum	40.764525	-73.999613	New York
+4.0	Queens Museum	40.7455988044695	-73.8468790054321	Queens
+4.0	Museum of the City of New York	40.79251	-73.95192	New York
+4.0	New-York Historical Society	40.7793496073291	-73.9741165394002	New York
+4.5	Statue of Liberty	40.689772	-74.045309	New York
+5.0	Nicholas Roerich Museum	40.8029167103012	-73.9690271683764	New York
+5.0	Louis Armstrong House Museum	40.7545815	-73.8615875	Corona
+4.0	Fraunces Tavern Museum	40.703392	-74.0113297	New York
+4.5	The Cloisters	40.8649766228154	-73.9315730494599	New York
+4.0	The Met Breuer	40.77349	-73.96401	New York
+4.5	Alice Austen House Museum	40.615027	-74.06312	Staten Island
+3.5	Micro Museum	40.68761	-73.98973	Brooklyn
+4.5	Gracie Mansion	40.7762517916622	-73.9434385299683	New York
+3.5	Neue Galerie New York	40.78128	-73.96037	New York
+4.5	9/11 Tribute Center	40.709765	-74.012452	New York
+4.0	Museum of Chinese in America	40.7193764	-73.9990696	New York
+4.0	Brooklyn Historical Society	40.694804	-73.992407	Brooklyn
+4.5	Society of Illustrators	40.76483	-73.96683	New York
+5.0	Chelsea Galleries	40.7478416772832	-74.006097279489	New York
+3.5	The Museum of American Finance	40.7063599	-74.00921	New York
+5.0	Lilac Lighthouse Tender	40.7205936507263	-74.0138571824078	Manhattan
+4.5	AIGA	40.7406616	-73.9906769	New York
+5.0	The Center For Fiction	40.7562799	-73.97736	New York
+4.0	Anthology Film Archives	40.72474	-73.99027	New York
+4.0	American Folk Art Museum	40.77328	-73.9815799	New York
+4.5	Vander Ende-Onderdonk House	40.7111501600196	-73.9198243618011	Ridgewood
+4.5	Museum at FIT	40.747914	-73.9966529	New York
+4.0	The Old Stone House	40.672863	-73.9837952	Brooklyn
+4.0	Studio Museum Harlem	40.80845	-73.9475	New York
+3.5	Museum of Reclaimed Urban Space - MoRUS	40.725777	-73.977892	Manhattan
+4.0	Brooklyn Children's Museum	40.67443	-73.94392	Brooklyn
+4.0	Ground Zero Museum Workshop	40.74133	-74.00664	New York
+4.0	Center for Architecture	40.7287557	-73.9985439	New York
+4.5	General Grant Memorial	40.8126297	-73.9630127	New York
+4.5	Morris-Jumel Mansion	40.8344917	-73.9385071	New York
+4.5	Flushing Town Hall	40.76389	-73.83001	Flushing
+4.0	Mount Vernon Hotel Museum & Garden	40.760276	-73.9592312	New York
+4.0	Staten Island Childrens Museum	40.6435663046625	-74.101980439209	Staten Island
+4.0	Bronx Museum of the Arts	40.83102	-73.9197499	Bronx
+4.5	Hispanic Society of America	40.83352	-73.94651	New York
+4.0	The Drawing Center	40.72238	-74.00277	New York
+5.0	Institute For the Study of the Ancient World	40.7800217	-73.9601898	Manhattan
+4.0	Madame Tussauds New York	40.7565705020068	-73.9886474944427	New York
+3.5	Museum of Contemporary African Diasporan Arts - MoCADA	40.68538	-73.97445	Brooklyn
+3.5	Leslie-Lohman Museum of Gay and Lesbian Art	40.7215933	-74.0030587	New York
+5.0	A Night at the Museum	40.7677116	-73.9786606	Manhattan
+3.0	National Museum of Mathematics	40.7432299	-73.98739	Manhattan
+3.5	El Museo Del Barrio	40.7931	-73.95137	New York

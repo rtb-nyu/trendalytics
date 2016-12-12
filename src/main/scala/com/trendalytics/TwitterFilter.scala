@@ -123,8 +123,22 @@ class TwitterFilter {
 
     println("------- Begin to search for RESTAURANTS -------");
     println("Number of Tweets found for:");
-    FilterUtil.filterKeyTweets("trendalytics_data/yelp20LinesClean.txt", 1);
+    FilterUtil.filterKeyTweets("trendalytics_data/yelpData/20restaurant.txt", 1);
     println("Finished searching for restaurants.");
 
+    println("------- Begin to search for BARS -------");
+    println("Number of Tweets found for:");
+    FilterUtil.filterKeyTweets("trendalytics_data/yelpData/20bar.txt", 1);
+    println("Finished searching for bars.");
+
+    println("------- Begin to search for SHOPPING -------");
+    println("Number of Tweets found for:");
+    FilterUtil.filterKeyTweets("trendalytics_data/yelpData/20shopping.txt", 1);
+    println("Finished searching for shopping.");
+
+    println("------- Begin to search for MUSEUMS -------");
+    println("Number of Tweets found for:");
+    FilterUtil.filterKeyTweets("trendalytics_data/yelpData/20museum.txt", 1);
+    println("Finished searching for museums.");
   }
 }

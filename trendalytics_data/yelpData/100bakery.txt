@@ -1,0 +1,101 @@
+rating	name	latitude	longitude	city
+4.5	Levain Bakery	40.7799404643263	-73.980282552649	New York
+4.0	Bakeri	40.72004	-73.96013	Brooklyn
+4.0	Dominique Ansel Bakery	40.7252	-74.002971	New York
+5.0	Aux Merveilleux De Fred	40.738362	-74.004134	New York
+4.5	Arcade Bakery	40.7168697865532	-74.0066022711227	New York
+4.0	Takahachi Bakery	40.71374	-74.0084399	New York
+4.5	Sweethaus	40.7163045	-73.9621824	Brooklyn
+4.5	Two Little Red Hens	40.77749	-73.9516699	New York
+4.0	Sugar Sweet Sunshine Bakery	40.719851	-73.987011	New York
+4.5	Breads Bakery	40.7366	-73.991814	New York
+4.5	Mia's Bakery	40.68697	-73.98999	Brooklyn
+4.5	Blue Sky Bakery	40.68116	-73.9770999	Brooklyn
+4.0	Veniero's Pastry Shop	40.72941	-73.98454	New York
+4.5	Dough	40.73941	-73.9923699	New York
+4.5	Buttermilk Bakeshop	40.666573	-73.9818436	Brooklyn
+4.0	Almondine Bakery	40.7033174	-73.9912506	Brooklyn
+4.5	Kam Hing Coffee Shop	40.7182480993847	-73.9990044118685	New York
+4.5	Cannelle Patisserie	40.76017183023	-73.8920721786869	East Elmhurst
+4.5	Cafe Patoro	40.7072720974983	-74.0023160353303	New York
+4.5	City Cakes	40.7420424869865	-73.999898435907	New York
+4.5	Levain Bakery	40.7799404643263	-73.980282552649	New York
+4.0	Bakeri	40.72004	-73.96013	Brooklyn
+4.0	Dominique Ansel Bakery	40.7252	-74.002971	New York
+5.0	Aux Merveilleux De Fred	40.738362	-74.004134	New York
+4.5	Arcade Bakery	40.7168697865532	-74.0066022711227	New York
+4.0	Takahachi Bakery	40.71374	-74.0084399	New York
+4.5	Sweethaus	40.7163045	-73.9621824	Brooklyn
+4.5	Two Little Red Hens	40.77749	-73.9516699	New York
+4.0	Sugar Sweet Sunshine Bakery	40.719851	-73.987011	New York
+4.5	Breads Bakery	40.7366	-73.991814	New York
+4.5	Mia's Bakery	40.68697	-73.98999	Brooklyn
+4.5	Blue Sky Bakery	40.68116	-73.9770999	Brooklyn
+4.0	Veniero's Pastry Shop	40.72941	-73.98454	New York
+4.5	Dough	40.73941	-73.9923699	New York
+4.5	Buttermilk Bakeshop	40.666573	-73.9818436	Brooklyn
+4.0	Almondine Bakery	40.7033174	-73.9912506	Brooklyn
+4.5	Kam Hing Coffee Shop	40.7182480993847	-73.9990044118685	New York
+4.5	Cannelle Patisserie	40.76017183023	-73.8920721786869	East Elmhurst
+4.5	Cafe Patoro	40.7072720974983	-74.0023160353303	New York
+4.5	City Cakes	40.7420424869865	-73.999898435907	New York
+4.5	Buttermilk Bakeshop	40.6749687	-73.981842	Brooklyn
+5.0	Buttah	40.70807	-73.9139	Ridgewood
+5.0	Minnie's Bake Shop	40.7352224810818	-73.9917233633179	Manhattan
+4.5	Sullivan Street Bakery	40.7635655973065	-73.9948460257975	New York
+4.0	Baked	40.676789	-74.013211	Brooklyn
+4.0	Cannelle LIC	40.74602	-73.95484	Long Island City
+5.0	Cupcake Market	40.72716	-73.98671	New York
+4.5	Pi Bakerie	40.72361	-74.00329	New York
+4.5	Eclair Bakery	40.7566183	-73.9666252	New York
+4.5	Peter Pan Donut & Pastry Shop	40.72608	-73.95224	Brooklyn
+4.0	Financier Patisserie	40.70458	-74.00991	New York
+4.0	Baked	40.7186	-74.00472	New York
+4.5	Mountain Province	40.7075228032172	-73.9503787374344	Brooklyn
+4.0	Lung Moon Bakery	40.7165728	-73.9990911	New York
+4.5	Petee's Pie Company	40.7192158508607	-73.9912822511308	New York
+4.5	Parisi Bakery	40.7211836	-73.9954365	New York
+4.5	Mazzola Bakery	40.68335	-73.99963	Brooklyn
+4.5	Du Jour Bakery	40.6712112	-73.9842072	Brooklyn
+4.5	51st Bakery and Cafe	40.7422765542239	-73.9553309153442	Long Island City
+4.0	Billy's Bakery	40.74537	-74.00194	New York
+4.5	Bibble & Sip	40.76283	-73.98518	New York
+4.5	Court Pastry Shop	40.68404	-73.99525	Brooklyn
+4.0	Butter Lane	40.7264944895101	-73.9841490983963	New York
+4.5	Molly's Cupcakes	40.73005	-74.00243	New York
+4.0	Tisserie 55	40.7643662648707	-73.9810570774322	New York
+4.5	The Blue Stove	40.7174228	-73.9450185	Brooklyn
+4.0	Betty Bakery	40.6862159	-73.9834234	Brooklyn
+4.5	Kam Boat Bakery & Cafe	40.7178308	-73.995106	New York
+4.0	Butter & Scotch	40.669893909327	-73.9583220803651	Brooklyn
+4.0	Ladybird Bakery	40.664253	-73.980626	Brooklyn
+4.0	Balthazar Boulangerie	40.72276	-73.99842	New York
+4.0	Mille-Feuille Bakery	40.72933	-73.99808	New York
+4.0	Buttercup Bake Shop	40.7468368	-73.9834292	New York
+4.5	Orwasher's	40.7723	-73.9549399	New York
+4.5	Glaser's Bake Shop	40.7775917	-73.9484634	New York
+4.0	Dominique Ansel Kitchen	40.7348	-74.0019	New York
+4.0	Nita's European Bakery	40.7394714	-73.9246216	Sunnyside
+4.0	Sweet Corner Bake Shop	40.734609	-74.006405	New York
+4.0	Empire Cake	40.7406425	-74.0016708	New York
+4.5	Poseidon Bakery	40.76005	-73.99168	New York
+4.5	Mille-Feuille Bakery	40.7823472326894	-73.9811467006803	New York
+4.0	Four & Twenty Blackbirds	40.6720886	-73.9903107	Brooklyn
+4.0	Patisserie Claude	40.7327402	-74.0018208	New York
+4.0	Schmackary's	40.760153883881	-73.990944257291	New York
+5.0	Loveletter Cakeshop	40.754958	-73.9796103	New York
+4.0	Bien Cuit	40.6877048	-73.9900535	Brooklyn
+4.5	Eileen's Special Cheesecake	40.7215431969029	-73.9972332037048	New York
+4.5	Luckybird Bakery	40.70763	-73.9427	Brooklyn
+4.5	Brooklyn Kolache Co	40.6907913077698	-73.9556479454041	Brooklyn
+4.0	Baked In Brooklyn Bakery Store	40.6589088	-73.9963226	Brooklyn
+4.5	Mah Ze Dahr Bakery	40.735162	-73.9999749	New York
+4.5	Brigadeiro Bakery	40.7274461088028	-74.0016795987419	New York
+4.5	Caprices By Sophie	40.7175903	-73.9592667	Brooklyn
+4.5	Seven Grams Caffe	40.7455482	-73.9941635	New York
+4.0	Sullivan Street Bakery	40.7473191	-74.0005189	New York
+4.0	Ovenly	40.7298199	-73.95957	Brooklyn
+4.5	Nine Cakes	40.68662	-74.00179	Brooklyn
+4.5	By the Way Bakery	40.7910023	-73.9742942	New York
+4.5	F Monteleone Bakery & Cafe	40.6819599	-73.99594	Brooklyn
+4.0	Prohibition Bakery	40.7212530545151	-73.9839559793472	New York

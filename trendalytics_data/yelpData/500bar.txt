@@ -1,0 +1,501 @@
+rating	name	latitude	longitude	city
+5.0	Hinterlands Bar	40.6459944936653	-73.9720572353496	Brooklyn
+4.5	No5nyc	40.75447	-73.92456	Long Island City
+4.5	Whiskey Tavern	40.71646	-73.99969	New York
+4.5	Super Power	40.6739268745309	-73.9503274715026	Brooklyn
+4.0	The Dead Rabbit	40.70329	-74.01102	New York
+4.5	The Greek	40.7237145	-74.0096166	New York
+4.0	The Ship	40.7198443	-73.99947	New York
+4.5	Dutch Freds	40.76072	-73.98793	New York
+5.0	The Moonlight Mile	40.7321141	-73.9578424	Brooklyn
+5.0	The Wilky	40.68802	-73.92735	Brooklyn
+4.5	The Hop Shop Brooklyn	40.6874695	-74.0012512	Brooklyn
+4.5	Old Man Hustle	40.7159819101673	-73.9893277618757	New York
+4.0	The Tippler	40.7423540864346	-74.0063398693085	New York
+4.0	Proletariat	40.7272506368689	-73.9845192432404	New York
+4.5	Sunny's Bar	40.67569	-74.01689	Brooklyn
+4.5	The Wayland	40.7250748	-73.9778366	New York
+4.5	The Evergreen	40.68596	-73.90813	Brooklyn
+4.5	Tanner Smiths	40.76443	-73.9817	New York
+4.0	Dutch Kills	40.747615	-73.940159	Long Island City
+4.5	Pocket Bar NYC	40.7633645	-73.9922985	New York
+5.0	Hinterlands Bar	40.6459944936653	-73.9720572353496	Brooklyn
+4.5	No5nyc	40.75447	-73.92456	Long Island City
+4.5	Whiskey Tavern	40.71646	-73.99969	New York
+4.5	Super Power	40.6739268745309	-73.9503274715026	Brooklyn
+4.0	The Dead Rabbit	40.70329	-74.01102	New York
+4.5	The Greek	40.7237145	-74.0096166	New York
+4.0	The Ship	40.7198443	-73.99947	New York
+4.5	Dutch Freds	40.76072	-73.98793	New York
+5.0	The Moonlight Mile	40.7321141	-73.9578424	Brooklyn
+5.0	The Wilky	40.68802	-73.92735	Brooklyn
+4.5	The Hop Shop Brooklyn	40.6874695	-74.0012512	Brooklyn
+4.5	Old Man Hustle	40.7159819101673	-73.9893277618757	New York
+4.0	The Tippler	40.7423540864346	-74.0063398693085	New York
+4.0	Proletariat	40.7272506368689	-73.9845192432404	New York
+4.5	Sunny's Bar	40.67569	-74.01689	Brooklyn
+4.5	The Wayland	40.7250748	-73.9778366	New York
+4.5	The Evergreen	40.68596	-73.90813	Brooklyn
+4.5	Tanner Smiths	40.76443	-73.9817	New York
+4.0	Dutch Kills	40.747615	-73.940159	Long Island City
+4.5	Pocket Bar NYC	40.7633645	-73.9922985	New York
+4.0	Iron Horse NYC	40.70814	-74.0049499	New York
+4.5	August Laura	40.6804538169802	-73.996898901872	Brooklyn
+5.0	Dirty Precious	40.6763896691334	-73.9867169468351	Brooklyn
+4.5	Featherweight	40.7063167	-73.9432119	Brooklyn
+4.5	Blueprint	40.6769	-73.98041	Brooklyn
+4.0	Dark Horse	40.713718	-74.008036	New York
+4.0	The Maze	40.7476399	-73.98724	New York
+4.5	Gallo Nero 3	40.7296813789951	-74.0048426762223	New York
+4.0	District Social	40.75369	-73.99136	New York
+4.5	Brooklyn Ice House	40.67919	-74.011099	Brooklyn
+4.5	Nitecap	40.719125	-73.985732	New York
+4.5	Gebhard's Beer Culture	40.7789842521222	-73.9830464352102	New York
+4.0	The Warren	40.7331	-74.0067	New York
+4.0	Apoth¨¦ke	40.714444	-73.998162	New York
+5.0	Talon	40.7010419197088	-73.9143620431423	Brooklyn
+4.5	Ampersand	40.7386178790617	-73.9834206895483	New York
+4.5	The Hamilton	40.8027668786632	-73.9640214206238	New York
+4.5	Gristmill	40.6736889031443	-73.9824806441803	Brooklyn
+4.5	Post Office	40.710598	-73.9583359	Brooklyn
+4.0	Forgtmenot	40.7145776	-73.9916278	New York
+4.5	Bar B	40.7396202	-73.9990921	New York
+4.5	Fresh Kills Bar	40.7147999	-73.96151	Brooklyn
+4.0	The Up & Up	40.7295104447158	-74.0006693438721	New York
+4.5	The Lowery Bar & Kitchen	40.74498	-73.92066	Sunnyside
+4.5	South	40.66313	-73.99117	Brooklyn
+4.0	Bathtub Gin	40.7436723627234	-74.0033376216888	New York
+4.0	Jack the Horse Tavern	40.69997	-73.99378	Brooklyn
+4.0	Prospect	40.68619	-73.97377	Brooklyn
+4.0	The Pony Bar	40.76178	-73.99431	New York
+4.5	Lovers Rock	40.68309	-73.94371	Brooklyn
+4.0	The Ginger Man	40.74945	-73.9827	New York
+4.0	The Otheroom	40.734966	-74.008028	New York
+4.0	The Winslow	40.73268	-73.9853	New York
+4.0	Trading Post	40.7059604	-74.0041871	New York
+4.5	Father Knows Best	40.6901735	-73.9069755	Brooklyn
+4.0	Botanica Bar	40.7245789	-73.9947815	New York
+4.5	Craft House	40.636373	-74.077543	Tompkinsville
+4.5	E's Bar	40.786692073145	-73.9755653589964	New York
+4.0	The Bar Room	40.763409	-73.968449	New York
+4.5	Garfunkel's	40.71943	-73.98508	New York
+4.5	Diamond Dogs	40.76285	-73.92099	Astoria
+4.5	Arts and Crafts Beer Parlor	40.7327283010334	-73.9977158235951	New York
+4.0	Employees Only	40.73343	-74.0060699	New York
+4.0	The Library	40.72258	-73.98625	New York
+4.5	Am¨¦lie	40.7327	-73.99766	New York
+4.0	Keybar	40.7300334907642	-73.9818279024468	New York
+4.0	White Horse Tavern - Financial District	40.7036591	-74.0123978	New York
+4.5	Excuse My French	40.71844	-73.98981	New York
+4.0	Attaboy	40.7188874	-73.9913351	New York
+4.5	T?RST	40.7233949	-73.950856	Brooklyn
+4.5	Red Hook Bait & Tackle	40.67909	-74.01106	Brooklyn
+4.0	Jimmy's Corner	40.75671	-73.98476	New York
+4.0	The Little Owl	40.7323808291402	-74.0053009986877	New York
+4.0	FREEHOLD	40.7136054	-73.965905	Brooklyn
+4.5	Dear Irving	40.7360568971331	-73.9872401005554	New York
+4.0	The Jeffrey Craft Beer & Bites	40.7611008	-73.9629898	New York
+4.5	Drink	40.67217	-73.9575799	Brooklyn
+4.5	The Beast Next Door	40.74881	-73.94073	Long Island City
+4.5	American Beauty	40.74938	-73.9943399	New York
+4.0	The Whiskey Ward	40.71966	-73.98791	New York
+4.0	Distilled	40.7189994	-74.0062975	New York
+5.0	BKW By Brooklyn Winery	40.67306	-73.95684	Brooklyn
+4.5	The Bad Old Days	40.701081063474	-73.9080611988902	Ridgewood
+4.0	Smith and Mills	40.72018	-74.00991	New York
+4.0	Lelabar	40.730384	-74.006554	New York
+4.5	Angel's Share	40.7297097529882	-73.9891492245369	New York
+4.0	District Tap House	40.75409	-73.99039	New York
+4.0	Skinny Dennis	40.715863	-73.962168	Brooklyn
+5.0	Paloma Rocket	40.7211556	-73.9841888	New York
+4.5	Covenhoven	40.675246	-73.960244	Brooklyn
+4.5	The Whales	40.71927	-73.98509	New York
+4.0	Anable Basin Sailing Bar & Grill	40.749385	-73.9550896	Long Island City
+5.0	L'Appart	40.71156	-74.01533	New York
+4.0	Gleason's Tavern	40.75539	-73.98809	New York
+4.0	L.I.C. Bar	40.74703	-73.95295	Long Island City
+4.5	St Gambrinus Beer Shoppe	40.685226	-73.979782	Brooklyn
+4.5	Good Night Sonny	40.72768	-73.98502	New York
+4.0	The Belfry	40.73275	-73.9863	New York
+4.0	The Dead Poet	40.78495	-73.97724	New York
+4.0	Floyd, NY	40.6907799	-73.9957	Brooklyn
+4.5	Givers And Takers	40.6773146311088	-73.9863216102727	Brooklyn
+4.5	Subject	40.721537	-73.984779	New York
+4.0	Anotheroom	40.7197516	-74.0056772	New York
+4.0	McSorleys Old Ale House	40.72884	-73.98965	New York
+4.5	Jackbar	40.71186	-73.95725	Brooklyn
+4.5	Blue Ribbon Downing Street Bar	40.7292048796869	-74.0038925739262	New York
+4.5	One Star	40.7445145622588	-73.9940418298492	New York
+4.5	Bar 718	40.6605	-73.99451	Brooklyn
+4.0	Hollow Nickel	40.6855087	-73.9819794	Brooklyn
+4.0	Bea	40.7591968	-73.9923361	New York
+4.0	Little Branch	40.7303157913817	-74.0047645568848	New York
+4.0	The Adirondack	40.65252	-73.9758389	Brooklyn
+4.5	The Local Bar and Cafe	40.7496663	-73.9475656	Long Island City
+4.0	The Four-Faced Liar	40.73218	-74.00142	New York
+4.5	Oppa	40.7317759077627	-74.0012418106198	New York
+4.5	Sugarburg	40.7141182158499	-73.9516061916947	Brooklyn
+4.0	Congress Bar	40.6869743	-73.9938885	Brooklyn
+4.0	Ear Inn	40.725925	-74.009489	New York
+4.5	Naive	40.70944	-73.95566	Brooklyn
+4.0	Weather Up	40.6799	-73.96786	Brooklyn
+4.5	40 Knots Bar	40.685319	-74.0028201	Brooklyn
+4.0	The Long Island Bar	40.6906586	-73.9964447	New York
+4.0	Dram	40.71135	-73.96077	Brooklyn
+4.5	Les Enfants de Boheme	40.7136187	-73.9888503	New York
+4.5	CUPER	40.70443	-73.9875158	Brooklyn
+4.5	As Is NYC	40.7645799	-73.9914759	New York
+4.5	LIC Beer Project	40.7548729	-73.939375	Long Island City
+4.0	The Double Windsor	40.66063	-73.98056	Brooklyn
+4.0	Clinton Hall	40.70803	-74.014869	New York
+4.0	Luckydog	40.7134799	-73.96166	Brooklyn
+4.5	Amor y Amargo	40.72572	-73.98428	New York
+4.5	Lumos Bar	40.72728	-73.9999	New York
+4.0	Mission Dolores Bar	40.67619	-73.98344	Brooklyn
+4.0	Uncle Barry's	40.6813316	-73.977417	Brooklyn
+4.0	Dynaco	40.6866112	-73.9548111	Brooklyn
+4.5	142 Sullivan	40.72704	-74.00203	New York
+4.0	124 Old Rabbit Club	40.729926	-74.000219	New York
+4.0	The Shanty	40.7185593	-73.9487305	Brooklyn
+3.5	Mother's Ruin	40.7212601	-73.9950104	New York
+4.0	The Three Monkeys	40.76405	-73.98311	New York
+4.5	Juke Bar	40.7311535	-73.9856062	New York
+4.0	Dick & Jane's Bar	40.6896667	-73.9713516	Brooklyn
+4.5	Trademark Taste & Grind	40.75033	-73.98531	New York
+4.5	Sutton Bar Room	40.75921	-73.96205	New York
+4.0	Juniper	40.7524681	-73.9914627	New York
+3.5	Greenwich Treehouse	40.73559	-74.00036	New York
+4.0	The Wren	40.7263350655	-73.9920476876	New York
+3.5	Brooklyn Social	40.6804	-73.99441	Brooklyn
+4.0	Sycamore	40.63966	-73.96719	Brooklyn
+4.0	The Cellar	40.73889	-73.9897	New York
+4.5	The Owl's Head	40.6307144	-74.0228271	Brooklyn
+4.5	Duff's Brooklyn	40.70883	-73.95779	Brooklyn
+5.0	The Topaz	40.70734	-73.93949	Brooklyn
+4.0	HandCraft Kitchen & Cocktails	40.74103	-73.98132	New York
+4.0	Butter & Scotch	40.669893909327	-73.9583220803651	Brooklyn
+4.0	Rye	40.71267	-73.95782	Brooklyn
+4.5	The NoMad Bar	40.7449365409844	-73.9885197632294	New York
+4.0	Boat Bar	40.68582	-73.99096	Brooklyn
+4.0	Cock & Bull	40.7560908823673	-73.9804858350908	New York
+4.0	Tiny's & the Bar Upstairs	40.716698	-74.00816	New York
+4.5	Drunken Munkey NYC	40.7808609	-73.9475937	New York
+4.0	The Flying Cock Pub	40.74535	-73.97819	New York
+4.5	Tin Kettle	40.6789820209096	-73.9680890366435	Brooklyn
+4.0	duckduck	40.7074956	-73.9427384	Brooklyn
+4.5	Caledonia Bar	40.776327	-73.953213	New York
+4.0	4th Avenue Pub	40.68228	-73.9800099	Brooklyn
+4.5	Mace	40.7259102	-73.9790878	New York
+4.0	Clover Club	40.68461	-73.9921899	Brooklyn
+4.0	Lock Yard	40.61726	-74.0294189	Brooklyn
+4.0	Lillie's Victorian Bar & Restaurant	40.7614625	-73.9860519	New York
+4.0	Boobie Trap	40.7003517876193	-73.9161294247438	Brooklyn
+4.0	Threes Brewing	40.67963	-73.98227	Brooklyn
+4.0	Baby Grand	40.7197504957621	-73.999181630097	New York
+4.5	Flatiron Room	40.74452	-73.99049	New York
+4.5	The Binc	40.6992682	-73.9923109	Brooklyn
+4.5	La Sala	40.7632006	-73.9286183	Astoria
+4.0	Blind Tiger Ale House	40.731926	-74.003223	New York
+4.0	Pacific Standard Brooklyn	40.68209	-73.98014	Brooklyn
+4.5	Midnights	40.71748	-73.95843	Brooklyn
+4.0	Donna	40.71093	-73.96772	Brooklyn
+4.5	Glorietta Baldy	40.6813358395142	-73.9561890468519	Brooklyn
+4.0	R¨¦union	40.75964943513	-73.991308284398	New York
+5.0	Cherry Point	40.7244954175426	-73.9511575076571	Brooklyn
+4.5	South 4th Bar & Caf¨¦	40.71232	-73.9644	Brooklyn
+4.0	The Hideaway Seaport	40.7080634	-74.002083	New York
+4.5	The Standing Room	40.74445	-73.9538199	Long Island City
+4.0	Draught 55	40.7583694	-73.966507	New York
+4.5	The Ditty	40.7747727	-73.9087253	Astoria
+4.0	Beer Culture	40.759491	-73.9897614	New York
+4.5	Alphabet City Beer Company	40.7236519	-73.9788284	New York
+3.5	The Smile	40.726621	-73.993545	New York
+4.0	The Penrose	40.7754973292854	-73.9532944368176	New York
+4.5	The Royal Palms Shuffleboard Club	40.6788624899903	-73.9869758019173	Brooklyn
+4.0	The Pony Bar	40.7697411	-73.9542389	New York
+4.0	Tree House	40.68281	-73.93786	Brooklyn
+4.0	The Heath	40.75083	-74.00407	New York
+4.0	Middle Branch	40.74528	-73.97946	New York
+4.0	The Immigrant	40.72862	-73.9853399	New York
+4.0	Wolf and Deer	40.68074	-73.97769	Brooklyn
+4.0	Halyards	40.67327	-73.98972	Brooklyn
+3.5	Henry Street Ale House	40.6991054	-73.9923515	Brooklyn
+4.0	Upright Brew House	40.7348858444195	-74.0062052269836	New York
+4.0	White Oak Tavern	40.7303379323275	-73.9946855663966	New York
+4.5	Bar Sixty Five	40.75884	-73.97881	New York
+4.5	Saint Vitus	40.73679	-73.95502	Brooklyn
+4.0	Swift	40.727309	-73.992387	New York
+4.0	Fresh Salt	40.70707	-74.00244	New York
+4.5	La Cigogne	40.68348	-73.99929	Brooklyn
+4.0	Woodrow's	40.7141113	-74.009201	New York
+4.0	Pegu Club	40.726728	-73.999755	New York
+4.0	The Crown Inn	40.6739197	-73.9571075	Brooklyn
+4.0	The Summit Bar	40.72503	-73.9784584	New York
+4.0	Botanic Lab	40.7179602	-73.9902328	New York
+4.0	OTB	40.710506439209	-73.9633941650391	Brooklyn
+4.0	The Malt House FiDi	40.70966	-74.00926	New York
+4.0	Trophy Bar	40.707908	-73.95565	Brooklyn
+4.0	Johnny's Bar	40.73787	-74.0016799	New York
+4.0	Brandy Library	40.720073	-74.007227	New York
+4.5	The Wild Son	40.74073	-74.00836	New York
+4.5	Le Pif	40.7476868	-74.0037054	New York
+4.5	Union Bar & Kitchen	40.72572	-74.00798	New York
+4.0	Rooftop 93	40.7170219	-73.9953842	New York
+4.0	jeatjet?	40.661421	-73.992948	Brooklyn
+4.5	Lionsbeerstore	40.72752	-73.9882499	New York
+4.0	Falcon Laundry	40.7201499	-73.961	Brooklyn
+4.0	Dominie's Hoek	40.74351	-73.9535	Long Island City
+4.5	Bar Goto	40.72277	-73.98989	New York
+4.0	Belle Reve	40.71951	-74.00413	New York
+4.5	The Sackett	40.677979	-73.9821964	Brooklyn
+4.0	Dorian Gray Tap and Grill	40.72404	-73.98375	New York
+4.0	Clockwork Bar	40.715394	-73.990103	New York
+4.0	Death & Co	40.72589	-73.9847	New York
+4.0	Bonnie Vee	40.7224007	-73.9921417	New York
+4.5	Freddy's Bar	40.6631969	-73.991061	Brooklyn
+4.0	Rocky Sullivan's	40.67385	-74.01183	Brooklyn
+4.5	June	40.6861	-73.99394	Brooklyn
+4.0	Local 138	40.7204399	-73.9880676	New York
+4.0	Lucey's Lounge	40.67062	-73.9914093	Brooklyn
+4.5	American Cheez	40.6631983	-73.9846852	Brooklyn
+4.0	Please Don't Tell	40.727064	-73.983786	New York
+4.0	Verlaine	40.720079	-73.987785	New York
+4.5	The Long Hall Irish Pub & Grocery	40.7473817899278	-73.9822447083109	New York
+4.0	The Rum House	40.7596825	-73.9863504	New York
+4.5	Vanguard Wine Bar	40.776280321841	-73.9832221055325	New York
+4.0	Tom & Jerry's	40.7246499	-73.99326	New York
+4.0	Rattle N Hum East	40.747236	-73.984278	New York
+4.5	Drexler's	40.72262	-73.98622	New York
+5.0	Hartley's	40.6825984	-73.9613433	Brooklyn
+4.5	Albion	40.7433518	-73.9773145	New York
+4.0	Parish Cocktail Bar	40.669995	-73.978693	Brooklyn
+4.0	The Redhead	40.73092	-73.98335	New York
+4.0	Eastwood	40.7141089	-73.9870185	New York
+4.0	Barcelona Bar	40.765356	-73.984113	New York
+4.0	Smithfield	40.7449	-73.993641	New York
+4.0	Cask Bar & Kitchen	40.74545	-73.97896	New York
+4.0	Parker & Quinn	40.7526021925429	-73.9850091145378	New York
+4.0	B Flat	40.7185644131449	-74.0048434404755	New York
+4.0	61 Local	40.687147	-73.990846	Brooklyn
+4.5	Minibar	40.67747	-73.99845	Brooklyn
+4.0	Broken Land	40.729515	-73.957791	Brooklyn
+4.5	BLVD Wine Bar	40.7459602	-73.9574966	Long Island City
+4.0	Hill and Dale	40.719597	-73.990546	New York
+5.0	The Alcove	40.745889	-73.9151262	Sunnyside
+4.0	Sea Witch	40.6608086	-73.9935303	Brooklyn
+4.0	The Stag's Head	40.755592	-73.968588	New York
+4.0	Brookvin	40.66533	-73.98271	Brooklyn
+4.0	Drop Off Service	40.72993	-73.9809	New York
+4.0	Two Hands Restaurant & Bar	40.71782	-74.00547	New York
+3.5	The Brooklyn Inn	40.68582	-73.98845	Brooklyn
+4.5	Sid Gold's Request Room	40.74586	-73.99366	New York
+4.5	La  Contenta	40.71873	-73.98691	New  York
+4.0	Raines Law Room at the William	40.75058	-73.98018	New York
+4.0	Scratcher	40.72758	-73.99056	New York
+4.0	The 55 Bar	40.73378	-74.00224	New York
+4.0	Lowlands Bar	40.66847	-73.99317	Brooklyn
+4.0	Walter's	40.6894992	-73.9733436	Brooklyn
+4.5	Judge Roy Bean Public House	40.7629158108786	-73.9761248066812	New York
+4.0	Harding's	40.7393188	-73.9886551	New York
+4.0	The Baroness Bar	40.75169	-73.93992	Long Island City
+4.0	Parkside	40.655949	-73.959599	Brooklyn
+4.5	Post No Bills	40.7072411	-73.9394913	Brooklyn
+4.0	The Copper Still	40.72957	-73.98719	New York
+4.0	GENUINE Liquorette	40.71907	-73.99724	New York
+4.0	RARE View Rooftop Chelsea	40.74564	-73.99365	New York
+4.5	Church Bar	40.6440612229359	-73.9760058553657	Brooklyn
+4.5	Antler Beer And Wine Dispensary	40.7197126679496	-73.9902404124195	New York
+4.5	Sagaponack Bar & Grill	40.74093	-73.99078	New York
+4.0	Vol de Nuit	40.73143	-74.00058	New York
+4.0	Bar Sepia	40.67364	-73.96739	Brooklyn
+4.0	Ten Degrees Bar	40.72692	-73.98342	New York
+4.5	Ramona	40.7302444236037	-73.9578210900354	Brooklyn
+4.0	Flatiron Lounge	40.7400589	-73.9931564	New York
+4.0	Radegast Hall and Biergarten	40.716641	-73.961498	Brooklyn
+4.5	Masha and The Bear	40.71195	-73.94242	Brooklyn
+4.0	Pioneers	40.7472374	-73.9917016	New York
+4.0	Union Hall	40.676024	-73.980137	Brooklyn
+4.0	Fig 19	40.719555215168	-73.993238280429	New York
+4.0	Sharlene's	40.677056	-73.972049	Brooklyn
+4.0	The Skylark	40.7595392864606	-73.9885822748821	New York
+4.0	Two 8 Two	40.6885109	-73.9897385	Brooklyn
+4.0	Doris	40.6812096	-73.957428	Brooklyn
+4.0	Dante	40.7287899	-74.00165	New York
+4.5	Yours Sincerely	40.7028639	-73.9291502	Brooklyn
+4.0	Bierocracy	40.74402	-73.95028	Long Island City
+4.0	Dream Baby	40.7271041	-73.9797561	New York
+4.0	Analogue	40.732688	-73.997467	New York
+4.0	The Habitat	40.73287	-73.95455	Brooklyn
+4.0	The Bar Downstairs	40.7528813879886	-73.9810645580292	New York
+4.0	Nostrand Avenue Pub	40.675862	-73.950236	Brooklyn
+4.0	PMF Pardon My French	40.72473	-73.98115	New York
+4.0	The Milling Room	40.7836016	-73.9744901	New York
+3.0	Pier A Harbor House	40.7048185	-74.0174955	New York
+4.0	Gramercy Park Bar	40.73516	-73.98267	Manhattan
+4.0	The Mayflower	40.68643	-73.96662	Brooklyn
+4.0	The Emerson	40.6941299	-73.961792	Brooklyn
+4.5	The Sampler Bushwick	40.70552	-73.922318	Brooklyn
+4.0	The Saint Catherine	40.678335	-73.964237	Brooklyn
+4.0	Entwine	40.737398	-74.00796	New York
+4.0	Milk And Roses	40.7364097	-73.9550825	Brooklyn
+4.0	Cooper's Craft & Kitchen	40.74265	-74.00064	New York
+5.0	Proof + Gauge	40.7428557	-73.9350567	Long Island City
+4.0	Boilermaker	40.7234802	-73.9886322	New York
+4.5	The Musket Room	40.72395	-73.99391	New York
+4.0	Cookshop	40.7454251	-74.0056084	New York
+4.0	Temple Bar	40.7257339	-73.9949921	New York
+4.0	Haymaker Bar and Kitchen	40.7487508496393	-73.995229748466	New York
+4.0	Library Bar at Hudson	40.7683154001822	-73.9848228988891	New York
+4.0	Peaches Shrimp and Crab	40.6878578	-73.9626829	Brooklyn
+4.5	Samba Kitchen & Bar	40.76095	-73.99115	New York
+3.5	Superfine	40.70237	-73.98741	Brooklyn
+4.0	Hanson Dry	40.6835289	-73.9662018	Brooklyn
+4.0	Grand Ferry Tavern	40.7167261	-73.9653177	Brooklyn
+3.5	Myrtle & Gold	40.69408	-73.98288	Brooklyn
+4.5	Le Botaniste	40.7649986274526	-73.9659830279587	New York
+4.5	Bronx Drafthouse	40.8278536	-73.9245554	Bronx
+4.0	Lovers of Today	40.7257996	-73.9833679	New York
+4.0	Bed-Vyne Brew	40.6847873	-73.9445191	Brooklyn
+4.5	Suffolk Arms	40.72152	-73.98462	New York
+4.5	The Mockingbird	40.72229	-73.98311	New York
+4.0	Louie and Chan	40.7187118	-73.9924058	New York
+4.0	Mad Donkey Beer Bar & Grill	40.75627	-73.92849	Astoria
+4.0	The Richardson	40.71887	-73.94538	Brooklyn
+4.0	Bottle and Bine	40.7596	-73.9654	New York
+4.0	Treadwell Park	40.7614	-73.9609	New York
+4.5	Astoria Craft	40.77332	-73.92715	Astoria
+5.0	Pocion	40.8475749396196	-73.9384309485114	New York
+4.0	Pata Paplean Bar	40.7435901462143	-73.8880684963577	Elmhurst
+4.5	Exley	40.7160912	-73.9517136	Brooklyn
+4.0	Huckleberry Bar	40.7109219	-73.948289	Brooklyn
+4.0	Spuyten Duyvil	40.71422	-73.95598	Brooklyn
+4.0	Valhalla	40.76596	-73.98737	New York
+4.0	Canal Bar	40.67791	-73.98589	Brooklyn
+4.0	Tavern29	40.74431	-73.98394	New York
+4.0	The Levee	40.7163303847776	-73.9617204666138	Brooklyn
+4.5	Bergen Hill	40.7295089140267	-73.9911622635069	New York
+4.0	Friends and Lovers	40.6786723207026	-73.9589714418068	Brooklyn
+4.0	Slowly Shirley	40.7348512	-73.9997387	New York
+4.0	The Diamond	40.72677	-73.95741	Brooklyn
+4.0	C'mon Everybody	40.6883	-73.95683	Brooklyn
+4.5	Flow Bar	40.7088287321472	-74.0093346658475	New York
+4.5	bibi	40.723937	-73.983519	New York
+4.0	International Bar	40.7270798946679	-73.9854097366333	New York
+4.5	North Pole Pub	40.68154	-73.9774	Brooklyn
+4.0	11th Street Bar	40.7281	-73.98123	New York
+4.0	Jeremy's Ale House	40.70766	-74.00205	New York
+4.0	Bearded Lady	40.6774605398157	-73.963885845718	Brooklyn
+4.5	Matt Torrey's	40.7134187	-73.941595	Brooklyn
+4.5	The Catalina	40.7613615	-73.990708	New York
+4.0	Burp Castle	40.7283252192663	-73.9886448736218	New York
+4.0	On The Rocks	40.7637291	-73.9921265	New York
+4.0	Billymark's West	40.7502799	-73.99836	New York
+4.0	Black Crescent	40.7189335809837	-73.985032499371	New York
+4.0	Parkside Lounge	40.7210999	-73.9832077	New York
+4.0	High Dive	40.6749	-73.98118	Brooklyn
+4.5	Sunshine Laundromat & Pinball	40.72931	-73.95359	Brooklyn
+4.0	Washington Commons	40.675447177171	-73.963515602814	Brooklyn
+4.0	Peter Dillon's	40.749947565026	-73.976572493217	New York
+4.5	The Starliner	40.69885	-73.91694	Brooklyn
+4.0	Murphy's Tavern	40.7038612	-74.0124817	New York
+4.0	The Bennett	40.716834930598	-74.008267914206	New York
+4.5	One Stop Beer Shop	40.7210693	-73.9405899	Brooklyn
+4.0	Havana Social	40.7635084288027	-73.9924817304201	New York
+4.0	Sanatorium	40.72111	-73.9809	New York
+3.5	Brooklyn Stoops	40.694704	-73.952806	Brooklyn
+4.0	Manhattan Cricket Club	40.7833619	-73.979579	New York
+4.5	Pokito	40.71162	-73.96184	Brooklyn
+4.0	St. Mazie	40.71263	-73.9558	Brooklyn
+4.5	The Monro Pub	40.6677448	-73.9873605	Brooklyn
+4.0	Manhattan Proper	40.713341940631	-74.0080507346	New York
+4.0	Burke & Wills	40.7833619	-73.979579	New York
+4.5	Richlane	40.7177582	-73.9524155	Brooklyn
+3.5	Brooklyn Tap House	40.6939587	-73.9607123	Brooklyn
+4.0	5th & Mad	40.7496015	-73.9829744	New York
+4.5	Domaine Wine Bar	40.7422123	-73.9544641	Long Island City
+4.0	Wood and Ales	40.73917	-74.00151	New York
+4.0	Manitoba's	40.72466	-73.981235	New York
+4.5	Mosaic Craft Beer, Cocktail & Wine Bar	40.7746577	-73.9183673	Astoria
+4.5	Mekelburg's	40.6875381	-73.9624634	Brooklyn
+4.0	The Three Diamond Door	40.703457351258	-73.9261935568999	Brooklyn
+4.0	Bar Bruno	40.6834045	-73.9998354	Brooklyn
+4.0	The Anchored Inn	40.7091531	-73.9372291	Brooklyn
+4.0	The Press Lounge	40.76452	-73.9958599	New York
+4.0	The Grain	40.7388802	-73.9901505	New York
+4.5	Timna	40.72713	-73.9839499	New York
+4.0	Bua	40.72689	-73.98385	New York
+3.5	Tooker Alley	40.6727982	-73.9624634	Brooklyn
+4.0	The Growler Bites & Brews	40.7045059	-74.0103378	New York
+4.0	One Mile House	40.7203903	-73.9932022	New York
+4.0	Barbes	40.6678	-73.98384	Brooklyn
+4.0	Bar Great Harry	40.6824	-73.99353	Brooklyn
+4.0	Pencil Factory Bar	40.7297783	-73.9574432	Brooklyn
+4.5	The Brewery	40.760256	-73.907328	Woodside
+4.0	Zombie Hut	40.68258	-73.99315	Brooklyn
+4.0	Cuckoo's Nest	40.7446685	-73.9035575	Woodside
+4.5	Noorman's Kil	40.7114906	-73.9477997	Brooklyn
+3.5	Lillie's Victorian Bar & Restaurant	40.737661	-73.991113	New York
+4.5	Raines Law Room	40.73869	-73.99462	New York
+4.0	Bricolage	40.6779213	-73.9797592	Brooklyn
+4.0	Commonwealth	40.66722	-73.98776	Brooklyn
+3.5	The Whiskey Brooklyn	40.7210141970542	-73.9569997787476	Brooklyn
+4.0	Clandestino	40.71472	-73.9908899	New York
+4.0	Heavy Woods	40.7057052036711	-73.921245932579	Brooklyn
+4.5	Dweebs	40.7003712484126	-73.9228504315857	Brooklyn
+4.0	The Narrows	40.704114	-73.930878	Brooklyn
+4.5	Oficina 1M	40.7201030238177	-73.9961178569285	New York
+4.0	Double Wide	40.729039	-73.980841	New York
+4.5	Townhouse 275	40.6182556	-74.033989	Brooklyn
+4.5	Hi-Collar	40.7293077268171	-73.9859368048935	New York
+4.5	The Waylon	40.7650840967709	-73.9918056894333	New York
+4.5	June	40.7025538	-73.9128313	Brooklyn
+4.0	Beauty & Essex	40.72037	-73.98677	New York
+4.0	The Courtyard Ale House	40.74331	-73.92368	Sunnyside
+4.5	The Hop Shoppe	40.62909	-74.07972	Staten Island
+4.0	Wassail	40.7210197	-73.988472	New York
+4.0	The Roost	40.7290935	-73.9785323	New York
+4.0	B61	40.68557	-74.00215	Brooklyn
+4.0	The Gibson	40.72027	-73.95547	Brooklyn
+4.5	Ted's Corner Tavern	40.7462	-73.9774599	New York
+4.5	Foxy Johns Bar & Kitchen	40.75445	-73.97274	New York
+4.0	Lazy Point	40.7258364649226	-74.0086125299806	New York
+4.0	Peter Dillon's	40.7494683749584	-73.9833016460708	New York
+4.0	Brindle Room	40.72829	-73.98271	New York
+4.0	South's Bar	40.718487	-74.004955	New York
+3.5	Lavender Lake	40.6786075	-73.9901923	Brooklyn
+3.5	Mr Fong's	40.7122732860015	-73.9942900257959	New York
+4.0	Fools Gold NYC	40.7231079	-73.9897536	New York
+4.0	Black Flamingo	40.710437	-73.953916	Brooklyn
+4.0	Pouring Ribbons	40.7290115	-73.9780121	New York
+4.0	Bijan's	40.6880302	-73.9867096	Brooklyn
+4.0	Bar Chord	40.639153	-73.968396	Brooklyn
+4.5	Dardy Bar	40.7127691	-73.9579152	Brooklyn
+4.0	Rudy's Bar & Grill	40.7599983	-73.9917068	New York
+4.0	est. 1986 Wine Bar/Lounge	40.74823	-73.9874496	New York
+4.0	Bar Cyrk	40.71739	-74.0087	New York
+4.5	The Royal Munkey	40.7389413	-73.9799477	New York
+4.0	Tradesman	40.7082253	-73.9400793	Brooklyn
+3.5	Botanica	40.67725	-74.01539	Brooklyn
+4.0	Pete's Candy Store	40.71811	-73.95016	Brooklyn
+4.0	Sunswick	40.7564812	-73.9257507	Astoria
+4.0	Forest Hills Station House	40.7197971911827	-73.8451440959871	Forest Hills
+4.0	Holland Bar	40.7567499	-73.99365	New York
+5.0	D'Amore Winebar & Ristorante	40.7986510380525	-73.9424410834908	New York
+4.0	Leyenda	40.68431	-73.99197	Brooklyn
+4.0	Gramercy Ale House	40.7379684	-73.9841309	New York
+4.0	Nurse Bettie	40.7188299	-73.9868599	New York
+4.0	The Federal Bar	40.7142399	-73.95568	Brooklyn
+4.0	Lighthouse	40.7108676812019	-73.9537052347366	Brooklyn
+4.0	The Auction House	40.7796219063528	-73.9501479663365	New York
+4.0	Greenpoint Tavern	40.71769	-73.95806	Brooklyn
+4.0	Hourglass Tavern	40.760952	-73.9903269	New York
+4.0	Berlyn	40.687	-73.9779	Brooklyn
+4.0	Iona	40.71427	-73.96102	Brooklyn
+4.5	Met Roof Garden Cafe & Martini Bar	40.7792293838194	-73.9630883932114	New York
+4.0	Brickyard Gastropub	40.76509	-73.98818	New York
+4.0	The Westbury Inn	40.6568219822565	-73.9599666371942	Brooklyn
+4.0	Loosie Rouge	40.7109979	-73.964866	Brooklyn
+4.5	Mundo New York	40.7527934315455	-73.9274775356638	Long Island City
+4.0	Littlefield	40.679125732352	-73.98350367628	Brooklyn
+4.0	Sel Rrose	40.7200099	-73.9937874	New York
+4.0	Randolph Beer WBURG	40.7120096	-73.9634612	Brooklyn

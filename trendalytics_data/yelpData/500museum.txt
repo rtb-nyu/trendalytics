@@ -1,0 +1,493 @@
+rating	name	latitude	longitude	city
+5.0	The Metropolitan Museum of Art	40.779254271604	-73.9628841731528	New York
+4.5	The Museum of Modern Art	40.7614124038247	-73.9775069992493	New York
+4.0	American Museum of Natural History	40.7809777375863	-73.9731667865401	New York
+4.5	Brooklyn Museum	40.6714058033045	-73.9636778798943	Brooklyn
+4.0	Whitney Museum of American Art	40.7394629444886	-74.0084221876268	New York
+4.5	Museum of the Moving Image	40.7563782	-73.923851	Astoria
+4.5	9/11 Memorial & Museum	40.7114821574672	-74.0126906189541	New York
+4.0	Lower East Side Tenement Museum	40.7188299	-73.98998	New York
+4.5	New York Transit Museum	40.6886	-73.9850699	Brooklyn
+4.5	Rubin Museum of Art	40.74013	-73.99772	New York
+4.5	Frick Collection	40.77094	-73.96717	New York
+4.5	Museum at Eldridge Street	40.7147239	-73.993444	New York
+4.0	Museum of the American Gangster	40.72765	-73.98573	New York
+3.5	Guggenheim Museum	40.78301	-73.95912	New York
+4.5	The Morgan Library & Museum	40.74909	-73.98181	New York
+4.0	National Museum of the American Indian	40.7046204	-74.0141373	New York
+4.5	Merchant's House Museum	40.727500905169	-73.9925233282418	New York
+4.0	The Noguchi Museum	40.7668297	-73.9386347	Long Island City
+4.5	The City Reliquary	40.713764	-73.955715	Brooklyn
+5.0	Mmuseumm	40.7173438156757	-74.0027689933777	New York
+5.0	The Metropolitan Museum of Art	40.779254271604	-73.9628841731528	New York
+4.5	The Museum of Modern Art	40.7614124038247	-73.9775069992493	New York
+4.0	American Museum of Natural History	40.7809777375863	-73.9731667865401	New York
+4.5	Brooklyn Museum	40.6714058033045	-73.9636778798943	Brooklyn
+4.0	Whitney Museum of American Art	40.7394629444886	-74.0084221876268	New York
+4.5	Museum of the Moving Image	40.7563782	-73.923851	Astoria
+4.5	9/11 Memorial & Museum	40.7114821574672	-74.0126906189541	New York
+4.0	Lower East Side Tenement Museum	40.7188299	-73.98998	New York
+4.5	New York Transit Museum	40.6886	-73.9850699	Brooklyn
+4.5	Rubin Museum of Art	40.74013	-73.99772	New York
+4.5	Frick Collection	40.77094	-73.96717	New York
+4.5	Museum at Eldridge Street	40.7147239	-73.993444	New York
+4.0	Museum of the American Gangster	40.72765	-73.98573	New York
+3.5	Guggenheim Museum	40.78301	-73.95912	New York
+4.5	The Morgan Library & Museum	40.74909	-73.98181	New York
+4.0	National Museum of the American Indian	40.7046204	-74.0141373	New York
+4.5	Merchant's House Museum	40.727500905169	-73.9925233282418	New York
+4.0	The Noguchi Museum	40.7668297	-73.9386347	Long Island City
+4.5	The City Reliquary	40.713764	-73.955715	Brooklyn
+5.0	Mmuseumm	40.7173438156757	-74.0027689933777	New York
+3.5	MoMA PS1	40.7455329023591	-73.9474408581139	Long Island City
+4.0	The New York Earth Room	40.7259699	-73.99973	New York
+3.0	Museum of Sex	40.7440368	-73.9873546	New York
+4.5	The Museum at Fit	40.76309	-73.86926	New York
+4.0	New York Hall Of Science	40.7478357755914	-73.8521849227539	Corona
+4.0	Cooper Hewitt, Smithsonian Design Museum	40.78443	-73.95778	New York
+5.0	Waterfront Museum	40.6752815	-74.0177526	Brooklyn
+4.5	BLDG 92	40.6981239	-73.9751053	Brooklyn
+3.5	Museum of Food and Drink	40.7189183	-73.9495367	Brooklyn
+3.0	New Museum of Contemporary Art	40.7224	-73.993	New York
+5.0	Tibet House US	40.7371399	-73.99455	New York
+4.0	Museum of Arts and Design	40.767452	-73.981988	New York
+4.0	Intrepid Sea Air & Space Museum	40.764525	-73.999613	New York
+4.0	Queens Museum	40.7455988044695	-73.8468790054321	Queens
+4.0	Museum of the City of New York	40.79251	-73.95192	New York
+4.0	New-York Historical Society	40.7793496073291	-73.9741165394002	New York
+4.5	Statue of Liberty	40.689772	-74.045309	New York
+5.0	Nicholas Roerich Museum	40.8029167103012	-73.9690271683764	New York
+5.0	Louis Armstrong House Museum	40.7545815	-73.8615875	Corona
+4.0	Fraunces Tavern Museum	40.703392	-74.0113297	New York
+4.5	The Cloisters	40.8649766228154	-73.9315730494599	New York
+4.0	The Met Breuer	40.77349	-73.96401	New York
+4.5	Alice Austen House Museum	40.615027	-74.06312	Staten Island
+3.5	Micro Museum	40.68761	-73.98973	Brooklyn
+4.5	Gracie Mansion	40.7762517916622	-73.9434385299683	New York
+3.5	Neue Galerie New York	40.78128	-73.96037	New York
+4.5	9/11 Tribute Center	40.709765	-74.012452	New York
+4.0	Museum of Chinese in America	40.7193764	-73.9990696	New York
+4.0	Brooklyn Historical Society	40.694804	-73.992407	Brooklyn
+4.5	Society of Illustrators	40.76483	-73.96683	New York
+5.0	Chelsea Galleries	40.7478416772832	-74.006097279489	New York
+3.5	The Museum of American Finance	40.7063599	-74.00921	New York
+5.0	Lilac Lighthouse Tender	40.7205936507263	-74.0138571824078	Manhattan
+4.5	AIGA	40.7406616	-73.9906769	New York
+5.0	The Center For Fiction	40.7562799	-73.97736	New York
+4.0	Anthology Film Archives	40.72474	-73.99027	New York
+4.0	American Folk Art Museum	40.77328	-73.9815799	New York
+4.5	Vander Ende-Onderdonk House	40.7111501600196	-73.9198243618011	Ridgewood
+4.5	Museum at FIT	40.747914	-73.9966529	New York
+4.0	The Old Stone House	40.672863	-73.9837952	Brooklyn
+4.0	Studio Museum Harlem	40.80845	-73.9475	New York
+3.5	Museum of Reclaimed Urban Space - MoRUS	40.725777	-73.977892	Manhattan
+4.0	Brooklyn Children's Museum	40.67443	-73.94392	Brooklyn
+4.0	Ground Zero Museum Workshop	40.74133	-74.00664	New York
+4.0	Center for Architecture	40.7287557	-73.9985439	New York
+4.5	General Grant Memorial	40.8126297	-73.9630127	New York
+4.5	Morris-Jumel Mansion	40.8344917	-73.9385071	New York
+4.5	Flushing Town Hall	40.76389	-73.83001	Flushing
+4.0	Mount Vernon Hotel Museum & Garden	40.760276	-73.9592312	New York
+4.0	Staten Island Childrens Museum	40.6435663046625	-74.101980439209	Staten Island
+4.0	Bronx Museum of the Arts	40.83102	-73.9197499	Bronx
+4.5	Hispanic Society of America	40.83352	-73.94651	New York
+4.0	The Drawing Center	40.72238	-74.00277	New York
+5.0	Institute For the Study of the Ancient World	40.7800217	-73.9601898	Manhattan
+4.0	Madame Tussauds New York	40.7565705020068	-73.9886474944427	New York
+3.5	Museum of Contemporary African Diasporan Arts - MoCADA	40.68538	-73.97445	Brooklyn
+3.5	Leslie-Lohman Museum of Gay and Lesbian Art	40.7215933	-74.0030587	New York
+5.0	A Night at the Museum	40.7677116	-73.9786606	Manhattan
+3.0	National Museum of Mathematics	40.7432299	-73.98739	Manhattan
+3.5	El Museo Del Barrio	40.7931	-73.95137	New York
+4.5	Irish Hunger Memorial	40.7150211352621	-74.0163624286652	New York
+4.0	Sculpture Center	40.7468964	-73.9411234	Long Island City
+3.5	South Street Seaport Museum	40.7066299	-74.00366	New York
+4.0	NYC Fire Museum	40.72569	-74.0070099	New York
+4.5	Brooklyn Botanic Garden	40.6668904	-73.9618318	Brooklyn
+4.0	The Jewish Museum	40.7854	-73.95719	New York
+4.5	Judd Foundation	40.723508	-73.9993609	New York
+3.5	Coney Island Museum	40.57538	-73.97984	Brooklyn
+4.5	The Iris and B. Gerald Cantor Roof Garden	40.7794189	-73.9634171	New York
+4.5	Museum of Jewish Heritage - A Living Memorial to the Holocaust	40.7059561981769	-74.0185171490475	New York
+4.0	Ellis Island	40.70447	-74.01151	New York
+3.5	Staten Island Museum	40.64435	-74.07773	Staten Island
+4.0	Ellis Island Immigration Museum	40.6987072970291	-74.0395416540388	New York
+3.5	Children's Museum of Manhattan	40.78585	-73.9773	New York
+3.5	The Toy Museum of NY	40.69246	-73.99036	Brooklyn
+4.0	Rose Center for Earth and Space	40.7318288	-73.8861129	New York
+5.0	Lenny's Creation	40.6367126614729	-74.127869233489	Staten Island
+4.0	Jacques Marchais Museum of Tibetan Art	40.57632	-74.13835	Staten Island
+3.5	Children's Museum of the Arts	40.727458462327	-74.0080832028441	New York
+4.5	Greater Astoria Historical Society	40.7599602	-73.9218216	Long Island City
+5.0	Clayton Gallery and Outlaw Art Museum	40.7213516	-73.9870834	Manhattan
+2.5	Skyscraper Museum	40.7057326240421	-74.0176768605776	New York
+4.0	Grey Art Gallery, NYU	40.7303961	-73.9960314	New York
+2.5	Williamsburg Art & Historical Center	40.71051	-73.96362	Brooklyn
+4.0	Dyckman Farmhouse Museum	40.86744700965	-73.922892093653	New York
+4.0	Asia Society and Museum	40.7698787	-73.9643507	New York
+5.0	Hip Hop Scriptures	40.8409822	-73.9447994	Manhattan
+4.5	Alley Pond Environmental Center	40.762001	-73.7536163	Douglaston
+4.5	Exhibitionism: The Rolling Stones	40.73776	-74.00802	New York
+4.5	National Lighthouse Museum	40.6414	-74.07608	Staten Island
+4.5	New York Public Library	40.75161	-73.98226	New York
+4.0	Onassis Cultural Center	40.7593101	-73.9764347	New York
+3.0	Ripley's Believe It or Not! Time Square	40.7567195290979	-73.988980435962	New York
+3.5	New York Transit Museum Gallery Annex & Store	40.7529716669874	-73.9773432563829	New York
+5.0	Malcolm X & Dr Betty Shabazz Memorial & Educational Center	40.8392181	-73.9404373	New York
+5.0	Garibaldi-Meucci Memorial Museum	40.6152	-74.07381	Staten Island
+4.5	Luxembourg Dayan	40.774559	-73.9626617	New York
+4.0	Queens County Farm Museum	40.74787	-73.72408	Floral Park
+5.0	Museum Hack	40.7105863	-73.8524626	New York
+5.0	BLDG92: Brooklyn Navy Yard Center	40.6981239	-73.9751053	New York
+3.5	Star Wars And The Power Of Costume Exhibition	40.75774	-73.98727	New York
+4.0	Wyckoff Farmhouse Museum	40.6444	-73.92084	Brooklyn
+4.5	Unix Gallery	40.749018	-74.0052976	New York
+5.0	Arthur Ross Terrace	40.7826309	-73.973465	New York
+4.0	Noble Maritime Collection	40.645545	-74.101853	Staten Island
+4.5	Voelker Orth Museum	40.7645667	-73.8163643	Flushing
+5.0	Enrico Caruso Museum of America	40.60288	-73.95345	Brooklyn
+4.5	Center For Italian Modern Art	40.72117	-73.99873	New York
+5.0	Manus X Machina	40.77942	-73.96342	New York
+5.0	Hall of Fame for Great Americans			Bronx
+4.5	New York City	40.70376	-74.01253	New York
+4.0	Liberty Science Center	40.7082774542377	-74.054571136174	Jersey City
+4.0	The Anne Frank Center USA	40.7131922	-74.009467	New York
+5.0	Living Torah Museum	40.6355402997066	-73.9805236420411	Brooklyn
+4.0	Dahesh Museum of Art	40.76491	-73.9651	New York
+4.5	Theodore Roosevelt Birthplace National Historic Site	40.739015	-73.989061	New York
+4.0	The Center For Jewish History	40.737793	-73.9933929	New York
+4.0	Three Faiths Exhibit - NY Public Library	40.7528191	-73.981369	Manhattan
+4.5	The National Jazz Museum In Harlem	40.80963	-73.94234	New York
+3.5	Theodore Roosevelt Birthplace	40.7386798	-73.9889581	New York
+4.0	Who Shot Rock & Roll @ Brooklyn Museum	40.6715274	-73.9627624	Brooklyn
+3.5	The Jewish Children's Museum	40.66901	-73.94196	Brooklyn
+4.5	The Metropolitan Museum of Art Store	40.758292	-73.9782488	New York
+4.5	Lewis H Latimer House Museum	40.7663107473881	-73.8295314257968	Flushing
+4.5	USS Growler Submarine	40.7647547169697	-73.9995836206671	New York
+4.0	Herbert & Eileen Bernard Museum of Judaica	40.768019	-73.9696926	New York
+4.5	Park Avenue Armory	40.767313	-73.9662107	New York
+3.5	Paley Center For Media	40.76048	-73.97765	New York
+3.5	Socrates Sculpture Park	40.768565	-73.935846	Long Island City
+4.0	Christie's	40.758194	-73.9793396	New York
+4.0	Hayden Planetarium	40.7817801594307	-73.9737572788513	New York
+4.5	Bushwick Loft Museum	40.7059288	-73.9372406	Brooklyn
+4.5	Gagosian	40.7468	-74.0063	New York
+4.0	Newark Museum	40.7431135	-74.1712203	Newark
+4.0	Con Edison Museum	40.7338332	-73.9881442	New York
+4.5	Top of the Rock	40.7593342608422	-73.9794015884399	New York
+4.5	The Unisphere	40.7463903688115	-73.8450483183901	Flushing
+4.0	King Manor Museum	40.70302	-73.803757	Jamaica
+2.5	International Center of Photography Museum	40.72309	-73.99337	New York
+5.0	Bodies New York	40.7065399	-74.00325	New York
+4.5	Grand Central Terminal	40.752793	-73.977165	New York
+3.5	Bartow-Pell Mansion Museum	40.871943	-73.805501	Bronx
+4.5	World War II East Coast Memorial	40.709135	-74.017156	Manhattan
+3.5	Ukrainian Museum	40.72767	-73.98975	New York
+4.0	Museum of American Illustration	40.764789	-73.966889	Manhattan
+5.0	Holographic Studios	40.739809	-73.980163	New York
+5.0	George Gustav Heye Center	40.7046204	-74.0141373	New York
+4.0	The Jewish Museum Shop	40.7850955200116	-73.9575256091781	New York
+4.5	Manhattan	40.74928	-73.99259	New York
+5.0	A & N Art Gallery	40.7774467	-73.9503708	New York
+5.0	House Of Wax	40.6912509	-73.9832589	Brooklyn
+4.5	African Burial Ground National Monument	40.7151833	-74.0032578	New York
+4.0	Federal Hall National Memorial	40.7071839860285	-74.0104323387947	New York
+4.0	Unix Gallery	40.7758504157623	-73.9622974980334	New York
+4.5	Bayside Historical Society	40.7924576	-73.7793579	Bayside
+4.5	Frame It In Brooklyn	40.6610826	-74.0001725	Brooklyn
+5.0	Art is Pain Gallery	40.7207213586289	-73.9927500000063	New York
+2.0	Italian American Museum	40.7192548910145	-73.9974801176865	Manhattan
+4.5	Atlantic Antic	40.6879694869792	-73.987696888855	Brooklyn
+4.0	New York City Vietnam Veterans Memorial	40.7032013	-74.00914	Manhattan
+3.5	Queens Botanical Garden	40.7514567	-73.826228	Flushing
+3.0	Lee Young Hee Korea Museum	40.71424	-74.00642	New York
+2.5	Morbid Anatomy Museum	40.6728707050268	-73.9900916146056	Gowanus
+4.0	City Island Nautical Museum	40.847271369526	-73.7845230102539	Bronx
+5.0	Thomas J Watson Library	40.7790872098748	-73.963383436203	New York
+2.5	Postal Museum	40.750923	-73.994545	New York
+4.0	Kehila Kedosha Janina Synagogue and Museum	40.71859	-73.99117	New York
+4.5	Japan Society	40.752451796014	-73.968356064888	New York
+3.5	MoMA Design and Book Store	40.76146	-73.97736	New York
+3.5	Dahesh Museum of Art Gift Shop	40.7249107	-74.0046387	New York
+4.5	Strayboots	40.7400926	-73.9854925	New York
+4.5	Mark Venaglia	40.77616	-73.98198	Manhattan
+5.0	PaintBox Soho	40.7257195	-74.0020117	New York
+3.0	Metropolitan Museum Of Art Customer Service	40.7108917	-73.8915482	Middle Village
+4.5	Decor Art Gallery	40.7363098	-73.985163	New York
+4.5	Willoughby Windows	40.6920928987952	-73.9848947525024	Brooklyn
+4.5	Van Cortlandt House Museum	40.88944	-73.89836	Bronx
+4.0	Empire State Building	40.748442285082	-73.9856674785042	New York
+4.5	New York Botanical Garden	40.8622798125418	-73.8771354681101	Bronx
+5.0	Margaret Mead Film Festival	40.7806707694961	-73.97480360135	New York
+4.5	Modern Pinball NYC	40.7410812	-73.9819183	New York
+4.5	Borough of Queens	40.76666	-73.82633	Queens
+4.5	Brooklyn Waterfront Artists Coalition	40.6737869399131	-74.0162444114685	Brooklyn
+5.0	Jubilee Gallery	40.6970699	-73.992856	Brooklyn
+4.0	Jersey City Museum	40.71974	-74.0504	Jersey City
+4.0	Film Forum	40.72844	-74.0046799	New York
+4.0	Liberty Hall Museum	40.67861	-74.2281	Union
+4.5	Gagosian	40.77474	-73.96347	New York
+4.5	Coney Island Circus Sideshow	40.57538	-73.97984	Brooklyn
+4.0	Museum Mile Festival	40.78008	-73.96148	New York
+5.0	The Living Museum	40.73682	-73.72803	Queens Village
+4.0	Yankee Stadium	40.8296464104632	-73.9265090772199	Bronx
+4.0	Montclair Art Museum	40.818409	-74.2245178	Montclair
+4.0	Scandinavia House	40.7494442	-73.9799597	New York
+4.5	Big Onion Walking Tours	40.66278	-73.98032	Brooklyn
+5.0	The New York Public Library Gift Shop	40.75348	-73.98088	New York
+4.0	Columbus Circle	40.7680517014971	-73.9819249126892	New York
+4.0	Queens Zoo	40.7432808	-73.8511362	Corona
+4.0	John M. Mossman Lock Collection	40.7552499	-73.9813099	New York
+5.0	Sugar Hill Children's Museum of Art & Storytelling	40.830634	-73.9412725	New York
+4.0	One World Observatory	40.692022	-73.9884418	New York
+3.5	Museum of Modern Art Design Store	40.76088	-73.9773	New York
+5.0	Galleria On Third	40.7465096	-73.9773254	New York
+4.5	Queens Theatre	40.7442251027724	-73.8453662395477	Queens
+4.5	World Trade Gallery	40.7085019	-74.0110018	New York
+3.5	Forbes Magazine Galleries	40.73495	-73.99462	New York
+4.5	Eastside Art Gallery	40.7645219	-73.9585902	New York
+4.0	The Art Studio NY	40.79394	-73.9697	New York
+5.0	Turnstile Tours	40.6498477598601	-73.9793885833282	Brooklyn
+3.5	Hoboken Historical Museum	40.7522909	-74.0250851	Hoboken
+4.0	Seaport District	40.7070099	-74.0035599	New York
+5.0	PaintBox NoLita	40.72131	-73.9951899	New York
+4.5	Cathedral Church of St John the Divine	40.8037049	-73.9631203	New York
+4.0	Prospect Park Zoo	40.6655761	-73.9648908	Brooklyn
+4.0	Gagosian	40.7492549	-74.005479	New York
+2.0	American Irish Historical Society	40.77771	-73.9628	New York
+4.5	Accomplice The Show	40.725665	-73.997734	New York
+3.0	Statue Cruises	40.7011545215167	-74.0140986442566	Jersey City
+5.0	Racine Berkow Associates	40.7417488	-73.9904404	New York
+5.0	e.t.c. events--tailor-made and customized	40.7955742	-73.9702835	New York
+4.5	The High Line	40.7479831752801	-74.0048906107511	New York
+4.0	Richard Beavers Gallery	40.6826757	-73.9347079	Brooklyn
+4.5	Coney Art Walls	40.5746651	-73.9813385	Brooklyn
+4.5	Aviation Hall of Fame	40.853672	-74.0543365	Teterboro
+5.0	Oscar Wilde Tours	40.7767124	-73.9578697	New York
+4.5	Philip Williams Posters	40.71497	-74.0088899	New York
+4.0	Snug Harbor Cultural Center	40.6451752	-74.1044821	Staten Island
+3.0	Fordham Museum of Greek, Etruscan and Roman Art	40.8607281	-73.8892699	West Bronx
+4.0	Tria Gallery	40.7497787	-74.0048065	New York
+4.5	567 Framing	40.73847	-73.9987	New York
+2.0	Staten Island Museum at Snug Harbor	40.6446498126996	-74.1027327915406	Staten Island
+5.0	Private Picassos	40.6905426	-73.9537971	Brooklyn
+5.0	Woodward Gallery	40.71897	-73.99166	New York
+4.0	Conference House	40.5029469	-74.2533261	Staten Island
+4.0	Bronx Zoo	40.8486991537725	-73.8822738371592	Bronx
+4.5	Ramscale Studio	40.73675	-74.00968	New York
+4.0	Brookfield Place	40.7139432	-74.0147205	New York
+2.0	Artist Arena	40.7347183	-73.990921	New York
+4.5	Brooklyn Bridge	40.7059677364821	-73.9966657489186	Brooklyn
+4.5	The Cornell Club	40.75438	-73.97924	New York
+4.5	Steve Brill Tour	40.77622	-73.975955	New York
+4.0	Yeshiva University Museum	40.737793	-73.9933929	New York
+4.5	Mana Contemporary	40.737034	-74.06868	Jersey City
+4.0	United Nations	40.7490143822478	-73.9680764455756	New York
+5.0	Free Tours by Foot	40.718772	-73.98591	New York
+4.0	The National Arts Club	40.73775	-73.98668	New York
+5.0	New Jersey Historical Society	40.738781	-74.1685028	Newark
+3.5	The Gazillion Bubble Show	40.7627323	-73.9875318	New York
+5.0	Yum Yum MET Culinary Art Tour	40.77942	-73.96342	New York
+4.0	The Pace Gallery	40.74957	-74.00488	New York
+4.5	Jack's Art Gallery	40.80475	-73.96661	New York
+5.0	ArtWise	40.7038292	-73.9882537	Brooklyn
+3.0	The New York Aquarium	40.5740248308051	-73.9755888010498	Brooklyn
+4.0	Grand Opening	40.72011	-73.98661	New York
+3.0	Big Bus Tour - New York	40.74666	-73.98017	New York
+5.0	Lauren A Kaplan Art Tours	40.67832	-74.00457	Brooklyn
+5.0	IRT City Hall Station	40.71342	-74.00627	New York
+4.5	Grand Army Plaza	40.6739659558502	-73.9701318740845	Brooklyn
+3.0	Yankee Stadium Tours	40.82954	-73.92645	Bronx
+3.5	Alamo Drafthouse Cinema - Brooklyn	40.6907477441643	-73.9832732500862	Brooklyn
+4.0	Oculus	40.7115051	-74.011386	New York
+4.0	Sleep No More	40.7495108269954	-74.0041889375789	New York
+5.0	Westwood Gallery NYC	40.7232698894807	-73.9931595828033	New York
+3.5	New York Pass	40.75547	-73.98181	New York
+3.5	Times Square	40.7586519740346	-73.9850566812844	New York
+3.0	Fort Lee Museum	40.8486404	-73.969223	Fort Lee
+4.5	Poets House	40.7164201	-74.0163151	New York
+4.0	Hudson River Museum	40.9539565744496	-73.8962010719666	Yonkers
+4.5	Agora Gallery	40.7495384	-74.0049515	New York
+3.5	Old Print Shop	40.7437187	-73.9819486	New York
+4.0	Historic Richmond Town	40.5699574	-74.1446312	Staten Island
+5.0	A.I.R. Gallery	40.7038994	-73.9870529	Brooklyn
+4.5	Carnegie Hall	40.7651125454703	-73.9799155945393	New York
+5.0	Creative Arts Studio	40.68823	-73.98858	Brooklyn
+4.0	Pomegranate Gallery	40.72581	-73.99879	New York
+3.5	Bridgeview School of Fine Arts	40.74697	-73.95153	Long Island City
+5.0	ArtMuse	40.7789500832199	-73.9622166295165	Manhattan
+4.0	Oculus	40.7115051	-74.011386	New York
+4.0	Sleep No More	40.7495108269954	-74.0041889375789	New York
+5.0	Westwood Gallery NYC	40.7232698894807	-73.9931595828033	New York
+3.5	New York Pass	40.75547	-73.98181	New York
+3.5	Times Square	40.7586519740346	-73.9850566812844	New York
+3.0	Fort Lee Museum	40.8486404	-73.969223	Fort Lee
+4.5	Poets House	40.7164201	-74.0163151	New York
+4.0	Hudson River Museum	40.9539565744496	-73.8962010719666	Yonkers
+4.5	Agora Gallery	40.7495384	-74.0049515	New York
+3.5	Old Print Shop	40.7437187	-73.9819486	New York
+4.0	Historic Richmond Town	40.5699574	-74.1446312	Staten Island
+5.0	A.I.R. Gallery	40.7038994	-73.9870529	Brooklyn
+4.5	Carnegie Hall	40.7651125454703	-73.9799155945393	New York
+5.0	Creative Arts Studio	40.68823	-73.98858	Brooklyn
+4.0	Pomegranate Gallery	40.72581	-73.99879	New York
+3.5	Bridgeview School of Fine Arts	40.74697	-73.95153	Long Island City
+5.0	ArtMuse	40.7789500832199	-73.9622166295165	Manhattan
+5.0	New York Local Tours	40.7143593	-74.0026169	New York
+4.5	Radio City Music Hall	40.7599766	-73.9799747	New York
+2.5	Metropolitan Museum of Art - Cafeteria	40.7794189	-73.9634171	New York
+4.5	Ajna Dance	40.753922	-73.992583	Manhattan
+4.5	The Paterson Museum	40.9137153625488	-74.1792068481445	Paterson
+4.5	Belvedere Castle	40.7794284268306	-73.9690482616425	New York
+4.0	Frying Pan	40.7521174043978	-74.0090024471283	New York
+4.5	New York Stock Exchange	40.70714	-74.0108599	New York
+4.5	Schomburg Center for Research in Black Culture	40.81467502	-73.94059204	New York
+4.5	Sean Kelly	40.75624	-73.9981292	New York
+5.0	Susan Teller Gallery	40.724247	-73.9975662	New York
+5.0	Crozier Fine Arts	40.74642	-74.00669	New York
+5.0	NJ Naval Museum	40.8803596	-74.0413361	Hackensack
+5.0	Sams Art & Framing	40.7538414	-73.8181	Flushing
+5.0	Maritime Museum	40.809262	-73.8011614	Bronx
+5.0	Fisher Landau Center For Art	40.75348	-73.93308	Long Island City
+5.0	Brooklyn Conservatory of Music	40.67594	-73.9746399	Brooklyn
+3.5	Central Park Zoo	40.767843246745	-73.971849728531	New York
+3.5	Lower East Side History Project Tours	40.72553	-73.99787	New York
+3.5	The Kitano Hotel	40.7495695	-73.9798404	New York
+4.5	Clover's Fine Art Gallery	40.68772	-73.98759	Brooklyn
+5.0	Kate Werble Gallery	40.72677	-74.00812	New York
+4.5	Jack Shainman Gallery	40.7462265	-74.0062341	New York
+1.5	E-World Travel & Tours	40.7157	-73.99663	New York
+4.0	Union League Club	40.7493401	-73.981163	New York
+4.0	Taglialatella Galleries	40.74825	-74.00399	New York
+4.0	Bruce Silverstein Gallery	40.7494392	-74.0059204	New York
+4.0	La Belle Epoque Vintage Posters & Framing	40.7382166	-74.0023472	New York
+3.5	Gene Frankel Theatre	40.7265701	-73.9937286	New York
+5.0	Gotham SideWalks	40.676440540742	-73.9938489525147	New York City
+5.0	Claire's Creative Adventures	40.7758446	-73.9584351	Manhattan
+4.0	Nitsch Carolina Contemporary Art	40.72462	-74.00087	New York
+5.0	Options for College	40.743	-73.9898376	New York
+5.0	Boroughs of the Dead Walking Tours	40.6582432695142	-73.9888000488281	Brooklyn
+2.0	New Tours	40.576889	-73.9634171	Brooklyn
+5.0	Tambaran Gallery	40.7787209	-73.9614716	New York
+5.0	Conference House	40.5028049	-74.2525727	Staten Island
+4.0	New York Academy of Art	40.71846	-74.0059	New York
+4.0	Nassau County Museum of Art	40.8075316	-73.6350842	Roslyn Harbor
+4.5	New York Studio School of Drawing, Painting & Sculpture	40.7325774	-73.9973274	New York
+5.0	Context Tour New York	40.74052	-73.98627	New York
+5.0	Loop of the Loom	40.7792121	-73.9522703	New York
+1.5	L & L Travel	40.71687	-73.9951899	New York
+5.0	Sprout by Design	40.7815	-73.96597	Manhattan
+5.0	Small Editions	40.6855	-74.00526	Brooklyn
+4.5	Ricco Maresca Gallery	40.7466316	-74.0068893	New York
+4.5	BRIC House	40.6883399	-73.97914	Brooklyn
+4.0	Openhouse Gallery	40.7216	-73.99668	New York
+5.0	The FLAG Art Foundation	40.74964	-74.00443	New York
+4.5	Rockefeller Center	40.7590151633732	-73.979138565745	New York
+3.0	Central Park Bike Ride	40.76537	-73.97731	Manhattan
+4.5	AFA	40.7222257	-74.0014669	New York
+4.5	The New York Academy of Medicine	40.7920456	-73.9529343	New York
+5.0	Deitch Projects	40.7220299	-74.00255	New York
+4.5	Eastern Parkway	40.6694141131366	-73.9423545275391	Brooklyn
+4.5	J M C Custom Framing	40.761261	-73.9901886	New York
+4.0	Steuben House	40.9136585158438	-74.0306478738785	River Edge
+5.0	Michelson Studio	40.73612	-74.0095599	Manhattan
+4.5	Apollo Theater	40.80991	-73.95013	New York
+4.5	New York Art Tours	40.750133	-73.997006	Manhattan
+4.0	Chinatown	40.7162464	-73.9961421	New York
+4.0	Gagosian	40.7746799	-73.96352	New York
+4.5	Argosy Book Store	40.76239	-73.96916	New York
+5.0	Dalva Brothers	40.7749214	-73.9626312	New York
+3.5	The Vanderbilt	40.68002	-73.968505	Brooklyn
+4.5	Grover Cleveland Birthplace Historic Site	40.8368874	-74.2720642	Caldwell
+3.5	Concert Ticket Agency	40.7658430865321	-73.9875619682617	New York
+5.0	The Painted Cloud	40.70885	-73.95787	Brooklyn
+4.0	Art For Eternity	40.774629	-73.953431	New York
+5.0	Garretson Forge and Farm	40.9236546	-74.1305126	Fair Lawn
+5.0	Custom NYC Tours	40.6468318081005	-73.9631005910767	Brooklyn
+5.0	Speyer Hall Theater @University Settlement	40.720648	-73.9906829	New York
+4.0	Long Island Children's Museum	40.7279097	-73.6018478	Garden City
+3.5	Holiday Inn Manhattan-Financial District	40.7082596	-74.0140991	New York
+5.0	Inn New York City	40.77883	-73.98455	New York
+4.0	Science Museum of Long Island	40.81493	-73.702512	Manhasset
+4.0	sepiaEYE	40.7512205	-74.0043906	Manhattan
+4.0	On Location Tours	40.754996	-73.993461	New York
+4.0	Staten Island Botanical Garden	40.6450423	-74.1021156	Staten Island
+5.0	Sasha Graham Tarot Diva	40.745815	-73.982968	New York
+5.0	Eckford Street Studio	40.7223396	-73.9479065	Brooklyn
+5.0	The Proprietary House	40.5036642	-74.2689982	Perth Amboy
+3.5	William Secord Gallery	40.7739	-73.96267	New York
+2.5	Ajkun Ballet Theatre	40.7638070690103	-73.9800349250436	New York
+2.5	Muriel Guepin Gallery	40.717823	-73.9905624	New York
+3.5	International Center of Photography School	40.7552317	-73.983603	New York
+4.5	Staley-Wise Gallery	40.7238503	-73.9974823	New York
+1.0	Romance Under the Stars	40.7809777375863	-73.9731667865401	New York
+5.0	Anna Maria Cianciulli Acting Coach and Teacher	40.7641767	-73.9833744	Manhattan
+4.0	Madison Square Garden	40.7485077	-73.9887129	New York
+4.0	Montclair Historical Society	40.8118782	-74.223259	Montclair
+5.0	Romancing Manhattan Tours	40.7712898	-73.9556732	Manhattan
+3.0	Umbrage Editions	40.7025999	-73.98909	Brooklyn
+4.0	Greenwich Village NYC	40.7318954	-73.9958649	New York
+3.5	James A. Farley Post Office Building	40.7515459	-73.9959106	New York
+4.5	Interference Archive	40.6726303	-73.9911575	Brooklyn
+4.5	Flatiron Building	40.7412290453689	-73.9895794188884	New York
+4.0	New York City Department of Records - Municipal Archives	40.7135233729119	-74.0042979957163	New York
+4.5	Quality Art & Framing	40.75396	-73.96942	New York
+5.0	L Parker Stephenson Photographs	40.7677923	-73.9685402	New York
+4.0	sepiaEYE	40.7512205	-74.0043906	Manhattan
+4.0	On Location Tours	40.754996	-73.993461	New York
+4.0	Staten Island Botanical Garden	40.6450423	-74.1021156	Staten Island
+5.0	Sasha Graham Tarot Diva	40.745815	-73.982968	New York
+5.0	Eckford Street Studio	40.7223396	-73.9479065	Brooklyn
+5.0	The Proprietary House	40.5036642	-74.2689982	Perth Amboy
+3.5	William Secord Gallery	40.7739	-73.96267	New York
+2.5	Ajkun Ballet Theatre	40.7638070690103	-73.9800349250436	New York
+2.5	Muriel Guepin Gallery	40.717823	-73.9905624	New York
+3.5	International Center of Photography School	40.7552317	-73.983603	New York
+4.5	Staley-Wise Gallery	40.7238503	-73.9974823	New York
+1.0	Romance Under the Stars	40.7809777375863	-73.9731667865401	New York
+5.0	Anna Maria Cianciulli Acting Coach and Teacher	40.7641767	-73.9833744	Manhattan
+4.0	Madison Square Garden	40.7485077	-73.9887129	New York
+4.0	Montclair Historical Society	40.8118782	-74.223259	Montclair
+5.0	Romancing Manhattan Tours	40.7712898	-73.9556732	Manhattan
+3.0	Umbrage Editions	40.7025999	-73.98909	Brooklyn
+4.0	Greenwich Village NYC	40.7318954	-73.9958649	New York
+4.5	Theater 80 St Marks	40.72765	-73.98573	New York
+4.5	Wave Hill	40.9002407	-73.9111546	Bronx
+4.5	Feltville Historic District	40.6817594	-74.3874198	Berkeley Heights
+3.5	Titanic Memorial Lighthouse	40.7078285	-74.0043411	Manhattan
+4.5	Wall Street Walks	40.70612	-74.00921	New York
+5.0	Columbus Art Gallery	40.7881584	-73.9711685	New York
+5.0	Les Looms & Art Haz	40.7240178	-73.9965479	New York
+4.0	Garvies Point Museum & Preserve	40.8611984	-73.6509857	Glen Cove
+3.0	National Archives at New York City, NY	40.7045805	-74.0142754	New York
+3.5	Plaza Hotel	40.7644638970122	-73.97449483766	New York
+3.0	The Russian Tea Room	40.7649981435644	-73.9793145198507	New York
+4.5	New York Public Library for the Performing Arts	40.7732039946727	-73.9846443517212	New York
+4.5	African-American Museum Of Nassau County	40.7095413	-73.6273193	Hempstead
+5.0	Park Avenue Art Gallery	40.7443133	-73.9830277	New York
+5.0	Upper West Side	40.78627	-73.97588	New York
+5.0	Whippany Railway Museum	40.82194	-74.4120499	Whippany
+5.0	Right Angle Picture Framing and Custom Mirrors	40.75041	-74.02727	Hoboken
+5.0	jonathan blum	40.6736298	-73.9822006	Brooklyn
+4.5	ARTHOUSE.NYC	40.7268707	-74.0020803	Manhattan
+5.0	Rock Paper Photo	40.756176	-73.9876328	New York
+2.5	Buehler Challenger & Science Center	40.9519248	-74.0938325	Paramus
+4.5	New World Stages	40.7627289	-73.9875236	New York
+4.0	Arthur Ashe Stadium	40.7509301299811	-73.8455257081856	Flushing
+5.0	Trailside Nature and Science Center	40.6830482	-74.3723602	Mountainside
+5.0	Antique Fine Frames	40.74724	-73.94113	Long Island
+2.5	Capo Auction	40.74471	-73.9286149	Long Island City
+4.0	Cedarmere Preserve	40.8108788	-73.6465607	Roslyn
+2.5	Holiday Inn New York City-Midtown-57th St.	40.768565	-73.987396	New York
+3.0	Gallery 71	40.7696561	-73.9629501	New York
+4.5	Queens Taste	40.7559169	-73.849076	Corona
+4.0	Luhring Augustine Gallery	40.7493386	-74.0056788	New York
+3.5	New York International Auto Show	40.7565631	-74.0034466	New York
+4.0	smarTours	40.753434	-73.980736	New York
+4.0	New Brighton	40.6459430959704	-74.0909348800778	New Brighton
+5.0	The Bard Graduate Center	40.7856293	-73.9705276	New York
+5.0	Shady Ladies	40.7767	-73.95781	New York
+4.5	The Street Teacher	40.77382	-73.95606	New York
+5.0	Wine & Design	40.68942	-73.9706	Brooklyn
+5.0	New Old New York	40.7146303425328	-74.0059050158691	New York
+4.0	Gladstone Gallery	40.7489386	-74.0047243	New York

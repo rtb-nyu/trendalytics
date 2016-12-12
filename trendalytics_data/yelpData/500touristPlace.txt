@@ -1,0 +1,501 @@
+rating	name	latitude	longitude	city
+4.5	Top of the Rock	40.7593342608422	-73.9794015884399	New York
+4.5	The High Line	40.7479831752801	-74.0048906107511	New York
+4.5	Love Sculpture	40.763158183256	-73.9782295443495	New York
+4.5	Brooklyn Bridge	40.7059677364821	-73.9966657489186	Brooklyn
+5.0	Brooklyn Heights Promenade	40.6979309758759	-73.9971359844473	Brooklyn
+4.5	Washington Square Park	40.7307873410831	-73.997597694397	New York
+4.5	Flatiron Building	40.7412290453689	-73.9895794188884	New York
+4.5	Grand Central Terminal	40.752793	-73.977165	New York
+4.0	Lower East Side Tenement Museum	40.7188299	-73.98998	New York
+4.5	Brooklyn Bridge Park	40.7016262778116	-73.9972114562988	Brooklyn
+4.5	Rockefeller Center	40.7590151633732	-73.979138565745	New York
+4.5	Battery Park	40.70235	-74.0138	New York
+4.5	Bryant Park	40.7538842911333	-73.9836510457098	New York
+5.0	Central Park	40.7644	-73.97166	New York
+4.5	9/11 Memorial & Museum	40.7114821574672	-74.0126906189541	New York
+4.5	New York Transit Museum	40.6886	-73.9850699	Brooklyn
+4.5	Strawberry Fields	40.7756479598567	-73.9747209091037	New York
+5.0	The Metropolitan Museum of Art	40.779254271604	-73.9628841731528	New York
+4.5	9/11 Tribute Center	40.709765	-74.012452	New York
+4.5	Roosevelt Island Tramway	40.761198	-73.96421	New York
+4.5	Top of the Rock	40.7593342608422	-73.9794015884399	New York
+4.5	The High Line	40.7479831752801	-74.0048906107511	New York
+4.5	Love Sculpture	40.763158183256	-73.9782295443495	New York
+4.5	Brooklyn Bridge	40.7059677364821	-73.9966657489186	Brooklyn
+5.0	Brooklyn Heights Promenade	40.6979309758759	-73.9971359844473	Brooklyn
+4.5	Washington Square Park	40.7307873410831	-73.997597694397	New York
+4.5	Flatiron Building	40.7412290453689	-73.9895794188884	New York
+4.5	Grand Central Terminal	40.752793	-73.977165	New York
+4.0	Lower East Side Tenement Museum	40.7188299	-73.98998	New York
+4.5	Brooklyn Bridge Park	40.7016262778116	-73.9972114562988	Brooklyn
+4.5	Rockefeller Center	40.7590151633732	-73.979138565745	New York
+4.5	Battery Park	40.70235	-74.0138	New York
+4.5	Bryant Park	40.7538842911333	-73.9836510457098	New York
+5.0	Central Park	40.7644	-73.97166	New York
+4.5	9/11 Memorial & Museum	40.7114821574672	-74.0126906189541	New York
+4.5	New York Transit Museum	40.6886	-73.9850699	Brooklyn
+4.5	Strawberry Fields	40.7756479598567	-73.9747209091037	New York
+5.0	The Metropolitan Museum of Art	40.779254271604	-73.9628841731528	New York
+4.5	9/11 Tribute Center	40.709765	-74.012452	New York
+4.5	Roosevelt Island Tramway	40.761198	-73.96421	New York
+4.0	Empire State Building	40.748442285082	-73.9856674785042	New York
+4.5	Statue of Liberty	40.689772	-74.045309	New York
+4.5	Governors Island National Monument	40.6913770268785	-74.0164375305176	New York
+5.0	Citifari	40.7529716	-73.9963226	New York
+4.5	Wall Street Walks	40.70612	-74.00921	New York
+4.0	One World Observatory	40.692022	-73.9884418	New York
+5.0	Real New York Tours	40.71567	-73.98998	New York
+4.5	Belvedere Castle	40.7794284268306	-73.9690482616425	New York
+4.0	Bowling Green	40.7051324981768	-74.0135908771509	New York
+4.5	New York Public Library	40.75161	-73.98226	New York
+4.5	Madison Square Park	40.7422133587202	-73.9879736510651	New York
+4.5	Radio City Music Hall	40.7599766	-73.9799747	New York
+4.5	The Museum of Modern Art	40.7614124038247	-73.9775069992493	New York
+4.0	Union Square	40.7352587669863	-73.990752696991	New York
+4.5	The Staten Island Ferry	40.644066694356	-74.0724992534156	Staten Island
+4.5	Cathedral Church of St John the Divine	40.8037049	-73.9631203	New York
+3.5	The Ride	40.7549769	-73.9911009	New York
+3.5	Times Square	40.7586519740346	-73.9850566812844	New York
+4.0	American Museum of Natural History	40.7809777375863	-73.9731667865401	New York
+4.0	Comedy Cellar	40.73021	-74.00058	New York
+4.5	Riverside Park	40.8111312	-73.9638738	New York
+4.5	TKTS South Street Seaport	40.7069203	-74.0045058	New York
+4.5	Brooklyn Botanic Garden	40.6668904	-73.9618318	Brooklyn
+4.5	Hudson River Park	40.7535722166564	-74.0076291561127	New York
+4.0	Intrepid Sea Air & Space Museum	40.764525	-73.999613	New York
+4.5	Brooklyn Museum	40.6714058033045	-73.9636778798943	Brooklyn
+4.0	Columbus Circle	40.7680517014971	-73.9819249126892	New York
+4.5	Adirondack Sailing	40.7499464	-74.0086279	New York
+5.0	The Conservatory Garden	40.77278	-73.96681	New York
+3.5	Charging Bull	40.7055723319288	-74.0134434850554	New York
+4.0	Ellis Island Immigration Museum	40.6987072970291	-74.0395416540388	New York
+4.5	Williamsburg Bridge	40.7136404101923	-73.9724688795898	Brooklyn
+5.0	Free Tours by Foot	40.718772	-73.98591	New York
+4.0	Bateaux New York	40.7474032689075	-74.009646177292	New York
+4.0	Columbus Park	40.7158037	-73.9995434	New York
+3.5	Wall Street	40.7047806	-74.0065231	New York
+4.0	Madame Tussauds New York	40.7565705020068	-73.9886474944427	New York
+4.5	The Cube @ Astor Place	40.729909	-73.991378	New York
+5.0	Gantry Plaza State Park	40.7448950110868	-73.9583035553701	Long Island City
+3.5	Circle Line Sightseeing Cruises	40.763003	-74.00203	New York
+5.0	Urban Oyster Tours	40.7180036	-73.9653715	New York
+5.0	Scott's Pizza Tours	40.744621	-73.987662	New York
+4.5	Whispering Gallery	40.7525246144223	-73.9777266640202	New York
+4.0	Oculus	40.7115051	-74.011386	New York
+4.0	Federal Hall National Memorial	40.7071839860285	-74.0104323387947	New York
+4.0	Blue Man Group	40.7293	-73.99217	New York
+4.5	Jacqueline Kennedy Onassis Reservoir	40.7862605212217	-73.9620208740234	New York
+4.5	Lincoln Center	40.7725956296678	-73.9832156896592	New York
+4.0	New York Water Taxi	40.7046758930775	-74.0032442645264	New York
+4.5	Dyker Heights Christmas Lights	40.6165499	-74.0149	Brooklyn
+4.5	Classic Harbor Line	40.7499464	-74.0086279	New York
+4.5	Alice In Wonderland Sculpture	40.7750294404491	-73.9666751634164	New York
+3.0	Ripley's Believe It or Not! Time Square	40.7567195290979	-73.988980435962	New York
+4.0	Chinatown	40.7162464	-73.9961421	New York
+4.5	The Unisphere	40.7463903688115	-73.8450483183901	Flushing
+4.0	Village Vanguard	40.7360954	-74.001564	New York
+4.0	Bryant Park Hotel	40.75286	-73.98365	New York
+4.0	Russian Vodka Room	40.76349	-73.9848	New York
+4.5	Carl Schurz Park	40.7744442236	-73.9441989189	New York
+4.0	Marie's Crisis	40.73323	-74.00339	New York
+4.0	United Nations	40.7490143822478	-73.9680764455756	New York
+4.0	Brookfield Place	40.7139432	-74.0147205	New York
+5.0	CityRover Walks NY	40.75879	-73.97702	New York
+3.5	Plaza Hotel	40.7644638970122	-73.97449483766	New York
+4.0	Frying Pan	40.7521174043978	-74.0090024471283	New York
+4.5	New York Stock Exchange	40.70714	-74.0108599	New York
+4.5	The Metropolitan Opera	40.7728401326152	-73.9845519506313	New York
+4.5	Food on Foot Tours	40.74928	-73.99259	New York
+4.5	The New York Chinese Scholar's Garden	40.6451752	-74.1044821	Staten Island
+3.5	The Westin New York at Times Square	40.75764	-73.9889	New York
+3.5	New York Marriott Marquis	40.7587956685382	-73.98428337156	New York
+5.0	Foods of NY Tours	40.7327	-74.00234	New York
+3.5	Swing 46	40.76067	-73.98974	New York
+4.5	General Grant Memorial	40.8126297	-73.9630127	New York
+3.5	Regal Cinemas E-Walk 13 & RPX	40.7574173	-73.9890116	New York
+4.0	Macy's Thanksgiving Day Parade	40.7642429872027	-73.9809780718703	New York
+4.5	Irish Hunger Memorial	40.7150211352621	-74.0163624286652	New York
+4.5	The Phantom of the Opera	40.7584408600444	-73.9880063804416	New York
+4.0	Clipper City - Manhattan by Sail	40.7015279320114	-74.0159515874496	New York
+4.5	Grand Army Plaza	40.6739659558502	-73.9701318740845	Brooklyn
+3.0	Museum of Sex	40.7440368	-73.9873546	New York
+5.0	Famous Fat Dave's Food Tours	40.71455	-74.00714	New York
+4.5	Bethesda Terrace	40.7764	-73.98229	New York
+3.0	Statue Cruises	40.7011545215167	-74.0140986442566	Jersey City
+4.0	Museum of the City of New York	40.79251	-73.95192	New York
+4.5	Manhattan	40.74928	-73.99259	New York
+4.5	Father Duffy Square	40.76211	-73.9934	New York
+3.5	Central Park Zoo	40.767843246745	-73.971849728531	New York
+3.0	Dave & Buster's	40.7565097115657	-73.988688769321	New York
+4.5	Central Park - Sheep Meadow	40.7718724982415	-73.9750778675079	New York
+4.5	New York City	40.70376	-74.01253	New York
+3.5	W New York - Times Square	40.759344404359	-73.9857229356794	New York
+4.0	Union Square Holiday Market	40.7349173232421	-73.9907097816467	New York
+3.5	Cafe Wha?	40.73011	-74.00053	New York
+4.0	National Museum of the American Indian	40.7046204	-74.0141373	New York
+3.5	Bank of America Winter Village at Bryant Park	40.7539257	-73.9854091	New York
+5.0	Museum Hack	40.7105863	-73.8524626	New York
+4.0	TKTS Times Square	40.757929	-73.985506	New York
+4.5	Staten Island Ferry Whitehall Terminal	40.7009471103624	-74.0130525827408	New York
+4.0	Roosevelt Island	40.76111	-73.95065	New York
+5.0	Loudest Yeller Bicycle Tours	40.71117	-73.9626399	Brooklyn
+3.5	Hilton Times Square	40.75658	-73.98865	New York
+5.0	Fun Foodie NYC Tours	40.7812640168958	-73.966809137268	New York
+4.0	The Naked Cowboy	40.7569	-73.9900399	New York
+4.5	Gotham City Tours	40.7764916585276	-73.9763787384949	New York
+4.0	DoubleTree Suites by Hilton New York City - Times Square	40.7591139171672	-73.9845226568425	New York
+3.5	Blue Note	40.7308499	-74.0007399	New York
+4.5	DUMBO	40.7040027853252	-73.9889877202589	Brooklyn
+3.5	Guggenheim Museum	40.78301	-73.95912	New York
+3.5	Shelburne NYC-an Affinia hotel	40.74834	-73.97784	New York
+5.0	Get Up & Ride	40.7092105	-73.9542157	Brooklyn
+4.5	Prospect Park	40.6668998	-73.9747509	Brooklyn
+4.5	Accomplice The Show	40.725665	-73.997734	New York
+4.5	The Cloisters	40.8649766228154	-73.9315730494599	New York
+4.0	Hilton Garden Inn Times Square	40.76123	-73.98651	New York
+3.5	Socrates Sculpture Park	40.768565	-73.935846	Long Island City
+3.0	The Crowne Plaza Times Square Manhattan	40.760634180476	-73.984835606462	New York
+3.5	Rainbow Room	40.75884	-73.97881	New York
+4.5	Frick Collection	40.77094	-73.96717	New York
+4.0	The Rink at Rockefeller Center	40.7586673484847	-73.9784224863556	New York
+4.0	Manhattan Bridge	40.7069983702839	-73.9904737472534	New York
+3.0	B.B. King Blues Club & Grill	40.7568399	-73.98844	New York
+3.5		40.7568933348604	Midtown West],[1501 Broadway"],https://s3-media2.fl.yelpcdn.com/bphoto/DA3a1utmWOOTuuHTHgSZ9A/ms.jpg,[1501 Broadway	New York
+4.0	Hampton Inn Manhattan-Times Square North	40.76336	-73.98581	New York
+4.0	Christmas Spectacular Starring the Radio City Rockettes	40.7599766	-73.9799747	New York
+3.5	New York Pass	40.75547	-73.98181	New York
+4.0	City Hall Park	40.7134	-74.00439	New York
+3.5	Wollman Rink	40.7679426893202	-73.9744573696724	New York
+4.0	Sleep No More	40.7495108269954	-74.0041889375789	New York
+4.0	Renaissance New York Times Square Hotel	40.7596003702921	-73.9846529755325	New York
+4.5	Liberty Bicycles	40.7667	-73.98638	New York
+4.5	New 2 NY Tours	40.7560361	-73.9698626	New York
+4.0	Governors Island Ferry	40.7007054897428	-74.0117926264892	New York
+2.5	Gray Line New York Tours	40.76074	-73.98747	New York
+5.0	Fort Tryon Park	40.8635236	-73.9324764	New York
+4.5	BellaVita	40.7433586	-73.9954224	New York
+4.5	Wicked	40.762558	-73.985075	New York
+3.5	Carriage Ride in Central Park	40.7642994582174	-73.9729964733124	New York
+3.0	The Millennium Broadway Hotel NYC	40.7567689	-73.9843329	New York
+5.0	Ciao Andiamo	40.7271629940882	-74.0059394047547	New York
+5.0	Narwhal Yacht Charters	40.7332100782357	-74.0124893188477	New York
+3.5	Novotel New York Times Square	40.7626833	-73.9837907	New York
+3.0	East River Ferry	40.7440589029235	-73.970823887212	New York
+4.0	Madison Square Garden	40.7485077	-73.9887129	New York
+4.5	Take Me Out NYC	40.7370214	-73.9896026	Manhattan
+3.5	The Wolcott Hotel New York	40.7466546089585	-73.9867213527613	New York
+3.0	Carolines On Broadway	40.76109	-73.984061	New York
+3.0	Stand Up NY	40.78279	-73.9801899	New York
+3.0	Limelight Marketplace	40.7408905	-73.9933167	New York
+3.0	The Iridium	40.7618103	-73.9835968	New York
+3.0	NY Waterway Ferry Terminal Pier 11/Wall Street	40.703539458525	-74.006514021236	New York
+3.0	Trump Tower	40.7624518	-73.9741234	New York
+4.5	Big Onion Walking Tours	40.66278	-73.98032	Brooklyn
+4.0	Andaz Wall Street	40.70529	-74.00774	New York
+4.0	Museum of Chinese in America	40.7193764	-73.9990696	New York
+4.0	Broadway	40.75441	-73.98908	New York
+5.0	Brooklyn Bridge Boot Camp	40.70609	-73.99675	New York
+4.0	Conrad New York Hotel	40.7147675	-74.0159912	New York
+3.5	Playwright Tavern & Restaurant	40.760478	-73.98416	New York
+3.5	OnBoard New York Tours	40.76109	-73.98321	Manhattan
+4.0	Zuccotti Park	40.709287782927206	-74.0114164352417	New York
+3.5	San Gennaro Feast	40.7201360073554	-73.9969754219055	New York
+4.5	The Morgan Library & Museum	40.74909	-73.98181	New York
+3.0	Consulate General of Brazil in New York	40.7498322	-73.9739227	New York
+4.0	Kimpton Ink48 Hotel	40.76452	-73.9958599	New York
+4.5	Museum of the Moving Image	40.7563782	-73.923851	Astoria
+4.0	Flushing Meadows Corona Park	40.739697	-73.840808	Flushing
+2.5	CitySights NY	40.7564716	-73.9883226	New York
+2.5	Sheraton New York Times Square Hotel	40.7622420869762	-73.9815320996605	New York
+4.0	414 Hotel	40.7612915	-73.9917374	New York
+3.5	World Center Hotel	40.7099038	-74.0139077	New York
+4.0	Seaport District	40.7070099	-74.0035599	New York
+5.0	Sugartooth Tours	40.75593	-73.99355	New York
+2.5	Penn Station	40.750584	-73.99353	New York
+3.5	Greeley Square	40.74828	-73.98817	New York
+2.5	The Roosevelt Hotel	40.7552476135953	-73.9771833383505	New York
+3.0	Gansevoort Meatpacking NYC	40.73993	-74.00584	New York
+4.0	New-York Historical Society	40.7793496073291	-73.9741165394002	New York
+3.0	Herald Square	40.74985	-73.98792	New York
+5.0	Manhattan Walking Tour	40.766411	-73.98557	New York
+3.5	Central Park Bike Tours	40.7664193	-73.9797209	New York
+4.0	The Noguchi Museum	40.7668297	-73.9386347	Long Island City
+2.5	Citi Bike - Central Park South	40.7658379823286	-73.9763086441803	New York
+3.5	Coney Island Beach and Boardwalk	40.5755692	-73.9810715	Brooklyn
+3.5	Millenium Hilton	40.7112873237274	-74.010298592596	New York
+3.0	Big Bus Tour - New York	40.74666	-73.98017	New York
+3.0	AMC Empire 25	40.757026	-73.988675	New York
+3.5	New York Marriott Downtown	40.70945	-74.014767	New York
+4.5	The Lion King	40.7580502378244	-73.9860534667969	New York
+5.0	Sidewalks Of NY Tours	40.70787	-74.01381	New York
+4.0	The Ritz-Carlton New York, Battery Park	40.7054	-74.01742	New York
+3.0	The Standard, High Line 	40.7407011	-74.0078513	New York
+4.5	Distrikt Hotel New York City, an Ascend Hotel Collection Member	40.756499	-73.992935	New York
+3.5	Hornblower Cruises And Events Pier 15	40.7047240923101	-74.0021444007111	New York
+4.0	Time Warner Center	40.7682441	-73.9823255	New York
+4.0	smarTours	40.753434	-73.980736	New York
+4.0	Dizzy's Club Coca Cola	40.7686020583993	-73.9830386638641	New York
+3.5	The Americana Inn	40.75223	-73.98551	New York
+4.5	The Daily Show	40.7670735	-73.9940902	New York
+2.5	Broadway Comedy Club	40.7643905	-73.9856092	New York
+5.0	Streetwise New York Tours	40.75173	-73.99944	New York
+3.0	Wellington Hotel	40.764394823465	-73.9804992690367	New York
+2.5	CKGS Visa Application Centre -  New York	40.744869	-73.996736	New York
+5.0	Jane's Carousel	40.704847	-73.99243	Brooklyn
+4.0	Chelsea Market	40.7419711362098	-74.0048450364568	New York
+3.5	Metropolitan Transportation Authority	40.75428	-73.99885	New York
+4.0	Staybridge Suites Times Square - New York City	40.756542	-73.992797	New York
+4.0	Yeshiva University Museum	40.737793	-73.9933929	New York
+3.5	Don't Tell Mama	40.7605782	-73.9895172	New York
+4.0	Ed Koch Queensboro Bridge	40.7580177305907	-73.9572143554688	New York
+3.5	The Museum of American Finance	40.7063599	-74.00921	New York
+3.5	Hotel Mela	40.7565	-73.98427	New York
+3.5	The Belvedere Hotel	40.7616	-73.98808	New York
+3.0	Uncle Sam's New York	40.75313	-73.98072	New York
+2.5	Row NYC	40.758715	-73.9882839	New York
+4.0	The Jewel Facing Rockefeller	40.7597809	-73.9776306	Manhattan
+4.0	Parkside Lounge	40.7210999	-73.9832077	New York
+4.5	Stomp	40.7283753963964	-73.9877967380982	New York
+4.0	Hornblower Cruises & Events	40.7306	-74.011185	New York
+3.0	ItsEasy Passport & Visa Services	40.7505531	-73.9768906	New York
+4.0	Candlewood Suites New York City Times Square	40.7563185	-73.9929283	New York
+4.0	Taste of Times Square	40.7586899	-73.9853287	Manhattan
+3.5	Grand Hyatt New York	40.7524737471375	-73.9760975789226	New York
+3.5	Great New York Tours	40.7390213	-74.0058136	New York
+2.5	Consulate General of the People's Republic of China	40.76223	-74.00046	New York
+4.0	Courtyard New York Manhattan/Midtown East	40.75756	-73.96996	New York
+4.0	Terra Blues	40.7284508	-73.9992294	New York
+4.0	InterContinental New York Times Square	40.7585983	-73.9895782	New York
+4.0	JW Marriott Essex House New York	40.76621	-73.9786	New York
+4.0	New Amsterdam Theatre	40.7561989	-73.9877167	New York
+4.5	Rubin Museum of Art	40.74013	-73.99772	New York
+4.0	The POD 51 Hotel	40.7558991828218	-73.9690395444632	New York
+3.5	Hampton Inn Madison Square Garden	40.74812	-73.99012	New York
+2.5	MTA - 34th Street - Herald Square Subway Station	40.7501393129392	-73.9875707807693	New York
+4.5	Woolworth Tours	40.71248	-74.00793	New York
+5.0	SempeRide	40.70432	-74.00837	New York
+2.0	Port Authority Bus Terminal	40.7570112688885	-73.9905125682137	New York
+4.0	Dumont NYC-an Affinia hotel	40.74599	-73.97921	New York
+4.5	Carnegie Hall	40.7651125454703	-73.9799155945393	New York
+2.0	Open Loop New York	40.7609938	-73.9874477	New York
+2.0	Open Loop New York	40.7609938	-73.9874477	New York
+4.0	Bronx Zoo	40.8486991537725	-73.8822738371592	Bronx
+5.0	Bike the Big Apple Tours	40.76389	-73.96447	New York
+3.5	W New York - Downtown	40.7090277769422	-74.0135174859213	New York
+5.0	High Quality Tours	40.74452	-73.99049	New York
+3.5	Coney Island	40.57532	-73.9786	Brooklyn
+3.5	El Museo Del Barrio	40.7931	-73.95137	New York
+3.0	La Quinta Inn & Suites Manhattan	40.74781	-73.986488	New York
+5.0	Hook & Ladder 8 - Ghostbusters	40.71966	-74.0066	New York
+3.5	PATH Train World Trade Center Station	40.7128983	-74.011673	New York
+2.5	Park Central New York	40.7646907	-73.9812971	New York
+2.0	Manhattan Mall	40.74939	-73.98911	New York
+4.0	Lips	40.75923	-73.96691	New York
+3.0	Central Park Bike Ride	40.76537	-73.97731	Manhattan
+3.0	DoubleTree by Hilton	40.7039587	-74.0123519	New York
+4.0	Birdland Jazz Club NYC	40.75901	-73.98969	New York
+3.0	The Bentley Hotel	40.76028	-73.95815	New York
+4.0	The Iroquois New York	40.7558788	-73.9819585	New York
+4.0	Ground Zero Museum Workshop	40.74133	-74.00664	New York
+4.5	Chrysler Building	40.751614712652	-73.9753850455664	New York
+3.0	125th Street in Harlem	40.811091	-73.952406	New York
+4.5	The Book of Mormon	40.761333	-73.985605	New York
+4.5	Magnet Theater	40.7487943	-73.9953078	New York
+3.0	Central Park Sightseeing	40.7631416	-73.9770813	New York
+4.0	The Benjamin	40.75648	-73.97206	New York
+4.5	Escape Entertainment	40.74807	-73.98738	New York
+4.0	Yankee Stadium	40.8296464104632	-73.9265090772199	Bronx
+5.0	The Techno Tourist	40.7999209	-73.9683102	Manhattan
+4.0	Sofitel New York	40.756	-73.98164	New York
+3.5	Shearwater - Manhattan by Sail	40.712252957216	-74.0172210697357	New York
+3.5	Club Quarters	40.70679	-74.00904	New York
+1.5	E-World Travel & Tours	40.7157	-73.99663	New York
+4.0	Museum of the American Gangster	40.72765	-73.98573	New York
+4.0	Queens Museum	40.7455988044695	-73.8468790054321	Queens
+4.0	Hilton Garden Inn New York/West 35th Street	40.75036	-73.98661	New York
+3.5	PlayStation Theater	40.75793	-73.98644	New York
+4.0	Smoke Jazz Club	40.8010493	-73.968204	New York
+4.0	Omni Berkshire Hotel	40.7592543959837	-73.9748366643359	New York
+1.5	L & L Travel	40.71687	-73.9951899	New York
+4.0	The POD 39 Hotel	40.749293898042	-73.9766141027212	New York
+3.0	Arthur's Tavern	40.73321	-74.0034699	New York
+2.5	Hudson Hotel - Central Park	40.76836	-73.98493	New York
+4.0	The Algonquin Hotel Times Square, Autograph Collection	40.7559204	-73.9823685	New York
+4.5	Casablanca Hotel	40.75641	-73.98547	New York
+4.0	Wall Street Inn	40.7046599	-74.01036	New York
+4.0	On Location Tours	40.754996	-73.993461	New York
+4.0	Ace Hotel New York	40.7455725822204	-73.9882193498224	New York
+3.5	Hotel Belleclaire	40.7824708	-73.9813335	New York
+4.5	Showman's Jazz Club	40.8111458217094	-73.9534378051758	New York
+3.5	W New York - Union Square	40.73665	-73.98869	New York
+3.5	Soho Grand Hotel	40.7220519	-74.0045064	New York
+4.5	Helicopter Flight Services	40.7020069	-74.0098131	New York
+4.0	Hampton Inn Manhattan Grand Central	40.7509314	-73.9722103	New York
+4.0	Whitney Museum of American Art	40.7394629444886	-74.0084221876268	New York
+3.5	Courtyard New York Manhattan/Times Square	40.7539135	-73.9862723	New York
+4.5	The Nolitan Hotel	40.7205772	-73.9953391	New York
+3.0	Element New York Times Square West	40.7559517102496	-73.9925054686053	New York
+3.0	British Consulate General	40.75671	-73.96989	New York
+4.0	Central Park Carousel	40.769936	-73.974384	New York
+3.5	Hill Country Barbecue Market	40.7442374054624	-73.9904879510651	New York
+4.5	A Slice of Brooklyn Bus Tours	40.7334989	-73.9898464	New York
+5.0	Seek New York	40.71424	-74.00642	New York
+4.5	Shakespeare In the Park	40.7803139578961	-73.9688014984131	New York
+4.0	The BEAST Speedboat	40.762462	-74.00185	New York
+5.0	Urban Crawls	40.72478	-73.99898	New York
+4.0	MTA - 47-50 Streets - Rockefeller Center Subway Station	40.7580112241758	-73.9817563131308	New York
+4.5	NYC Greenway Path	40.733405194168	-74.0109443664551	New York
+5.0	Jazz at Marjorie Eliot's	40.83383	-73.93903	New York
+2.5	The Empire Hotel	40.7713776	-73.9824753	New York
+4.5	Brooklyn	40.68262	-73.97806	Brooklyn
+4.0	Golden Shopping Mall	40.75723	-73.82937	Flushing
+3.5	Jules Bistro	40.72809	-73.98615	New York
+1.5	Go New York Tours	40.7532735	-73.9808442	New York
+5.0	The Great Indian Adventure	40.7393722134138	-74.0020394325256	New York
+3.0	Courtyard New York Manhattan/Upper East Side	40.78031	-73.9461	New York
+4.5	Hotel Giraffe	40.7420998	-73.9846115	New York
+2.0	Rental Bike NYC	40.76231	-73.97667	New York
+3.5	Hotel 91	40.7136607	-73.9936484	New York
+4.0	Hotel Beacon	40.7806467173684	-73.9811272238182	New York
+4.5	Steve Cohen's Chamber Magic	40.757075	-73.973721	New York
+4.0	Fat Cat	40.73365	-74.00316	New York
+3.0	Manhattan NYC-an Affinia hotel	40.74885	-73.99197	New York
+4.5	Fairfield Inn New York Manhattan/Financial District	40.7058983	-74.0049515	New York
+4.0	The Paris Theatre	40.76384	-73.97418	New York
+4.0	Sushi Roxx	40.74964	-73.97824	New York
+4.5	Empire-Fulton Ferry State Park	40.7040419	-73.9935651	Brooklyn
+3.0	Bowlmor Times Square	40.7581802666004	-73.9877486228943	New York
+3.0	Hotel Edison	40.7596825	-73.9863504	New York
+4.0	70 park avenue Hotel	40.74987	-73.97963	New York
+4.0	Hyatt Union Square New York	40.7334389395744	-73.9900782372587	New York
+1.0	NY Skyride	40.7486209499263	-73.9862375333905	New York
+4.0	The Radio City Stage Door Tour	40.7601196	-73.9800401	New York
+3.5	AirTrain JFK	40.641377	-73.778186	Jamaica
+2.5	New York Sports Clubs	40.76038	-73.98519	New York
+4.0	Andaz 5th Avenue	40.7528163684503	-73.9810109138489	New York
+3.5	The Loeb Boathouse Boat Rental	40.7753057561519	-73.9687944486833	New York
+4.5	Mandarin Oriental - New York	40.7690735649284	-73.9829354401806	New York
+4.5	Blazing Saddles Bike Rentals & Tours	40.7059288663608	-74.0029513835907	New York
+4.5	Fort Wadsworth	40.6054758083564	-74.0542269339926	Staten Island
+4.0	The Jewish Museum	40.7854	-73.95719	New York
+4.0	The Jewish Museum	40.7854	-73.95719	New York
+4.5	Apollo Theater	40.80991	-73.95013	New York
+4.5	Franklin D Roosevelt Four Freedoms Park	40.7502701041345	-73.9607276695631	Roosevelt Island
+3.5	Groove	40.7305717	-74.0001526	New York
+3.5	Le Parker M¨¦ridien New York	40.7642669540397	-73.9785768091679	New York
+4.5	Paley Park	40.76035	-73.97508	New York
+3.5	Bastille Day on 60th Street	40.7639046	-73.9705811	New York
+3.5	Deauville Hotel	40.7438316	-73.9830933	New York
+3.5	MTA - 42nd Street Shuttle	40.7527262	-73.9772294	New York
+3.5	Luna Park	40.57532	-73.9786	Brooklyn
+4.5	Hush Tours	40.74928	-73.99259	New York
+4.0	Dinosaur Bar-B-Que	40.818098338924	-73.9608729269837	Harlem
+2.0	Bike Rental Central Park	40.768261547608	-73.9851599559188	New York
+3.5	Tompkins Square Park	40.72605	-73.98353	New York
+4.5	Residence Inn New York Downtown Manhattan	40.709564	-74.0099212	New York
+4.0	MTA - Columbus Circle Subway Station	40.768281099729	-73.981751203537	New York
+4.5	Luxe Tour Travel	40.73152	-73.98922	New York
+3.0	New York Public Library - Mid-Manhattan Library	40.751906	-73.981693	New York
+4.0	Brighton Beach	40.57587	-73.95948	Brooklyn
+3.0	Waldorf Astoria New York	40.75652	-73.9734057	New York
+3.0	The New Yorker	40.7545468971647	-73.9943573603545	New York
+3.5	MoMA PS1	40.7455329023591	-73.9474408581139	Long Island City
+5.0	Bushwick Collective	40.7076298	-73.9218072	Brooklyn
+3.5	The Roxy Hotel	40.7191	-74.0050251	New York
+4.0	H&M Art and Home Decor	40.8063079695126	-73.941497951746	New York
+5.0	Kleinfeld Hotel Blocks	40.7410179	-73.9944885	New York
+4.5	Pier 25	40.7202661102641	-74.0140557289124	New York
+3.0	DoubleTree by Hilton Hotel Metropolitan - New York City	40.75667	-73.97142	New York
+3.0	YOTEL New York	40.7591568	-73.9954561	New York
+3.5	The Shops at Columbus Circle	40.76844	-73.98273	New York
+4.0	Shrine	40.81431	-73.94411	New York
+4.0	Regal Cinemas Battery Park 11	40.714699843615	-74.0150587611769	New York
+3.5	The Palace Theatre	40.7588577	-73.9846878	New York
+3.5	World Yacht	40.7625767148966	-74.0042066574097	New York
+4.0	Kimpton Hotel Eventi	40.7471919	-73.9898801	New York
+2.5	Webster Hall	40.7316609	-73.9891926	New York
+4.0	Father Demo Square	40.72974	-74.00215	New York
+5.0	MyLimoParty	40.7637495	-73.9846917	New York
+5.0	Walk About New York	40.7311815729123	-73.9970767520233	New York
+4.0	The Duplex	40.7337855865005	-74.0024324895261	New York
+4.0	Museum of Arts and Design	40.767452	-73.981988	New York
+4.0	Bike and Roll NYC	40.7044120119497	-74.0169095993042	New York
+4.0	Seaglass Carousel	40.7021652578292	-74.0149838061585	New York
+3.5	Spirit of New York	40.7477771608207	-74.0095603466034	New York
+5.0	OlidayTours	40.7842890225613	-73.9829298306885	New York
+4.0	The Kimpton Muse Hotel	40.75792	-73.98375	New York
+2.5	MTA - Union Square Subway Station	40.735265	-73.991068	New York
+4.5	Liberty State Park	40.703596	-74.054354	Jersey City
+3.5	Castle Clinton	40.703822	-74.016892	New York
+3.0	DoubleTree by Hilton Hotel New York - Times Square South	40.7543601	-73.9941046	New York
+5.0	Turnstile Tours	40.6498477598601	-73.9793885833282	Brooklyn
+5.0	The New York Beer & Brewery Tour	40.72341	-73.99246	New York
+5.0	Masters Passports & Visa Services	40.7533647	-73.9720043	New York
+5.0	Show Me Tours	40.6638252	-73.9911131	New York
+3.5	Queens Botanical Garden	40.7514567	-73.826228	Flushing
+4.5	New York Botanical Garden	40.8622798125418	-73.8771354681101	Bronx
+3.5	Chinatown Fair Family Fun Center	40.714	-73.9986	New York
+4.0	West Side Highway Bike Path	40.71455	-74.00714	New York
+4.5	China Visa Service Center	40.7571096	-73.9863264	New York
+2.5	Eurostars Wall Street	40.7052	-74.00622	New York
+3.0	W New York	40.75604	-73.97228	New York
+4.0	Fraunces Tavern Museum	40.703392	-74.0113297	New York
+3.0	Room Mate Grace Hotel	40.75741	-73.98394	New York
+3.5	Jazz On the Town Hostel	40.7323	-73.98442	New York
+3.0	Grand Central Station Holiday Market	40.7514381	-73.9760513	New York
+3.0	PATH Train	40.7491264054608	-73.9880061149597	New York
+3.0	The James New York	40.7226799	-74.0048	New York
+4.0	American Airlines Theatre	40.7565613	-73.9878315	New York
+4.5	Merchant's House Museum	40.727500905169	-73.9925233282418	New York
+3.5	The Franklin Hotel	40.7796898	-73.9545364	New York
+3.0	Walking Tours Manhattan	40.77496	-73.9596399	New York
+2.0	The Manhattan at Times Square Hotel	40.7621399473623	-73.9828362651155	New York
+4.0	Wyndham Garden Hotel Times Square South	40.75438	-73.99409	New York
+5.0	Nice Guy Tours	40.736369	-74.0008048	New York
+3.0	Wicked Willy's	40.72837	-73.99931	New York
+3.0	Hilton Manhattan East Hotel	40.749533970579	-73.971866926794	New York
+4.5	Smalls Jazz Club	40.73437	-74.00272	New York
+1.5	Hotel Pennsylvania	40.74969	-73.99056	New York
+4.5	Harlem Meer	40.7962243188	-73.9511397374	New York
+4.5	Cyclone Coaster	40.5752029	-73.9768219	Brooklyn
+5.0	Runstreet	40.7127837	-74.0059413	New York
+4.5	Inwood Hill Park	40.8714360798267	-73.9255857467651	New York
+4.5	The Tonight Show Starring Jimmy Fallon	40.7592291077486	-73.9806013915074	New York
+4.5	San Carlos Hotel	40.75603	-73.97149	New York
+4.0	Jazz Standard	40.74228	-73.98375	New York
+4.5	Koreatown	40.74928	-73.99259	New York
+5.0	New York Local Tours	40.7143593	-74.0026169	New York
+5.0	Explora	40.752958	-73.984239	New York
+5.0	New York Adventure Club	40.7605505	-73.9822683	New York
+5.0	The Great Lerdini	40.6681669	-73.9800645	Brooklyn
+4.0	Cooper Hewitt, Smithsonian Design Museum	40.78443	-73.95778	New York
+4.0	Residence Inn New York Manhattan/Times Square	40.7527877	-73.9857899	New York
+3.5	Night Theater District	40.75725	-73.9841299	New York
+4.5	Borough of Queens	40.76666	-73.82633	Queens
+4.0	AMC Loews Lincoln Square 13	40.7750416132642	-73.9818779132687	New York
+4.5	Then She Fell	40.7111744698705	-73.9429347460327	Brooklyn
+3.5	Roger Smith Hotel	40.75476	-73.97346	New York
+4.0	The London NYC	40.7633699870253	-73.9805770914016	New York
+3.5	Sheraton New York Hotel & Towers	40.7625828095845	-73.9819067716599	New York
+3.0	The Lexington New York City, Autograph Collection	40.7549663649822	-73.9731981091375	New York
+2.5	Central Park Bicycle Shop	40.7690592	-73.9858741	New York
+5.0	Jackson Square	40.7387619	-74.0024033	New York
+4.5	The Museum at Fit	40.76309	-73.86926	New York
+3.5	Renaissance New York Hotel 57	40.7609177	-73.9694672	New York
+4.0	Riverbank State Park	40.8270037	-73.9522676	New York
+3.5	Union Pool	40.7149974467614	-73.9515978509192	Brooklyn
+4.0	Westfield World Trade Center	40.71155	-74.01149	New York
+4.5	Theodore Roosevelt Birthplace National Historic Site	40.739015	-73.989061	New York
+4.0	Tryp Hotel	40.753751185096	-73.994636848783	New York
+4.5	Poets House	40.7164201	-74.0163151	New York
+3.5	Dahesh Museum of Art Gift Shop	40.7249107	-74.0046387	New York
+3.5	NY Fun Music Tour			New York
+3.5	The Ameritania Hotel	40.76408	-73.98283	New York
+4.0	Ellis Island	40.70447	-74.01151	New York
+3.0	The Time New York	40.761008	-73.985367	New York
+3.0	Wythe Hotel	40.7219707633246	-73.9580840224247	New York
+1.5	Yellow Cab NYC	40.74065	-73.99884	New York
+4.5	Archer Hotel New York	40.75206	-73.984733581543	New York
+3.5	Columbus Circle Holiday Market	40.7681348395675	-73.9814722537994	New York
+4.0	Flatiron Plaza	40.7418637326629	-73.989138007164	New York

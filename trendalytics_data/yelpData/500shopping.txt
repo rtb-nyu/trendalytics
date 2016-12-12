@@ -1,0 +1,501 @@
+rating	name	latitude	longitude	city
+5.0	Meg	40.72884	-73.98663	New York
+5.0	Fuego 718	40.71357	-73.95869	Brooklyn
+4.0	Chelsea Market	40.7419711362098	-74.0048450364568	New York
+4.0	Brookfield Place	40.7139432	-74.0147205	New York
+5.0	New Era Factory Outlet	40.71693	-73.99096	New York
+4.0	The Market NYC	40.7244712786891	-73.9950469391174	New York
+4.0	Uniqlo	40.723521000171	-73.998206457137	New York
+4.5	Owl & Thistle General Store	40.6712219244102	-73.9546786621213	New York
+5.0	SlapBack	40.713809	-73.952632	Brooklyn
+4.5	oo35mm	40.71661	-73.99814	New York
+4.5	SoHo	40.7209000808398	-73.9994112137695	New York
+4.0	Urban Jungle	40.7047208	-73.9290242	Brooklyn
+4.0	Story	40.74509337593	-74.0060603011728	New York
+5.0	Bash & Bow	40.7370796	-73.9835587	New York
+5.0	Outlette	40.74156	-73.99003	New York
+4.5	AuH2O	40.7270899	-73.98624	New York
+4.5	Random Accessories	40.7266489719269	-73.990216255188	New York
+5.0	Peace & Riot	40.6820297	-73.9500809	Brooklyn
+4.5	Lockwood	40.7602154678448	-73.9242109512817	Astoria
+5.0	Erie Basin	40.6768	-74.01375	Brooklyn
+5.0	Meg	40.72884	-73.98663	New York
+5.0	Fuego 718	40.71357	-73.95869	Brooklyn
+4.0	Chelsea Market	40.7419711362098	-74.0048450364568	New York
+4.0	Brookfield Place	40.7139432	-74.0147205	New York
+5.0	New Era Factory Outlet	40.71693	-73.99096	New York
+4.0	The Market NYC	40.7244712786891	-73.9950469391174	New York
+4.0	Uniqlo	40.723521000171	-73.998206457137	New York
+4.5	Owl & Thistle General Store	40.6712219244102	-73.9546786621213	New York
+5.0	SlapBack	40.713809	-73.952632	Brooklyn
+4.5	oo35mm	40.71661	-73.99814	New York
+4.5	SoHo	40.7209000808398	-73.9994112137695	New York
+4.0	Urban Jungle	40.7047208	-73.9290242	Brooklyn
+4.0	Story	40.74509337593	-74.0060603011728	New York
+5.0	Bash & Bow	40.7370796	-73.9835587	New York
+5.0	Outlette	40.74156	-73.99003	New York
+4.5	AuH2O	40.7270899	-73.98624	New York
+4.5	Random Accessories	40.7266489719269	-73.990216255188	New York
+5.0	Peace & Riot	40.6820297	-73.9500809	Brooklyn
+4.5	Lockwood	40.7602154678448	-73.9242109512817	Astoria
+5.0	Erie Basin	40.6768	-74.01375	Brooklyn
+5.0	Proper Cloth	40.722113	-73.999889	New York
+5.0	Olly Oxen Free Vintage	40.7074814	-73.9439774	Brooklyn
+4.5	The Mysterious Bookshop	40.7149223	-74.0093093	New York
+4.5	Article&	40.68503	-73.991816	Brooklyn
+4.0	The Uncommons	40.72933	-73.99865	New York
+4.5	m.a.e. vintage and luxury consignment	40.6624	-73.98501	Brooklyn
+4.0	Toy Tokyo	40.7270899	-73.9890099	New York
+5.0	Line & Label	40.72248	-73.94974	Brooklyn
+4.0	Uniqlo	40.74974	-73.98649	New York
+4.5	Front General Store	40.7025018	-73.9874216	Brooklyn
+3.0	Century 21	40.71023	-74.01069	New York
+5.0	Scumbags And Superstars	40.7181241276054	-73.9853934110451	New York
+5.0	Foxy & Winston	40.6767115	-74.0138103	Brooklyn
+4.5	Brooklyn Superhero Supply Co	40.67139	-73.98465	Brooklyn
+4.5	7115 by Szeki	40.719136	-73.985477	New York
+4.5	Green in BKLYN	40.6930883	-73.9682434	Brooklyn
+4.5	Dover Street Market	40.74407	-73.98162	New York
+5.0	MM.LaFleur	40.7259118	-73.9969642	New York
+5.0	The Brass Owl	40.77413	-73.90742	Astoria
+5.0	Dusty Rose Vintage Warehouse	40.73066069864	-73.9504052768768	Brooklyn
+4.0	Alter	40.729677	-73.957817	Brooklyn
+4.5	My Plastic Heart	40.72295	-73.99038	New York
+4.5	Milly & Earl	40.714914	-73.944745	Brooklyn
+4.5	Treehouse Brooklyn	40.7177654	-73.9446803	Brooklyn
+4.5	Cloth	40.68545	-73.9765199	Brooklyn
+4.0	No Relation Vintage	40.7302441	-73.9832001	New York
+4.5	Stray Vintage	40.7464574	-73.9159051	Sunnyside
+4.0	Uniqlo	40.760651	-73.976594	New York
+4.5	Cloak & Dagger	40.728456	-73.986061	New York
+4.0	Darling	40.738916	-74.003612	New York
+4.0	The Dressing Room	40.717709	-73.990707	New York
+4.5	Bindle & Keep	40.6682320022468	-73.9804078227539	Brooklyn
+4.5	Vice Versa VIntage	40.6658242	-73.9893954	Brooklyn
+4.5	Star Struck Vintage Clothing	40.7355156	-74.0006714	New York
+4.0	Cure Thrift Shop	40.73268	-73.98923	New York
+4.5	Sunnyside Thrift Shop	40.7419276	-73.9192551	Sunnyside
+3.5	Bloomingdale's SoHo	40.7222865634163	-73.9992208440476	New York
+4.0	Vintage Thrift Shop	40.73856	-73.98362	New York
+4.0	Artists & Fleas	40.7430827	-74.0072503	New York
+3.5	Nordstrom Rack	40.734269	-73.990288	New York
+4.0	Housing Works Thrift Shop	40.73389	-74.00592	New York
+4.0	Flying Tiger Copenhagen	40.7396336139323	-73.989449813962	New York
+4.5	Swallow	40.67965	-73.99514	Brooklyn
+4.5	IGWT NYC - In God We Trust	40.72958	-73.9581539	Brooklyn
+5.0	Awoke Vintage	40.7164606	-73.9587943	Brooklyn
+4.0	Brooklyn General	40.6841099	-74.00234	Brooklyn
+4.5	Twenty Sided Store	40.7121811	-73.9557724	Brooklyn
+5.0	Army & Navy Bags	40.722663	-73.988347	New York
+4.5	Lingo	40.74262	-73.99948	New York
+4.0	Stick Stone & Bone	40.733426	-74.005342	New York
+5.0	Human Relations	40.704636	-73.929755	Brooklyn
+4.0	Annie's Blue Ribbon General Store	40.67569	-73.98112	Brooklyn
+4.5	Brooklyn Denim	40.7172	-73.962539	Brooklyn
+4.0	Lot Less Closeouts	40.7094	-74.00591	New York
+5.0	Homebody Boutique	40.66282	-73.9846	Brooklyn
+4.0	Birchbox Soho	40.7254246	-74.0010079	New York
+4.5	Kinokuniya Bookstores	40.75406	-73.98491	New York
+4.0	Muji	40.7393378314376	-73.9925596644181	New York
+5.0	Pops Popular Clothing	40.72548	-73.9578	Brooklyn
+4.5	Baked In Brooklyn	40.7173731	-73.9627756	Brooklyn
+4.5	Molasses Books	40.700569	-73.923696	Brooklyn
+4.5	Mr Throw Back	40.7274208	-73.9836197	New York
+4.5	Black Bear Vintage & Handmade	40.6603737	-73.9800186	Brooklyn
+4.5	MoMA Design Store Soho	40.7228012	-73.9980927	New York
+4.0	L Train Vintage	40.678054	-73.983304	Brooklyn
+4.5	Yesterday's News	40.67938	-73.99751	Brooklyn
+4.5	Still House	40.7266083	-73.9842834	Manhattan
+4.5	Lot-Less Closeouts	40.7547493	-73.9882431	New York
+4.5	Kitchen Plus More	40.745382	-73.955404	Long Island City
+4.5	Friends NYC	40.7057334	-73.9333195	Brooklyn
+4.0	Mooshoes	40.7177811	-73.990303	New York
+4.5	bookbook	40.73124	-74.00324	New York
+4.0	Brooklyn Charm	40.71891	-73.9562399	Brooklyn
+4.5	Loren	40.7235489	-73.9509583	Brooklyn
+4.5	NOS Boutique	40.70263	-73.9899499	Brooklyn
+3.5	Nordstrom Rack	40.690704	-73.984991	Brooklyn
+4.5	The Brooklyn Strategist	40.683128	-73.9955194	New York
+5.0	Osswald	40.7216301	-74.0037689	New York
+4.5	Dolly G's	40.713548	-73.943911	Brooklyn
+4.0	Madewell	40.7215569439552	-73.9997120560747	New York
+4.5	Antoinette	40.7153949	-73.9629742	Brooklyn
+4.0	Stella Dallas	40.7290382	-73.9990463	New York
+5.0	Mysterious Time Machine	40.7341486	-73.9991785	New York
+5.0	Su'juk	40.6868263	-73.9627396	Brooklyn
+3.5	Saks Fifth Avenue	40.7580543012275	-73.9770144224167	New York
+4.0	Habit	40.6784526726497	-73.9789053489342	New York
+3.5	ThinkGeek	40.74915	-73.98788	New York
+4.5	Every Thing Goes Clothing	40.63893	-74.07596	Staten Island
+4.0	Lot Less Closeouts	40.7148899	-74.0075899	New York
+5.0		40.6873589		Brooklyn
+3.5	Urban Outfitters	40.7299099	-73.98631	New York
+3.5	Elizabeth Center Gift Shops	40.7161446	-73.9973984	New York
+5.0	The Geekery HQ	40.75819	-73.91683	Astoria
+4.5	Love Shine	40.72469	-73.98186	New York
+4.0	Yumi Kim	40.72106	-73.98758	New York
+5.0	Cotton Candy Machine	40.7062610335827	-73.9286300435859	Brooklyn
+4.5	Grit N Glory	40.72219037679	-73.988295959845	New York
+4.5	WORD	40.72907	-73.95732	Brooklyn
+3.5	Forever 21	40.75798	-73.98531	New York
+3.5	LIC Flea & Food	40.74747814341	-73.953936822615	Long Island City
+3.0	TJ Maxx	40.70745	-74.01104	New York
+5.0	Smallhome	40.71451	-73.94337	Brooklyn
+4.5	Lion In The Sun	40.67007	-73.97912	Brooklyn
+4.5	Jill Lindsey	40.692973	-73.971356	Brooklyn
+4.5	Prive Designer Sales	40.741904	-74.004858	New York
+3.0	Macy's	40.751198	-73.990069	New York
+5.0	Martine's Dream	40.6738625	-73.9499435	Brooklyn
+4.0	BAGGU	40.717591188	-73.9632134069	Brooklyn
+3.5	Muji	40.7207099	-74.00096	New York
+4.5	Willoughby General	40.6937608	-73.9488536	Brooklyn
+5.0	Kaight	40.6870308	-73.985817	Brooklyn
+4.0	Goldy & Mac	40.665	-73.98335	Brooklyn
+4.0	Housing Works Thrift Shop	40.71538	-74.00846	New York
+3.5	Fox & Fawn	40.72248	-73.94991	Brooklyn
+4.5	The Brooklyn Circus	40.68404	-73.98417	Brooklyn
+3.5	Reformation	40.72098	-73.98778	New York
+4.0	Considerosity	40.732755	-74.0019423	Manhattan
+4.5	Free People	40.68781	-73.98947	Brooklyn
+3.5	East Village Thrift Shop	40.73075	-73.98586	New York
+5.0	Artist & Craftsman Supply	40.7454414	-73.9300995	Long Island City
+4.5	Mast Books	40.7244682	-73.9844818	New York
+4.5	Jillery	40.724862	-73.981171	New York
+4.5	Verameat Jewelry	40.72902	-73.9862799	Manhattan
+5.0	Blue In Green	40.7207099	-74.00288	New York
+3.5	MUJI	40.728885	-73.9914	New York
+4.5	Arth	40.7266089	-73.9995731	New York
+3.5	Muji	40.7556805695065	-73.9897171709516	New York
+4.0	Hung Chong Imports	40.7145	-73.99744	New York
+4.5	Dinosaur Hill	40.7289131	-73.9869725	New York
+4.5	New & Almost New	40.71993	-73.99624	New York
+4.0	Pinkyotto	40.72905	-73.98668	New York
+4.0	Magic Jewelry	40.7177675	-73.9998469	New York
+4.0	DSW Designer Shoe Warehouse	40.7515106	-73.9911194	New York
+4.5	Lola's Boutique	40.623293	-74.0308294	Brooklyn
+4.5	Billy Reid	40.72591	-73.99236	New York
+4.5	Installation Brooklyn	40.6827272322019	-73.9499650150537	Brooklyn
+5.0	Harold and Maude Vintage	40.6897545	-73.9511032	Brooklyn
+4.5	Pippin Vintage Jewelry	40.73955	-73.99634	New York
+4.0	Loveday 31	40.76327	-73.92178	Astoria
+5.0	The Modern Chemist	40.6780815	-73.9823303	Brooklyn
+3.5	Bloomingdale's	40.7621779673844	-73.9671732595536	New York
+4.5	Kimono House	40.72657	-74.00136	New York
+4.0	APC	40.7243385	-73.99897	New York
+4.5	The Sill	40.71616	-73.99226	New York
+4.0	Ridgewood Market	40.7066863085606	-73.9055131749603	Ridgewood
+3.5	TJ Maxx	40.7400756092837	-73.9946179498049	New York
+4.5	Unoppressive Non-Imperialist Bargain Books	40.7299385	-74.0030212	New York
+3.5	Barneys New York	40.7647271473666	-73.9710470444931	New York
+4.0	Lancelotti Housewares	40.7244688	-73.9844802	New York
+4.0	Koryo Bookstore	40.7480185	-73.9872005	New York
+4.5	The Shape Of Lies	40.7262043691874	-73.9840835206543	New York
+4.0	Union Square Holiday Market	40.7349173232421	-73.9907097816467	New York
+4.5	Unique Boutique	40.7846909	-73.9730835	New York
+4.0	Book Thug Nation	40.71656	-73.96207	Brooklyn
+3.5	Housing Works Thrift Shop	40.7792702	-73.9778366	New York
+4.0	Good Field Trading Company	40.7163899	-73.9979199	New York
+4.5	Astoria Bookshop	40.7631557	-73.9244131	Astoria
+4.0	Worship	40.7012901	-73.9262238	Brooklyn
+4.5	Unique Boutique	40.76594	-73.91365	Astoria
+4.5	Yaf Sparkle	40.7209102	-73.9885925	New York
+5.0	SRG Fashion	40.776372	-73.9001586	Astoria
+3.5	Opening Ceremony	40.71962	-74.00095	New York
+5.0	Myths of Creation	40.7175789	-73.9450531	Brooklyn
+4.5	Life Boutique Thrift	40.6667741	-73.9880547	Brooklyn
+4.5	duo	40.72869	-73.9855	New York
+4.0	Pema NY	40.71631	-73.9592	Brooklyn
+4.5	Tierra	40.72255	-73.99726	New York
+4.5	Tictail Market	40.71817	-73.9901	New York
+5.0	Kai D	40.713553	-73.9595321	Brooklyn
+4.5	O.N.A	40.6797188	-73.9679276	Brooklyn
+3.5	Housing Works Thrift Shop	40.7403034	-73.9975463	New York
+3.5	Anthropologie	40.73736	-73.99243	New York
+4.0	Out of the Closet Thrift Store	40.6859785	-73.9820322	Brooklyn
+4.0	Dave's Army & Navy Store	40.739113	-73.995972	New York
+4.0	Trash & Vaudeville	40.7265982	-73.9853115	New York
+3.5	Urban Outfitters	40.75113	-73.9879	New York
+4.5	Brand Hunters	40.6945846	-73.930747	Brooklyn
+4.5	Every Thing Goes Book Cafe and Neighborhood Stage	40.636946	-74.076721	Staten Island
+5.0	Human Head Records	40.706459	-73.9427338	Brooklyn
+4.5	Housing Works Bookstore Caf¨¦	40.72454	-73.9965931	New York
+3.5	Hell's Kitchen Flea Market	40.7566175999329	-73.9941773516923	New York
+4.0	Save On Fifth	40.66984	-73.98557	Brooklyn
+5.0	Shishi	40.7923279	-73.9731445	New York
+4.5	ID New York	40.71633	-73.95951	Brooklyn
+4.0	Whisk	40.74037	-73.98966	New York
+4.0	Extra Butter LES	40.719585	-73.989741	New York
+4.0	If Boutique	40.7216	-74.00196	New York
+4.0	Anthropologie	40.75925	-73.97845	New York
+4.5	Upstate Stock	40.7225416	-73.9549323	Brooklyn
+4.5	from the source	40.72861	-73.95918	Brooklyn
+4.5	Fresthetic	40.71099	-73.94956	Brooklyn
+3.5	Jeffrey	40.7418394	-74.0071302	New York
+4.0	Nasty Pig	40.742725	-73.999502	New York
+5.0	Brooklyn Baby World	40.618839	-74.0021299	Brooklyn
+4.5	Calabar Imports	40.67456	-73.95672	Brooklyn
+5.0	The Lions Den	40.6941599	-73.9297	Brooklyn
+4.0	Golden Shopping Mall	40.75723	-73.82937	Flushing
+4.0	Tory Burch	40.7400665	-74.0077591	New York
+5.0	Meg Cohen Design Shop	40.72415	-74.00337	New York
+5.0	Maison Kitsun¨¦	40.745034	-73.988671	New York
+5.0	The Basket Queen	40.7406769	-73.9174652	Woodside
+3.0	TJ Maxx	40.7594223	-73.9611664	New York
+5.0	Dashop Corp	40.71569	-73.99739	Manhattan
+5.0	HeadHoods	40.7196617	-73.9582291	Brooklyn
+5.0	The Shoe Tree	40.80522	-73.96561	New York
+4.5	Lee Lee's Forest	40.7065343062002	-74.0034269102814	New York
+4.0	Rags-A-GoGo	40.7388897	-74.0009022	New York
+4.5	Trunk	40.7026899	-73.9868	New York
+3.0	Buffalo Exchange	40.7449684	-73.9923935	New York
+3.5	Housing Works Thrift Shop	40.7390498	-73.9836558	New York
+3.5	The Shops at Columbus Circle	40.76844	-73.98273	New York
+4.5	Life Curated	40.7140879	-73.960978	Brooklyn
+3.5	Tokio 7	40.72727	-73.98612	New York
+4.0	Free People	40.736943	-73.992451	New York
+4.5	ONS Clothing	40.7233087	-74.0008091	New York
+4.5	Hullabaloo Books	40.674295	-73.956306	Brooklyn
+5.0	La Di Da Dee	40.7114602	-73.9578316	Brooklyn
+5.0	Raleigh Denim	40.72258	-73.9943771	New York
+4.5	Thistle & Clover	40.68964	-73.97063	Brooklyn
+4.0	GreenFlea Market	40.7810875280362	-73.9780712632294	New York
+4.5	Teich	40.73768	-74.00447	New York
+3.5	AllSaints	40.722836	-73.9991	New York
+5.0	Dennis J Dalton Ltd	40.71681	-73.99616	New York
+3.5	Buy the Bag Shop	40.65928	-74.00012	Brooklyn
+4.5	Shop Untitled Nyc	40.7330513	-73.9977036	New York
+4.5	Memories of New York	40.7431488	-73.9886398	New York
+4.5	Fishs Eddy	40.7387110604145	-73.9900828828033	New York
+3.5	DSW Designer Shoe Warehouse	40.734916621558	-73.991472153575	New York
+4.5	Marche Rue Dix	40.6734314	-73.953743	Brooklyn
+4.0	Hamlet's Vintage	40.73127	-74.00061	New York
+2.5	Topshop	40.721346056233	-73.9999241754413	New York
+4.5	Union Garage NYC	40.6846145	-74.0037565	Brooklyn
+5.0	Grand Jewelry	40.712	-73.94161	Brooklyn
+5.0	Vapeasy New York	40.7185783	-74.0012589	New York
+4.0	10 Ft Single By Stella Dallas	40.71443	-73.95353	Brooklyn
+4.5	CW Pencil Enterprise	40.7182388	-73.9925995	New York
+4.5	Singularity & Co	40.7041906307608	-73.9847167155609	Brooklyn
+4.0	Catland	40.703141	-73.933228	Brooklyn
+3.0	Century 21	40.62162	-74.02673	Brooklyn
+4.5	John Derian	40.72554	-73.99151	New York
+4.0	Yumiko Boutique	40.7619591	-73.9924774	New York
+4.5	Bluestockings	40.72139	-73.9889199	New York
+4.0	Uniqulee	40.714817	-73.9986649	New York
+4.5	Angela's Vintage Boutique	40.7244780545503	-73.9906024932861	New York
+5.0	Grandma's Place	40.8041954	-73.947258	New York
+4.0	Astoria Flea & Food	40.7566112572354	-73.9243158940262	Astoria
+5.0	The Cast	40.7174720797394	-73.9900394232788	New York
+4.5	Designers Promise	40.71033	-74.00775	New York
+3.5	J.Crew Liquor Store	40.719471	-74.005883	New York
+4.0	Madewell	40.7388561	-73.9911331	New York
+4.0	St. Luke's Thrift Shop	40.73261	-74.00666	New York
+4.0	Mr. Closeout	40.7105	-74.00809	New York
+3.5	Gateway Center	40.65205	-73.8716	Brooklyn
+5.0	Kamakura Shirts	40.7564392089844	-73.9767990112305	New York
+4.5	Le Point	40.6554897	-73.9489163	Brooklyn
+4.5	Church Street Surplus	40.72019	-74.0036	New York
+2.5	Century 21	40.7739343139355	-73.981907105569	New York
+4.5	Rime	40.6864	-73.99056	Brooklyn
+4.0	Reiss	40.7327721	-74.0036821	New York
+4.5	Miss Master's Closet	40.688196	-73.955122	Brooklyn
+4.5	Species by the Thousands	40.7114105	-73.9610825	Brooklyn
+4.0	Exit 9 Gift Emporium	40.68751	-73.9898	Brooklyn
+4.0	Exit 9 Gift Emporium	40.72421	-73.9853	New York
+4.0	Odin	40.7212697496656	-73.9978434734329	New York
+4.5	Strand Bookstore	40.7333	-73.99095	New York
+4.5	Bopkat Vintage	40.68456	-74.0031	Brooklyn
+4.5	Concrete + Water	40.7183418	-73.954628	Brooklyn
+5.0	The Missing Link	40.7435913	-73.9910583	New York
+3.5	Just Things	40.74472	-73.9537299	New York
+4.5	American Two Shot	40.7201614	-73.9998093	Canal Street
+4.5	Extraordinary	40.75962	-73.96562	New York
+5.0	Material World	40.7039361	-73.929791	Brooklyn
+3.0	Costco	40.6549355	-74.0074703	Brooklyn
+4.0	Reminiscence	40.7357207	-73.9940786	New York
+4.0	Olive & Bette's	40.7242737	-74.0016861	New York
+4.5	Red Wing Shoes	40.74342	-73.91739	Sunnyside
+4.5	Five Below	40.7526698613911	-73.9146721662964	Long Island City
+4.0	Fred Perry	40.71273	-73.9573	Brooklyn
+4.0	Shinola	40.7193309	-74.0095025	New York
+3.5	Chelsea Flea Market	40.7439570592643	-73.9913311166603	New York
+3.5	Costco	40.767671680266	-73.9373874664307	Astoria
+4.5	Skylake Skincare	40.7479601	-73.9869008	New York
+5.0	Chrysanthemum: Rare Teas & Flowers	40.67714	-73.96348	New York
+3.5	Buffalo Exchange	40.71833	-73.95522	Brooklyn
+5.0	ODD New York	40.72142	-73.987617	New York
+5.0	A Uno Tribeca	40.7162399	-74.0084381	New York
+4.5	The Mobile Vintage Shop	40.7050896	-73.9335022	Brooklyn
+3.5	Urban Outfitters	40.710031	-74.009344	New York
+4.0	4 Play Brooklyn	40.66604	-73.98248	Brooklyn
+3.5	J.Crew	40.7376993964281	-73.9921953150856	New York
+4.0	Nintendo NY	40.7579889251484	-73.9794322494591	New York
+4.0	Wolves Within	40.7311516	-73.9575195	Brooklyn
+4.0	elf Cosmetics	40.7104772	-74.0079377	New York
+3.0	Scoop NYC	40.74142	-74.00688	New York
+4.0	Forbidden Planet	40.73343	-73.99073	New York
+5.0	Rahul's Couture	40.7474308034685	-73.8918898190529	Jackson Heights
+4.0	Jack's	40.74873	-73.98948	New York
+4.5	Gudrun Sjoden	40.7217214240393	-74.0061032592773	New York
+4.5	University Housewares	40.80639	-73.96542	New York
+4.5	Authentiques	40.74218	-74.00008	New York
+4.5	Bra Tenders	40.7598991	-73.9913483	New York
+4.5	Three Lives & Company	40.734382809838	-74.0014977988561	New York
+4.5	Bhoomki	40.6780396	-73.9796677	Brooklyn
+4.5	Desert Island	40.7139499	-73.95085	Brooklyn
+4.0	Whisk	40.71604	-73.9595	Brooklyn
+4.5	Meg	40.7193843	-73.9620024	Brooklyn
+3.5	Flight Club	40.73265	-73.99109	New York
+3.5	Joy Gryson	40.7186639	-74.005663	New York
+4.0	Jack's World	40.7563591	-73.9811096	New York
+4.5	Warm	40.7206917	-73.9961014	New York
+4.5	Village Tannery	40.728981	-74.0005569	New York
+3.5	Comme Des Gar?ons	40.74723	-74.00574	New York
+4.5	Playing Mantis	40.719778	-74.007643	New York
+5.0	Ted's Fine Clothing	40.7208519	-73.9889526	New York
+5.0	Sterling Place	40.66627	-73.9824299	Brooklyn
+4.5	Brooklyn Industries	40.7023964	-73.9901276	Brooklyn
+3.0	Shoegasm	40.73944	-74.00299	New York
+4.0	Soula Shoes	40.68556	-73.99113	Brooklyn
+4.0	The Face Shop	40.7156838952207	-73.997420668602	New York
+4.0	New York Vintage	40.744721	-73.99256	New York
+4.5	Wild Was Mama	40.7228088	-73.9486618	Brooklyn
+4.5	Pas-Par-Tou	40.6869926	-73.9938812	Brooklyn
+4.5	Grumpy Bert	40.6873019	-73.9846695	Brooklyn
+4.5	Mahps Vintage	40.724056	-73.949349	Brooklyn
+4.0	Fj?llr?ven Epic NYC	40.721648	-74.0019736	New York
+4.5	David Owens Vintage Clothing	40.71908	-73.98532	New York
+3.5	Acne Studios	40.7218	-74.00218	New York
+2.5	Zara	40.73807	-73.99191	New York
+4.0	Warby Parker	40.725465	-73.999422	New York
+4.0	Strumpet	40.6762199	-73.9991302	Brooklyn
+3.5	Clementine Consignment	40.731154619645	-73.9998814481323	New York
+5.0	Goorin Bros.	40.67674	-73.98009	Brooklyn
+2.5	Zara	40.7222709992124	-73.9995637383031	New York
+4.5	Little Shop of Crafts	40.793087	-73.971069	New York
+3.0	H&M	40.76188	-73.96826	New York
+5.0	Duman Home - Court Street	40.686703	-73.993429	Brooklyn
+4.0	Obscura Antiques	40.72963	-73.98112	New York
+4.5	kate spade new york	40.72233	-74.0007	New York
+4.0	The Ink Pad	40.7376732120256	-74.000118970871	New York
+5.0	The Great Frog	40.7175293	-73.9902496	Manhattan
+4.0	Unnameable Books	40.67842	-73.9688	Brooklyn
+5.0	Joli Beauty Bar	40.72404	-73.98978	New York
+3.0	TJ Maxx	40.7664552795557	-73.9827386187714	New York
+5.0	Lady J +1	40.67702	-73.95916	New York
+5.0	Seasons	40.6824477	-73.9321127	Brooklyn
+5.0	Legacy	40.7258492	-74.0019531	New York
+5.0	D & B Pashmina	40.7146391636214	-73.9141677375732	Maspeth
+3.0	Anthropologie	40.7693147836475	-73.961212103827	New York
+4.0	Top Hat	40.7177696	-73.9897614	New York
+4.5	Worth & Worth	40.7616129	-73.9714972	New York
+4.0	Nu New York	40.733708	-73.991435	New York
+5.0	Custom Village	40.7462697352695	-73.9831949423279	Manhattan
+4.5	3.1 Phillip Lim	40.7267087597838	-73.9924728872497	New York
+4.0	99 Cent Dreams	40.75621	-73.97973	New York
+2.5	Forever 21	40.7348799	-73.99135	New York
+4.5	Unique Boutique Third Avenue	40.7838516	-73.9507065	New York
+4.5	New York Adorned	40.7253828	-73.990203	New York
+4.0	Free People	40.7579741424209	-73.9786078651846	New York
+3.5	Clothingline - SSS Sample Sales	40.75325	-73.99176	New York
+3.0	H&M	40.7386042192466	-73.9914264490738	New York
+4.5	Twisted Lily Fragrance Boutique & Apothecary	40.6873207	-73.986557	Brooklyn
+5.0	Norman & Jules	40.6722984	-73.9774399	New York
+4.5	Jewels Buddha	40.7599308	-73.9204549	Astoria
+4.0	Habit	40.6845589	-73.992218	Brooklyn
+3.0	Aritzia	40.72285	-73.99878	New York
+4.5	Home Style Furniture of Astoria	40.7624516	-73.9258371	Astoria
+4.0	Amazing Savings of Brooklyn	40.626709	-73.976593	Brooklyn
+4.5	3x1	40.7206917	-74.0022507	Manhattan
+3.0	Queens Center	40.7348031	-73.8695671	Elmhurst
+4.0	Apt 141	40.7329099	-73.98814	New York
+4.0	Odin - East Village	40.72969	-73.98497	New York
+4.5	Nh¨¤ Minh	40.7209784931831	-73.9384158460004	Brooklyn
+4.5	Books of Wonder	40.73901	-73.99328	New York
+5.0	Fine And Dandy	40.76375	-73.99128	New York
+3.0	H&M	40.7498341967208	-73.9872878220902	New York
+4.0	Goorin Bros.	40.71783	-73.95739	Brooklyn
+4.0	Michael's - The Consignment Shop for Women	40.7766742685242	-73.9617311954498	New York
+3.5	Enchantments	40.72761	-73.98373	New York
+5.0	Brooklyn Slate Co	40.67844	-74.01125	Brooklyn
+3.5	Theory	40.7392651	-74.00621	New York
+4.0	Club Monaco 5th Avenue	40.74016	-73.99083	New York
+5.0	Suzette LaValle	40.6738281	-73.9569778	Brooklyn
+3.0	Buffalo Exchange	40.72952	-73.9848899	New York
+4.0	The Compleat Strategist	40.7475357	-73.9841309	New York
+4.5	Anna Belen	40.7651535	-73.9660782	Manhattan
+4.0	Yunhong Chopsticks	40.7154988	-73.9983695	New York
+4.5	Book Culture	40.7835669208904	-73.9745483522417	New York
+5.0	Lazzoni Furniture SoHo	40.7208348550542	-74.0028794841003	New York
+3.0	Niketown	40.7622466314795	-73.9734931779099	New York
+4.0	Fj?llr?ven Nolita	40.7237979	-73.9943392	New York
+4.5	Maison Margiela	40.7379999	-74.0063292	New York
+3.5	The Bargain Stop	40.76583	-73.9197499	Astoria
+3.5	Goodwill Store	40.7419395	-73.933942	Long Island City
+3.5	Dor L' Dor	40.70981	-74.00807	New York
+3.5	Green Village Used Clothing & Furniture	40.70643	-73.92146	Brooklyn
+5.0	Dah Shop	40.71453	-73.9917	New York
+4.0	Exstaza Limited	40.72202	-73.99985	New York
+5.0	ScentElate	40.76153	-73.9876	New York
+4.5	SWORDS-SMITH	40.7120375	-73.96413	Brooklyn
+4.0	Underground Thrift Store	40.6992264	-73.9937592	Brooklyn
+4.5	Land of Buddha	40.7300186	-74.0001373	New York
+3.5	H&M	40.7570351618143	-73.9780393496503	New York
+4.0	Deals	40.7617263793945	-73.9254913330078	Astoria
+3.5	Target	40.7957169	-73.9322717	New York
+3.5	Shoe Market	40.7173012	-73.9586824	Brooklyn
+4.5	Pippin Vintage Home	40.73955	-73.99634	New York
+3.0	rag & bone	40.7331457	-74.0048631	New York
+4.0	LOFT	40.755676	-73.986624	New York
+4.0	Shine 32	40.7480185	-73.9872005	New York
+3.5	Brooklyn Fort Greene Flea - Saturday Flagship	40.6876673855809	-73.9692735671997	Brooklyn
+4.0	Trailer Park	40.67804	-73.97582	Brooklyn
+3.5	Thrift & New Shop	40.75914	-73.9919128	New York
+3.5	Barneys New York	40.7815028	-73.981434	New York
+3.5	Love Adorned	40.7237625	-73.9939117	New York
+5.0	Domus Unaffected Living	40.7600822	-73.9921875	New York
+4.0	Anthropologie	40.7417957485041	-74.0050371204484	New York
+4.0	Time Warner Center	40.7682441	-73.9823255	New York
+4.0	Amazing Savings	40.6180534	-73.9606857	Brooklyn
+4.0	Self Edge	40.72095	-73.98905	New York
+4.0	The Meat Market Brooklyn	40.68433	-73.94441	Brooklyn
+4.0	Y-3 New York	40.72395	-73.99977	New York
+4.0	Square One	40.748774	-73.988575	New York
+4.5	Rue St Denis Clothier Ltd	40.727338	-73.97983	New York
+4.0	Telco Discount Stores	40.6176796	-73.9918671	Brooklyn
+4.5	Allure on Fifth	40.67539	-73.98101	Brooklyn
+3.0	H&M	40.6896134985127	-73.9829303696752	Brooklyn
+4.5	Original Penguin	40.7540616	-73.9848568	New York
+3.5	Steven Alan	40.71838	-74.00573	New York
+4.0	Bodhi	40.7164001	-73.9594803	Brooklyn
+4.5	Joseph Koch Comics Warehouse	40.65384	-74.01141	Brooklyn
+4.0	Goodwill	40.7793	-73.9503	New York
+4.0	The Quality Mending Co	40.7227452	-73.9938603	New York
+4.5	Saint-Petersburg	40.7449417	-73.986908	Manhattan
+3.5	Catbird	40.71648	-73.95902	Brooklyn
+3.0	H&M	40.7507327	-73.9907964	New York
+4.0	Edith Machinist	40.72008	-73.98805	New York
+4.0	Bergdorf Goodman	40.76359	-73.97374	New York
+4.0	TOMS	40.7240427877379	-73.9935040960021	New York
+3.5	Century 21	40.7335144	-73.8640315	Rego Park
+4.5	Beads of Paradise	40.737326	-73.991389	New York
+4.0	Save Khaki United	40.7252941	-73.9949964	New York
+4.0	Refinery	40.68338	-73.99288	Brooklyn
+3.5	Urban Outfitters	40.689962	-73.9939896	Brooklyn
+4.5	Gabay's Outlets	40.72933	-73.981503	New York
+4.0	MyUnique	40.690731	-73.9864426	Brooklyn
+3.0	Urban Outfitters	40.754229292001	-73.980139938428	Manhattan
+4.5	Backwoods	40.757595150896	-73.9894715020996	New York
+3.5	Sam Edelman	40.7236486966324	-73.9998936653137	New York
+3.5	Pinkyotto	40.72354	-73.99591	New York
+4.0	Brooklyn Reclamation	40.7143402	-73.959549	Brooklyn
+3.5	Monk Vintage Thrift Shop	40.7184639	-73.9551239	Brooklyn
+3.5	J.Crew	40.7542963	-73.9778947	New York
+3.0	Buffalo Exchange	40.6880531	-73.9912415	Brooklyn
+4.0	Greenwich Letterpress	40.73402	-74.00055	New York
+3.0	TJ Maxx	40.7985625	-73.9635644	New York
+4.5	Facets	40.67423	-73.97547	Brooklyn
+4.5	MALIN + GOETZ	40.7424456	-73.996656	New York
+4.5	NYC VELO	40.7624395	-73.9971462	New York
+5.0	Good Luck Jewelry Store	40.7170715	-73.9980164	New York
+4.5	The Vale Collective	40.71895	-73.95931	Brooklyn

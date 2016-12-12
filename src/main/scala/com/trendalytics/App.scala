@@ -206,7 +206,6 @@ object App {
         }
       }
     }
-    filteredData.show()
     return
 
   }

@@ -1,0 +1,21 @@
+rating	name	latitude	longitude	city
+5.0	Hinterlands Bar	40.6459944936653	-73.9720572353496	Brooklyn
+4.5	No5nyc	40.75447	-73.92456	Long Island City
+4.5	Whiskey Tavern	40.71646	-73.99969	New York
+4.5	Super Power	40.6739268745309	-73.9503274715026	Brooklyn
+4.0	The Dead Rabbit	40.70329	-74.01102	New York
+4.5	The Greek	40.7237145	-74.0096166	New York
+4.0	The Ship	40.7198443	-73.99947	New York
+4.5	Dutch Freds	40.76072	-73.98793	New York
+5.0	The Moonlight Mile	40.7321141	-73.9578424	Brooklyn
+5.0	The Wilky	40.68802	-73.92735	Brooklyn
+4.5	The Hop Shop Brooklyn	40.6874695	-74.0012512	Brooklyn
+4.5	Old Man Hustle	40.7159819101673	-73.9893277618757	New York
+4.0	The Tippler	40.7423540864346	-74.0063398693085	New York
+4.0	Proletariat	40.7272506368689	-73.9845192432404	New York
+4.5	Sunny's Bar	40.67569	-74.01689	Brooklyn
+4.5	The Wayland	40.7250748	-73.9778366	New York
+4.5	The Evergreen	40.68596	-73.90813	Brooklyn
+4.5	Tanner Smiths	40.76443	-73.9817	New York
+4.0	Dutch Kills	40.747615	-73.940159	Long Island City
+4.5	Pocket Bar NYC	40.7633645	-73.9922985	New York

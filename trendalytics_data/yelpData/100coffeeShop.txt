@@ -1,0 +1,101 @@
+rating	name	latitude	longitude	city
+5.0	Coffee Project New York	40.7274823	-73.9902387	New York
+5.0	Voyager Espresso	40.7087737	-74.0067282	New York
+4.0	Bluestone Lane	40.7063436944471	-74.0118295429916	New York
+4.5	Bibble & Sip	40.76283	-73.98518	New York
+4.0	Baked	40.7186	-74.00472	New York
+4.5	12 Corners	40.7139624	-73.9903806	New York
+4.0	Spreadhouse Cafe	40.71897	-73.986	New York
+4.5	Mountain Province	40.7075228032172	-73.9503787374344	Brooklyn
+4.0	The Coffee Foundry	40.73266	-74.0021	New York
+4.5	The Jolly Goat Coffee Bar	40.7633010644103	-73.9941928334518	New York
+4.5	Kobrick Coffee	40.7404127286336	-74.0057301455383	New York
+4.5	Stumptown	40.732704	-73.9980379	New York
+4.0	Kaffe 1668	40.71517	-74.01092	New York
+4.5	Frisson Espresso	40.76081	-73.989	New York
+4.5	Stumptown Coffee Roasters	40.7456663381275	-73.9880916348562	New York
+4.5	Laughing Man Coffee & Tea	40.7142399	-74.01687	New York
+4.5	Perk Kafe	40.7476562557853	-73.9767710119486	New York
+5.0	RISE Coffee	40.72146	-73.98878	New York
+4.5	Caffe Vita	40.7196994	-73.9884539	New York
+4.5	Rebel Coffee	40.73784	-74.00475	New York
+5.0	Coffee Project New York	40.7274823	-73.9902387	New York
+5.0	Voyager Espresso	40.7087737	-74.0067282	New York
+4.0	Bluestone Lane	40.7063436944471	-74.0118295429916	New York
+4.5	Bibble & Sip	40.76283	-73.98518	New York
+4.0	Baked	40.7186	-74.00472	New York
+4.5	12 Corners	40.7139624	-73.9903806	New York
+4.0	Spreadhouse Cafe	40.71897	-73.986	New York
+4.5	Mountain Province	40.7075228032172	-73.9503787374344	Brooklyn
+4.0	The Coffee Foundry	40.73266	-74.0021	New York
+4.5	The Jolly Goat Coffee Bar	40.7633010644103	-73.9941928334518	New York
+4.5	Kobrick Coffee	40.7404127286336	-74.0057301455383	New York
+4.5	Stumptown	40.732704	-73.9980379	New York
+4.0	Kaffe 1668	40.71517	-74.01092	New York
+4.5	Frisson Espresso	40.76081	-73.989	New York
+4.5	Stumptown Coffee Roasters	40.7456663381275	-73.9880916348562	New York
+4.5	Laughing Man Coffee & Tea	40.7142399	-74.01687	New York
+4.5	Perk Kafe	40.7476562557853	-73.9767710119486	New York
+5.0	RISE Coffee	40.72146	-73.98878	New York
+4.5	Caffe Vita	40.7196994	-73.9884539	New York
+4.5	Rebel Coffee	40.73784	-74.00475	New York
+4.5	Astoria Coffee	40.7671240865304	-73.9224924303384	Astoria
+4.0	Ground Support	40.7241968559678	-74.0020576327145	New York
+4.0	Grounded	40.73806	-74.0034	New York
+4.5	Covert Coffee	40.6849857702632	-73.9138240426399	Brooklyn
+4.0	Intelligentsia Coffee	40.745962	-74.0049928	New York
+4.5	Absolute Coffee	40.6882591	-73.987587	Brooklyn
+4.0	Black Brick	40.7142079238412	-73.9617848396301	Brooklyn
+4.5	La Colombe Coffee	40.7056896627839	-74.0083486272612	New York
+4.0	La Colombe Coffee	40.7266995	-74.0070413	New York
+4.5	Abra?o	40.72739	-73.98613	New York
+4.0	La Colombe Coffee	40.719941	-74.003781	New York
+4.5	Birch Coffee	40.7638444066087	-73.9665842526398	New York
+5.0	Miscelanea NY	40.72696	-73.99067	New York
+4.0	Blue Spoon Coffee	40.7142073	-74.0067222	New York
+4.5	Coffee Rx	40.6354921703071	-74.0259379148483	Brooklyn
+4.0	Third Rail Coffee	40.72994	-73.99959	New York
+4.5	Birch Coffee	40.7434044	-73.9799957	New York
+4.5	Seven Grams Caffe	40.7455482	-73.9941635	New York
+4.0	Ground Central	40.757575	-73.970321	New York
+4.5	Caf¨¦ Integral	40.7201614	-73.9998093	New York
+4.5	La Colombe Coffee	40.72396	-73.99643	New York
+5.0	Our Coffee Shop	40.7545396194031	-73.9337485043553	Long Island City
+4.5	Laughing Man Coffee & Tea	40.7172089	-74.0101471	New York
+4.0	Madman Espresso	40.7520356305538	-73.991293900852	New York
+4.0	Happy Bones NYC	40.720726	-73.9970474	New York
+4.5	PLG Coffee House and Tavern	40.6598596691337	-73.9533801189785	Brooklyn
+4.5	12 Corners	40.7180405	-73.9972076	New York
+4.5	Brooklyn Roasting Company	40.7042007	-73.9861984	Brooklyn
+4.5	McNulty's Tea & Coffee Co	40.7334023	-74.0049927	New York
+4.5	The Wooly Daily	40.7123634	-74.0086191	New York
+4.5	Ninth Street Espresso	40.7423824065482	-74.0060007320855	New York
+4.0	Culture Espresso	40.7521922375529	-73.985756306206	New York
+4.5	Urban Vintage	40.6879158	-73.9628906	Brooklyn
+4.0	Birch Coffee	40.7436778937491	-73.9864144708908	New York
+4.5	Arcade Bakery	40.7168697865532	-74.0066022711227	New York
+4.0	Caf¨¦ Martin	40.67162	-73.98389	Brooklyn
+4.5	McNally Jackson	40.72339	-73.99598	New York
+4.0	Tisserie 55	40.7643662648707	-73.9810570774322	New York
+4.5	Matcha Cafe Wabi	40.72355	-73.98291	New York
+4.5	City of Saints Coffee Roasters	40.7311385	-73.9900766	New York
+4.0	The Uncommons	40.72933	-73.99865	New York
+4.5	Lucid Cafe	40.7486382	-73.97789	New York
+4.0	Gimme! Coffee	40.72238	-73.99507	New York
+5.0	Off The Bridge	40.7157247	-73.9941435	New York
+4.0	Sweetleaf	40.7432877579923	-73.9516040481087	Long Island City
+4.0	DTUT	40.7808542200993	-73.949341175468	New York
+4.0	Kahve	40.76439	-73.9878899	New York
+4.5	La Colombe Coffee	40.7284012	-73.9928894	New York
+4.0	Prodigy Coffee	40.730278	-74.0030518	New York
+4.0	Latte Art	40.704208	-74.012094	New York
+4.0	FREEHOLD	40.7136054	-73.965905	Brooklyn
+4.0	Brooklyn Roasting Company	40.742283	-73.991809	New York
+4.5	Simon Sips	40.7575595	-73.9821615	New York
+4.0	Blue Bottle Coffee	40.7586173525015	-73.9785899687867	New York
+4.5	Mixtape	40.6994942	-73.9140196	Brooklyn
+4.5	Rex	40.7688770027633	-73.9885788232638	New York
+4.5	Blessings Cafe	40.65704	-73.9599	Brooklyn
+4.0	Zibetto Espresso Bar	40.7639232809413	-73.9776043465576	New York
+4.0	The Mill Coffee Company	40.7483347	-73.9495972	Long Island City
+4.5	Hole in the Wall Coffee	40.7508087	-73.9833374	New York
