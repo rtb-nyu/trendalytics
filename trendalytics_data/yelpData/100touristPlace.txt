@@ -1,4 +1,3 @@
-rating	name	latitude	longitude	city
 4.5	Top of the Rock	40.7593342608422	-73.9794015884399	New York
 4.5	The High Line	40.7479831752801	-74.0048906107511	New York
 4.5	Love Sculpture	40.763158183256	-73.9782295443495	New York

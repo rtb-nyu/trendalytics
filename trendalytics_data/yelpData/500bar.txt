@@ -1,4 +1,3 @@
-rating	name	latitude	longitude	city
 5.0	Hinterlands Bar	40.6459944936653	-73.9720572353496	Brooklyn
 4.5	No5nyc	40.75447	-73.92456	Long Island City
 4.5	Whiskey Tavern	40.71646	-73.99969	New York

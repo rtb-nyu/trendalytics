@@ -1,4 +1,3 @@
-rating	name	latitude	longitude	city
 5.0	Meg	40.72884	-73.98663	New York
 5.0	Fuego 718	40.71357	-73.95869	Brooklyn
 4.0	Chelsea Market	40.7419711362098	-74.0048450364568	New York

@@ -1,4 +1,3 @@
-rating	name	latitude	longitude	city
 4.5	Levain Bakery	40.7799404643263	-73.980282552649	New York
 4.0	Bakeri	40.72004	-73.96013	Brooklyn
 4.0	Dominique Ansel Bakery	40.7252	-74.002971	New York

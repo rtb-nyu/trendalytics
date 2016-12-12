@@ -1,4 +1,3 @@
-rating	name	latitude	longitude	city
 5.0	Coffee Project New York	40.7274823	-73.9902387	New York
 5.0	Voyager Espresso	40.7087737	-74.0067282	New York
 4.0	Bluestone Lane	40.7063436944471	-74.0118295429916	New York
