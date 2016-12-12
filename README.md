@@ -68,10 +68,12 @@ MLlib
 
 Stanford CoreNLP
 
-Depositories
+Repository
 ------------
 
--   `src` Main Scala source codes. Please refer to
+Being consistent with the [GitHub rtb-nyu/trendalytics](https://github.com/rtb-nyu/trendalytics) repository, the codes inside the following directories are:
+
+-   `src` Main Scala source codes. Please refer to
     `src/main/scala/com/trendalytics/README.md` for more details.
 
 -   `outputResults` Output log files illustrating the successfulness of
