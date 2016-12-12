@@ -176,16 +176,6 @@ object App {
     
     model.save(sc, "trendalytics_data/tweets_processed/KMeansModel")
 
-    val some_tweets = texts.sample(true, 0.1).take(100)
-    println("----Example tweets from the clusters")
-    for (i <- 0 until numClusters) {
-      println(s"\nCLUSTER $i:")
-      some_tweets.foreach { t =>
-        if (model.predict(featurize(t)) == i) {
-          println(t)
-        }
-      }
-    }
     return
 
   }
