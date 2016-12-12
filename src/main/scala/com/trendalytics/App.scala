@@ -37,8 +37,7 @@ import org.apache.spark.sql.types.{StructType,StructField,StringType};
  */
 object App {
   
-  // case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
-  val numFeatures = 50000
+  val numFeatures = 1000
   val tf = new HashingTF(numFeatures)
 
   def getListOfFiles(dir: String):List[File] = {
@@ -63,23 +62,10 @@ object App {
 
     val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
-    // val twitter = new TwitterFilter()
-    // twitter.fetch()
-
-     //val facebook = new FacebookStreamer()
-     //facebook.fetch()
-
-    // val tmdb = new TMDBStreamer()
-    // tmdb.fetch()
-
-    // val yelp = new YelpStreamer()
-    // yelp.fetch()
-
     val hdfsObj = new HDFSManager()
 
     hdfsObj.createFolder("trendalytics_data")
     hdfsObj.createFolder("trendalytics_data/tweets")
-    // hdfsObj.createFolder("trendalytics_data/tweets_processed")
 
     val stopWordsFile = "trendalytics_data/stop_words.txt"
 
@@ -141,8 +127,6 @@ object App {
     df.select(df("key"), df("text")).show()
 
     val filteredData = removeStopwords(sc, sqlContext, selectedData)
-    // println("------The filteredData with stop words removed in tweets-----")
-    // filteredData.show()
 
     filteredData.registerTempTable("tweets_filtered")
      println("Starting FB processing...")
@@ -169,24 +153,20 @@ object App {
 
     dfb.registerTempTable("posts")
     println("End FB processing...")
+
     val FBselectedData = dfb.select("key", "text")
     val FBfilteredData = removeStopwords(sc, sqlContext, FBselectedData)
     FBfilteredData.registerTempTable("posts_filtered")
 
-    println("fb posts filtered")
-    Thread.sleep(1000)
-      
 
-    val texts = sqlContext.sql("SELECT filtered_text from posts_filtered WHERE filtered_text IS NOT NULL AND LENGTH(filtered_text) > 5 ").map(t => t.toString)
+    val texts = sqlContext.sql("SELECT filtered_text from tweets_filtered UNION ALL SELECT filtered_text from posts_filtered").map(t => t.toString)
+     
     // Caches the vectors since it will be used many times by KMeans.
     val vectors = texts.map(featurize).cache()
-    // println("#######################Vectors")
-    // vectors.collect().foreach(println)
-    // vectors.coalesce(1).saveAsTextFile("/user/wl1485/project/features.txt")
 
     vectors.count()  // Calls an action to create the cache.
     println("vectorized texts")
-    Thread.sleep(1000)
+
     val numIterations = 100
     val numClusters = 2
 
