@@ -38,7 +38,7 @@ import org.apache.spark.sql.types.{StructType,StructField,StringType};
 object App {
   
   // case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
-  val numFeatures = 1000
+  val numFeatures = 50000
   val tf = new HashingTF(numFeatures)
 
   def getListOfFiles(dir: String):List[File] = {
@@ -56,7 +56,7 @@ object App {
   }
 
   def featurize(s: String): Vector = {
-    tf.transform(s.sliding(4).toSeq)
+    tf.transform(s.sliding(2).toSeq)
   }
 
   def main(args : Array[String]) {
@@ -66,8 +66,8 @@ object App {
     // val twitter = new TwitterFilter()
     // twitter.fetch()
 
-     // val facebook = new FacebookStreamer()
-     // facebook.fetch()
+     //val facebook = new FacebookStreamer()
+     //facebook.fetch()
 
     // val tmdb = new TMDBStreamer()
     // tmdb.fetch()
@@ -98,6 +98,16 @@ object App {
         if(!hdfsObj.isFilePresent(tweet_file.toString()))
             hdfsObj.saveFile(tweet_file.toString())
     }
+
+         println("####### Writing FB files to HDFS ########")
+    
+    val fb_files = getListOfFiles("trendalytics_data/facebook_posts")
+
+    for (fb_file <- fb_files) {
+        if(!hdfsObj.isFilePresent(fb_file.toString))
+            hdfsObj.saveFile(fb_file.toString)
+    }
+
     val tweetFile = "trendalytics_data/tweets/"
     val tweets = sc.textFile(tweetFile)
 
@@ -135,8 +145,39 @@ object App {
     // filteredData.show()
 
     filteredData.registerTempTable("tweets_filtered")
+     println("Starting FB processing...")
 
-    val texts = sqlContext.sql("SELECT filtered_text from tweets_filtered").map(t => t(0).toString)
+
+    val postsFile = "trendalytics_data/facebook_posts/12122016_12.txt"
+    val posts = sc.textFile(postsFile)
+       val customSchemafb = StructType(Array(
+        StructField("key", StringType, true),
+        StructField("text", StringType, true),
+        StructField("id", StringType, true),
+        StructField("time", StringType, true)))
+
+    val dfb = sqlContext.read
+        .format("com.databricks.spark.csv")
+        .option("header", "false") // Use first line of all files as header 
+        .option("delimiter", "\t")
+        .schema(customSchemafb)
+        .load(postsFile)
+
+    dfb.printSchema()
+    dfb.na.fill("no review")
+    dfb.select(dfb("key"), dfb("text")).show()
+
+    dfb.registerTempTable("posts")
+    println("End FB processing...")
+    val FBselectedData = dfb.select("key", "text")
+    val FBfilteredData = removeStopwords(sc, sqlContext, FBselectedData)
+    FBfilteredData.registerTempTable("posts_filtered")
+
+    println("fb posts filtered")
+    Thread.sleep(1000)
+      
+
+    val texts = sqlContext.sql("SELECT filtered_text from posts_filtered WHERE filtered_text IS NOT NULL AND LENGTH(filtered_text) > 5 ").map(t => t.toString)
     // Caches the vectors since it will be used many times by KMeans.
     val vectors = texts.map(featurize).cache()
     // println("#######################Vectors")
@@ -144,7 +185,8 @@ object App {
     // vectors.coalesce(1).saveAsTextFile("/user/wl1485/project/features.txt")
 
     vectors.count()  // Calls an action to create the cache.
-
+    println("vectorized texts")
+    Thread.sleep(1000)
     val numIterations = 100
     val numClusters = 2
 

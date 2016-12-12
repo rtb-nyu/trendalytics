@@ -124,11 +124,22 @@ class FacebookStreamer {
                             
                             // println("writing fb post data\n");
 
-                            bw.write(searchq + delimiter + a 
+                            
+
+                            if(a.length() < 5){
+                               
+                                println("no review")
+                                bw.write(searchq + delimiter + "no review".replaceAll("[\n\t]",".").trim
                                 + delimiter + b 
                                 + delimiter + c
                                 + '\n')
-                            
+                            }
+                            else {
+                            bw.write(searchq + delimiter + a.replaceAll("[\n\t]",".").trim
+                                + delimiter + b 
+                                + delimiter + c
+                                + '\n')
+                            }
                             val cobjectId = b
                             val cpageUrl  = "/v2.8/" + cobjectId + "/comments"
 
@@ -172,11 +183,24 @@ class FacebookStreamer {
 
                                     // val cfw = new PrintWriter(new File(cfname))
 
+
                                     cls.foreach{ e => val (a, b, c) = e
-                                        bw.write(searchq + delimiter + a 
+                                       
+                                      
+                                        if(a.length() < 5){
+                                           
+                                            println("no review")
+                                            bw.write(searchq + delimiter + "no review".replaceAll("[\n\t]",".").trim
                                             + delimiter + b 
                                             + delimiter + c
                                             + '\n')
+                                        }
+                                        else {
+                                        bw.write(searchq + delimiter + a.replaceAll("[\n\t]",".").trim
+                                            + delimiter + b 
+                                            + delimiter + c
+                                            + '\n')
+                                        }
                                     }
 
                                     // cfw.close
@@ -227,11 +251,11 @@ class FacebookStreamer {
 
     def fetch() {    
 
-    /*println("------- Begin to search for MOVIES -------");
+    println("------- Begin to search for MOVIES -------");
     
     filterKeyPages("trendalytics_data/movies.txt", 0);
     println("Finished searching for movies.\n");
-*/
+
     println("------- Begin to search for RESTAURANTS -------");
     
     filterKeyPages("trendalytics_data/yelp20LinesClean.txt", 1);
