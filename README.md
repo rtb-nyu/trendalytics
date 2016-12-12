@@ -33,11 +33,9 @@ CoreNLP](http://stanfordnlp.github.io/CoreNLP/).
 Running the Program
 -------------------
 
--   To train the clustering model, and upload the model to HDFS:
+-   To train the clustering model, and upload the model, Yelp and movies data to HDFS:
 
 On Dumbo: use the `run_dumbo.sh` script to execute the program.
-
-On local machine: use the `run.sh` script to execute the program.
 
 -   To do sentiment analysis and cluster realtime tweets with the model stored
     in HDFS:
@@ -83,6 +81,13 @@ Being consistent with the [GitHub rtb-nyu/trendalytics](https://github.com/rtb-
 
 -  `data-processing` PigLatin or Python scripts for processing Yelp and
     Facebook data.
+
+Data Sources
+------------
+
+We have got top-rank movies from [TMDb API](https://www.themoviedb.org/documentation/api), restaurants from [Yelp API](https://www.yelp.com/developers). 
+
+We fetch realtime tweets via [Twitter developers API](https://dev.twitter.com), and Facebook posts via [Facebook developers API](https://developers.facebook.com).
 
 Acknowledgement
 ---------------
