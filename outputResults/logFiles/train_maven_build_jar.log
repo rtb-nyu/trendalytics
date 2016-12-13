@@ -43,7 +43,7 @@
 [WARNING]  org.json4s:json4s-core_2.11:3.2.9 requires scala version: 2.11.0
 [WARNING] Multiple versions of scala libraries detected!
 [INFO] /home/wl1485/project/trendalytics/src/main/scala:-1: info: compiling
-[INFO] Compiling 12 source files to /home/wl1485/project/trendalytics/target/classes at 1481571828705
+[INFO] Compiling 12 source files to /home/wl1485/project/trendalytics/target/classes at 1481593445623
 [INFO] prepare-compile in 0 s
 [INFO] compile in 9 s
 [INFO] 
@@ -76,7 +76,7 @@
 [WARNING]  org.json4s:json4s-core_2.11:3.2.9 requires scala version: 2.11.0
 [WARNING] Multiple versions of scala libraries detected!
 [INFO] /home/wl1485/project/trendalytics/src/test/scala:-1: info: compiling
-[INFO] Compiling 3 source files to /home/wl1485/project/trendalytics/target/test-classes at 1481571838220
+[INFO] Compiling 3 source files to /home/wl1485/project/trendalytics/target/test-classes at 1481593454833
 [WARNING] warning: there were 1 deprecation warning(s); re-run with -deprecation for details
 [WARNING] one warning found
 [INFO] prepare-compile in 0 s
@@ -211,7 +211,7 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 41.534 s
-[INFO] Finished at: 2016-12-12T14:44:25-05:00
+[INFO] Total time: 37.402 s
+[INFO] Finished at: 2016-12-12T20:44:38-05:00
 [INFO] Final Memory: 28M/1933M
 [INFO] ------------------------------------------------------------------------

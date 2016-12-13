@@ -22,9 +22,14 @@ import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.SQLContext._
 
-import org.apache.spark.mllib.feature.HashingTF
+import org.apache.spark.mllib.feature.{HashingTF, IDF}
 import org.apache.spark.mllib.linalg.Vector
+import org.apache.spark.rdd.RDD
 import org.apache.spark.mllib.clustering.KMeans
+import org.apache.spark.ml.feature.Tokenizer
+import org.apache.spark.ml.feature.{CountVectorizer, CountVectorizerModel}
+import scala.collection.immutable.ListMap
+import scala.collection.immutable.Map
 
 // Import Row.
 import org.apache.spark.sql.Row;
@@ -144,6 +149,7 @@ object App {
     // println("------The filteredData with stop words removed in tweets-----")
     // filteredData.show()
 
+
     filteredData.registerTempTable("tweets_filtered")
      println("Starting FB processing...")
 
@@ -175,14 +181,49 @@ object App {
 
     println("fb posts filtered")
     Thread.sleep(1000)
-      
 
     val texts = sqlContext.sql("SELECT filtered_text from posts_filtered WHERE filtered_text IS NOT NULL AND LENGTH(filtered_text) > 5 ").map(t => t.toString)
     // Caches the vectors since it will be used many times by KMeans.
     val vectors = texts.map(featurize).cache()
+
+    //using tf-idf to find common words and unique words in text
+    val idf = new IDF().fit(vectors)
+    val tfidf: RDD[Vector] = idf.transform(vectors)
+    var mergedMap = scala.collection.immutable.Map[Int, Double]()
+    var map1 = scala.collection.immutable.Map[Int, Double]()
+
+    tfidf.collect().foreach{a => 
+         map1 = a.asInstanceOf[org.apache.spark.mllib.linalg.SparseVector].indices.zip(a.asInstanceOf[org.apache.spark.mllib.linalg.SparseVector].values).toMap
+         mergedMap = mergedMap ++ map1.map{ case (k,v) => k -> (v + map1.getOrElse(k,0.0)) }
+         }
+
+    val first = tfidf.first()
+    val sVec = first.asInstanceOf[org.apache.spark.mllib.linalg.SparseVector]
+    val tfidfMap = sVec.indices.zip(sVec.values).toMap
+
+    val reverseMap = mergedMap.map(_.swap)
+
+    val tokenizer: Tokenizer = new Tokenizer()
+        .setInputCol("filtered_text")
+        .setOutputCol("text_tokenized")
+    val tokenized = tokenizer.transform(filteredData)
+
+    val countModel: CountVectorizerModel = new CountVectorizer()
+      .setInputCol("text_tokenized")
+      .setOutputCol("features")
+      .fit(tokenized)
+
+    val vocabArray = countModel.vocabulary
+    val termMap = reverseMap.map(x => (x._1, vocabArray(x._2.toInt)))
+    val lowToHighMap = ListMap(termMap.toSeq.sortBy(_._1):_*)
+    val first3CommonWords = lowToHighMap.take(3);
+    println(lowToHighMap)
+    val highToLowMap = ListMap(termMap.toSeq.sortWith(_._1 > _._1):_*)
+    val first3UniqueWords = highToLowMap.take(3);
+
     // println("#######################Vectors")
     // vectors.collect().foreach(println)
-    // vectors.coalesce(1).saveAsTextFile("/user/wl1485/project/features.txt")
+    // vectors.coalesce(1).saveAsTextFile("/user/wl1485/project/features")
 
     vectors.count()  // Calls an action to create the cache.
     println("vectorized texts")
@@ -190,7 +231,8 @@ object App {
     val numIterations = 100
     val numClusters = 2
 
-    val model = KMeans.train(vectors, numClusters, numIterations)
+    //val model = KMeans.train(vectors, numClusters, numIterations)
+    val model = KMeans.train(tfidf, numClusters, numIterations)
 
     hdfsObj.deleteFolder("trendalytics_data/tweets_processed")
     

@@ -18,9 +18,9 @@ import org.apache.spark.ml.feature.CountVectorizer
 import org.apache.spark.ml.feature.CountVectorizerModel
 import org.apache.spark.ml.classification.LogisticRegression
 import org.apache.spark.ml.feature.StopWordsRemover
-import org.apache.spark.mllib.feature.HashingTF;
-import org.apache.spark.mllib.linalg.Vector;
-
+import org.apache.spark.mllib.feature.{HashingTF, IDF}
+import org.apache.spark.mllib.linalg.Vector
+import org.apache.spark.rdd.RDD
 /**
  * @author ${user.name}
  */
@@ -97,6 +97,7 @@ class StopWordFilter {
     // flattenedDF.show()
 
     flattenedDF;
+
   }
 }
 
