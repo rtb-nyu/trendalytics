@@ -3,23 +3,6 @@ package com.trendalytics
 import java.io._
 import java.util.Properties
 import scala.collection.JavaConversions._
-// import org.apache.http.client._
-// import org.apache.http.client.methods.HttpGet
-// import org.apache.http.client.utils.URIBuilder
-// import org.apache.http.impl.client.HttpClients
-// import org.apache.http.util.EntityUtils
-// import org.json4s._
-// import org.json4s.native.JsonMethods._
-// import twitter4j._
-
-// import org.apache.spark.SparkContext
-// import org.apache.spark.SparkContext._
-// import org.apache.spark.SparkConf
-
-// import org.apache.spark.mllib.feature.HashingTF
-// import org.apache.spark.mllib.linalg.Vector
-// import org.apache.spark.mllib.clustering.{KMeans, KMeansModel}
-// import org.apache.spark.mllib.clustering.KMeans
 
 import edu.stanford.nlp.dcoref.CorefChain;
 import edu.stanford.nlp.dcoref.CorefCoreAnnotations;

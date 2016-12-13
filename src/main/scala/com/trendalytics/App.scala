@@ -42,8 +42,7 @@ import org.apache.spark.sql.types.{StructType,StructField,StringType};
  */
 object App {
   
-  // case class TweetRecord(key_name: String, text: String, id: String, username: String, retweets: Int, num_friends: Int, datetime: String)
-  val numFeatures = 50000
+  val numFeatures = 2000
   val tf = new HashingTF(numFeatures)
 
   def getListOfFiles(dir: String):List[File] = {
@@ -61,30 +60,17 @@ object App {
   }
 
   def featurize(s: String): Vector = {
-    tf.transform(s.sliding(2).toSeq)
+    tf.transform(s.sliding(4).toSeq)
   }
 
   def main(args : Array[String]) {
 
     val sc = new SparkContext(new SparkConf().setAppName("Trendalytics"))
 
-    // val twitter = new TwitterFilter()
-    // twitter.fetch()
-
-     //val facebook = new FacebookStreamer()
-     //facebook.fetch()
-
-    // val tmdb = new TMDBStreamer()
-    // tmdb.fetch()
-
-    // val yelp = new YelpStreamer()
-    // yelp.fetch()
-
     val hdfsObj = new HDFSManager()
 
     hdfsObj.createFolder("trendalytics_data")
     hdfsObj.createFolder("trendalytics_data/tweets")
-    // hdfsObj.createFolder("trendalytics_data/tweets_processed")
 
     val stopWordsFile = "trendalytics_data/stop_words.txt"
 
@@ -146,8 +132,6 @@ object App {
     df.select(df("key"), df("text")).show()
 
     val filteredData = removeStopwords(sc, sqlContext, selectedData)
-    // println("------The filteredData with stop words removed in tweets-----")
-    // filteredData.show()
 
 
     filteredData.registerTempTable("tweets_filtered")
@@ -175,16 +159,22 @@ object App {
 
     dfb.registerTempTable("posts")
     println("End FB processing...")
+
     val FBselectedData = dfb.select("key", "text")
     val FBfilteredData = removeStopwords(sc, sqlContext, FBselectedData)
     FBfilteredData.registerTempTable("posts_filtered")
 
+<<<<<<< HEAD
     println("fb posts filtered")
     Thread.sleep(1000)
+=======
+>>>>>>> 216b52df383a518145ee81654a0e63d8bb1f16d8
 
-    val texts = sqlContext.sql("SELECT filtered_text from posts_filtered WHERE filtered_text IS NOT NULL AND LENGTH(filtered_text) > 5 ").map(t => t.toString)
+    val texts = sqlContext.sql("SELECT filtered_text from tweets_filtered UNION ALL SELECT filtered_text from posts_filtered").map(t => t.toString)
+     
     // Caches the vectors since it will be used many times by KMeans.
     val vectors = texts.map(featurize).cache()
+<<<<<<< HEAD
 
     //using tf-idf to find common words and unique words in text
     val idf = new IDF().fit(vectors)
@@ -224,12 +214,14 @@ object App {
     // println("#######################Vectors")
     // vectors.collect().foreach(println)
     // vectors.coalesce(1).saveAsTextFile("/user/wl1485/project/features")
+=======
+>>>>>>> 216b52df383a518145ee81654a0e63d8bb1f16d8
 
     vectors.count()  // Calls an action to create the cache.
     println("vectorized texts")
-    Thread.sleep(1000)
-    val numIterations = 100
-    val numClusters = 2
+
+    val numIterations = 50
+    val numClusters = 3
 
     //val model = KMeans.train(vectors, numClusters, numIterations)
     val model = KMeans.train(tfidf, numClusters, numIterations)
@@ -238,16 +230,6 @@ object App {
     
     model.save(sc, "trendalytics_data/tweets_processed/KMeansModel")
 
-    val some_tweets = texts.sample(true, 0.1).take(100)
-    println("----Example tweets from the clusters")
-    for (i <- 0 until numClusters) {
-      println(s"\nCLUSTER $i:")
-      some_tweets.foreach { t =>
-        if (model.predict(featurize(t)) == i) {
-          println(t)
-        }
-      }
-    }
     return
 
   }

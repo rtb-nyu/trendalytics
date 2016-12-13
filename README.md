@@ -10,16 +10,15 @@ the most talked about items in each category by location is performed, for
 example: top trending movies in the Greenwich Village area, etc. We will
 understand the semantic/sentiment behind the post to give a score weighting to
 each item in the category possibly by using some kind of sentiment analysis,
-number of likes, retweets etc. This will also be a word cloud associated for the
-items in the list to give the user more granular information.
+number of likes, retweets etc.
 
 We stored queried categorized tweets as the training data, with labels of
 keywords on the first column, texts and other metadata. With this training set,
-we can cluster these tweets into categories using Spark with N-gram and K-Means
+we can cluster these tweets into categories using Spark with n-gram and KMeans
 algorithms by MLlib. After training, we uploaded the model to HDFS, so that it
 can be loaded to cluster further tweets in real time. Sentiment analysis will
 also be adopted meanwhile to clustering new tweets. We used the methods, e.g.
-Recursive Neural Networks (RNN), provided by the Stanford CoreNLP to understand
+RNN, provided by the Stanford CoreNLP to understand
 whether a user/tweet expresses positive or negative attitude. Scores from 0 to 4
 indicate as “very negative”, “negative”, “neutral”, “positive”, and “very
 positive” respectively.
