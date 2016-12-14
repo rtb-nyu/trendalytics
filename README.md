@@ -10,7 +10,7 @@ the most talked about items in each category by location is performed, for
 example: top trending movies in the Greenwich Village area, etc. We will
 understand the semantic/sentiment behind the post to give a score weighting to
 each item in the category possibly by using some kind of sentiment analysis,
-number of likes, retweets etc.
+number of likes, retweets etc. This will also be a word cloud associated for the items in the list to give the user more granular information.
 
 We stored queried categorized tweets as the training data, with labels of
 keywords on the first column, texts and other metadata. With this training set,
