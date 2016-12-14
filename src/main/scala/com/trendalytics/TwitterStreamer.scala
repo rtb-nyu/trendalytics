@@ -49,7 +49,7 @@ object StreamerUtil {
 
     val query = new Query(key_name)
 
-    query.setCount(20);  // can fetch more tweets each time
+    query.setCount(100);  // can fetch more tweets each time
                 // maximum to 100
     query.setLang("en");    // restrict to English tweets
     val result = twitter.search(query)
@@ -57,6 +57,7 @@ object StreamerUtil {
     val statuses = result.getTweets()
 
     val it = statuses.iterator()
+    val pw = new FileWriter("trendalytics_data/tweets/Sentiments.txt", true)
 
     while (it.hasNext()) {
       breakable {
@@ -69,11 +70,14 @@ object StreamerUtil {
 
         println(key_name.toUpperCase() + " rated as: " + rate)
         println(tweets + "\n" + datetime)
-        println("### Sentiment is: ", SentimentAnalysis.findSentiment(tweets))
+        val sent = SentimentAnalysis.findSentiment(tweets).toString
+        println("### Sentiment is: " + sent)
         println("It's in cluster: " + model.predict(featurize(tweets)).toString + "\n")
-
+        // pw.write(rate + "," + sent + "," + key_name + "\n")
+        pw.write(rate + "," + sent + "\n")
       }
-    } 
+    }
+    pw.close
   }
 
   def filterKeyTweets (filename: String, idx: Int, rate: Int) = {
@@ -101,17 +105,17 @@ class TwitterStreamer {
     StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/100restaurant.txt", 1 ,0);
     println("Finished searching for restaurants.");
 
-    println("------- Begin to search for BARS -------");
-    StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/20bar.txt", 1 ,0);
-    println("Finished searching for bars.");
+    // println("------- Begin to search for BARS -------");
+    // StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/20bar.txt", 1 ,0);
+    // println("Finished searching for bars.");
 
-    println("------- Begin to search for SHOPPING -------");
-    StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/20shopping.txt", 1 ,0);
-    println("Finished searching for shopping.");
+    // println("------- Begin to search for SHOPPING -------");
+    // StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/20shopping.txt", 1 ,0);
+    // println("Finished searching for shopping.");
 
-    println("------- Begin to search for MUSEUMS -------");
-    StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/20museum.txt", 1 ,0);
-    println("Finished searching for museums.");
+    // println("------- Begin to search for MUSEUMS -------");
+    // StreamerUtil.filterKeyTweets("trendalytics_data/yelpData/20museum.txt", 1 ,0);
+    // println("Finished searching for museums.");
 
   }
 }
